@@ -1,0 +1,144 @@
+EESchema-LIBRARY Version 2.3  Date: Do 29 Jan 2015 00:04:57 CET
+#encoding utf-8
+#
+# capacitor
+#
+DEF capacitor C 0 0 N N 1 F N
+F0 "C" 50 100 60 H V L CNN
+F1 "capacitor" 50 -100 60 H V L CNN
+F2 "footprint" -100 0 60 V V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X 1 1 0 150 120 D 50 50 1 1 P
+X 2 2 0 -150 120 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_bipolar
+#
+DEF capacitor_bipolar C 0 0 N N 1 F N
+F0 "C" 50 100 60 H V L CNN
+F1 "capacitor_bipolar" 50 -100 60 H V L CNN
+F2 "footprint" -100 0 60 V V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -50 -30 50 -10 0 1 10 N
+S -50 10 50 30 0 1 10 N
+X 1 1 0 150 120 D 50 50 1 1 P
+X 2 2 0 -150 120 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_unipolar
+#
+DEF capacitor_unipolar C 0 0 N N 1 F N
+F0 "C" 50 100 60 H V L CNN
+F1 "capacitor_unipolar" 50 -100 60 H V L CNN
+F2 "footprint" -100 0 60 V V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 N
+P 2 0 1 0  30 60  50 60 N
+P 2 0 1 0  40 70  40 50 N
+X 1 1 0 150 120 D 50 50 1 1 P
+X 2 2 0 -150 120 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode
+#
+DEF diode D 0 0 N N 1 F N
+F0 "D" 0 100 60 H V C CNN
+F1 "diode" 0 -100 60 H V C CNN
+F2 "footprint" 0 -200 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+P 2 0 0 10  50 50  50 -50 N
+P 4 0 0 10  -50 50  -50 -50  50 0  -50 50 F
+X A 1 -200 0 150 R 50 50 1 1 P
+X K 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_schottky
+#
+DEF diode_schottky D 0 0 N N 1 F N
+F0 "D" 0 100 60 H V C CNN
+F1 "diode_schottky" 0 -100 60 H V C CNN
+F2 "footprint" 0 -200 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+P 3 0 0 10  50 50  50 -50  25 -50 N
+P 4 0 0 10  -50 50  -50 -50  50 0  -50 50 F
+X A 1 -200 0 150 R 50 50 1 1 P
+X K 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_zener
+#
+DEF diode_zener D 0 0 N N 1 F N
+F0 "D" 0 100 60 H V C CNN
+F1 "diode_zener" 0 -100 60 H V C CNN
+F2 "footprint" 0 -200 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+P 3 0 0 10  50 50  50 -50  25 -50 N
+P 4 0 0 10  -50 50  -50 -50  50 0  -50 50 F
+X A 1 -200 0 150 R 50 50 1 1 P
+X K 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# led
+#
+DEF led LED 0 0 N N 1 F N
+F0 "LED" 0 150 60 H V C CNN
+F1 "led" 0 -100 60 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+P 2 0 0 10  50 50  50 -50 N
+P 4 0 0 10  -50 50  -50 -50  50 0  -50 50 F
+P 2 0 1 0  -25 75  25 125 N
+P 2 0 1 0  5 60  55 110 N
+P 3 0 1 0  0 115  25 125  15 100 N
+P 3 0 1 0  30 100  55 110  45 85 N
+X A 1 -200 0 150 R 50 50 1 1 P
+X K 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor
+#
+DEF resistor R 0 0 N N 1 F N
+F0 "R" 0 0 60 H V C CNN
+F1 "resistor" 0 -100 60 H V C CNN
+F2 "footprint" 0 100 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -150 50 150 -50 0 1 20 N
+X 1 1 -250 0 100 R 50 50 1 1 P
+X 2 2 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# vreg
+#
+DEF vreg IC 0 1 Y Y 1 F P
+F0 "IC" 0 100 60 H V C CNN
+F1 "vreg" -200 250 60 H V L CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -200 200 200 -200 0 1 10 f
+X In 1 -300 0 100 R 50 50 1 1 W
+X Out 2 300 0 100 L 50 50 1 1 w
+X GND 3 0 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
