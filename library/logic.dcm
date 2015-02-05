@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC14
+D Beschreibung nur für Alias?
+F doc/logic/74HC_HCT14.pdf
+$ENDCMP
+#
+$CMP 74HC14N
+D Hex schmitt trigger inverter
+K hex, schmitt trigger, inverter
+F doc/logic/74HC_HCT14.pdf
+$ENDCMP
+#
+#End Doc Library
