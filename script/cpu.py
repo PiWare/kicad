@@ -138,7 +138,13 @@ def MakeSingleSymbol(inFile, outFile):
     startPins = False
     partName = ""
     pins = {}
-    pinGrps = {}
+    pinGrps = {
+        "O" : [],
+        "B" : [],
+        "I" : [],
+        "N" : [],
+        "W" : [],
+    }
     catchName = re.compile('\A[a-zA-Z]+')
     with open(inFile, 'rb') as csvfile:
         reader = csv.reader(csvfile)
@@ -174,17 +180,17 @@ def MakeSingleSymbol(inFile, outFile):
     # Make the input group
     inGrp = pinGrps["I"] + pinGrps["B"]
     inPinNames = [string.join(pins[x][1],'/') for x in inGrp]
-    inGrpTextLength = max([len(x) for x in inPinNames])*40
+    inGrpTextLength = max([len(x) for x in inPinNames]+[1])*40
     outGrp = pinGrps["O"]
     outPinNames = [string.join(pins[x][1],'/') for x in outGrp]
-    outGrpTextLength = max([len(x) for x in outPinNames])*40
+    outGrpTextLength = max([len(x) for x in outPinNames]+[1])*40
     # Evaluate the size of the symbol
-    height = max(len(inGrp),len(outGrp))*130+70
+    height = max(len(inGrp),len(outGrp))*140+70
     width = max([len(gndGrp)*120, len(vddGrp)*120, outGrpTextLength, inGrpTextLength])+200
     # Output the part header
     outFile.write( "DEF %s IC 0 40 Y Y %i L N\n"%(partName, len(pins)) )
     outFile.write( 'F0 "IC" %i 150 60 H V C CNN\n'%(width-30*2) )
-    outFile.write( 'F1 "%s" %i %i 60 H V C CNN\n'%(partName, len(partName)*60/2+150,9*150) )
+    outFile.write( 'F1 "%s" %i %i 60 H V C CNN\n'%(partName, width - len(partName)*45,height-150) )
     outFile.write( "DRAW\n" )
 
     outFile.write( "S 0 50 %i %i 1 1 1 N\n"%( width, height ) )
