@@ -188,7 +188,7 @@ def MakeSingleSymbol(inFile, outFile):
     height = max(len(inGrp),len(outGrp))*140+70
     width = max([len(gndGrp)*120, len(vddGrp)*120, outGrpTextLength, inGrpTextLength])+200
     # Output the part header
-    outFile.write( "DEF %s IC 0 40 Y Y %i L N\n"%(partName, len(pins)) )
+    outFile.write( "DEF %s IC 0 40 Y Y 1 L N\n"%(partName) )
     outFile.write( 'F0 "IC" %i 150 60 H V C CNN\n'%(width-30*2) )
     outFile.write( 'F1 "%s" %i %i 60 H V C CNN\n'%(partName, width - len(partName)*45,height-150) )
     outFile.write( "DRAW\n" )
@@ -197,10 +197,10 @@ def MakeSingleSymbol(inFile, outFile):
     # First take care of the power supply pins
     for index in range(0,len(vddGrp)):
         pin = vddGrp[index]
-        outFile.write( "X %s %i %i %i 200 D 40 40 1 0 %s\n"%(string.join(pins[pin][1],'/'), pin, 100+index*120, height+200, pins[pin][0]) )
+        outFile.write( "X %s %i %i %i 200 D 40 40 1 1 %s\n"%(string.join(pins[pin][1],'/'), pin, 100+index*120, height+200, pins[pin][0]) )
     for index in range(0,len(gndGrp)):
         pin = gndGrp[index]
-        outFile.write( "X %s %i %i -150 200 U 40 40 1 0 %s\n"%(string.join(pins[pin][1],'/'), pin, 100+index*120, pins[pin][0]) )
+        outFile.write( "X %s %i %i -150 200 U 40 40 1 1 %s\n"%(string.join(pins[pin][1],'/'), pin, 100+index*120, pins[pin][0]) )
     # Output the output pins 
     for index in range(0,len(outGrp)):
         pin = outGrp[index]
