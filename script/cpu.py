@@ -28,7 +28,7 @@
 #      - O for output 
 #      - I/O for input / output
 #      - N for not connected
-#      - - for power supply pins
+#      - - or S for power supply pins
 #
 #     The script allows pins to appear multiple times, each line documenting a 
 #     specific function of the pin. The script tries to group the pins by 8 or by port.  
@@ -45,7 +45,8 @@ csvPinTypeToPinType = {
     "O" : "O",
     "I/O" : "B",
     "N" : "N",
-    "-" : "W"
+    "-" : "W",
+    "S" : "W"
 }
 
 def MakeMultiSymbol(inFile, outFile):
@@ -58,7 +59,8 @@ def MakeMultiSymbol(inFile, outFile):
     portGroups = {}
     gndGrp = []
     vddGrp = []
-    catchName = re.compile('\A[a-zA-Z]+')
+    catchName = re.compile('\A[a-zA-Z]+') 
+    findGnd = re.compile('(GND)|(VSS)')
     with open(inFile, 'rb') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
@@ -70,7 +72,7 @@ def MakeMultiSymbol(inFile, outFile):
                     else:
                         pins[pinNum] = (csvPinTypeToPinType[row[2]],[row[1]])
                         if pins[pinNum][0] == 'W':
-                            if row[1][0] == 'G':
+                            if findGnd.match(row[1]):
                                 gndGrp.append(pinNum)
                             else:
                                 vddGrp.append(pinNum)
@@ -103,12 +105,14 @@ def MakeMultiSymbol(inFile, outFile):
         del portGroups[grpName]
     
     # Output the part header
-    outFile.write( "DEF %s IC 0 40 Y Y %i L N\n"%(partName, len(fullPortGrps)))
+    outFile.write( "DEF %s IC 0 40 Y Y %i L N\n"%(partName, len(fullPortGrps)+1))
     outFile.write( 'F0 "IC" 150 150 60 H V C CNN\n' )
-    outFile.write( 'F1  "%s" %i %i 60 H V C CNN\n'%(partName, len(partName)*60/2+150,9*150))
+    outFile.write( 'F1  "%s" %i %i 60 H V C CNN\n'%(partName, len(partName)*60/2+250,150))
+    minWidth = len(partName)*60+250+40
     outFile.write( "DRAW\n" )
     # First take care of the power supply pins
-    outFile.write( "S 0 50 %i %i 1 1 1 N\n"%( max(len(gndGrp),len(vddGrp))*120+200, 9*150+70))
+    width = max(minWidth, max(len(gndGrp),len(vddGrp))*120+200)
+    outFile.write( "S 0 50 %i %i 1 1 1 N\n"%( width, 9*150+70))
     for index in range(0,len(vddGrp)):
         pin = vddGrp[index]
         outFile.write( "X %s %i %i %i 200 U 40 40 1 0 %s\n"%(string.join(pins[pin][1],'/'), pin, 100+index*120, 9*150+70, pins[pin][0] ))
@@ -121,7 +125,10 @@ def MakeMultiSymbol(inFile, outFile):
         nbPins = len(grpPins)
         pinNames = [string.join(pins[x][1],'/') for x in grpPins] 
         maxTextLength = max([len(x) for x in pinNames])
-        outFile.write( "S 0 50 %i %i %i 1 1 N\n"%(maxTextLength*40+200, 9*150+70, grpIdx))
+        # Evaluate the size of the symbol
+        height = nbPins*120+350+40
+        width = max(minWidth,maxTextLength*40+200)
+        outFile.write( "S 0 50 %i %i %i 1 1 N\n"%(width, height, grpIdx))
         for index in range(0,nbPins):
             pin = grpPins[index]
             outFile.write( "X %s %i -200 %i 200 R 40 40 %i 1 %s\n"%( pinNames[index], pin, 350+index*120, grpIdx, pins[pin][0] ))
@@ -184,13 +191,14 @@ def MakeSingleSymbol(inFile, outFile):
     outGrp = pinGrps["O"]
     outPinNames = [string.join(pins[x][1],'/') for x in outGrp]
     outGrpTextLength = max([len(x) for x in outPinNames]+[1])*40
+    minWidth = len(partName)*60+250+40
     # Evaluate the size of the symbol
-    height = max(len(inGrp),len(outGrp))*140+70
-    width = max([len(gndGrp)*120, len(vddGrp)*120, outGrpTextLength, inGrpTextLength])+200
+    height = max(len(inGrp),len(outGrp))*120+350+40+240 # +240 for the supply pins 
+    width = max(minWidth,max([len(gndGrp)*120, len(vddGrp)*120, outGrpTextLength, inGrpTextLength])+200)
     # Output the part header
     outFile.write( "DEF %s IC 0 40 Y Y 1 L N\n"%(partName) )
-    outFile.write( 'F0 "IC" %i 150 60 H V C CNN\n'%(width-30*2) )
-    outFile.write( 'F1 "%s" %i %i 60 H V C CNN\n'%(partName, width - len(partName)*45,height-150) )
+    outFile.write( 'F0 "IC" 150 270 60 H V C CNN\n')
+    outFile.write( 'F1 "%s" %i %i 60 H V C CNN\n'%(partName, len(partName)*60/2+250,270) )
     outFile.write( "DRAW\n" )
 
     outFile.write( "S 0 50 %i %i 1 1 1 N\n"%( width, height ) )
@@ -204,12 +212,12 @@ def MakeSingleSymbol(inFile, outFile):
     # Output the output pins 
     for index in range(0,len(outGrp)):
         pin = outGrp[index]
-        outFile.write( "X %s %i %i %i 200 L 40 40 1 1 %s\n"%(outPinNames[index], pin, width+200, 350+index*120, pins[pin][0]) )
+        outFile.write( "X %s %i %i %i 200 L 40 40 1 1 %s\n"%(outPinNames[index], pin, width+200, 470+index*120, pins[pin][0]) )
 
     # Output the input pins 
     for index in range(0,len(inGrp)):
         pin = inGrp[index]
-        outFile.write( "X %s %i -200 %i 200 R 40 40 1 1 %s\n"%( inPinNames[index], pin, 350+index*120, pins[pin][0]) )
+        outFile.write( "X %s %i -200 %i 200 R 40 40 1 1 %s\n"%( inPinNames[index], pin, 470+index*120, pins[pin][0]) )
    
     # Symbol end
     outFile.write( "ENDDRAW\n" )

@@ -1,0 +1,36 @@
+Part,CC1121,,
+Package,SWRS111F
+Number,Pin,Type
+1,VDD,-,2.0–3.6 V VDD
+2,RESET_N,I,"Asynchronous, active-low digital reset"
+3,GPIO3,I/O,General-purpose I/O
+4,GPIO2,I/O,General-purpose I/O
+5,DVDD,-,2.0–3.6 V VDD to internal digital regulator
+6,DCPL,-,Digital regulator output to external decoupling capacitor
+7,SI,I,Serial data in
+8,SCLK,I,Serial data clock
+9,SO(GPIO1),I/O,Serial data out (general-purpose I/O)
+10,GPIO0,I/O,General-purpose I/O
+11,CSn,I,Active-low chip select
+12,DVDD,-,2.0–3.6 V VDD
+13,AVDD_IF,-,2.0–3.6 V VDD
+14,RBIAS,I,External high-precision R
+15,AVDD_RF,-,2.0–3.6 V VDD
+16,N.C.,N,Not connected
+17,PA,I,Single-ended TX output (requires DC path to VDD)
+18,TRX_SW,I,TX and RX switch. Connected internally to GND in TX and floating (high- impedance) in RX.
+19,LNA_P,I,Differential RX input (requires DC path to GND)
+20,LNA_N,I,Differential RX input (requires DC path to GND)
+21,DCPL_VCO,-,Pin for external decoupling of VCO supply regulator
+22,AVDD_SYNTH1,-,2.0–3.6 V VDD
+23,LPF0,I,External loop filter components
+24,LPF1,I,External loop filter components
+25,AVDD_PFD_CHP,-,2.0–3.6 V VDD
+26,DCPL_PFD_CHP,-,Pin for external decoupling of PFD and CHP regulator
+27,AVDD_SYNTH2,-,2.0–3.6 V VDD
+28,AVDD_XOSC,-,2.0–3.6 V VDD
+29,DCPL_XOSC,-,Pin for external decoupling of XOSC supply regulator
+30,XOSC_Q1,I,Crystal oscillator pin 1 (must be grounded if a TCXO or other external clock connected to EXT_XOSC is used)
+31,XOSC_Q2,I,Crystal oscillator pin 2 (must be left floating if a TCXO or other external clock connected to EXT_XOSC is used)
+32,EXT_XOSC,I,Pin for external XOSC input (must be grounded if a regular XOSC connected to XOSC_Q1 and XOSC_Q2 is used)
+33,GND,-,The ground pad must be connected to a solid ground plane.
