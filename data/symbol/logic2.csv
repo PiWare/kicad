@@ -1,0 +1,11 @@
+symbol,name,document,footprint,description,keywords,temperature
+74_14,74HC14N,74HC_HCT14.pdf,dip14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
+74_14,74HCT14N,74HC_HCT14.pdf,dip14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
+74_14,74HC14D,74HC_HCT14.pdf,so14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
+74_14,74HCT14D,74HC_HCT14.pdf,so14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
+74_14,74HC14DB,74HC_HCT14.pdf,ssop14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
+74_14,74HCT14DB,74HC_HCT14.pdf,ssop14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
+74_14,74HC14PW,74HC_HCT14.pdf,tssop14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
+74_14,74HCT14PW,74HC_HCT14.pdf,tssop14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
+74_14,74HC14BQ,74HC_HCT14.pdf,dhvqfn14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
+74_14,74HCT14BA,74HC_HCT14.pdf,dhvqfn14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger",-40C to +125C
