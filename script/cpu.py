@@ -315,7 +315,20 @@ def MakeSingleSymbol(inFile, outFile):
     del pinGrps["VDD"]
     # Make the input group
     inGrp = pinGrps["I"] + pinGrps["B"]
+    inPinNames = [string.join(pins[x][1],'/') for x in inGrp]
+    inGrpTextLength = max([len(x) for x in inPinNames]+[1])*40
     outGrp = pinGrps["O"]
+    outPinNames = [string.join(pins[x][1],'/') for x in outGrp]
+    outGrpTextLength = max([len(x) for x in outPinNames]+[1])*40
+    minWidth = len(partName)*60+250+40
+    # Evaluate the size of the symbol
+    height = max(len(inGrp),len(outGrp))*120+350+40+240 # +240 for the supply pins 
+    width = max(minWidth,max([len(gndGrp)*120, len(vddGrp)*120, outGrpTextLength, inGrpTextLength])+200)
+    # Output the part header
+    outFile.write( "DEF %s IC 0 40 Y Y 1 L N\n"%(partName) )
+    outFile.write( 'F0 "IC" 150 270 60 H V C CNN\n')
+    outFile.write( 'F1 "%s" %i %i 60 H V C CNN\n'%(partName, len(partName)*60/2+250,270) )
+    outFile.write( "DRAW\n" )
 
     symbol = Cpu(header["Part"],"IC",False,header["Package"])
     # First take care of the power module
