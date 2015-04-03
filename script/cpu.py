@@ -39,6 +39,10 @@
 import csv
 import re
 import string
+import itertools 
+
+import config
+cfg = config.Config("config")
 
 csvPinTypeToPinType = {
     "I" : "I",
@@ -48,6 +52,135 @@ csvPinTypeToPinType = {
     "-" : "W",
     "S" : "W"
 }
+
+class Square(object):
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+    
+    def getRep(self, pins, symbolNameWidth, grp):
+        maxPinNameWidth = 0
+        if len(pins["L"])>0:
+            maxPinNameWidth = max(maxPinNameWidth, max(x.length for x in pins["L"]))+cfg.SYMBOL_PIN_TEXT_OFFSET
+        if len(pins["R"])>0:
+            maxPinNameWidth = max(maxPinNameWidth, max(x.length for x in pins["R"]))+cfg.SYMBOL_PIN_TEXT_OFFSET
+        
+        maxPinNameHeight = 0
+        if len(pins["U"])>0:
+            maxPinNameHeight = max(maxPinNameHeight, max(x.length for x in pins["U"]))+cfg.SYMBOL_PIN_TEXT_OFFSET
+        if len(pins["D"])>0:
+            maxPinNameHeight = max(maxPinNameHeight, max(x.length for x in pins["D"]))+cfg.SYMBOL_PIN_TEXT_OFFSET
+        maxPinsHoriz = max(len(pins["U"]), len(pins["D"]))
+        maxPinsVert = max(len(pins["R"]), len(pins["L"]))
+
+        width = max([symbolNameWidth, maxPinNameWidth, maxPinsHoriz*cfg.SYMBOL_PIN_NAME_SIZE])
+        height = max(maxPinNameHeight, maxPinsVert*cfg.SYMBOL_PIN_NAME_SIZE*2)+cfg.SYMBOL_TEXT_MARGIN
+        if len(pins["U"]) > 0 and len(pins["D"])>0:
+            height = height + cfg.SYMBOL_TEXT_MARGIN
+        
+        if len(pins["R"]) > 0 and len(pins["L"])>0:
+            width = width + cfg.SYMBOL_TEXT_MARGIN
+
+        return "S %i %i %i %i %i 1 %i N"%(self.x, self.y, self.x+width, self.y+height, grp, cfg.SYMBOL_LINE_WIDTH), [self.x,self.y,self.x+width,self.y+height]
+
+class Pin(object):
+    FormatString = "X %s %i %i %i " + str(cfg.SYMBOL_PIN_LENGTH) + " %s " + str(cfg.SYMBOL_PIN_NUMBER_SIZE) + " " + str(cfg.SYMBOL_PIN_NAME_SIZE) + " %i %i %s"
+
+    def __init__(self, name, number, type):
+        self.name = name
+        self.length = len(name)*cfg.SYMBOL_PIN_NAME_SIZE
+        self.type = type
+        self.number = number
+    
+    def getRep(self,x,y,orientation,group,convert):
+        return Pin.FormatString %(self.name, self.number, x, y, orientation, group, convert, self.type)
+
+class Module(object):
+    PinOffset = {
+            "U" : (0,-cfg.SYMBOL_PIN_LENGTH), 
+            "D" : (0,cfg.SYMBOL_PIN_LENGTH),
+            "L" : (cfg.SYMBOL_PIN_LENGTH,0),
+            "R" : (-cfg.SYMBOL_PIN_LENGTH,0)
+            }
+    PinStep = {
+            "U" : (cfg.SYMBOL_PIN_NAME_SIZE*2,0), 
+            "D" : (cfg.SYMBOL_PIN_NAME_SIZE*2,0),
+            "L" : (0,cfg.SYMBOL_PIN_NAME_SIZE*2),
+            "R" : (0,cfg.SYMBOL_PIN_NAME_SIZE*2)
+            }
+
+    PinStartOffset = {
+            "U" : (cfg.SYMBOL_PIN_NAME_SIZE*2,0), 
+            "D" : (cfg.SYMBOL_PIN_NAME_SIZE*2,0),
+            "L" : (0,cfg.SYMBOL_TEXT_MARGIN),
+            "R" : (0,cfg.SYMBOL_TEXT_MARGIN)
+            }
+
+
+
+    def __init__(self, representation, number):
+        self.representation = representation
+        self.number = number
+        self.pins = { "U" : [], "L" : [], "R" : [], "D" : [] }
+
+    def addPin(self, pin, orientation):
+        self.pins[orientation].append(pin)
+    
+    def getPinRepList(self, orientation, xStart, yStart):
+        if self.number != 0:
+            convert = 1
+        else:
+            convert = 0
+        pinStep = Module.PinStep[orientation]
+        pinOffset = Module.PinOffset[orientation]
+        startOffset = Module.PinStartOffset[orientation]
+        pinRange = range(0,len(self.pins[orientation]))
+        return [self.pins[orientation][x].getRep(xStart+startOffset[0]+x*pinStep[0]+pinOffset[0], yStart+startOffset[1]+x*pinStep[1]+pinOffset[1], orientation, self.number, convert) for x in pinRange]
+    
+    def getRep(self, symbolName, symbolNameXPos):
+        symbolRep, symbolOutline = self.representation.getRep(self.pins, symbolNameXPos+len(symbolName)*cfg.SYMBOL_NAME_SIZE/2, self.number)
+        return ([symbolRep]
+                + self.getPinRepList("U",symbolOutline[0],symbolOutline[1])
+                + self.getPinRepList("D",symbolOutline[0],symbolOutline[3])
+                + self.getPinRepList("L",symbolOutline[2],symbolOutline[1])
+                + self.getPinRepList("R",symbolOutline[0],symbolOutline[1]))
+
+class Symbol(object):
+    DefFormat="DEF %s %s 0 "+str(cfg.SYMBOL_PIN_TEXT_OFFSET)+" Y Y %i L N"
+    RefFieldFormat = ( "F%i"%(cfg.REFERENCE_FIELD)
+            + ' "%s" '+str(cfg.SYMBOL_TEXT_MARGIN)
+            + " " + str(cfg.SYMBOL_NAME_SIZE)
+            + " " + str(cfg.SYMBOL_NAME_SIZE)
+            + " H V C CNN")
+
+    ValueFieldFormat = ( "F%i"%(cfg.VALUE_FIELD)
+            + ' "%s" %i'
+            + " " + str(cfg.SYMBOL_NAME_SIZE)
+            + " " + str(cfg.SYMBOL_NAME_SIZE)
+            + " H V C CNN")
+
+    def __init__(self,name, ref):
+        self.name = name
+        self.ref = ref
+        self.modules =[]
+
+    def addModule(self, rep):
+        newModule = Module(rep, len(self.modules)+1)
+        self.modules.append(newModule)
+        return newModule
+
+    def getRep(self):
+        valueFieldXPos = (len(self.name)/2 + len(self.ref)+4)*cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_TEXT_MARGIN
+        moduleList = map(lambda x : x.getRep(self.name, valueFieldXPos), self.modules)
+        result = [ Symbol.DefFormat%(self.name, self.ref, len(self.modules)),
+                 Symbol.RefFieldFormat%(self.ref),
+                 Symbol.ValueFieldFormat%(self.name, valueFieldXPos),
+                 "DRAW"]
+        for x in moduleList:
+            result.extend(x)
+        result = result + ["ENDDRAW","ENDDEF"]
+        return result
+
 
 def MakeMultiSymbol(inFile, outFile):
     """ Output a new part in the outFile library. 
@@ -103,39 +236,18 @@ def MakeMultiSymbol(inFile, outFile):
             else:
                 currentGrp = currentGrp + grpPins
         del portGroups[grpName]
-    
-    # Output the part header
-    outFile.write( "DEF %s IC 0 40 Y Y %i L N\n"%(partName, len(fullPortGrps)+1))
-    outFile.write( 'F0 "IC" 150 150 60 H V C CNN\n' )
-    outFile.write( 'F1  "%s" %i %i 60 H V C CNN\n'%(partName, len(partName)*60/2+250,150))
-    minWidth = len(partName)*60+250+40
-    outFile.write( "DRAW\n" )
-    # First take care of the power supply pins
-    width = max(minWidth, max(len(gndGrp),len(vddGrp))*120+200)
-    outFile.write( "S 0 50 %i %i 1 1 1 N\n"%( width, 9*150+70))
-    for index in range(0,len(vddGrp)):
-        pin = vddGrp[index]
-        outFile.write( "X %s %i %i %i 200 U 40 40 1 0 %s\n"%(string.join(pins[pin][1],'/'), pin, 100+index*120, 9*150+70, pins[pin][0] ))
-    for index in range(0,len(gndGrp)):
-        pin = gndGrp[index]
-        outFile.write( "X %s %i %i 50 200 D 40 40 1 0 %s\n"%(string.join(pins[pin][1],'/'), pin, 100+index*120, pins[pin][0] ))
-    # Output the I/O pins to their attributed modules
-    grpIdx = 2
+    symbol = Symbol(partName,"IC")
+    # First take care of the power module
+    powerModule = symbol.addModule(Square(0,0))
+    map(lambda pin : powerModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
+    map(lambda pin : powerModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"U"),gndGrp)
     for grpName, grpPins in fullPortGrps.iteritems():
-        nbPins = len(grpPins)
-        pinNames = [string.join(pins[x][1],'/') for x in grpPins] 
-        maxTextLength = max([len(x) for x in pinNames])
-        # Evaluate the size of the symbol
-        height = nbPins*120+350+40
-        width = max(minWidth,maxTextLength*40+200)
-        outFile.write( "S 0 50 %i %i %i 1 1 N\n"%(width, height, grpIdx))
-        for index in range(0,nbPins):
-            pin = grpPins[index]
-            outFile.write( "X %s %i -200 %i 200 R 40 40 %i 1 %s\n"%( pinNames[index], pin, 350+index*120, grpIdx, pins[pin][0] ))
-        grpIdx = grpIdx + 1
-    # Symbol end
-    outFile.write( "ENDDRAW\n" )
-    outFile.write( "ENDDEF\n" )
+        newModule = symbol.addModule(Square(0,0))
+        map(lambda pin : newModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"R"),grpPins)
+
+
+    outFile.write( string.join(symbol.getRep(),"\n" ) )
+    outFile.write( "\n" )
 
 
 def MakeSingleSymbol(inFile, outFile):
@@ -186,46 +298,24 @@ def MakeSingleSymbol(inFile, outFile):
     del pinGrps["VDD"]
     # Make the input group
     inGrp = pinGrps["I"] + pinGrps["B"]
-    inPinNames = [string.join(pins[x][1],'/') for x in inGrp]
-    inGrpTextLength = max([len(x) for x in inPinNames]+[1])*40
     outGrp = pinGrps["O"]
-    outPinNames = [string.join(pins[x][1],'/') for x in outGrp]
-    outGrpTextLength = max([len(x) for x in outPinNames]+[1])*40
-    minWidth = len(partName)*60+250+40
-    # Evaluate the size of the symbol
-    height = max(len(inGrp),len(outGrp))*120+350+40+240 # +240 for the supply pins 
-    width = max(minWidth,max([len(gndGrp)*120, len(vddGrp)*120, outGrpTextLength, inGrpTextLength])+200)
-    # Output the part header
-    outFile.write( "DEF %s IC 0 40 Y Y 1 L N\n"%(partName) )
-    outFile.write( 'F0 "IC" 150 270 60 H V C CNN\n')
-    outFile.write( 'F1 "%s" %i %i 60 H V C CNN\n'%(partName, len(partName)*60/2+250,270) )
-    outFile.write( "DRAW\n" )
+    
+    symbol = Symbol(partName,"IC")
+    # First take care of the power module
+    module = symbol.addModule(Square(0,0))
+    map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
+    map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"U"),gndGrp)
+    map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"R"),inGrp)
+    map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"L"),outGrp)
 
-    outFile.write( "S 0 50 %i %i 1 1 1 N\n"%( width, height ) )
-    # First take care of the power supply pins
-    for index in range(0,len(vddGrp)):
-        pin = vddGrp[index]
-        outFile.write( "X %s %i %i %i 200 D 40 40 1 1 %s\n"%(string.join(pins[pin][1],'/'), pin, 100+index*120, height+200, pins[pin][0]) )
-    for index in range(0,len(gndGrp)):
-        pin = gndGrp[index]
-        outFile.write( "X %s %i %i -150 200 U 40 40 1 1 %s\n"%(string.join(pins[pin][1],'/'), pin, 100+index*120, pins[pin][0]) )
-    # Output the output pins 
-    for index in range(0,len(outGrp)):
-        pin = outGrp[index]
-        outFile.write( "X %s %i %i %i 200 L 40 40 1 1 %s\n"%(outPinNames[index], pin, width+200, 470+index*120, pins[pin][0]) )
-
-    # Output the input pins 
-    for index in range(0,len(inGrp)):
-        pin = inGrp[index]
-        outFile.write( "X %s %i -200 %i 200 R 40 40 1 1 %s\n"%( inPinNames[index], pin, 470+index*120, pins[pin][0]) )
-   
-    # Symbol end
-    outFile.write( "ENDDRAW\n" )
-    outFile.write( "ENDDEF\n" )
-
+    outFile.write( string.join(symbol.getRep(),"\n" ) )
+    outFile.write( "\n" )
 
 
 if __name__ == "__main__":
+
+    print cfg.pin_name_size
+    
     import argparse
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--grouped', nargs='+', metavar='grouped', type=str,
@@ -237,6 +327,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     output = open(args.output, "w")
     output.write("EESchema-LIBRARY Version 2.3\n")
+
+
     if args.grouped != None:
         for src in args.grouped:
             MakeMultiSymbol(src, output)

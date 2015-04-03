@@ -1,3 +1,6 @@
 [submodule "tools/pdf-table-extract"]
 	path = tools/pdf-table-extract
 	url = https://github.com/ashima/pdf-table-extract.git
+[submodule "tools/sympy"]
+	path = tools/sympy
+	url = git://github.com/sympy/sympy.git
