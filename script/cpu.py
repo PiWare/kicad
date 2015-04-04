@@ -58,7 +58,7 @@ class Square(object):
         self.x = x
         self.y = y
     
-    def getRep(self, pins, symbolNameWidth, grp):
+    def getRep(self, pins, symbolNameWidth, grp, nameCentered):
         maxPinNameWidth = 0
         if len(pins["L"])>0:
             maxPinNameWidth = max(maxPinNameWidth, max(x.length for x in pins["L"]))+cfg.SYMBOL_PIN_TEXT_OFFSET
@@ -73,7 +73,7 @@ class Square(object):
         maxPinsHoriz = max(len(pins["U"]), len(pins["D"]))
         maxPinsVert = max(len(pins["R"]), len(pins["L"]))
 
-        width = max([symbolNameWidth, maxPinNameWidth, maxPinsHoriz*cfg.SYMBOL_PIN_NAME_SIZE])
+        width = max([symbolNameWidth, maxPinNameWidth, maxPinsHoriz*cfg.SYMBOL_PIN_NAME_SIZE*2])
         height = max(maxPinNameHeight, maxPinsVert*cfg.SYMBOL_PIN_NAME_SIZE*2)+cfg.SYMBOL_TEXT_MARGIN
         if len(pins["U"]) > 0 and len(pins["D"])>0:
             height = height + cfg.SYMBOL_TEXT_MARGIN
@@ -81,7 +81,14 @@ class Square(object):
         if len(pins["R"]) > 0 and len(pins["L"])>0:
             width = width + cfg.SYMBOL_TEXT_MARGIN
 
-        return "S %i %i %i %i %i 1 %i N"%(self.x, self.y, self.x+width, self.y+height, grp, cfg.SYMBOL_LINE_WIDTH), [self.x,self.y,self.x+width,self.y+height]
+        if nameCentered == True:
+            x = self.x-width/2
+            y = self.y-height/2
+        else:
+            x = self.x
+            y = self.y
+
+        return "S %i %i %i %i %i 1 %i N"%(x, y, x+width, y+height, grp, cfg.SYMBOL_LINE_WIDTH), [x,y,x+width,y+height]
 
 class Pin(object):
     FormatString = "X %s %i %i %i " + str(cfg.SYMBOL_PIN_LENGTH) + " %s " + str(cfg.SYMBOL_PIN_NUMBER_SIZE) + " " + str(cfg.SYMBOL_PIN_NAME_SIZE) + " %i %i %s"
@@ -137,8 +144,8 @@ class Module(object):
         pinRange = range(0,len(self.pins[orientation]))
         return [self.pins[orientation][x].getRep(xStart+startOffset[0]+x*pinStep[0]+pinOffset[0], yStart+startOffset[1]+x*pinStep[1]+pinOffset[1], orientation, self.number, convert) for x in pinRange]
     
-    def getRep(self, symbolName, symbolNameXPos):
-        symbolRep, symbolOutline = self.representation.getRep(self.pins, symbolNameXPos+len(symbolName)*cfg.SYMBOL_NAME_SIZE/2, self.number)
+    def getRep(self, symbolName, symbolNameXPos, nameCentered):
+        symbolRep, symbolOutline = self.representation.getRep(self.pins, symbolNameXPos+len(symbolName)*cfg.SYMBOL_NAME_SIZE/2, self.number, nameCentered)
         return ([symbolRep]
                 + self.getPinRepList("U",symbolOutline[0],symbolOutline[1])
                 + self.getPinRepList("D",symbolOutline[0],symbolOutline[3])
@@ -148,21 +155,20 @@ class Module(object):
 class Symbol(object):
     DefFormat="DEF %s %s 0 "+str(cfg.SYMBOL_PIN_TEXT_OFFSET)+" Y Y %i L N"
     RefFieldFormat = ( "F%i"%(cfg.REFERENCE_FIELD)
-            + ' "%s" '+str(cfg.SYMBOL_TEXT_MARGIN)
-            + " " + str(cfg.SYMBOL_NAME_SIZE)
+            + ' "%s" %i %i'
             + " " + str(cfg.SYMBOL_NAME_SIZE)
             + " H V C CNN")
 
     ValueFieldFormat = ( "F%i"%(cfg.VALUE_FIELD)
-            + ' "%s" %i'
-            + " " + str(cfg.SYMBOL_NAME_SIZE)
+            + ' "%s" %i %i'
             + " " + str(cfg.SYMBOL_NAME_SIZE)
             + " H V C CNN")
 
-    def __init__(self,name, ref):
+    def __init__(self,name, ref, nameCentered):
         self.name = name
         self.ref = ref
         self.modules =[]
+        self.nameCentered = nameCentered
 
     def addModule(self, rep):
         newModule = Module(rep, len(self.modules)+1)
@@ -170,11 +176,21 @@ class Symbol(object):
         return newModule
 
     def getRep(self):
-        valueFieldXPos = (len(self.name)/2 + len(self.ref)+4)*cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_TEXT_MARGIN
-        moduleList = map(lambda x : x.getRep(self.name, valueFieldXPos), self.modules)
+        if self.nameCentered == True:
+            valueFieldXPos = -len(self.name)/4*cfg.SYMBOL_NAME_SIZE 
+            valueFieldYPos = cfg.SYMBOL_TEXT_MARGIN
+            refFieldXPos = -(len(self.ref)+4)/4*cfg.SYMBOL_NAME_SIZE
+            refFieldYPos = -cfg.SYMBOL_TEXT_MARGIN
+        else:
+            valueFieldXPos = (len(self.name)/2 + len(self.ref)+4)*cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_TEXT_MARGIN
+            valueFieldYPos = cfg.SYMBOL_NAME_SIZE
+            refFieldXPos = cfg.SYMBOL_TEXT_MARGIN
+            refFieldYPos = valueFieldYPos
+        
+        moduleList = map(lambda x : x.getRep(self.name, valueFieldXPos, self.nameCentered), self.modules)
         result = [ Symbol.DefFormat%(self.name, self.ref, len(self.modules)),
-                 Symbol.RefFieldFormat%(self.ref),
-                 Symbol.ValueFieldFormat%(self.name, valueFieldXPos),
+                 Symbol.RefFieldFormat%(self.ref, refFieldXPos, refFieldYPos),
+                 Symbol.ValueFieldFormat%(self.name, valueFieldXPos, valueFieldYPos),
                  "DRAW"]
         for x in moduleList:
             result.extend(x)
@@ -236,7 +252,7 @@ def MakeMultiSymbol(inFile, outFile):
             else:
                 currentGrp = currentGrp + grpPins
         del portGroups[grpName]
-    symbol = Symbol(partName,"IC")
+    symbol = Symbol(partName,"IC",False)
     # First take care of the power module
     powerModule = symbol.addModule(Square(0,0))
     map(lambda pin : powerModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
@@ -300,7 +316,7 @@ def MakeSingleSymbol(inFile, outFile):
     inGrp = pinGrps["I"] + pinGrps["B"]
     outGrp = pinGrps["O"]
     
-    symbol = Symbol(partName,"IC")
+    symbol = Symbol(partName,"IC",False)
     # First take care of the power module
     module = symbol.addModule(Square(0,0))
     map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
@@ -310,6 +326,49 @@ def MakeSingleSymbol(inFile, outFile):
 
     outFile.write( string.join(symbol.getRep(),"\n" ) )
     outFile.write( "\n" )
+
+def MakeRoundClockSymbol(inFile, outFile):
+    """ Output a new part in the outFile library. 
+        The part will contain a single symbol with the pins 
+        layed out clockwise according to the pin numer.
+    """
+    startPins = False
+    partName = ""
+    pins = {}
+    catchName = re.compile('\A[a-zA-Z]+')
+    with open(inFile, 'rb') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            if len(row) > 0:
+                if startPins:
+                    pinNum = int(row[0])
+                    if pinNum in pins:
+                        pins[pinNum][1].append(row[1])
+                    else:
+                        pinType = csvPinTypeToPinType[row[2]]
+                        pins[pinNum] = (pinType,[row[1]])
+                else:
+                    if row[0] == 'Part':
+                        partName=row[1]
+                    elif row[0] == 'Number':
+                        startPins = True
+    
+    nbPins = len(pins)
+    grp1 = range(0,nbPins/4)
+    grp2 = range(nbPins/4,nbPins/2)
+    grp3 = range(nbPins*3/4-1,nbPins/2-1,-1)
+    grp4 = range(nbPins-1,nbPins*3/4-1,-1)
+    symbol = Symbol(partName,"IC",True)
+    # First take care of the power module
+    module = symbol.addModule(Square(0,0))
+    map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"R"),grp1)
+    map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"D"),grp2)
+    map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"L"),grp3)
+    map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"U"),grp4)
+
+    outFile.write( string.join(symbol.getRep(),"\n" ) )
+    outFile.write( "\n" )
+
 
 
 if __name__ == "__main__":
@@ -322,6 +381,8 @@ if __name__ == "__main__":
                        help='list of csv files containing pin lists producing symbols with multiple groups')
     parser.add_argument('--single', nargs='+', metavar='single', type=str,
                        help='list of csv files containing pin lists producing a single symbol')
+    parser.add_argument('--clock', nargs='+', metavar='clock', type=str,
+                       help='list of csv files containing pin lists producing a single clock wise organized symbol')
     parser.add_argument('--output', metavar='out', type=str,
                        help='the kicad library output file', required=True)
     args = parser.parse_args()
@@ -335,3 +396,6 @@ if __name__ == "__main__":
     if args.single != None:
         for src in args.single:
             MakeSingleSymbol(src, output)
+    if args.clock != None:
+        for src in args.clock:
+            MakeRoundClockSymbol(src, output)
