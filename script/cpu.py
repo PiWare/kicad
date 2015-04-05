@@ -373,8 +373,6 @@ def MakeRoundClockSymbol(inFile, outFile):
 
 if __name__ == "__main__":
 
-    print cfg.pin_name_size
-    
     import argparse
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--grouped', nargs='+', metavar='grouped', type=str,
