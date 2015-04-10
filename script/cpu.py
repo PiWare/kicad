@@ -33,38 +33,39 @@
 #     The script allows pins to appear multiple times, each line documenting a 
 #     specific function of the pin. The script tries to group the pins by 8 or by port.  
 #     The supply pins are put in a seperate block
- 
+
 
 
 import csv
 import re
 import string
+from string import split
 import itertools 
 
 import config
 cfg = config.Config("config")
 
 csvPinTypeToPinType = {
-    "I" : "I",
-    "O" : "O",
-    "I/O" : "B",
-    "N" : "N",
-    "-" : "W",
-    "S" : "W"
-}
+        "I" : "I",
+        "O" : "O",
+        "I/O" : "B",
+        "N" : "N",
+        "-" : "W",
+        "S" : "W"
+        }
 
 class Square(object):
     def __init__(self,x,y):
         self.x = x
         self.y = y
-    
+
     def getRep(self, pins, symbolNameWidth, grp, nameCentered):
         maxPinNameWidth = 0
         if len(pins["L"])>0:
             maxPinNameWidth = max(maxPinNameWidth, max(x.length for x in pins["L"]))+cfg.SYMBOL_PIN_TEXT_OFFSET
         if len(pins["R"])>0:
             maxPinNameWidth = max(maxPinNameWidth, max(x.length for x in pins["R"]))+cfg.SYMBOL_PIN_TEXT_OFFSET
-        
+
         maxPinNameHeight = 0
         if len(pins["U"])>0:
             maxPinNameHeight = max(maxPinNameHeight, max(x.length for x in pins["U"]))+cfg.SYMBOL_PIN_TEXT_OFFSET
@@ -73,11 +74,11 @@ class Square(object):
         maxPinsHoriz = max(len(pins["U"]), len(pins["D"]))
         maxPinsVert = max(len(pins["R"]), len(pins["L"]))
 
-        width = max([symbolNameWidth, maxPinNameWidth, maxPinsHoriz*cfg.SYMBOL_PIN_NAME_SIZE*2])
-        height = max(maxPinNameHeight, maxPinsVert*cfg.SYMBOL_PIN_NAME_SIZE*2)+cfg.SYMBOL_TEXT_MARGIN
+        width = max([symbolNameWidth, maxPinNameWidth, maxPinsHoriz*cfg.SYMBOL_GRID*3])
+        height = max(maxPinNameHeight, maxPinsVert*cfg.SYMBOL_GRID*3)+cfg.SYMBOL_TEXT_MARGIN
         if len(pins["U"]) > 0 and len(pins["D"])>0:
             height = height + cfg.SYMBOL_TEXT_MARGIN
-        
+
         if len(pins["R"]) > 0 and len(pins["L"])>0:
             width = width + cfg.SYMBOL_TEXT_MARGIN
 
@@ -98,7 +99,7 @@ class Pin(object):
         self.length = len(name)*cfg.SYMBOL_PIN_NAME_SIZE
         self.type = type
         self.number = number
-    
+
     def getRep(self,x,y,orientation,group,convert):
         return Pin.FormatString %(self.name, self.number, x, y, orientation, group, convert, self.type)
 
@@ -110,17 +111,17 @@ class Module(object):
             "R" : (-cfg.SYMBOL_PIN_LENGTH,0)
             }
     PinStep = {
-            "U" : (cfg.SYMBOL_PIN_NAME_SIZE*2,0), 
-            "D" : (cfg.SYMBOL_PIN_NAME_SIZE*2,0),
-            "L" : (0,cfg.SYMBOL_PIN_NAME_SIZE*2),
-            "R" : (0,cfg.SYMBOL_PIN_NAME_SIZE*2)
+            "U" : (cfg.SYMBOL_GRID*3,0), 
+            "D" : (cfg.SYMBOL_GRID*3,0),
+            "L" : (0,cfg.SYMBOL_GRID*3),
+            "R" : (0,cfg.SYMBOL_GRID*3)
             }
 
     PinStartOffset = {
-            "U" : (cfg.SYMBOL_PIN_NAME_SIZE*2,0), 
-            "D" : (cfg.SYMBOL_PIN_NAME_SIZE*2,0),
-            "L" : (0,cfg.SYMBOL_TEXT_MARGIN),
-            "R" : (0,cfg.SYMBOL_TEXT_MARGIN)
+            "U" : (cfg.SYMBOL_GRID*3,0), 
+            "D" : (cfg.SYMBOL_GRID*3,0),
+            "L" : (0,cfg.SYMBOL_GRID),
+            "R" : (0,cfg.SYMBOL_GRID)
             }
 
 
@@ -132,7 +133,7 @@ class Module(object):
 
     def addPin(self, pin, orientation):
         self.pins[orientation].append(pin)
-    
+
     def getPinRepList(self, orientation, xStart, yStart):
         if self.number != 0:
             convert = 1
@@ -143,7 +144,7 @@ class Module(object):
         startOffset = Module.PinStartOffset[orientation]
         pinRange = range(0,len(self.pins[orientation]))
         return [self.pins[orientation][x].getRep(xStart+startOffset[0]+x*pinStep[0]+pinOffset[0], yStart+startOffset[1]+x*pinStep[1]+pinOffset[1], orientation, self.number, convert) for x in pinRange]
-    
+
     def getRep(self, symbolName, symbolNameXPos, nameCentered):
         symbolRep, symbolOutline = self.representation.getRep(self.pins, symbolNameXPos+len(symbolName)*cfg.SYMBOL_NAME_SIZE/2, self.number, nameCentered)
         return ([symbolRep]
@@ -162,10 +163,13 @@ class Symbol(object):
     ValueFieldFormat = ( "F%i"%(cfg.VALUE_FIELD)
             + ' "%s" %i %i'
             + " " + str(cfg.SYMBOL_NAME_SIZE)
-            + " H V C CNN")
+            + " H I C CNN")
 
-    def __init__(self,name, ref, nameCentered):
-        self.name = name
+    FootprintFieldFormat = "F%i"%(cfg.FOOTPRINT_FIELD) +' "%s" 0 0 30 H I C CCN'
+
+    def __init__(self, header, ref, nameCentered):
+        self.name = header["Part"]
+        self.footprint = header["Package"]
         self.ref = ref
         self.modules =[]
         self.nameCentered = nameCentered
@@ -186,17 +190,26 @@ class Symbol(object):
             valueFieldYPos = cfg.SYMBOL_NAME_SIZE
             refFieldXPos = cfg.SYMBOL_TEXT_MARGIN
             refFieldYPos = valueFieldYPos
-        
+
         moduleList = map(lambda x : x.getRep(self.name, valueFieldXPos, self.nameCentered), self.modules)
         result = [ Symbol.DefFormat%(self.name, self.ref, len(self.modules)),
-                 Symbol.RefFieldFormat%(self.ref, refFieldXPos, refFieldYPos),
-                 Symbol.ValueFieldFormat%(self.name, valueFieldXPos, valueFieldYPos),
-                 "DRAW"]
+                Symbol.RefFieldFormat%(self.ref, refFieldXPos, refFieldYPos),
+                Symbol.ValueFieldFormat%(self.name, valueFieldXPos, valueFieldYPos),
+                Symbol.FootprintFieldFormat%(self.footprint),
+                "DRAW"]
         for x in moduleList:
             result.extend(x)
         result = result + ["ENDDRAW","ENDDEF"]
         return result
 
+def ReadHeader(reader):
+    result = {}
+    for row in reader:
+        if len(row)>0:
+            if row[0] != 'Number':
+                result[row[0]]=row[1]
+            else:
+                return result;
 
 def MakeMultiSymbol(inFile, outFile):
     """ Output a new part in the outFile library. 
@@ -212,30 +225,25 @@ def MakeMultiSymbol(inFile, outFile):
     findGnd = re.compile('(GND)|(VSS)')
     with open(inFile, 'rb') as csvfile:
         reader = csv.reader(csvfile)
+        header = ReadHeader(reader)
         for row in reader:
             if len(row) > 0:
-                if startPins:
-                    pinNum = int(row[0])
-                    if pinNum in pins:
-                        pins[pinNum][1].append(row[1])
-                    else:
-                        pins[pinNum] = (csvPinTypeToPinType[row[2]],[row[1]])
-                        if pins[pinNum][0] == 'W':
-                            if findGnd.match(row[1]):
-                                gndGrp.append(pinNum)
-                            else:
-                                vddGrp.append(pinNum)
-                        else:
-                            portGroupName = catchName.search(row[1]).group(0)
-                            if portGroupName in portGroups:
-                                portGroups[portGroupName].append(pinNum)
-                            else:
-                                portGroups[portGroupName] = [pinNum]
+                pinNum = int(row[0])
+                if pinNum in pins:
+                    pins[pinNum][1].append(row[1])
                 else:
-                    if row[0] == 'Part':
-                        partName=row[1]
-                    elif row[0] == 'Number':
-                        startPins = True
+                    pins[pinNum] = (csvPinTypeToPinType[row[2]],split(row[1],'/'))
+                    if pins[pinNum][0] == 'W':
+                        if findGnd.match(row[1]):
+                            gndGrp.append(pinNum)
+                        else:
+                            vddGrp.append(pinNum)
+                    else:
+                        portGroupName = catchName.search(row[1]).group(0)
+                        if portGroupName in portGroups:
+                            portGroups[portGroupName].append(pinNum)
+                        else:
+                            portGroups[portGroupName] = [pinNum]
     fullPortGrps = {}
     for grpName, grpPins in portGroups.iteritems():
         if len(grpPins) >= 8:
@@ -252,7 +260,7 @@ def MakeMultiSymbol(inFile, outFile):
             else:
                 currentGrp = currentGrp + grpPins
         del portGroups[grpName]
-    symbol = Symbol(partName,"IC",False)
+    symbol = Symbol(header,"IC",False)
     # First take care of the power module
     powerModule = symbol.addModule(Square(0,0))
     map(lambda pin : powerModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
@@ -274,39 +282,34 @@ def MakeSingleSymbol(inFile, outFile):
     partName = ""
     pins = {}
     pinGrps = {
-        "O" : [],
-        "B" : [],
-        "I" : [],
-        "N" : [],
-        "W" : [],
-    }
+            "O" : [],
+            "B" : [],
+            "I" : [],
+            "N" : [],
+            "W" : [],
+            }
     catchName = re.compile('\A[a-zA-Z]+')
     with open(inFile, 'rb') as csvfile:
         reader = csv.reader(csvfile)
+        header = ReadHeader(reader)
         for row in reader:
             if len(row) > 0:
-                if startPins:
-                    pinNum = int(row[0])
-                    if pinNum in pins:
-                        pins[pinNum][1].append(row[1])
-                    else:
-                        pinType = csvPinTypeToPinType[row[2]]
-                        pins[pinNum] = (pinType,[row[1]])
-                        if pinType == 'W':
-                            if row[1][0] == 'G': # GND pins
-                                pinType = "GND"
-                            elif row[1][0] == 'V':
-                                pinType = "VDD"
-                        if pinType in pinGrps:
-                            pinGrps[pinType].append(pinNum)
-                        else:
-                            pinGrps[pinType]=[pinNum]
-                else:
-                    if row[0] == 'Part':
-                        partName=row[1]
-                    elif row[0] == 'Number':
-                        startPins = True
-    
+               pinNum = int(row[0])
+               if pinNum in pins:
+                   pins[pinNum][1].append(row[1])
+               else:
+                   pinType = csvPinTypeToPinType[row[2]]
+                   pins[pinNum] = (pinType,split(row[1],'/'))
+                   if pinType == 'W':
+                       if row[1][0] == 'G': # GND pins
+                           pinType = "GND"
+                       elif row[1][0] == 'V':
+                           pinType = "VDD"
+                   if pinType in pinGrps:
+                       pinGrps[pinType].append(pinNum)
+                   else:
+                       pinGrps[pinType]=[pinNum]
+
         # seperate the power pins
     gndGrp = pinGrps["GND"]
     del pinGrps["GND"]
@@ -315,8 +318,8 @@ def MakeSingleSymbol(inFile, outFile):
     # Make the input group
     inGrp = pinGrps["I"] + pinGrps["B"]
     outGrp = pinGrps["O"]
-    
-    symbol = Symbol(partName,"IC",False)
+
+    symbol = Symbol(header,"IC",False)
     # First take care of the power module
     module = symbol.addModule(Square(0,0))
     map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
@@ -338,33 +341,28 @@ def MakeRoundClockSymbol(inFile, outFile):
     catchName = re.compile('\A[a-zA-Z]+')
     with open(inFile, 'rb') as csvfile:
         reader = csv.reader(csvfile)
+        header = ReadHeader(reader)
         for row in reader:
             if len(row) > 0:
-                if startPins:
-                    pinNum = int(row[0])
-                    if pinNum in pins:
-                        pins[pinNum][1].append(row[1])
-                    else:
-                        pinType = csvPinTypeToPinType[row[2]]
-                        pins[pinNum] = (pinType,[row[1]])
+                pinNum = int(row[0])
+                if pinNum in pins:
+                    pins[pinNum][1].append(row[1])
                 else:
-                    if row[0] == 'Part':
-                        partName=row[1]
-                    elif row[0] == 'Number':
-                        startPins = True
-    
+                    pinType = csvPinTypeToPinType[row[2]]
+                    pins[pinNum] = (pinType,split(row[1]))
+
     nbPins = len(pins)
-    grp1 = range(0,nbPins/4)
+    grp1 = range(nbPins/4-1,-1,-1)
     grp2 = range(nbPins/4,nbPins/2)
-    grp3 = range(nbPins*3/4-1,nbPins/2-1,-1)
+    grp3 = range(nbPins/2,nbPins*3/4,1)
     grp4 = range(nbPins-1,nbPins*3/4-1,-1)
-    symbol = Symbol(partName,"IC",True)
+    symbol = Symbol(header,"IC",True)
     # First take care of the power module
     module = symbol.addModule(Square(0,0))
     map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"R"),grp1)
-    map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"D"),grp2)
+    map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"U"),grp2)
     map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"L"),grp3)
-    map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"U"),grp4)
+    map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"D"),grp4)
 
     outFile.write( string.join(symbol.getRep(),"\n" ) )
     outFile.write( "\n" )
@@ -376,13 +374,13 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--grouped', nargs='+', metavar='grouped', type=str,
-                       help='list of csv files containing pin lists producing symbols with multiple groups')
+            help='list of csv files containing pin lists producing symbols with multiple groups')
     parser.add_argument('--single', nargs='+', metavar='single', type=str,
-                       help='list of csv files containing pin lists producing a single symbol')
+            help='list of csv files containing pin lists producing a single symbol')
     parser.add_argument('--clock', nargs='+', metavar='clock', type=str,
-                       help='list of csv files containing pin lists producing a single clock wise organized symbol')
+            help='list of csv files containing pin lists producing a single clock wise organized symbol')
     parser.add_argument('--output', metavar='out', type=str,
-                       help='the kicad library output file', required=True)
+            help='the kicad library output file', required=True)
     args = parser.parse_args()
     output = open(args.output, "w")
     output.write("EESchema-LIBRARY Version 2.3\n")
