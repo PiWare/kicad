@@ -101,6 +101,18 @@ class Square(object):
 
         return "S %i %i %i %i %i 1 %i N"%(x, y, x+width, y+height, grp, cfg.SYMBOL_LINE_WIDTH), [x,y,x+width,y+height]
 
+class Pin(object):
+    FormatString = "X %s %i %i %i " + str(cfg.SYMBOL_PIN_LENGTH) + " %s " + str(cfg.SYMBOL_PIN_NUMBER_SIZE) + " " + str(cfg.SYMBOL_PIN_NAME_SIZE) + " %i %i %s"
+
+    def __init__(self, name, number, type):
+        self.name = name
+        self.length = len(name)*cfg.SYMBOL_PIN_NAME_SIZE
+        self.type = type
+        self.number = number
+    
+    def getRep(self,x,y,orientation,group,convert):
+        return Pin.FormatString %(self.name, self.number, x, y, orientation, group, convert, self.type)
+
 class Module(object):
     """Represents a kicad schematic module instance."""
     PinOffset = {
@@ -160,6 +172,12 @@ class Module(object):
                 + self.getPinRepList("L",symbolOutline[2],symbolOutline[1])
                 + self.getPinRepList("R",symbolOutline[0],symbolOutline[1]))
 
+class Symbol(object):
+    DefFormat="DEF %s %s 0 "+str(cfg.SYMBOL_PIN_TEXT_OFFSET)+" Y Y %i L N"
+    RefFieldFormat = ( "F%i"%(cfg.REFERENCE_FIELD)
+            + ' "%s" %i %i'
+            + " " + str(cfg.SYMBOL_NAME_SIZE)
+            + " H V C CNN")
 
 class Cpu(Symbol):
     def __init__(self, name, ref, nameCentered, package = ""):
