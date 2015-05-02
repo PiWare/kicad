@@ -6,12 +6,12 @@
 #     it under the terms of the GNU General Public License as published by
 #     the Free Software Foundation, either version 3 of the License, or
 #     (at your option) any later version.
-# 
+#
 #     This program is distributed in the hope that it will be useful,
 #     but WITHOUT ANY WARRANTY; without even the implied warranty of
 #     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #     GNU General Public License for more details.
-# 
+#
 #     You should have received a copy of the GNU General Public License
 #     along with this program.  If not, see <http://www.gnu.org/licenses/>
 
@@ -23,15 +23,15 @@
 #       "1","PB6","I/O","TTL","GPIO port B bit 6.",
 #       ...
 #
-#     The column type can contain: 
-#      - I for input 
-#      - O for output 
+#     The column type can contain:
+#      - I for input
+#      - O for output
 #      - I/O for input / output
 #      - N for not connected
 #      - - or S for power supply pins
 #
-#     The script allows pins to appear multiple times, each line documenting a 
-#     specific function of the pin. The script tries to group the pins by 8 or by port.  
+#     The script allows pins to appear multiple times, each line documenting a
+#     specific function of the pin. The script tries to group the pins by 8 or by port.
 #     The supply pins are put in a seperate block
 
 
@@ -40,7 +40,7 @@ import csv
 import re
 import string
 from string import split
-import itertools 
+import itertools
 
 import config
 from symbol import *
@@ -93,20 +93,20 @@ class Square(object):
 
 class Module(object):
     PinOffset = {
-            "U" : (0,-cfg.SYMBOL_PIN_LENGTH), 
+            "U" : (0,-cfg.SYMBOL_PIN_LENGTH),
             "D" : (0,cfg.SYMBOL_PIN_LENGTH),
             "L" : (cfg.SYMBOL_PIN_LENGTH,0),
             "R" : (-cfg.SYMBOL_PIN_LENGTH,0)
             }
     PinStep = {
-            "U" : (cfg.SYMBOL_GRID*3,0), 
+            "U" : (cfg.SYMBOL_GRID*3,0),
             "D" : (cfg.SYMBOL_GRID*3,0),
             "L" : (0,cfg.SYMBOL_GRID*3),
             "R" : (0,cfg.SYMBOL_GRID*3)
             }
 
     PinStartOffset = {
-            "U" : (cfg.SYMBOL_GRID*3,0), 
+            "U" : (cfg.SYMBOL_GRID*3,0),
             "D" : (cfg.SYMBOL_GRID*3,0),
             "L" : (0,cfg.SYMBOL_GRID),
             "R" : (0,cfg.SYMBOL_GRID)
@@ -151,7 +151,7 @@ def ReadHeader(reader):
                 return result;
 
 def MakeMultiSymbol(inFile, outFile):
-    """ Output a new part in the outFile library. 
+    """ Output a new part in the outFile library.
         The part will contain multiple modules grouping pins by ports.
     """
     startPins = False
@@ -160,7 +160,7 @@ def MakeMultiSymbol(inFile, outFile):
     portGroups = {}
     gndGrp = []
     vddGrp = []
-    catchName = re.compile('\A[a-zA-Z]+') 
+    catchName = re.compile('\A[a-zA-Z]+')
     findGnd = re.compile('(GND)|(VSS)')
     with open(inFile, 'rb') as csvfile:
         reader = csv.reader(csvfile)
@@ -201,11 +201,13 @@ def MakeMultiSymbol(inFile, outFile):
         del portGroups[grpName]
     symbol = Symbol(header,"IC",False)
     # First take care of the power module
-    powerModule = symbol.addModule(Square(0,0))
+    powerModule = symbol.addModule(Module(Square(0,0),1))
     map(lambda pin : powerModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
     map(lambda pin : powerModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"U"),gndGrp)
+    grpIdx =2
     for grpName, grpPins in fullPortGrps.iteritems():
-        newModule = symbol.addModule(Square(0,0))
+        newModule = symbol.addModule(Module(Square(0,0),grpIdx))
+        grpIdx = grpIdx + 1
         map(lambda pin : newModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"R"),grpPins)
 
 
@@ -214,7 +216,7 @@ def MakeMultiSymbol(inFile, outFile):
 
 
 def MakeSingleSymbol(inFile, outFile):
-    """ Output a new part in the outFile library. 
+    """ Output a new part in the outFile library.
         The part will contain a single symbol.
     """
     startPins = False
@@ -260,7 +262,7 @@ def MakeSingleSymbol(inFile, outFile):
 
     symbol = Symbol(header,"IC",False)
     # First take care of the power module
-    module = symbol.addModule(Square(0,0))
+    module = symbol.addModule(Module(Square(0,0),1))
     map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
     map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"U"),gndGrp)
     map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"R"),inGrp)
@@ -270,8 +272,8 @@ def MakeSingleSymbol(inFile, outFile):
     outFile.write( "\n" )
 
 def MakeRoundClockSymbol(inFile, outFile):
-    """ Output a new part in the outFile library. 
-        The part will contain a single symbol with the pins 
+    """ Output a new part in the outFile library.
+        The part will contain a single symbol with the pins
         layed out clockwise according to the pin numer.
     """
     startPins = False
@@ -297,7 +299,7 @@ def MakeRoundClockSymbol(inFile, outFile):
     grp4 = range(nbPins-1,nbPins*3/4-1,-1)
     symbol = Symbol(header,"IC",True)
     # First take care of the power module
-    module = symbol.addModule(Square(0,0))
+    module = symbol.addModule(Module(Square(0,0),1))
     map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"R"),grp1)
     map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"U"),grp2)
     map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"L"),grp3)

@@ -2,8 +2,11 @@ LIBRARY_ROOT = library
 
 CPU_SCRIPT = script/cpu.py
 
+CAPACITOR_SCRIPT = script/capacitor.py
+
 LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
-			$(LIBRARY_ROOT)/rf.lib
+			$(LIBRARY_ROOT)/rf.lib \
+			$(LIBRARY_ROOT)/capacitor.lib
 
 all: $(LIBRARIES)
 
@@ -17,3 +20,8 @@ RF_CLOCK = data/rf/cc1121.csv
 
 $(LIBRARY_ROOT)/rf.lib: $(CPU_SCRIPT) $(RF_CLOCK)
 	$(CPU_SCRIPT) --clock $(RF_CLOCK) --output $@
+
+CAPACITOR = data/avx_condensator.csv
+
+$(LIBRARY_ROOT)/capacitor.lib: $(CAPACITOR_SCRIPT) $(CAPACITOR)
+	$(CAPACITOR_SCRIPT) --data $(CAPACITOR) --output $@

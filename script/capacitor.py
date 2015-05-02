@@ -60,10 +60,14 @@ class Capacitor(object):
             secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
         else:
             secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
-        return [
+        result = [
             Capacitor.defLine%(string.replace(self.name,",","_")),
             Capacitor.f0Field%(self.name),
             Capacitor.f1Field%(self.name),
+            "$FPLIST"]
+        result.extend(map(lambda x : "SMD_"+x[0]+"_"+x[1] , packageList))
+        result = result + [
+            "$ENDFPLIST",
             "DRAW",
             secondSide,
             "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,cfg.SYMBOL_NAME_SIZE/2),
@@ -72,6 +76,7 @@ class Capacitor(object):
             "ENDDRAW",
             "ENDDEF"
         ]
+        return result
 
 def MakeCondensatorSet(inFile, outFile):
     """ Output a new capacitor set in the outFile library.

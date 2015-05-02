@@ -6,12 +6,12 @@
 #     it under the terms of the GNU General Public License as published by
 #     the Free Software Foundation, either version 3 of the License, or
 #     (at your option) any later version.
-# 
+#
 #     This program is distributed in the hope that it will be useful,
 #     but WITHOUT ANY WARRANTY; without even the implied warranty of
 #     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #     GNU General Public License for more details.
-# 
+#
 #     You should have received a copy of the GNU General Public License
 #     along with this program.  If not, see <http://www.gnu.org/licenses/>
 
@@ -32,6 +32,7 @@ class Pin(object):
 
     def getRep(self,x,y,orientation,group,convert):
         return Pin.FormatString %(self.name, self.number, x, y, orientation, group, convert, self.type)
+
 
 class Symbol(object):
     DefFormat="DEF %s %s 0 "+str(cfg.SYMBOL_PIN_TEXT_OFFSET)+" Y Y %i L N"
@@ -54,14 +55,13 @@ class Symbol(object):
         self.modules =[]
         self.nameCentered = nameCentered
 
-    def addModule(self, rep):
-        newModule = Module(rep, len(self.modules)+1)
-        self.modules.append(newModule)
-        return newModule
+    def addModule(self, module):
+        self.modules.append(module)
+        return module
 
     def getRep(self):
         if self.nameCentered == True:
-            valueFieldXPos = -len(self.name)/4*cfg.SYMBOL_NAME_SIZE 
+            valueFieldXPos = -len(self.name)/4*cfg.SYMBOL_NAME_SIZE
             valueFieldYPos = cfg.SYMBOL_TEXT_MARGIN
             refFieldXPos = -(len(self.ref)+4)/4*cfg.SYMBOL_NAME_SIZE
             refFieldYPos = -cfg.SYMBOL_TEXT_MARGIN
