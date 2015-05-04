@@ -1,0 +1,19 @@
+generator,name,description,tags,package_width,package_height,pad_width,pad_height,pad_grid,pad_distance,pad_count
+soic,soic_8_narrow,"SOIC 8 Narrow, RPL No. 300A, JEDEC No. MS-012 AA",,5.0,4.0,0.6,2.20,1.27,5.20,8
+soic,soic_8_wide,"SOIC 8 Wide, RPL No. 301A",,5.45,7.6,0.6,2.20,1.27,9.20,8
+soic,soic_14_narrow,"SOIC 14 Narrow, RPL No. 302A, JEDEC No. MS-012 AB",,8.75,4.0,0.6,2.20,1.27,5.20,14
+soic,soic_14_wide,"SOIC 14 Wide, RPL No. 303A",,9.20,7.6,0.6,2.20,1.27,9.20,14
+soic,soic_16_narrow,"SOIC 16 Narrow, RPL No. 304A, JEDEC No. MS-012 AC",,10.00,4.0,0.6,2.20,1.27,5.20,16
+soic,soic_16_wide,"SOIC 16 Wide, RPL No. 305A, JEDEC No. MS-013 AA",,10.50,7.6,0.6,2.20,1.27,9.20,16
+soic,soic_20_wide,"SOIC 20 Wide, RPL No. 306A, JEDEC No. MS-013 AC",,13.00,7.6,0.6,2.20,1.27,9.20,20
+soic,soic_24_wide,"SOIC 24 Wide, RPL No. 307A, JEDEC No. MO-119 AA",,15.85,7.6,0.6,2.20,1.27,9.20,24
+soic,soic_24_extrawide,"SOIC 24 Extra wide, RPL No. 308A, JEDEC No. MO-120 AA",,15.85,9.0,0.6,2.20,1.27,10.80,24
+soic,soic_28_wide,"SOIC 28 Wide, RPL No. 309A, JEDEC No. MO-119 AB",,18.39,7.6,0.6,2.20,1.27,9.20,28
+soic,soic_28_extrawide,"SOIC 28 Extra wide, RPL No. 310A, JEDEC No. MO-120 AB",,18.39,9.0,0.6,2.20,1.27,10.80,28
+soic,soic_32_wide,"SOIC 32 Wide, RPL No. 311A, JEDEC No. MO-119 AC",,20.93,7.6,0.6,2.20,1.27,9.20,32
+soic,soic_32_extrawide,"SOIC 32 Extra wide, RPL No. 312A, JEDEC No. MO-120 AC",,20.93,9.0,0.6,2.20,1.27,10.80,32
+soic,soic_36_wide,"SOIC 36 Wide, RPL No. 313A, JEDEC No. MO-119 AD",,23.47,7.6,0.6,2.20,1.27,9.20,36
+soic,soic_36_extrawide,"SOIC 36 Exta wide, RPL No. 314A, JEDEC No. MO-120 AD",,23.47,9.0,0.6,2.20,1.27,10.80,36
+soic,ssoic_48_wide,"SSOIC 48 Wide, RPL No. 330A, JEDEC No. MO-118 AA",,16.00,7.60,0.4,2.20,0.64,9.40,48
+soic,ssoic_56_wide,"SSOIC 56 Wide, RPL No. 331A, JEDEC No. MO-118 AB",,18.29,7.60,0.4,2.20,0.64,9.40,56
+soic,soic_64_extrawide,"SOIC 64 Exta wide, RPL No. 332A, JEDEC No. MO-117",,26.17,11.90,0.5,2.20,0.80,13.40,64
