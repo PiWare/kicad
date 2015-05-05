@@ -1,0 +1,7 @@
+generator,name,description,tags,package_width,package_height,pad_width,pad_height,pad_grid,pad_distance_x,pad_distance_y,pad_count_x,pad_count_y
+qfp,pqfp_84,"PQFP 84, 16.80 mm x 16.80 mm, RLP No. 530A","pqfp, 84",16.80,16.80,0.35,1.8,0.63,18.80,18.80,42,42
+qfp,pqfp_100,"PQFP 100, 19.35 mm x 19.35 mm, RLP No. 531A","pqfp, 100",19.35,19.35,0.35,1.8,0.63,21.40,21.40,50,50
+qfp,pqfp_132,"PQFP 132, 24.40 mm x 24.40 mm, RLP No. 532A","pqfp, 132",24.40,24.40,0.35,1.8,0.63,26.40,26.40,66,66
+qfp,pqfp_164,"PQFP 164, 29.40 mm x 29.40 mm, RLP No. 533A","pqfp, 164",29.40,29.40,0.35,1.8,0.63,31.60,31.60,82,82
+qfp,pqfp_196,"PQFP 196, 34.40 mm x 34.40 mm, RLP No. 534A","pqfp, 196",34.40,34.40,0.35,1.8,0.63,36.60,36.60,98,98
+qfp,pqfp_244,"PQFP 244, 45.40 mm x 45.40 mm, RLP No. 535A","pqfp, 244",39.40,39.40,0.35,1.8,0.63,41.00,41.00,122,122

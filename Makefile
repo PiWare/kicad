@@ -7,12 +7,15 @@ FOOTPRINT_SCRIPT = script/footprint.py
 
 LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
 			$(LIBRARY_ROOT)/rf.lib \
-			$(LIBRARY_ROOT)/capacitor.lib \
-			$(FOOTPRINT_ROOT)/dip \
-			$(FOOTPRINT_ROOT)/soic \
-			$(FOOTPRINT_ROOT)/plcc \
+			$(LIBRARY_ROOT)/capacitor.lib
 
-all: $(LIBRARIES)
+FOOTPRINTS = dip \
+	soic \
+	plcc \
+	pqfp \
+	sqfp
+
+all: $(FOOTPRINTS) $(LIBRARIES)
 
 MCU_CLOCK = data/mcu/pin-table-TM4C123GH6PM.csv\
 			data/mcu/stm32F030C8T6RT.csv
@@ -30,20 +33,7 @@ CAPACITOR = data/avx_condensator.csv
 $(LIBRARY_ROOT)/capacitor.lib: $(CAPACITOR_SCRIPT) $(CAPACITOR)
 	$(CAPACITOR_SCRIPT) --data $(CAPACITOR) --output $@
 
-
 # Footprint generation
-FOOTPRINT_DIP  = data/footprint/dip.csv
-FOOTPRINT_SOIC = data/footprint/soic.csv
-FOOTPRINT_PLCC = data/footprint/plcc.csv
-
-$(FOOTPRINT_ROOT)/dip: $(FOOTPRINT_SCRIPT) $(FOOTPRINT_DIP)
-	mkdir -p $@
-	$(FOOTPRINT_SCRIPT) --csv $(FOOTPRINT_DIP) --output_path $@
-
-$(FOOTPRINT_ROOT)/soic: $(FOOTPRINT_SCRIPT) $(FOOTPRINT_SOIC)
-	mkdir -p $@
-	$(FOOTPRINT_SCRIPT) --csv $(FOOTPRINT_SOIC) --output_path $@
-
-$(FOOTPRINT_ROOT)/plcc: $(FOOTPRINT_SCRIPT) $(FOOTPRINT_PLCC)
-	mkdir -p $@
-	$(FOOTPRINT_SCRIPT) --csv $(FOOTPRINT_PLCC) --output_path $@
+$(FOOTPRINTS): %: data/footprint/%.csv
+	mkdir -p $(FOOTPRINT_ROOT)/$@
+	$(FOOTPRINT_SCRIPT) --csv $< --output_path $(FOOTPRINT_ROOT)/$@

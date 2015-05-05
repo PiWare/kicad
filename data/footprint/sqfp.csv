@@ -1,0 +1,19 @@
+generator,name,description,tags,package_width,package_height,pad_width,pad_height,pad_grid,pad_distance_x,pad_distance_y,pad_count_x,pad_count_y
+qfp,sqfp_5x5_24_500um,"SQFP 24, 5.00 mm x 5.00 mm, Pitch 0.50 mm, RLP No. 550A",,5.00,5.00,0.30,1.60,0.50,6.20,6.20,12,12
+qfp,sqfp_5x5_32_500um,"SQFP 32, 5.00 mm x 5.00 mm, Pitch 0.50 mm, RLP No. 551A",,5.00,5.00,0.30,1.60,0.50,6.20,6.20,16,16
+qfp,sqfp_5x5_32_400um,"SQFP 32, 5.00 mm x 5.00 mm, Pitch 0.40 mm, RLP No. 552A",,5.00,5.00,0.25,1.60,0.40,6.20,6.20,16,16
+qfp,sqfp_5x5_40_400um,"SQFP 40, 5.00 mm x 5.00 mm, Pitch 0.40 mm, RLP No. 553A",,5.00,5.00,0.25,1.60,0.40,6.20,6.20,20,20
+qfp,sqfp_5x5_48_300um,"SQFP 48, 5.00 mm x 5.00 mm, Pitch 0.30 mm, RLP No. 554A",,5.00,5.00,0.17,1.60,0.30,6.20,6.20,24,24
+qfp,sqfp_5x5_56_300um,"SQFP 56, 5.00 mm x 5.00 mm, Pitch 0.30 mm, RLP No. 555A",,5.00,5.00,0.17,1.60,0.30,6.20,6.20,28,28
+qfp,sqfp_6x6_32_500um,"SQFP 32, 6.00 mm x 6.00 mm, Pitch 0.50 mm, RLP No. 556A",,6.00,6.00,0.30,1.60,0.50,7.20,7.20,16,16
+qfp,sqfp_6x6_40_500um,"SQFP 40, 6.00 mm x 6.00 mm, Pitch 0.50 mm, RLP No. 557A",,6.00,6.00,0.30,1.60,0.50,7.20,7.20,20,20
+qfp,sqfp_6x6_40_400um,"SQFP 40, 6.00 mm x 6.00 mm, Pitch 0.40 mm, RLP No. 558A",,6.00,6.00,0.25,1.60,0.40,7.20,7.20,20,20
+qfp,sqfp_6x6_48_400um,"SQFP 48, 6.00 mm x 6.00 mm, Pitch 0.40 mm, RLP No. 559A",,6.00,6.00,0.25,1.60,0.40,7.20,7.20,24,24
+qfp,sqfp_6x6_56_300um,"SQFP 56, 6.00 mm x 6.00 mm, Pitch 0.30 mm, RLP No. 560A",,6.00,6.00,0.17,1.60,0.30,7.20,7.20,28,28
+qfp,sqfp_6x6_64_300um,"SQFP 64, 6.00 mm x 6.00 mm, Pitch 0.30 mm, RLP No. 561A",,6.00,6.00,0.17,1.60,0.30,7.20,7.20,32,32
+qfp,sqfp_7x7_40_500um,"SQFP 40, 7.00 mm x 7.00 mm, Pitch 0.50 mm, RLP No. 562A",,7.00,7.00,0.30,1.60,0.50,8.20,8.20,20,20
+qfp,sqfp_7x7_48_500um,"SQFP 48, 7.00 mm x 7.00 mm, Pitch 0.50 mm, RLP No. 563A",,7.00,7.00,0.30,1.60,0.50,8.20,8.20,24,24
+qfp,sqfp_7x7_56_400um,"SQFP 56, 7.00 mm x 7.00 mm, Pitch 0.40 mm, RLP No. 564A",,7.00,7.00,0.25,1.60,0.40,8.20,8.20,28,28
+qfp,sqfp_7x7_64_400um,"SQFP 64, 7.00 mm x 7.00 mm, Pitch 0.40 mm, RLP No. 565A",,7.00,7.00,0.25,1.60,0.40,8.20,8.20,32,32
+qfp,sqfp_7x7_72_300um,"SQFP 72, 7.00 mm x 7.00 mm, Pitch 0.30 mm, RLP No. 566A",,7.00,7.00,0.17,1.60,0.30,8.20,8.20,36,36
+qfp,sqfp_7x7_80_300um,"SQFP 80, 7.00 mm x 7.00 mm, Pitch 0.30 mm, RLP No. 567A",,7.00,7.00,0.17,1.60,0.30,8.20,8.20,40,40
