@@ -174,8 +174,51 @@ class footprint():
 		result += ')\n'
 		return result
 
+class wired(footprint):
+	"""Generator for wired resistors, capacitors, ..."""
+
+	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count, drill):
+		footprint.__init__(self, name, description, tags)
+
+class dip(footprint):
+	"""Generator for dual inline ICs"""
+
+	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count, drill):
+		footprint.__init__(self, name, description, tags)
+
+		if count % 2:
+			raise NameError("pin count is odd")
+
+		pin = 1
+		x = pad_grid * -((float(count) / 4) - 0.5)
+		line_x = package_width / 2
+
+		footprint.add(self, rectangle(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
+		footprint.add(self, arc(cfg.FOOTPRINT_PACKAGE_LAYER, -line_x, 0, -line_x, 1.0, -180, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH))
+		for i in range(count / 2):
+			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, pad_distance / 2, pad_width, pad_height, 0, drill))
+			x += pad_grid
+			pin += 1
+
+		for i in range(count / 2, count):
+			x -= pad_grid
+			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, -pad_distance / 2, pad_width, pad_height, 0, drill))
+			pin += 1
+
+class connector(footprint):
+	"""Generator wired connector lines"""
+
+	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count_x, count_y, drill):
+		footprint.__init__(self, name, description, tags)
+
+class dsub(footprint):
+	"""Generator for dsub connectors (this one will be tricky...)"""
+
+	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count_x, count_y, drill):
+		footprint.__init__(self, name, description, tags)
+
 class chip(footprint):
-	"""Generator for chip resistors, capacitors and inductors"""
+	"""Generator for chip resistors, capacitors, inductors, MELF and Tantal devices"""
 
 	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height):
 		footprint.__init__(self, name, description, tags, True)
@@ -184,6 +227,16 @@ class chip(footprint):
 		self.pad_width = pad_width
 		self.pad_height = pad_height
 		footprint.add(self, rectangle(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
+
+class chip_pol(chip):
+	"""Generator for chip devices with polarity marker"""
+
+	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height):
+		chip.__init__(self, name, description, tags, package_width, package_height, pad_width, pad_height)
+
+		line_x = package_width / 2 + package_widht * 0.1
+		line_y = package_height / 2
+		footprint.add(self, line(cfg.FOOTPRINT_PACKAGE_LAYER, -line_x, -line_y, -line_x, line_y, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH))
 
 class soic(footprint):
 	"""Generator for small outline ICs"""
@@ -195,7 +248,7 @@ class soic(footprint):
 			raise NameError("pin count is odd")
 
 		pin = 1
-		x = pad_grid * -((count / 4) - 0.5)
+		x = pad_grid * -((float(count) / 4) - 0.5)
 		line_x = package_width / 2
 		line_y = package_height / 2 - 0.5
 
@@ -215,30 +268,49 @@ class soic(footprint):
 			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, -pad_distance / 2, pad_width, pad_height, 0))
 			pin += 1
 
-class dip(footprint):
-	"""Generator for dual inline ICs"""
+class qfp(footprint):
+	"""Generator for LQFP/TQFP/PQFP and other xQFP footprints"""
 
-	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count, drill):
+	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance_x, pad_distance_y, pad_count_x, pad_count_y):
 		footprint.__init__(self, name, description, tags)
 
-		if count % 2:
-			raise NameError("pin count is odd")
-
-		pin = 1
-		x = pad_grid * -((count / 4) - 0.5)
-		line_x = package_width / 2
+		if pad_count_x % 2 or pad_count_y % 2:
+			raise NameError("Pad count is odd!")
 
 		footprint.add(self, rectangle(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
-		footprint.add(self, arc(cfg.FOOTPRINT_PACKAGE_LAYER, -line_x, 0, -line_x, 1.0, -180, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH))
-		for i in range(count / 2):
-			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, pad_distance / 2, pad_width, pad_height, 0, drill))
+
+		pin = 1
+		y = pad_grid * -((float(pad_count_y) / 4) - 0.5)
+		x = pad_grid * -((float(pad_count_x) / 4) - 0.5)
+		footprint.add(self, circle(cfg.FOOTPRINT_PACKAGE_LAYER, x, y, x + 0.5, y, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH))
+		for i in range(pad_count_y / 2):
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, -pad_distance_x / 2, y, pad_width, pad_height, 90))
+			y += pad_grid
+			pin += 1
+
+		for i in range(pad_count_x / 2):
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, pad_distance_y / 2, pad_width, pad_height, 0))
 			x += pad_grid
 			pin += 1
 
-		for i in range(count / 2, count):
-			x -= pad_grid
-			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, -pad_distance / 2, pad_width, pad_height, 0, drill))
+		y = pad_grid * ((float(pad_count_y) / 4) - 0.5)
+		for i in range(pad_count_y / 2):
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, pad_distance_x / 2, y, pad_width, pad_height, 90))
+			y -= pad_grid
 			pin += 1
+
+		x = pad_grid * ((float(pad_count_x) / 4) - 0.5)
+		for i in range(pad_count_x / 2):
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, -pad_distance_y / 2, pad_width, pad_height, 0))
+			x -= pad_grid
+			pin += 1
+
+
+class bga(footprint):
+	"""Generator for ball grid array footprints"""
+
+	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count_x, count_y):
+		footprint.__init__(self, name, description, tags)
 
 if __name__ == "__main__":
 	import argparse
@@ -261,6 +333,9 @@ if __name__ == "__main__":
 					fp = soic(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance']), int(data['pad_count']))
 				elif data['generator'] == "dip":
 					fp = dip(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance']), int(data['pad_count']), float(data['pad_drill']))
+				elif data['generator'] == "qfp":
+					fp = qfp(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance_x']), float(data['pad_distance_y']), int(data['pad_count_x']), int(data['pad_count_y']))
+
 
 				if 'fp' in locals():
 					output = open(args.output_path+'/'+data['name']+cfg.FOOTPRINT_EXTENSION, "w")

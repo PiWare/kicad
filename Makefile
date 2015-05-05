@@ -1,5 +1,5 @@
 LIBRARY_ROOT = library
-FOOTPRINT_ROOT = tmp
+FOOTPRINT_ROOT = modules
 
 CPU_SCRIPT = script/cpu.py
 CAPACITOR_SCRIPT = script/capacitor.py
@@ -9,7 +9,8 @@ LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
 			$(LIBRARY_ROOT)/rf.lib \
 			$(LIBRARY_ROOT)/capacitor.lib \
 			$(FOOTPRINT_ROOT)/dip \
-			$(FOOTPRINT_ROOT)/soic
+			$(FOOTPRINT_ROOT)/soic \
+			$(FOOTPRINT_ROOT)/plcc \
 
 all: $(LIBRARIES)
 
@@ -33,6 +34,7 @@ $(LIBRARY_ROOT)/capacitor.lib: $(CAPACITOR_SCRIPT) $(CAPACITOR)
 # Footprint generation
 FOOTPRINT_DIP  = data/footprint/dip.csv
 FOOTPRINT_SOIC = data/footprint/soic.csv
+FOOTPRINT_PLCC = data/footprint/plcc.csv
 
 $(FOOTPRINT_ROOT)/dip: $(FOOTPRINT_SCRIPT) $(FOOTPRINT_DIP)
 	mkdir -p $@
@@ -41,3 +43,7 @@ $(FOOTPRINT_ROOT)/dip: $(FOOTPRINT_SCRIPT) $(FOOTPRINT_DIP)
 $(FOOTPRINT_ROOT)/soic: $(FOOTPRINT_SCRIPT) $(FOOTPRINT_SOIC)
 	mkdir -p $@
 	$(FOOTPRINT_SCRIPT) --csv $(FOOTPRINT_SOIC) --output_path $@
+
+$(FOOTPRINT_ROOT)/plcc: $(FOOTPRINT_SCRIPT) $(FOOTPRINT_PLCC)
+	mkdir -p $@
+	$(FOOTPRINT_SCRIPT) --csv $(FOOTPRINT_PLCC) --output_path $@

@@ -1,0 +1,8 @@
+generator,name,description,tags,package_width,package_height,pad_width,pad_height,pad_grid,pad_distance_x,pad_distance_y,pad_count_x,pad_count_y
+qfp,plcc_20,"PLCC 20, 8.89mm x 8.89mm",,8.89,8.89,0.63,2.035,1.27,8.765,8.765,10,10
+qfp,plcc_28,"PLCC 28, 11.43mm x 11.43mm",,11.43,11.43,0.63,2.035,1.27,11.305,11.305,14,14
+qfp,plcc_32,"PLCC 32, 11.43mm x 14.05mm",,11.43,14.05,0.63,2.035,1.27,11.305,14,16,16
+qfp,plcc_44,"PLCC 44, 16.51mm x 16.51mm",,16.51,16.51,0.63,2.035,1.27,16.385,16.385,22,22
+qfp,plcc_52,"PLCC 52, 19.05mm x 19.05mm",,19.05,19.05,0.63,2.035,1.27,18.925,18.925,26,26
+qfp,plcc_68,"PLCC 68, 24.13mm x 24.13mm",,24.13,24.13,0.63,2.035,1.27,24.005,24.005,34,34
+qfp,plcc_84,"PLCC 84, 29.21mm x 29.21mm",,29.21,29.21,0.63,2.035,1.27,29.085,29.085,42,42
