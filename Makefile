@@ -1,12 +1,15 @@
 LIBRARY_ROOT = library
+FOOTPRINT_ROOT = tmp
 
 CPU_SCRIPT = script/cpu.py
-
 CAPACITOR_SCRIPT = script/capacitor.py
+FOOTPRINT_SCRIPT = script/footprint.py
 
 LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
 			$(LIBRARY_ROOT)/rf.lib \
-			$(LIBRARY_ROOT)/capacitor.lib
+			$(LIBRARY_ROOT)/capacitor.lib \
+			$(FOOTPRINT_ROOT)/dip \
+			$(FOOTPRINT_ROOT)/soic
 
 all: $(LIBRARIES)
 
@@ -25,3 +28,16 @@ CAPACITOR = data/avx_condensator.csv
 
 $(LIBRARY_ROOT)/capacitor.lib: $(CAPACITOR_SCRIPT) $(CAPACITOR)
 	$(CAPACITOR_SCRIPT) --data $(CAPACITOR) --output $@
+
+
+# Footprint generation
+FOOTPRINT_DIP  = data/footprint/dip.csv
+FOOTPRINT_SOIC = data/footprint/soic.csv
+
+$(FOOTPRINT_ROOT)/dip: $(FOOTPRINT_SCRIPT) $(FOOTPRINT_DIP)
+	mkdir -p $@
+	$(FOOTPRINT_SCRIPT) --csv $(FOOTPRINT_DIP) --output_path $@
+
+$(FOOTPRINT_ROOT)/soic: $(FOOTPRINT_SCRIPT) $(FOOTPRINT_SOIC)
+	mkdir -p $@
+	$(FOOTPRINT_SCRIPT) --csv $(FOOTPRINT_SOIC) --output_path $@

@@ -38,7 +38,7 @@ class text():
 	"""Generate text at x/y"""
 	format = """  (fp_text %s %s (at %.3f %.3f) (layer %s)
 	(effects (font (size %.3f %.3f) (thickness %.3f)))
-  )"""
+  )\n"""
 
 	def __init__(self, layer, name, value, x, y, size, thickness):
 		self.layer = layer
@@ -50,11 +50,11 @@ class text():
 		self.thickness = thickness
 
 	def render(self):
-		print text.format%(self.name, self.value, self.x, self.y, self.layer, self.size, self.size, self.thickness)
+		return text.format%(self.name, self.value, self.x, self.y, self.layer, self.size, self.size, self.thickness)
 
 class line():
 	"""Generate line from x1/y1 to x2/y2"""
-	format = "  (fp_line (start %.3f %.3f) (end %.3f %.3f) (layer %s) (width %.3f))"
+	format = "  (fp_line (start %.3f %.3f) (end %.3f %.3f) (layer %s) (width %.3f))\n"
 
 	def __init__(self, layer, x1, y1, x2, y2, width):
 		self.layer = layer
@@ -65,12 +65,12 @@ class line():
 		self.width = width
 
 	def render(self):
-		print line.format%(self.x1, self.y1, self.x2, self.y2, self.layer, self.width)
+		return line.format%(self.x1, self.y1, self.x2, self.y2, self.layer, self.width)
 
 class arc():
 	"""Generate arc between x1/y1 and x2/y2 with given angle"""
 
-	format = "  (fp_arc (start %.3f %.3f) (end %.3f %.3f) (angle %.3f) (layer %s) (width %.3f))"
+	format = "  (fp_arc (start %.3f %.3f) (end %.3f %.3f) (angle %.3f) (layer %s) (width %.3f))\n"
 
 	def __init__(self, layer, x1, y1, x2, y2, angle, width):
 		self.layer = layer
@@ -82,12 +82,12 @@ class arc():
 		self.width = width
 
 	def render(self):
-		print arc.format%(self.x1, self.y1, self.x2, self.y2, self.angle, self.layer, self.width)
+		return arc.format%(self.x1, self.y1, self.x2, self.y2, self.angle, self.layer, self.width)
 
 class circle():
 	"""Generate circle with center x1/y1 and radius through point x2/y2"""
 
-	format = "  (fp_circle (center %.3f %.3f) (end %.3f %.3f) (layer %s) (width %.3f))"
+	format = "  (fp_circle (center %.3f %.3f) (end %.3f %.3f) (layer %s) (width %.3f))\n"
 
 	def __init__(self, layer, x1, y1, x2, y2, width):
 		self.layer = layer
@@ -98,7 +98,7 @@ class circle():
 		self.width = width
 
 	def render(self):
-		print circle.format%(self.x1, self.y1, self.x2, self.y2, self.layer, self.width)
+		return circle.format%(self.x1, self.y1, self.x2, self.y2, self.layer, self.width)
 
 class rectangle():
 	"""Generate rectangle on given layer"""
@@ -115,13 +115,15 @@ class rectangle():
 		self.elements.append(line(layer, x, y + height, x, y, line_width))
 
 	def render(self):
+		result = ""
 		for element in self.elements:
-			element.render()
+			result += element.render()
+		return result
 
 class pad():
 	"""Generate pad in x/y with size width/height in given technology/type"""
 
-	format = "  (pad %s %s %s (at %.3f %.3f %.3f) (size %.3f %.3f) %s(layers %s))"
+	format = "  (pad %s %s %s (at %.3f %.3f %.3f) (size %.3f %.3f) %s(layers %s))\n"
 	format_drill = "(drill %.3f) "
 
 	def __init__(self, layers, name, tech, type, x, y, width, height, angle = 0, drill = 0):
@@ -140,7 +142,7 @@ class pad():
 			self.drill = ""
 
 	def render(self):
-		print pad.format%(self.name, self.tech, self.type, self.x, self.y, self.angle, self.width, self.height, self.drill, self.layers)
+		return pad.format%(self.name, self.tech, self.type, self.x, self.y, self.angle, self.width, self.height, self.drill, self.layers)
 
 class footprint():
 	def __init__(self, name, description = "", tags = "", smd = False):
@@ -151,26 +153,26 @@ class footprint():
 		self.elements = []
 
 		self.elements.append(text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, 0, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
-		self.elements.append(text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, 1, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
+		self.elements.append(text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, cfg.FOOTPRINT_VALUE_FONT_SIZE + 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
 
 	def add(self, element):
 		self.elements.append(element)
 
 	def render(self):
-		print '(module %s (tedit %.8X)'%(self.name, int(time.time()))
+		result = '(module %s (tedit %.8X)\n'%(self.name, int(time.time()))
 		if self.smd:
-			print '  (attr smd)'
+			result += '  (attr smd)\n'
 
 		if len(self.description):
-			print '  (descr "'+self.description+'")'
+			result += '  (descr "'+self.description+'")\n'
 
 		if len(self.tags):
-			print '  (tags "'+self.tags+'")'
+			result += '  (tags "'+self.tags+'")\n'
 
 		for element in self.elements:
-			element.render()
-
-		print ')'
+			result += element.render()
+		result += ')\n'
+		return result
 
 class chip(footprint):
 	"""Generator for chip resistors, capacitors and inductors"""
@@ -213,7 +215,7 @@ class soic(footprint):
 			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, -pad_distance / 2, pad_width, pad_height, 0))
 			pin += 1
 
-class dil(footprint):
+class dip(footprint):
 	"""Generator for dual inline ICs"""
 
 	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count, drill):
@@ -227,7 +229,7 @@ class dil(footprint):
 		line_x = package_width / 2
 
 		footprint.add(self, rectangle(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
-		footprint.add(self, arc(cfg.FOOTPRINT_PACKAGE_LAYER, -line_x, 0, -line_x, 0.6, -180, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH))
+		footprint.add(self, arc(cfg.FOOTPRINT_PACKAGE_LAYER, -line_x, 0, -line_x, 1.0, -180, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH))
 		for i in range(count / 2):
 			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, pad_distance / 2, pad_width, pad_height, 0, drill))
 			x += pad_grid
@@ -238,20 +240,33 @@ class dil(footprint):
 			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, -pad_distance / 2, pad_width, pad_height, 0, drill))
 			pin += 1
 
-with open('data/footprint/soic.csv', 'rb') as csvfile:
-	table = csv.reader(csvfile, delimiter=',', quotechar='\"')
-	first_row = 1
-	for row in table:
-		if first_row == 1:
-			header = row
-			first_row = 0
-		else:
-			data = dict(zip(header, row))
-			if data['generator'] == "soic":
-				fp = soic(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance']), int(data['pad_count']))
-			elif data['generator'] == "dil":
-				fp = dil(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance']), int(data['pad_count']), float(data['pad_drill']))
-			fp.render()
-			del fp
+if __name__ == "__main__":
+	import argparse
 
-#footprint_table['soic'](data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance']), int(data['pad_count']))
+	parser = argparse.ArgumentParser(description = 'Footprint generator from csv table.')
+	parser.add_argument('--csv', metavar = 'csv', type = str, help = 'CSV formatted input table', required = True)
+	parser.add_argument('--output_path', metavar = 'output_path', type = str, help = 'Output path for generated KiCAD footprint files', required = True)
+	args = parser.parse_args()
+
+	with open(args.csv, 'rb') as csvfile:
+		table = csv.reader(csvfile, delimiter=',', quotechar='\"')
+		first_row = 1
+		for row in table:
+			if first_row == 1:
+				header = row
+				first_row = 0
+			else:
+				data = dict(zip(header, row))
+				if data['generator'] == "soic":
+					fp = soic(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance']), int(data['pad_count']))
+				elif data['generator'] == "dip":
+					fp = dip(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance']), int(data['pad_count']), float(data['pad_drill']))
+
+				if 'fp' in locals():
+					output = open(args.output_path+'/'+data['name']+cfg.FOOTPRINT_EXTENSION, "w")
+				#	print fp.render()
+					output.write(fp.render())
+					output.close()
+					del fp
+				else:
+					print "Unknown footprint generator '"+data['generator']+"'"

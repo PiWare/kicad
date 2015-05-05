@@ -1,0 +1,14 @@
+generator,name,description,tags,package_width,package_height,pad_width,pad_height,pad_grid,pad_distance,pad_count,pad_drill
+dip,dip_8,"DIP 8, RPL No. 860",,10.92,7.11,1.20,2.20,2.54,7.60,8,0.8
+dip,dip_14,"DIP 14, RPL No. 861",,20.19,7.11,1.20,2.20,2.54,7.60,14,0.8
+dip,dip_16,"DIP 16, RPL No. 862",,21.33,7.11,1.20,2.20,2.54,7.60,16,0.8
+dip,dip_18,"DIP 18, RPL No. 863",,23.49,7.11,1.20,2.20,2.54,7.60,18,0.8
+dip,dip_20,"DIP 20, RPL No. 864",,26.90,7.11,1.20,2.20,2.54,7.60,20,0.8
+dip,dip_22_large,"DIP 22 Large, RPL No. 865",,28.44,9.65,1.20,2.20,2.54,10.20,22,0.8
+dip,dip_24,"DIP 24, RPL No. 866",,32.30,7.11,1.20,2.20,2.54,7.60,24,0.8
+dip,dip_24_large,"DIP 24 Large, RPL No. 867",,30.98,9.65,1.20,2.20,2.54,10.20,24,0.8
+dip,dip_24_extralarge,"DIP 24 Extra large, RPL No. 867",,32.70,14.73,1.20,2.20,2.54,15.20,24,0.8
+dip,dip_28,"DIP 28, RPL No. 869",,36.20,7.11,1.20,2.20,2.54,7.60,28,0.8
+dip,dip_28_extralarge,"DIP 28 Extra large, RPL No. 870",,39.70,14.73,1.20,2.20,2.54,15.20,28,0.8
+dip,dip_40_extralarge,"DIP 40 Extra large, RPL No. 871",,53.20,14.73,1.20,2.20,2.54,15.20,40,0.8
+dip,dip_48_extralarge,"DIP 48 Extra large, RPL No. 872",,63.10,14.73,1.20,2.20,2.54,15.20,48,0.8
