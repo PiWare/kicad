@@ -14,13 +14,18 @@ class Config(object):
 
     def __init__(self, configFile):
         for line in open(configFile,"r"):
-            parts = line.split("=",1)
+            parts = line.rstrip().split("=",1)
             if len(parts) > 1:
+                # Strip enclosing double quotes
+                if parts[1].startswith('"') and parts[1].endswith('"'):
+                    parts[1] = parts[1][1:-1]
+
                 try:
-                    numVal = int(float(parts[1]))
+                    numVal = float(parts[1])
                     setattr(self,parts[0],numVal)
                 except:
                     setattr(self,parts[0],parts[1])
+
     __hash__ = None
 
     def __eq__(self, other):
