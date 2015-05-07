@@ -308,7 +308,7 @@ def MakeSingleSymbol(inFile, outFile):
 def MakeRoundClockSymbol(inFile, outFile):
     """ Output a new part in the outFile library.
         The part will contain a single symbol with the pins
-        layed out clockwise according to the pin numer.
+        layed out clockwise according to the pin number.
     """
     startPins = False
     partName = ""

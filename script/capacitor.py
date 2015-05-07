@@ -65,7 +65,7 @@ class Capacitor(object):
             Capacitor.f0Field%(self.name),
             Capacitor.f1Field%(self.name),
             "$FPLIST"]
-        result.extend(map(lambda x : "SMD_"+x[0]+"_"+x[1] , packageList))
+        result.extend(map(lambda x : "SMDC"+x[0] , packageList))
         result = result + [
             "$ENDFPLIST",
             "DRAW",

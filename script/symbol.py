@@ -24,7 +24,7 @@ cfg = config.Config("config")
 class Pin(object):
     """Represents a pin assigned to a schematic symbol."""
 
-    FormatString = "X %s %i %i %i " + str(cfg.SYMBOL_PIN_LENGTH) + " %s " + str(cfg.SYMBOL_PIN_NUMBER_SIZE) + " " + str(cfg.SYMBOL_PIN_NAME_SIZE) + " %i %i %s"
+    FormatString = "X %%s %%i %%i %%i %i %%s %i %i %%i %%i %%s"%(cfg.SYMBOL_PIN_LENGTH, cfg.SYMBOL_PIN_NUMBER_SIZE, cfg.SYMBOL_PIN_NAME_SIZE)
 
     def __init__(self, name, number, type):
         """Create a new pin object representing a symbol pin.
@@ -53,17 +53,9 @@ class Pin(object):
 class Symbol(object):
     """Represents a kicad schematic library symbol."""
 
-    DefFormat="DEF %s %s 0 "+str(cfg.SYMBOL_PIN_TEXT_OFFSET)+" Y Y %i L N"
-    RefFieldFormat = ( "F%i"%(cfg.REFERENCE_FIELD)
-            + ' "%s" %i %i'
-            + " " + str(cfg.SYMBOL_NAME_SIZE)
-            + " H V C CNN")
-
-    ValueFieldFormat = ( "F%i"%(cfg.VALUE_FIELD)
-            + ' "%s" %i %i'
-            + " " + str(cfg.SYMBOL_NAME_SIZE)
-            + " H I C CNN")
-
+    DefFormat="DEF %%s %%s 0 %i Y Y %%i L N"%(cfg.SYMBOL_PIN_TEXT_OFFSET)
+    RefFieldFormat = 'F%i "%%s" %%i %%i %i H V C CNN'%(cfg.REFERENCE_FIELD,cfg.SYMBOL_NAME_SIZE)
+    ValueFieldFormat = 'F%i "%%s" %%i %%i %i H I C CNN'%(cfg.VALUE_FIELD,cfg.SYMBOL_NAME_SIZE)
     FootprintFieldFormat = "F%i"%(cfg.FOOTPRINT_FIELD) +' "%s" 0 0 30 H I C CCN'
 
     def __init__(self, name, ref, nameCentered, package = ""):
