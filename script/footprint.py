@@ -20,6 +20,7 @@
 import time
 import csv
 import config
+import math
 cfg = config.Config("config")
 
 class technology():
@@ -120,13 +121,37 @@ class rectangle():
 			result += element.render()
 		return result
 
+class beveled_rectangle():
+	"""Rectangle with beveled edges"""
+
+	def __init__(self, layer, x, y, width, height, bevel, line_width, centered = False):
+		if centered:
+			x -= width / 2
+			y -= height / 2
+
+		self.elements = []
+		self.elements.append(line(layer, x + bevel, y, x + width - bevel, y, line_width))							# -
+		self.elements.append(line(layer, x + width - bevel, y, x + width, y + bevel, line_width))					# \
+		self.elements.append(line(layer, x + width, y + bevel, x + width, y + height - bevel, line_width))			# |
+		self.elements.append(line(layer, x + width, y + height - bevel, x + width - bevel, y + height, line_width))	# /
+		self.elements.append(line(layer, x + width - bevel, y + height, x + bevel, y + height, line_width))			# -
+		self.elements.append(line(layer, x + bevel, y + height, x, y + height - bevel, line_width))					# \
+		self.elements.append(line(layer, x, y + height - bevel, x, y + bevel, line_width))							# |
+		self.elements.append(line(layer, x, y + bevel, x + bevel, y, line_width))									# /
+
+	def render(self):
+		result = ""
+		for element in self.elements:
+			result += element.render()
+		return result
+
 class pad():
 	"""Generate pad in x/y with size width/height in given technology/type"""
 
 	format = "  (pad %s %s %s (at %.3f %.3f %.3f) (size %.3f %.3f) %s(layers %s))\n"
 	format_drill = "(drill %.3f) "
 
-	def __init__(self, layers, name, tech, type, x, y, width, height, angle = 0, drill = 0):
+	def __init__(self, layers, name, tech, type, x, y, width, height, drill = 0, angle = 0):
 		self.layers = layers
 		self.name = name
 		self.tech = tech
@@ -135,11 +160,11 @@ class pad():
 		self.y = y
 		self.width = width
 		self.height = height
-		self.angle = angle
 		if drill:
 			self.drill = pad.format_drill%(drill)
 		else:
 			self.drill = ""
+		self.angle = angle
 
 	def render(self):
 		return pad.format%(self.name, self.tech, self.type, self.x, self.y, self.angle, self.width, self.height, self.drill, self.layers)
@@ -157,6 +182,9 @@ class footprint():
 
 	def add(self, element):
 		self.elements.append(element)
+
+	def remove(self, index):
+		self.elements.remove(index)
 
 	def render(self):
 		result = '(module %s (tedit %.8X)\n'%(self.name, int(time.time()))
@@ -180,29 +208,40 @@ class wired(footprint):
 	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count, drill):
 		footprint.__init__(self, name, description, tags)
 
+class wired_resistor(footprint):
+	"""Wired resistor with beveled edges"""
+
+	def __init__(self, name, description, tags, package_width, package_height, pad_diameter, pad_distance, pad_drill):
+		footprint.__init__(self, name, description, tags)
+
+		bevel = math.sqrt(package_width * package_width + package_height * package_height) * 0.1
+		footprint.add(self, beveled_rectangle(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, bevel, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
+		footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, 1, technology.thru_hole, type.circle, -pad_distance / 2, 0, pad_diameter, pad_diameter, pad_drill))
+		footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, 2, technology.thru_hole, type.circle, pad_distance / 2, 0, pad_diameter, pad_diameter, pad_drill))
+
 class dip(footprint):
 	"""Generator for dual inline ICs"""
 
-	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count, drill):
+	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, pad_count, pad_drill):
 		footprint.__init__(self, name, description, tags)
 
-		if count % 2:
-			raise NameError("pin count is odd")
+		if pad_count % 2:
+			raise NameError("pad_count is odd")
 
 		pin = 1
-		x = pad_grid * -((float(count) / 4) - 0.5)
+		x = pad_grid * -((float(pad_count) / 4) - 0.5)
 		line_x = package_width / 2
 
 		footprint.add(self, rectangle(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
 		footprint.add(self, arc(cfg.FOOTPRINT_PACKAGE_LAYER, -line_x, 0, -line_x, 1.0, -180, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH))
-		for i in range(count / 2):
-			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, pad_distance / 2, pad_width, pad_height, 0, drill))
+		for i in range(pad_count / 2):
+			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, pad_distance / 2, pad_width, pad_height, pad_drill))
 			x += pad_grid
 			pin += 1
 
-		for i in range(count / 2, count):
+		for i in range(pad_count / 2, pad_count):
 			x -= pad_grid
-			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, -pad_distance / 2, pad_width, pad_height, 0, drill))
+			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, -pad_distance / 2, pad_width, pad_height, pad_drill))
 			pin += 1
 
 class connector(footprint):
@@ -241,14 +280,14 @@ class chip_pol(chip):
 class soic(footprint):
 	"""Generator for small outline ICs"""
 
-	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count):
+	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, pad_count):
 		footprint.__init__(self, name, description, tags, True)
 
-		if count % 2:
-			raise NameError("pin count is odd")
+		if pad_count % 2:
+			raise NameError("pad_count is odd")
 
 		pin = 1
-		x = pad_grid * -((float(count) / 4) - 0.5)
+		x = pad_grid * -((float(pad_count) / 4) - 0.5)
 		line_x = package_width / 2
 		line_y = package_height / 2 - 0.5
 
@@ -258,14 +297,14 @@ class soic(footprint):
 		diff = -line_x - x
 		line_y += diff
 		footprint.add(self, circle(cfg.FOOTPRINT_PACKAGE_LAYER, x, line_y, x - 0.3, line_y, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH))
-		for i in range(count / 2):
-			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, pad_distance / 2, pad_width, pad_height, 0))
+		for i in range(pad_count / 2):
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, pad_distance / 2, pad_width, pad_height))
 			x += pad_grid
 			pin += 1
 
-		for i in range(count / 2, count):
+		for i in range(pad_count / 2, pad_count):
 			x -= pad_grid
-			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, -pad_distance / 2, pad_width, pad_height, 0))
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, -pad_distance / 2, pad_width, pad_height))
 			pin += 1
 
 class qfp(footprint):
@@ -284,24 +323,24 @@ class qfp(footprint):
 		x = pad_grid * -((float(pad_count_x) / 4) - 0.5)
 		footprint.add(self, circle(cfg.FOOTPRINT_PACKAGE_LAYER, x, y, x + 0.5, y, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH))
 		for i in range(pad_count_y / 2):
-			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, -pad_distance_x / 2, y, pad_width, pad_height, 90))
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, -pad_distance_x / 2, y, pad_width, pad_height, 0, 90))
 			y += pad_grid
 			pin += 1
 
 		for i in range(pad_count_x / 2):
-			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, pad_distance_y / 2, pad_width, pad_height, 0))
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, pad_distance_y / 2, pad_width, pad_height, 0, 0))
 			x += pad_grid
 			pin += 1
 
 		y = pad_grid * ((float(pad_count_y) / 4) - 0.5)
 		for i in range(pad_count_y / 2):
-			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, pad_distance_x / 2, y, pad_width, pad_height, 90))
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, pad_distance_x / 2, y, pad_width, pad_height, 0, 90))
 			y -= pad_grid
 			pin += 1
 
 		x = pad_grid * ((float(pad_count_x) / 4) - 0.5)
 		for i in range(pad_count_x / 2):
-			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, -pad_distance_y / 2, pad_width, pad_height, 0))
+			footprint.add(self, pad(cfg.FOOTPRINT_SMD_LAYERS, pin, technology.smd, type.rect, x, -pad_distance_y / 2, pad_width, pad_height, 0, 0))
 			x -= pad_grid
 			pin += 1
 
@@ -309,7 +348,7 @@ class qfp(footprint):
 class bga(footprint):
 	"""Generator for ball grid array footprints"""
 
-	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count_x, count_y):
+	def __init__(self, name, description, tags, package_width, package_height, pad_diameter, pad_grid, pad_distance, count_x, count_y):
 		footprint.__init__(self, name, description, tags)
 
 if __name__ == "__main__":
@@ -329,13 +368,27 @@ if __name__ == "__main__":
 				first_row = 0
 			else:
 				data = dict(zip(header, row))
-				if data['generator'] == "soic":
-					fp = soic(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance']), int(data['pad_count']))
-				elif data['generator'] == "dip":
-					fp = dip(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance']), int(data['pad_count']), float(data['pad_drill']))
-				elif data['generator'] == "qfp":
-					fp = qfp(data['name'], data['description'], data['tags'], float(data['package_width']), float(data['package_height']), float(data['pad_width']), float(data['pad_height']), float(data['pad_grid']), float(data['pad_distance_x']), float(data['pad_distance_y']), int(data['pad_count_x']), int(data['pad_count_y']))
+				# Can this be made little bit more elegant?
+				for key in data:
+					try:
+						if key.find("count") != -1:
+							data[key] = int(data[key])
+						else:
+							data[key] = float(data[key])
+					except:
+						pass
 
+				generator = data['generator']
+				del data['generator']
+
+				if generator == "soic":
+					fp = soic(**data)
+				elif generator == "dip":
+					fp = dip(**data)
+				elif generator == "qfp":
+					fp = qfp(**data)
+				elif generator == "wired_resistor":
+					fp = wired_resistor(**data)
 
 				if 'fp' in locals():
 					output = open(args.output_path+'/'+data['name']+cfg.FOOTPRINT_EXTENSION, "w")
