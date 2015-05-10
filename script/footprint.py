@@ -145,6 +145,48 @@ class beveled_rectangle():
 			result += element.render()
 		return result
 
+class beveled_outline():
+	"""Outline with beveled corners every grid point"""
+
+	def __init__(self, layer, x, y, width, height, bevel, grid, line_width, centered = False):
+		if centered:
+			x -= width / 2
+			y -= height / 2
+
+		self.elements = []
+
+		x_rep = int(width / grid)
+		y_rep = int(height / grid)
+		for i in range(x_rep):
+			if i != 0:
+				self.elements.append(line(layer, i * grid + x, y + bevel, i * grid + x + bevel, y, line_width))
+			self.elements.append(line(layer, i * grid + x + bevel, y, i * grid + x + grid - bevel, y, line_width))
+			self.elements.append(line(layer, i * grid + x + grid - bevel, y, i * grid + x + grid, y + bevel, line_width))
+
+		for i in range(y_rep):
+			if i != 0:
+				self.elements.append(line(layer, x + width - bevel, i * grid + y, x + width, i * grid + y + bevel, line_width))
+			self.elements.append(line(layer, x + width, i * grid + y + bevel, x + width, i * grid + y + grid - bevel, line_width))
+			self.elements.append(line(layer, x + width, i * grid + y + grid - bevel, x + width - bevel, i * grid + y + grid, line_width))
+
+		for i in reversed(range(x_rep)):
+			if i != (x_rep - 1):
+				self.elements.append(line(layer, i * grid + x + grid, y + height - bevel, i * grid + x + grid - bevel, y + height, line_width))
+			self.elements.append(line(layer, i * grid + x + grid - bevel, y + height, i * grid + x + bevel, y + height, line_width))
+			self.elements.append(line(layer, i * grid + x + bevel, y + height, i * grid + x, y + height - bevel, line_width))
+
+		for i in reversed(range(y_rep)):
+			if i != (y_rep - 1):
+				self.elements.append(line(layer, x + bevel, i * grid + y + grid, x, i * grid + y + grid - bevel, line_width))
+			self.elements.append(line(layer, x, i * grid + y + grid - bevel, x, i * grid + y + bevel, line_width))
+			self.elements.append(line(layer, x, i * grid + y + bevel, x + bevel, i * grid + y, line_width))
+
+	def render(self):
+		result = ""
+		for element in self.elements:
+			result += element.render()
+		return result
+
 class pad():
 	"""Generate pad in x/y with size width/height in given technology/type"""
 
@@ -170,15 +212,16 @@ class pad():
 		return pad.format%(self.name, self.tech, self.type, self.x, self.y, self.angle, self.width, self.height, self.drill, self.layers)
 
 class footprint():
-	def __init__(self, name, description = "", tags = "", smd = False):
+	def __init__(self, name, description = "", tags = "", smd = False, text = True):
 		self.name = name
 		self.description = description
 		self.tags = tags
 		self.smd = smd
 		self.elements = []
 
-		self.elements.append(text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, 0, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
-		self.elements.append(text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, cfg.FOOTPRINT_VALUE_FONT_SIZE + 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
+		if text:
+			self.elements.append(text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, 0, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
+			self.elements.append(text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, cfg.FOOTPRINT_VALUE_FONT_SIZE + 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
 
 	def add(self, element):
 		self.elements.append(element)
@@ -244,11 +287,57 @@ class dip(footprint):
 			footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.oval, x, -pad_distance / 2, pad_width, pad_height, pad_drill))
 			pin += 1
 
-class connector(footprint):
-	"""Generator wired connector lines"""
+class connector_grid_male(footprint):
+	"""Generator wired connector lines (pins)"""
 
-	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count_x, count_y, drill):
-		footprint.__init__(self, name, description, tags)
+	def __init__(self, name, description, tags, package_width, package_height, pad_diameter, pad_grid, pad_drill, pin_count_x, pin_count_y):
+		footprint.__init__(self, name, description, tags, False, False)
+
+		bevel = pad_grid * 0.2
+		footprint.add(self, text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, -(package_height + cfg.FOOTPRINT_REFERENCE_FONT_SIZE) / 2 - 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
+		footprint.add(self, text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, (package_height + cfg.FOOTPRINT_REFERENCE_FONT_SIZE) / 2 + 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
+		footprint.add(self, beveled_outline(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, bevel, pad_grid, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
+
+		pin = 1
+		y = pad_grid * -((float(pin_count_y) / 2) - 0.5)
+		for i in range(pin_count_y):
+			x = pad_grid * -((float(pin_count_x) / 2) - 0.5)
+			for j in range(pin_count_x):
+				if pin == 1:
+					footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.rect, x, y, pad_diameter, pad_diameter, pad_drill))
+				else:
+					footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.circle, x, y, pad_diameter, pad_diameter, pad_drill))
+
+				pin += 1
+				x += pad_grid
+			y += pad_grid
+
+class connector_grid_female(footprint):
+	"""Generator wired connector lines (plugs)"""
+
+	def __init__(self, name, description, tags, package_width, package_height, pad_diameter, pad_grid, pad_drill, pin_count_x, pin_count_y):
+		footprint.__init__(self, name, description, tags, False, False)
+
+		print "Female"
+
+		bevel = pad_grid * 0.2
+		footprint.add(self, text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, -(package_height + cfg.FOOTPRINT_REFERENCE_FONT_SIZE) / 2 - 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
+		footprint.add(self, text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, (package_height + cfg.FOOTPRINT_REFERENCE_FONT_SIZE) / 2 + 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
+		footprint.add(self, beveled_outline(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, bevel, pad_grid, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
+
+		pin = 1
+		y = pad_grid * -((float(pin_count_y) / 2) - 0.5)
+		for i in range(pin_count_y):
+			x = pad_grid * ((float(pin_count_x) / 2) - 0.5)
+			for j in range(pin_count_x):
+				if pin == 1:
+					footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.rect, x, y, pad_diameter, pad_diameter, pad_drill))
+				else:
+					footprint.add(self, pad(cfg.FOOTPRINT_THD_LAYERS, pin, technology.thru_hole, type.circle, x, y, pad_diameter, pad_diameter, pad_drill))
+
+				pin += 1
+				x -= pad_grid
+			y += pad_grid
 
 class dsub(footprint):
 	"""Generator for dsub connectors (this one will be tricky...)"""
@@ -378,6 +467,7 @@ if __name__ == "__main__":
 					except:
 						pass
 
+#	eval generator call
 				generator = data['generator']
 				del data['generator']
 
@@ -389,6 +479,10 @@ if __name__ == "__main__":
 					fp = qfp(**data)
 				elif generator == "wired_resistor":
 					fp = wired_resistor(**data)
+				elif generator == "connector_grid_male":
+					fp = connector_grid_male(**data)
+				elif generator == "connector_grid_female":
+					fp = connector_grid_female(**data)
 
 				if 'fp' in locals():
 					output = open(args.output_path+'/'+data['name']+cfg.FOOTPRINT_EXTENSION, "w")
@@ -397,4 +491,4 @@ if __name__ == "__main__":
 					output.close()
 					del fp
 				else:
-					print "Unknown footprint generator '"+data['generator']+"'"
+					print "Unknown footprint generator '"+generator+"'"
