@@ -41,4 +41,4 @@ $(FOOTPRINTS): %: data/footprint/%.csv
 	$(FOOTPRINT_SCRIPT) --csv $< --output_path $(FOOTPRINT_ROOT)/$@
 
 summary.txt: $(FOOTPRINTS) $(LIBRARIES)
-	$(SUMMARY_SCRIPT) --libs $(LIBRARIES) --output $@
+	$(SUMMARY_SCRIPT) --libs $(LIBRARIES) --footprints $(FOOTPRINTS) --output $@

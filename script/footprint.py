@@ -212,16 +212,16 @@ class pad():
 		return pad.format%(self.name, self.tech, self.type, self.x, self.y, self.angle, self.width, self.height, self.drill, self.layers)
 
 class footprint():
-	def __init__(self, name, description = "", tags = "", smd = False, text = True):
+	def __init__(self, name, description = "", tags = "", smd = False, add_text = True):
 		self.name = name
 		self.description = description
 		self.tags = tags
 		self.smd = smd
 		self.elements = []
 
-		if text:
+		if add_text:
 			self.elements.append(text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, 0, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
-			self.elements.append(text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, cfg.FOOTPRINT_VALUE_FONT_SIZE + 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
+			self.elements.append(text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, cfg.FOOTPRINT_VALUE_FONT_SIZE + 2 * cfg.FOOTPRINT_VALUE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
 
 	def add(self, element):
 		self.elements.append(element)
@@ -295,7 +295,7 @@ class connector_grid_male(footprint):
 
 		bevel = pad_grid * 0.2
 		footprint.add(self, text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, -(package_height + cfg.FOOTPRINT_REFERENCE_FONT_SIZE) / 2 - 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
-		footprint.add(self, text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, (package_height + cfg.FOOTPRINT_REFERENCE_FONT_SIZE) / 2 + 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
+		footprint.add(self, text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, (package_height + cfg.FOOTPRINT_VALUE_FONT_SIZE) / 2 + 2 * cfg.FOOTPRINT_VALUE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
 		footprint.add(self, beveled_outline(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, bevel, pad_grid, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
 
 		pin = 1
@@ -318,11 +318,9 @@ class connector_grid_female(footprint):
 	def __init__(self, name, description, tags, package_width, package_height, pad_diameter, pad_grid, pad_drill, pin_count_x, pin_count_y):
 		footprint.__init__(self, name, description, tags, False, False)
 
-		print "Female"
-
 		bevel = pad_grid * 0.2
 		footprint.add(self, text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, -(package_height + cfg.FOOTPRINT_REFERENCE_FONT_SIZE) / 2 - 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
-		footprint.add(self, text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, (package_height + cfg.FOOTPRINT_REFERENCE_FONT_SIZE) / 2 + 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
+		footprint.add(self, text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, (package_height + cfg.FOOTPRINT_VALUE_FONT_SIZE) / 2 + 2 * cfg.FOOTPRINT_VALUE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
 		footprint.add(self, beveled_outline(cfg.FOOTPRINT_PACKAGE_LAYER, 0, 0, package_width, package_height, bevel, pad_grid, cfg.FOOTPRINT_PACKAGE_LINE_WIDTH, True))
 
 		pin = 1

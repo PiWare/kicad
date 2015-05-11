@@ -18,9 +18,17 @@
 #     This script is used to generate a summary of kicad footprints and symbols
 
 import re
+import os
+import config
+cfg = config.Config("config")
 
 symbolNameRe = re.compile('F1 +"([^"]+)"')
-packageNameRe = re.compile('Li +(\\w+)')
+packageNameRe = re.compile('  \(descr +"([^"]+)"\)')
+
+def natural_sort(l):
+    convert = lambda text: int(text) if text.isdigit() else text.lower()
+    alphanum_key = lambda key: [convert(c) for c in re.split('([0-9]+)', key)]
+    return sorted(l, key=alphanum_key)
 
 if __name__ == "__main__":
 
@@ -35,7 +43,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     output = open(args.output, "w")
 
-    output.write("Symbol summary")
+    output.write("Symbol summary\n")
     if args.libs != None:
         for src in args.libs:
             output.write("---------------------------------\n")
@@ -47,18 +55,20 @@ if __name__ == "__main__":
             for match in symbolNameRe.finditer(data):
                 output.write(match.group(1)+"\n")
 
-
     if args.footprints != None:
         for src in args.footprints:
             output.write("---------------------------------\n")
-            output.write("Footprint file : %s\n"%(src))
+            output.write("Footprint section '%s'\n"%(src))
             output.write("---------------------------------\n")
-            ifile = open(src,"r")
-            data = ifile.read()
-            ifile.close()
-            for match in packageNameRe.finditer(data):
-                output.write(match.group(1)+"\n")
 
+            list = os.listdir("modules/"+src)
+            list = natural_sort(list)
+            for file in list:
+                if file.endswith(cfg.FOOTPRINT_EXTENSION):
+                    print(file)
 
-
-
+                    ifile = open("modules/"+src+'/'+file, "r")
+                    data = ifile.read()
+                    ifile.close()
+                    for match in packageNameRe.finditer(data):
+                        output.write(match.group(1)+"\n")
