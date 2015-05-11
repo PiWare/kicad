@@ -1,7 +1,7 @@
 LIBRARY_ROOT = library
 FOOTPRINT_ROOT = modules
 
-COMMON_SCRIPT_DEPS = script/config.py script/symbol.py
+COMMON_SCRIPT_DEPS = script/config.py script/symbol.py config
 CPU_SCRIPT = script/cpu.py
 CAPACITOR_SCRIPT = script/capacitor.py
 FOOTPRINT_SCRIPT = script/footprint.py

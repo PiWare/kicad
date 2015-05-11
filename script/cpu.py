@@ -40,10 +40,8 @@ import csv
 import re
 import string
 from string import split
-import itertools
 
-import config
-from symbol import *
+from symbol import Symbol, Pin, cfg
 
 # Dictionary to convert the csv pin type encoding to the kicad encoding.
 csvPinTypeToPinType = {
@@ -160,6 +158,29 @@ class Module(object):
                 + self.getPinRepList("L",symbolOutline[2],symbolOutline[1])
                 + self.getPinRepList("R",symbolOutline[0],symbolOutline[1]))
 
+
+class Cpu(Symbol):
+    def __init__(self, name, ref, nameCentered, package = ""):
+        super(Cpu,self).__init__(name, ref, package)
+        self.nameCentered = nameCentered
+
+    def refFieldPos(self):
+        if self.nameCentered:
+            return ( -(len(self.ref)+4)/4*cfg.SYMBOL_NAME_SIZE
+                    , -cfg.SYMBOL_TEXT_MARGIN )
+        else:
+            return ( cfg.SYMBOL_TEXT_MARGIN, cfg.SYMBOL_NAME_SIZE )
+
+    def valueFieldPos(self):
+        if self.nameCentered:
+            return ( -(len(self.name))/4*cfg.SYMBOL_NAME_SIZE
+                    , cfg.SYMBOL_TEXT_MARGIN )
+        else:
+            return ( (len(self.name)/2 + len(self.ref)+4)*cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_TEXT_MARGIN,
+                cfg.SYMBOL_NAME_SIZE
+            )
+
+
 def ReadHeader(reader):
     """Read the header lines from the csv reader."""
 
@@ -231,12 +252,12 @@ def MakeMultiSymbol(inFile, outFile):
                 currentGrp = currentGrp + grpPins
         del portGroups[grpName]
     # Create the symbol for the chip
-    symbol = Symbol(header["Part"],"IC",False,header["Package"])
+    symbol = Cpu(header["Part"],"IC",False,header["Package"])
     # First take care of the power module
     powerModule = symbol.addModule(Module(Square(0,0),1))
     map(lambda pin : powerModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
     map(lambda pin : powerModule.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"U"),gndGrp)
-    # Add the port groups and modules
+    # Add the positioningrt groups and modules
     grpIdx =2
     for grpName, grpPins in fullPortGrps.iteritems():
         newModule = symbol.addModule(Module(Square(0,0),grpIdx))
@@ -294,7 +315,7 @@ def MakeSingleSymbol(inFile, outFile):
     inGrp = pinGrps["I"] + pinGrps["B"]
     outGrp = pinGrps["O"]
 
-    symbol = Symbol(header["Part"],"IC",False,header["Package"])
+    symbol = Cpu(header["Part"],"IC",False,header["Package"])
     # First take care of the power module
     module = symbol.addModule(Module(Square(0,0),1))
     map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"D"),vddGrp)
@@ -331,7 +352,7 @@ def MakeRoundClockSymbol(inFile, outFile):
     grp2 = range(nbPins/4,nbPins/2)
     grp3 = range(nbPins/2,nbPins*3/4,1)
     grp4 = range(nbPins-1,nbPins*3/4-1,-1)
-    symbol = Symbol(header["Part"],"IC",True,header["Package"])
+    symbol = Cpu(header["Part"],"IC",True,header["Package"])
     # First take care of the power module
     module = symbol.addModule(Module(Square(0,0),1))
     map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"R"),grp1)

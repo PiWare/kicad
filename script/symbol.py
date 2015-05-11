@@ -19,6 +19,8 @@
 
 
 import config
+
+# Load the configuration file and provide it's values through the cfg object
 cfg = config.Config("config")
 
 class Pin(object):
@@ -54,8 +56,8 @@ class Symbol(object):
     """Represents a kicad schematic library symbol."""
 
     DefFormat="DEF %%s %%s 0 %i Y Y %%i L N"%(cfg.SYMBOL_PIN_TEXT_OFFSET)
-    RefFieldFormat = 'F%i "%%s" %%i %%i %i H V C CNN'%(cfg.REFERENCE_FIELD,cfg.SYMBOL_NAME_SIZE)
-    ValueFieldFormat = 'F%i "%%s" %%i %%i %i H I C CNN'%(cfg.VALUE_FIELD,cfg.SYMBOL_NAME_SIZE)
+    RefFieldFormat = 'F%i "%%s" %%i %%i %i H V L CNN'%(cfg.REFERENCE_FIELD,cfg.SYMBOL_NAME_SIZE)
+    ValueFieldFormat = 'F%i "%%s" %%i %%i %i H I L CNN'%(cfg.VALUE_FIELD,cfg.SYMBOL_NAME_SIZE)
     FootprintFieldFormat = "F%i"%(cfg.FOOTPRINT_FIELD) +' "%s" 0 0 30 H I C CCN'
 
     def __init__(self, name, ref, nameCentered, package = ""):
@@ -76,29 +78,37 @@ class Symbol(object):
         self.modules.append(module)
         return module
 
-    def getRep(self):
+    def refFieldPos(self):
+        """Creates a pair of (x,y) coordinates specifying the position of the reference field text."""
+        bounds = self.getBounds()
+        return (bounds[0]+bounds[2], bounds[1]-cfg.SYMBOL_NAME_SIZE/2)
+
+    def valueFieldPos(self):
+        """Creates a pair of (x,y) coordinates specifying the position of the value field text."""
+        bounds = self.getBounds()
+        return (bounds[0]+bounds[2], bounds[1]+bounds[3]-cfg.SYMBOL_NAME_SIZE/2)
+
+    def getRep(self, packageList = None):
         """Build the symbol representation.
 
         The result is a list of strings.
         """
-        if self.nameCentered == True:
-            valueFieldXPos = -len(self.name)/4*cfg.SYMBOL_NAME_SIZE
-            valueFieldYPos = cfg.SYMBOL_TEXT_MARGIN
-            refFieldXPos = -(len(self.ref)+4)/4*cfg.SYMBOL_NAME_SIZE
-            refFieldYPos = -cfg.SYMBOL_TEXT_MARGIN
-        else:
-            valueFieldXPos = (len(self.name)/2 + len(self.ref)+4)*cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_TEXT_MARGIN
-            valueFieldYPos = cfg.SYMBOL_NAME_SIZE
-            refFieldXPos = cfg.SYMBOL_TEXT_MARGIN
-            refFieldYPos = valueFieldYPos
+        valueFieldPos = self.valueFieldPos()
+        refFieldPos = self.refFieldPos()
 
-        moduleList = map(lambda x : x.getRep(self.name, valueFieldXPos, self.nameCentered), self.modules)
+        moduleList = map(lambda x : x.getRep(self.name, valueFieldPos[0], self.nameCentered), self.modules)
         result = [ Symbol.DefFormat%(self.name, self.ref, len(self.modules)),
-                Symbol.RefFieldFormat%(self.ref, refFieldXPos, refFieldYPos),
-                Symbol.ValueFieldFormat%(self.name, valueFieldXPos, valueFieldYPos),
-                Symbol.FootprintFieldFormat%(self.footprint),
-                "DRAW"]
+                Symbol.RefFieldFormat%(self.ref, refFieldPos[0], refFieldPos[1]),
+                Symbol.ValueFieldFormat%(self.name, valueFieldPos[0], valueFieldPos[1])]
+        if self.footprint != None:
+            if self.footprint != "":
+                result.append(Symbol.FootprintFieldFormat%(self.footprint))
+        if packageList != None:
+            result.append("$FPLIST")
+            result.extend(packageList)
+            result.append("$ENDFPLIST")
+        result.append("DRAW")
         for x in moduleList:
             result.extend(x)
-        result = result + ["ENDDRAW","ENDDEF"]
+        result.extend( ["ENDDRAW","ENDDEF"] )
         return result

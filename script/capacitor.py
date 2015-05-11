@@ -30,21 +30,34 @@
 
 
 import csv
-import itertools
+#import itertools
 import string
-import config
-from symbol import *
+from symbol import Symbol, Pin, cfg
 
-class Capacitor(object):
-    defLine = "DEF %s C 0 10 N Y 1 F N"
-    f0Field = """F0 "%%s" %i %i %i H V L CNN"""%(cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_TEXT_MARGIN,cfg.SYMBOL_NAME_SIZE)
-    f1Field = """F1 "%%s" %i %i %i H V L CNN"""%(cfg.SYMBOL_NAME_SIZE/2,-cfg.SYMBOL_TEXT_MARGIN,cfg.SYMBOL_NAME_SIZE)
+class LocalModule(object):
+    def __init__(self,polarized):
+        self.polarized = polarized
+
+    def getRep(self, name, valueFieldXPos, nameCentered ):
+       if self.polarized:
+           secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
+       else:
+           secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
+       return [ secondSide,
+               "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,cfg.SYMBOL_NAME_SIZE/2),
+               Pin("~",1, "P" ).getRep(0,-cfg.SYMBOL_NAME_SIZE/2 -cfg.SYMBOL_PIN_LENGTH,"U",1,1),
+               Pin("~",2, "P" ).getRep(0,cfg.SYMBOL_NAME_SIZE/2 + cfg.SYMBOL_PIN_LENGTH,"D",1,1),
+               ]
+
+
+class Capacitor(Symbol):
 
     def __init__(self, value, voltage, polarized):
-        self.value = value
-        self.voltage = voltage
-        self.polarized = polarized
-        self.name = "C_%s_%sV"%(self.value,self.voltage)
+        if polarized:
+            super(Capacitor,self).__init__( "CP_%s_%sV"%(value, voltage), "CP", False, None)
+        else:
+            super(Capacitor,self).__init__( "C_%s_%sV"%(value, voltage), "C", False, None )
+        self.addModule( LocalModule(polarized) )
 
     def __str__(self):
         return self.name
@@ -55,39 +68,22 @@ class Capacitor(object):
     def __eq__(self, other):
         return self.name == other.name
 
-    def getRep(self,packageList):
-        if self.polarized:
-            secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
-        else:
-            secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
-        result = [
-            Capacitor.defLine%(string.replace(self.name,",","_")),
-            Capacitor.f0Field%(self.name),
-            Capacitor.f1Field%(self.name),
-            "$FPLIST"]
-        result.extend(map(lambda x : "SMDC"+x[0] , packageList))
-        result = result + [
-            "$ENDFPLIST",
-            "DRAW",
-            secondSide,
-            "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,cfg.SYMBOL_NAME_SIZE/2),
-            Pin("~",1, "P" ).getRep(0,-cfg.SYMBOL_NAME_SIZE/2 -cfg.SYMBOL_PIN_LENGTH,"U",1,1),
-            Pin("~",2, "P" ).getRep(0,cfg.SYMBOL_NAME_SIZE/2 + cfg.SYMBOL_PIN_LENGTH,"D",1,1),
-            "ENDDRAW",
-            "ENDDEF"
-        ]
-        return result
+    def getBounds(self):
+        return (cfg.SYMBOL_TEXT_SIZE*-1.2,-cfg.SYMBOL_PIN_LENGTH, cfg.SYMBOL_NAME_SIZE*2.4, cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_PIN_LENGTH*2)
+
+    def getRep(self, packageList):
+        return super(Capacitor,self).getRep( map(lambda x : "SMDC"+x[0], packageList))
 
 def MakeCondensatorSet(inFile, outFile):
     """ Output a new capacitor set in the outFile library.
     """
-    thickness = {}
+    #thickness = {}
     parts = {}
     with open(inFile, 'rb') as csvfile:
         reader = csv.reader(csvfile)
-        thicknessNames = reader.next()
-        thicknessValues = reader.next()
-        thickness = dict(zip(thicknessNames[1:],thicknessValues[1:]))
+     #   thicknessNames = reader.next()
+     #   thicknessValues = reader.next()
+        #thickness = dict(zip(thicknessNames[1:],thicknessValues[1:]))
         packageList = reader.next()[1:]
         voltage = reader.next()[1:]
         for row in reader:
