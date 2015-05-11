@@ -40,7 +40,7 @@ class Pin(object):
         self.type = type
         self.number = number
 
-    def getRep(self,x,y,orientation,group,convert):
+    def render(self,x,y,orientation,group,convert):
         """Make a representation for the pin using the pin properties and the positioning information.
 
         x -- x coordinate of the pin in the symbol representation
@@ -88,7 +88,7 @@ class Symbol(object):
         bounds = self.getBounds()
         return (bounds[0]+bounds[2], bounds[1]+bounds[3]-cfg.SYMBOL_NAME_SIZE/2)
 
-    def getRep(self, packageList = None):
+    def render(self, packageList = None):
         """Build the symbol representation.
 
         The result is a list of strings.
@@ -96,7 +96,7 @@ class Symbol(object):
         valueFieldPos = self.valueFieldPos()
         refFieldPos = self.refFieldPos()
 
-        moduleList = map(lambda x : x.getRep(self.name, valueFieldPos[0], self.nameCentered), self.modules)
+        moduleList = map(lambda x : x.render(self.name, valueFieldPos[0], self.nameCentered), self.modules)
         result = [ Symbol.DefFormat%(self.name, self.ref, len(self.modules)),
                 Symbol.RefFieldFormat%(self.ref, refFieldPos[0], refFieldPos[1]),
                 Symbol.ValueFieldFormat%(self.name, valueFieldPos[0], valueFieldPos[1])]

@@ -59,7 +59,7 @@ class Square(object):
         self.x = x
         self.y = y
 
-    def getRep(self, pins, symbolNameWidth, grp, nameCentered):
+    def render(self, pins, symbolNameWidth, grp, nameCentered):
         """Build a graphical representation able to contain all the pin names provided in the pins list.
         Returns a tuple containing the representation of the square symbol followed by the computed bounderies.
         """
@@ -147,11 +147,11 @@ class Module(object):
         pinOffset = Module.PinOffset[orientation]
         startOffset = Module.PinStartOffset[orientation]
         pinRange = range(0,len(self.pins[orientation]))
-        return [self.pins[orientation][x].getRep(xStart+startOffset[0]+x*pinStep[0]+pinOffset[0], yStart+startOffset[1]+x*pinStep[1]+pinOffset[1], orientation, self.number, convert) for x in pinRange]
+        return [self.pins[orientation][x].render(xStart+startOffset[0]+x*pinStep[0]+pinOffset[0], yStart+startOffset[1]+x*pinStep[1]+pinOffset[1], orientation, self.number, convert) for x in pinRange]
 
-    def getRep(self, symbolName, symbolNameXPos, nameCentered):
+    def render(self, symbolName, symbolNameXPos, nameCentered):
         """Build the module representation including all the pins the name and the symbol reference."""
-        symbolRep, symbolOutline = self.representation.getRep(self.pins, symbolNameXPos+len(symbolName)*cfg.SYMBOL_NAME_SIZE/2, self.number, nameCentered)
+        symbolRep, symbolOutline = self.representation.render(self.pins, symbolNameXPos+len(symbolName)*cfg.SYMBOL_NAME_SIZE/2, self.number, nameCentered)
         return ([symbolRep]
                 + self.getPinRepList("U",symbolOutline[0],symbolOutline[1])
                 + self.getPinRepList("D",symbolOutline[0],symbolOutline[3])
@@ -266,7 +266,7 @@ def MakeMultiSymbol(inFile, outFile):
 
 
     # write out the symbol to the output file. The list of strings needs to be assembled through a string join to add new line characters.
-    outFile.write( string.join(symbol.getRep(),"\n" ) )
+    outFile.write( string.join(symbol.render(),"\n" ) )
     outFile.write( "\n" )
 
 
@@ -323,7 +323,7 @@ def MakeSingleSymbol(inFile, outFile):
     map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"R"),inGrp)
     map(lambda pin : module.addPin(Pin(string.join(pins[pin][1],'/'),pin,pins[pin][0]),"L"),outGrp)
 
-    outFile.write( string.join(symbol.getRep(),"\n" ) )
+    outFile.write( string.join(symbol.render(),"\n" ) )
     outFile.write( "\n" )
 
 def MakeRoundClockSymbol(inFile, outFile):
@@ -360,7 +360,7 @@ def MakeRoundClockSymbol(inFile, outFile):
     map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"L"),grp3)
     map(lambda pin : module.addPin(Pin(pins[pin+1][1][0],pin,pins[pin+1][0]),"D"),grp4)
 
-    outFile.write( string.join(symbol.getRep(),"\n" ) )
+    outFile.write( string.join(symbol.render(),"\n" ) )
     outFile.write( "\n" )
 
 

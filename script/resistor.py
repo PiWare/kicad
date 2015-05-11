@@ -6,12 +6,12 @@
 #     it under the terms of the GNU General Public License as published by
 #     the Free Software Foundation, either version 3 of the License, or
 #     (at your option) any later version.
-# 
+#
 #     This program is distributed in the hope that it will be useful,
 #     but WITHOUT ANY WARRANTY; without even the implied warranty of
 #     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #     GNU General Public License for more details.
-# 
+#
 #     You should have received a copy of the GNU General Public License
 #     along with this program.  If not, see <http://www.gnu.org/licenses/>
 
@@ -23,15 +23,15 @@
 #       "1","PB6","I/O","TTL","GPIO port B bit 6.",
 #       ...
 #
-#     The column type can contain: 
-#      - I for input 
-#      - O for output 
+#     The column type can contain:
+#      - I for input
+#      - O for output
 #      - I/O for input / output
 #      - N for not connected
 #      - - or S for power supply pins
 #
-#     The script allows pins to appear multiple times, each line documenting a 
-#     specific function of the pin. The script tries to group the pins by 8 or by port.  
+#     The script allows pins to appear multiple times, each line documenting a
+#     specific function of the pin. The script tries to group the pins by 8 or by port.
 #     The supply pins are put in a seperate block
 
 
@@ -40,7 +40,7 @@ import csv
 import re
 import string
 from string import split
-import itertools 
+import itertools
 
 import config
 from symbol import *
@@ -50,7 +50,7 @@ class Resistor(object):
         self.x = x
         self.y = y
 
-    def getRep(self, pins, symbolNameWidth, grp, nameCentered):
+    def render(self, pins, symbolNameWidth, grp, nameCentered):
         maxPinNameWidth = 0
         if len(pins["L"])>0:
             maxPinNameWidth = max(maxPinNameWidth, max(x.length for x in pins["L"]))+cfg.SYMBOL_PIN_TEXT_OFFSET

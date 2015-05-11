@@ -38,15 +38,15 @@ class LocalModule(object):
     def __init__(self,polarized):
         self.polarized = polarized
 
-    def getRep(self, name, valueFieldXPos, nameCentered ):
+    def render(self, name, valueFieldXPos, nameCentered ):
        if self.polarized:
            secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
        else:
            secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
        return [ secondSide,
                "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,cfg.SYMBOL_NAME_SIZE/2),
-               Pin("~",1, "P" ).getRep(0,-cfg.SYMBOL_NAME_SIZE/2 -cfg.SYMBOL_PIN_LENGTH,"U",1,1),
-               Pin("~",2, "P" ).getRep(0,cfg.SYMBOL_NAME_SIZE/2 + cfg.SYMBOL_PIN_LENGTH,"D",1,1),
+               Pin("~",1, "P" ).render(0,-cfg.SYMBOL_NAME_SIZE/2 -cfg.SYMBOL_PIN_LENGTH,"U",1,1),
+               Pin("~",2, "P" ).render(0,cfg.SYMBOL_NAME_SIZE/2 + cfg.SYMBOL_PIN_LENGTH,"D",1,1),
                ]
 
 
@@ -71,8 +71,8 @@ class Capacitor(Symbol):
     def getBounds(self):
         return (cfg.SYMBOL_TEXT_SIZE*-1.2,-cfg.SYMBOL_PIN_LENGTH, cfg.SYMBOL_NAME_SIZE*2.4, cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_PIN_LENGTH*2)
 
-    def getRep(self, packageList):
-        return super(Capacitor,self).getRep( map(lambda x : "SMDC"+x[0], packageList))
+    def render(self, packageList):
+        return super(Capacitor,self).render( map(lambda x : "SMDC"+x[0], packageList))
 
 def MakeCondensatorSet(inFile, outFile):
     """ Output a new capacitor set in the outFile library.
@@ -96,7 +96,7 @@ def MakeCondensatorSet(inFile, outFile):
                     else:
                         parts[part] = [(pkg,thick)]
         for part,pkgList in parts.items():
-            outFile.write( string.join(part.getRep(pkgList),"\n" ) )
+            outFile.write( string.join(part.render(pkgList),"\n" ) )
             outFile.write( "\n" )
 
 
