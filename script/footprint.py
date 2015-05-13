@@ -35,6 +35,19 @@ class type():
 	rect = "rect"
 	trapezoid = "trapezoid"
 
+registered_footprints = {}
+
+class metaclass_register(type):
+	def __init__(cls, name, bases, nmspc):
+		super(metaclass_register, cls).__init__(name, bases, nmspc)
+		registered_footprints[name] = cls
+
+#class class1(object):
+#	__metaclass__ = metaclass_register
+#
+#	def foo(self):
+#		print "foo"
+
 class text():
 	"""Generate text at x/y"""
 	format = """  (fp_text %s %s (at %.3f %.3f) (layer %s)
@@ -211,7 +224,9 @@ class pad():
 	def render(self):
 		return pad.format%(self.name, self.tech, self.type, self.x, self.y, self.angle, self.width, self.height, self.drill, self.layers)
 
-class footprint():
+class footprint(object):
+	__metaclass__ = metaclass_register
+
 	def __init__(self, name, description = "", tags = "", smd = False, add_text = True):
 		self.name = name
 		self.description = description
