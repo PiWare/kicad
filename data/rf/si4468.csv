@@ -1,0 +1,24 @@
+Part,Si4468,,
+Package,QFN20,,
+Number,Pin,Type,
+1,SDN,I,"Shutdown Input Pin. 0–VDD V digital input. SDN should be = 0 in all modes except Shutdown mode. When SDN = 1, the chip will be completely shut down, and the contents of the registers will be lost."
+2,RXp,I,Differential RF Input Pins of the LNA. See application schematic for example matching network.
+3,RXn,I,
+4,TX,O,"Transmit Output Pin. The PA output is an open-drain connection, so the L-C match must supply VDD (+3.3 VDC nominal) to this pin."
+5,NC,N,It is recommended to connect to GND per the reference design schematic. Not connected internally to any circuitry.
+6,VDD,VDD,+1.8 to +3.8 V Supply Voltage Input to Internal Regulators. The recommended VDD supply voltage is +3.3 V.
+7,TXRAMP,O,"Programmable Bias Output with Ramp Capability for External FET PA. See ""5.4. Transmitter (TX)"" on page 33."
+8,VDD,VDD,+1.8 to +3.8 V Supply Voltage Input to Internal Regulators. The recommended VDD supply voltage is +3.3 V.
+9,GPIO0,I/O,"General Purpose Digital I/O. May be configured through the registers to perform various functions including: Microcontroller Clock Output, FIFO status, POR, Wake-Up timer, Low Battery Detect, TRSW, AntDiversity control, etc."
+10,GPIO1,I/O,
+11,nIRQ,O,"General Microcontroller Interrupt Status Output. When the Si446X exhibits any one of the interrupt events, the nIRQ pin will be set low = 0. The Microcontroller can then determine the state of the interrupt by reading the interrupt status. No external resistor pull-up is required, but it may be desirable if multiple interrupt lines are connected."
+12,SCLK,I,Serial Clock Input. 0–VDD V digital input. This pin provides the serial data clock function for the 4-line serial data bus. Data is clocked into the Si446x on positive edge transi- tions.
+13,SDO,O,0–VDD V Digital Output. Provides a serial readback function of the internal control registers.
+14,SDI,I,Serial Data Input. 0–VDD V digital input. This pin provides the serial data stream for the 4-line serial data bus.
+15,nSEL,I,Serial Interface Select Input. 0–VDD V digital input. This pin provides the Select/Enable function for the 4-line serial data bus.
+16,XOUT,O,"Crystal Oscillator Output. Connect to an external 25 to 32 MHz crystal, or leave floating when driving with an external source on XIN."
+17,XIN,I,"Crystal Oscillator Input. Connect to an external 25 to 32 MHz crystal, or connect to an external source."
+18,GND,GND,"When using an XTAL, leave floating per the reference design schematic. When using a TCXO, connect to TCXO GND, which should be separate from the board’s reference ground plane."
+19,GPIO2,I/O,"General Purpose Digital I/O. May be configured through the registers to perform various functions, including Microcontroller Clock Output, FIFO status, POR, Wake-Up timer, Low Battery Detect, TRSW, AntDiversity control, etc."
+20,GPIO3,I/O,
+21,PADDLE_GND,GND,The exposed metal paddle on the bottom of the Si446x supplies the RF and cir- cuit ground(s) for the entire chip. It is very important that a good solder connec- tion is made between this exposed metal paddle and the ground plane of the PCB underlying the Si446x.

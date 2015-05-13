@@ -50,7 +50,9 @@ csvPinTypeToPinType = {
         "I/O" : "B",
         "N" : "N",
         "-" : "W",
-        "S" : "W"
+        "S" : "W",
+        "GND" : "W",
+        "VDD" : "W"
         }
 
 class Square(object):

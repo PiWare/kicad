@@ -25,7 +25,7 @@ MCU_CLOCK = data/mcu/pin-table-TM4C123GH6PM.csv\
 $(LIBRARY_ROOT)/mcu.lib: $(CPU_SCRIPT) $(COMMON_SCRIPT_DEPS) $(MCU_CLOCK)
 	$(CPU_SCRIPT) --clock $(MCU_CLOCK) --output $@
 
-RF_CLOCK = data/rf/cc1121.csv
+RF_CLOCK = data/rf/cc1121.csv data/rf/si4468.csv
 
 $(LIBRARY_ROOT)/rf.lib: $(CPU_SCRIPT) $(COMMON_SCRIPT_DEPS) $(RF_CLOCK)
 	$(CPU_SCRIPT) --clock $(RF_CLOCK) --output $@
