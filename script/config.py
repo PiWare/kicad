@@ -13,6 +13,7 @@ class Config(object):
     """
 
     def __init__(self, configFile):
+        print "Load config"
         for line in open(configFile,"r"):
             parts = line.rstrip().split("=",1)
             if len(parts) > 1:
@@ -36,3 +37,6 @@ class Config(object):
 
     def __contains__(self, key):
         return key in self.__dict__
+
+    def dict(self):
+        return self.__dict__

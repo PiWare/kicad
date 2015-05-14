@@ -4,13 +4,15 @@ cfg = config.Config("config")
 
 registered_footprints = {}
 
+print "Hello from footprint.py"
+
 class metaclass_register(type):
 	def __init__(self, name, bases, nmspc):
 		super(metaclass_register, self).__init__(name, bases, nmspc)
 		registered_footprints[name] = self
 
 class footprint(object):
-#	__metaclass__ = metaclass_register
+	__metaclass__ = metaclass_register
 
 	def __init__(self, name, description = "", tags = "", smd = False, add_text = True):
 		self.name = name

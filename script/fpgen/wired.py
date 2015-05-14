@@ -1,7 +1,7 @@
-import footprint
+import fp
 
-class wired(footprint):
+class wired(fp.base):
 	"""Generator for wired resistors, capacitors, ..."""
 
 	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count, drill):
-		footprint.__init__(self, name, description, tags)
+		super(fp.base, self).__init__(name, description, tags)
