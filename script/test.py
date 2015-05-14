@@ -1,11 +1,10 @@
 #!/usr/bin/python
 
 import fp
+from fp import cfg
 from fpgen import *
 import csv
 import argparse
-import config
-cfg = config.Config("config")
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = 'Footprint generator from csv table.')

@@ -1,6 +1,5 @@
 import fp
-import config
-cfg = config.Config("config")
+from fp import cfg
 
 class dip(fp.base):
 	"""Generator for dual inline ICs"""
