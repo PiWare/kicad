@@ -6,6 +6,7 @@ CPU_SCRIPT = script/cpu.py
 CAPACITOR_SCRIPT = script/capacitor.py
 FOOTPRINT_SCRIPT = script/footprint.py
 SUMMARY_SCRIPT = script/summary.py
+README_SCRIPT = script/readme.py
 
 LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
 			$(LIBRARY_ROOT)/rf.lib \
@@ -17,7 +18,7 @@ FOOTPRINTS = dip \
 	pqfp \
 	sqfp
 
-all: $(FOOTPRINTS) $(LIBRARIES) summary.txt
+all: $(FOOTPRINTS) $(LIBRARIES) summary.txt README.md
 
 MCU_CLOCK = data/mcu/pin-table-TM4C123GH6PM.csv\
 			data/mcu/stm32F030C8T6RT.csv
@@ -42,3 +43,6 @@ $(FOOTPRINTS): %: data/footprint/%.csv
 
 summary.txt: $(FOOTPRINTS) $(LIBRARIES)
 	$(SUMMARY_SCRIPT) --libs $(LIBRARIES) --footprints $(FOOTPRINTS) --output $@
+
+README.md: config
+	$(README_SCRIPT) --output $@
