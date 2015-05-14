@@ -13,7 +13,6 @@ class Config(object):
     """
 
     def __init__(self, configFile):
-        print "Load config"
         for line in open(configFile,"r"):
             parts = line.rstrip().split("=",1)
             if len(parts) > 1:

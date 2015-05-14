@@ -1,1 +1,10 @@
-__all__ = ["wired", "dip"]
+__all__ = [
+#	"bga",
+	"chip",
+	"connector",
+	"dip",
+#	"dsub",
+	"qfp",
+	"soic",
+	"wired"
+]

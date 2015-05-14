@@ -1,4 +1,21 @@
 #!/usr/bin/python
+#
+# Copyright (c) 2015 Benjamin Fueldner
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>
+#
+# Generate footprint files from csv table
 
 import fp
 from fp import cfg
@@ -11,6 +28,11 @@ if __name__ == "__main__":
 	parser.add_argument('--csv', metavar = 'csv', type = str, help = 'CSV formatted input table', required = True)
 	parser.add_argument('--output_path', metavar = 'output_path', type = str, help = 'Output path for generated KiCAD footprint files', required = True)
 	args = parser.parse_args()
+
+#	print fp.registry
+#	for fop in fp.registry.values():
+#		print fop
+#		print fop.__doc__
 
 	with open(args.csv, 'rb') as csvfile:
 		table = csv.reader(csvfile, delimiter=',', quotechar='\"')
@@ -44,33 +66,3 @@ if __name__ == "__main__":
 					del gen
 				else:
 					print "Unknown footprint generator '"+generator+"'"
-
-			#	if generator == "soic":
-			#		fp = soic(**data)
-			#	elif generator == "dip":
-			#		fp = dip(**data)
-			#	elif generator == "qfp":
-			#		fp = qfp(**data)
-			#	elif generator == "wired_resistor":
-			#		fp = wired_resistor(**data)
-			#	elif generator == "connector_grid_male":
-			#		fp = connector_grid_male(**data)
-			#	elif generator == "connector_grid_female":
-			#		fp = connector_grid_female(**data)
-
-			#	if 'fp' in locals():
-			#		output = open(args.output_path+'/'+data['name']+cfg.FOOTPRINT_EXTENSION, "w")
-			#	#	print fp.render()
-			#		output.write(fp.render())
-			#		output.close()
-			#		del fp
-			#	else:
-			#		print "Unknown footprint generator '"+generator+"'"
-
-#print fp.registry
-#
-#t = fp.registry['base']("name")
-#print t.render()
-#
-#t = fp.registry['wired']("name")
-#print t.render()
