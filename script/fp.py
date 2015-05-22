@@ -20,6 +20,7 @@
 import time
 import math
 import config
+import collection
 
 cfg = config.Config("config")
 
@@ -41,6 +42,8 @@ class type():
 	oval = "oval"
 	rect = "rect"
 	trapezoid = "trapezoid"
+
+area = collections.namedtuple('Area', ['x1', 'y1', 'x2', 'y2'])
 
 class text():
 	"""Generate text at x/y"""
@@ -88,6 +91,9 @@ class arc():
 		self.y2 = y2
 		self.angle = angle
 		self.width = width
+
+	def area(self):
+		return {'x1': self.x1, 'y1': self.y1, 'x2': self.x2, 'y2': self.y2}
 
 	def render(self):
 		return arc.format%(self.x1, self.y1, self.x2, self.y2, self.angle, self.layer, self.width)
