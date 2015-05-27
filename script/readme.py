@@ -33,6 +33,11 @@ KiCad library used in our projects. Main parts are generated using python script
 
 All dimension are in millimeters/degree, if not otherwise noted.
 
+## Naming conventions
+
+- Filenames are lowercase and separated with underscore (e.g. resistor_1k5_chip_0805, dip_8_narrow)
+- Devicesnames are uppercase and separated with underscore (e.g. SOIC_8_WIDE, 74HC595)
+
 """)
 
 	output.write("## Symbol\n")
