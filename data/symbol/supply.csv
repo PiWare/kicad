@@ -1,18 +1,18 @@
-symbol,name
-supply_positive,+1V2
-supply_positive,+1V5
-supply_positive,+1V8
-supply_positive,+2V5
-supply_positive,+3V3
-supply_positive,+5V
-supply_positive,+9V
-supply_positive,+10V
-supply_positive,+12V
-supply_positive,+24V
-supply_negative,-3V3
-supply_negative,-5V
-supply_negative,-10V
-supply_negative,-12V
-supply_ground,GND
-supply_ground,AGND
-supply_ground,DGND
+symbol,name,value,description
+supply_positive,+1V2,,Power supply symbol
+supply_positive,+1V5,,Power supply symbol
+supply_positive,+1V8,,Power supply symbol
+supply_positive,+2V5,,Power supply symbol
+supply_positive,+3V3,,Power supply symbol
+supply_positive,+5V,,Power supply symbol
+supply_positive,+9V,,Power supply symbol
+supply_positive,+10V,,Power supply symbol
+supply_positive,+12V,,Power supply symbol
+supply_positive,+24V,,Power supply symbol
+supply_negative,-3V3,,Power supply symbol
+supply_negative,-5V,,Power supply symbol
+supply_negative,-10V,,Power supply symbol
+supply_negative,-12V,,Power supply symbol
+supply_ground,GND,,Power supply symbol
+supply_ground,AGND,,Power supply symbol
+supply_ground,DGND,,Power supply symbol
