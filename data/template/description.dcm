@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP $NAME
+D $DESCRIPTION
+K $KEYWORDS
+F $DOCUMENT
+$ENDCMP
+#
+#End Doc Library
