@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# fet_p_channel
+#
+DEF fet_p_channel T 0 0 Y N 1 F N
+F0 "T" -100 200 60 H V C CNN
+F1 "fet_p_channel" -250 -200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 -75 5 0 1 0 N
+C 0 75 5 0 1 0 N
+S -90 100 -100 -100 0 1 0 F
+S -60 -50 -50 -100 0 1 0 F
+S -60 25 -50 -25 0 1 0 F
+S -60 100 -50 50 0 1 0 F
+P 2 0 1 0  -100 100  -100 -100 N
+P 2 0 1 0  -30 0  -50 0 N
+P 2 0 1 0  0 -75  0 0 N
+P 3 0 1 0  -50 -75  50 -75  50 -15 N
+P 3 0 1 0  -50 75  50 75  50 20 N
+P 4 0 1 0  -30 20  -30 -20  0 0  -30 20 F
+P 4 0 1 0  70 20  30 20  50 -10  70 20 F
+P 4 0 1 0  80 -25  70 -15  30 -15  20 -5 N
+X D D 0 200 125 D 50 50 1 1 P
+X G G -200 -100 100 R 50 50 1 1 P
+X S S 0 -200 125 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
