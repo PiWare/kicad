@@ -38,6 +38,16 @@ All dimension are in millimeters/degree, if not otherwise noted.
 - Filenames are lowercase and separated with underscore (e.g. resistor_1k5_chip_0805, dip_8_narrow)
 - Devicesnames are uppercase and separated with underscore (e.g. SOIC_8_WIDE, 74HC595)
 
+### Datasheets
+
+- For one time:
+    BC557.pdf
+
+For multiple devices not following numbers:
+    BC557_BC560.pdf
+
+For multiple devices with following numbers (BC546, BC547, BC548, BC549, BC550):
+    BC546_550.pdf
 """)
 
     output.write("## Symbol\n")
