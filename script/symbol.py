@@ -23,6 +23,142 @@ import config
 # Load the configuration file and provide it's values through the cfg object
 cfg = config.Config("config")
 
+class fill():
+    none = "N"
+    background = "f"
+    foreground = "F"
+
+class orientation():
+    horizontal = 0
+    vertical = 1
+
+class fieldOrientation():
+    horizontal = "H"
+    vertical = "V"
+
+class visibility():
+    visible = "V"
+    invisible = "I"
+
+class hjustify():
+    left = "L"
+    center = "C"
+    right = "R"
+
+class vjustify():
+    top = "T"
+    center = "C"
+    bottom = "B"
+
+class style():
+    none = "NN"
+    italic = "IN"
+    bolc = "NB"
+    italicBold = "IB"
+
+class direction():
+    up = "U"
+    down = "D"
+    right = "R"
+    left = "L"
+
+class type():
+    input = "I"
+    output = "O"
+    bidirectional = "B"
+    tristate = "T"
+    passive = "P"
+    unspecified = "U"
+    powerInput = "W"
+    powerOutput = "w"
+    openCollector = "C"
+    openEmitter = "E"
+    notConnected = "N"
+
+# Add 'N' before characters, to create an invisible pin
+class shape():
+    line = ""
+    inverted = "I"
+    clock = "C"
+    invertedClock = "CI"
+    inputLow = "L"
+    clockLow = "CL"
+    outputLow = "V"
+    fallingEdgeClock = "F"
+    nonLogic = "X"
+
+class Point():
+    "Represents a point"
+
+    format = "%d %d"
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def render(self):
+        return Point.render%(self.x, self.y)
+
+class Field():
+    """Symbol field"""
+    format = "F%d \"%s\" %d %d %d %s %s %s %s%s"
+
+    def __init__(self, number, text, x, y, size, orientation, visibility = visibility.visible, hjustify = hjustify.center, vjustify = vjustify.center, style = style.none):
+        pass
+
+class Polygon():
+    "Render polygon"
+    format = "P %d %d %d %d %s %s"
+
+    def __init__(self, name):
+        self.points = []
+
+    def add(self, point):
+        self.points.append(point)
+
+    def render(self):
+        out = ""
+        for point in self.points:
+            out += point.render() + " "
+        return out
+
+class Rectangle():
+    "Render rectangle"
+    format = "S %d %d %d %d %d 1 %d %s"
+
+    def __init__(self, x1, y1, x2, y2, lineWidth, fill, unit = 0):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.lineWidth = lineWidth
+        self.fill = fill
+        self.unit = unit
+
+    def render():
+        return Rectangle.format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.lineWidth, self.fill)
+
+class Circle():
+    "Render circle"
+    format = "C %d %d %d %d 1 %d %s"
+
+    def __init__(self, x, y, radius, lineWidth, fill, unit = 0):
+        self.x = x
+        self.y = y
+        self.radius = radius
+        self.lineWidth = lineWidth
+        self.fill = fill
+        self.unit = unit
+
+    def render():
+        return Circle.format%(self.x, self.y, self.radius, self.unit, self.lineWidth, self.fill)
+
+class Arc():
+    pass
+
+class Text():
+    pass
+
 class Pin(object):
     """Represents a pin assigned to a schematic symbol."""
 
@@ -87,6 +223,10 @@ class Symbol(object):
         """Creates a pair of (x,y) coordinates specifying the position of the value field text."""
         bounds = self.getBounds()
         return (bounds[0]+bounds[2], bounds[1]+bounds[3]-cfg.SYMBOL_NAME_SIZE/2)
+
+    def load(self, filename, unit = 0):
+        """Load only graphic elements from a symbol file and add it to the given unit"""
+        pass
 
     def render(self, packageList = None):
         """Build the symbol representation.
