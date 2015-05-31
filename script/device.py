@@ -95,7 +95,7 @@ if __name__ == "__main__":
                 filename = 'data/template/'+data['symbol']+'.lib'
                 del data['symbol']
 
-                tpl = template(filename)
+                tpl = Template(filename)
                 tpl.add(**data)
                 symbol_output.write(tpl.render())
                 desc_output.write(tpl.description())

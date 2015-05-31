@@ -42,7 +42,7 @@ CAPACITOR = data/avx_condensator.csv
 $(LIBRARY_ROOT)/capacitor.lib: $(CAPACITOR_SCRIPT) $(COMMON_SCRIPT_DEPS) $(CAPACITOR)
 	$(CAPACITOR_SCRIPT) --data $(CAPACITOR) --output $@
 
-SUPPLY = data/symbol/supply.csv
+SUPPLY = data/device/supply.csv
 
 $(LIBRARY_ROOT)/supply.lib: $(DEVICE_SCRIPT) $(COMMON_SCRIPT_DEPS) $(SUPPLY)
 	$(DEVICE_SCRIPT) --csv $(SUPPLY) --symbol $@ --desc $(addsuffix .dcm, $(basename $@))
