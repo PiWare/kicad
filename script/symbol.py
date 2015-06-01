@@ -117,7 +117,11 @@ class Polygon():
     "Render polygon"
     format = "P %d %d %d %d %s %s"
 
-    def __init__(self, name):
+    def __init__(self, unit, convert, width, fill):
+        self.unit = unit
+        self.convert = convert
+        self.width = width
+        self.fill = fill
         self.points = []
 
     def __eq__(self, rhs):
@@ -195,7 +199,7 @@ class Arc():
 class Text():
     format = 'T %d %d %d %d %d %d "%s"'
 
-    def __init__(self, x, y, text, size, orientation = textOrientation.horizontal, unit = 0, convert = 1)
+    def __init__(self, x, y, text, size, orientation = textOrientation.horizontal, unit = 0, convert = 1):
         self.x = x
         self.y = y
         self.text = text
