@@ -28,7 +28,7 @@ class fill():
     background = "f"
     foreground = "F"
 
-class orientation():
+class textOrientation():
     horizontal = 0
     vertical = 1
 
@@ -96,6 +96,13 @@ class Point():
         self.x = x
         self.y = y
 
+    def __eq__(self, rhs):
+        """ Compare only graphical elements"""
+        if not isinstance(rhs, Point):
+            return False
+
+        return self.x == rhs.x and self.y == rhs.y
+
     def render(self):
         return Point.render%(self.x, self.y)
 
@@ -113,6 +120,20 @@ class Polygon():
     def __init__(self, name):
         self.points = []
 
+    def __eq__(self, rhs):
+        """ Compare only graphical elements"""
+        if not isinstance(rhs, Polygon):
+            return False
+
+        if len(self.points) != len(rhs.points):
+            return False
+
+        for point1, point2 in zip(self.points, rhs.points):
+            if point1 != point2:
+                return False
+
+        return True
+
     def add(self, point):
         self.points.append(point)
 
@@ -124,9 +145,9 @@ class Polygon():
 
 class Rectangle():
     "Render rectangle"
-    format = "S %d %d %d %d %d 1 %d %s"
+    format = "S %d %d %d %d %d %d %d %s"
 
-    def __init__(self, x1, y1, x2, y2, lineWidth, fill, unit = 0):
+    def __init__(self, x1, y1, x2, y2, lineWidth, fill, unit = 0, convert = 1):
         self.x1 = x1
         self.y1 = y1
         self.x2 = x2
@@ -134,9 +155,17 @@ class Rectangle():
         self.lineWidth = lineWidth
         self.fill = fill
         self.unit = unit
+        self.convert = convert
 
-    def render():
-        return Rectangle.format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.lineWidth, self.fill)
+    def __eq__(self, rhs):
+        """ Compare only graphical elements"""
+        if not isinstance(rhs, Rectangle):
+            return False
+
+        return self.x1 == rhs.x1 and self.y1 == rhs.y1 and self.x2 == rhs.x2 and self.y2 == rhs.y2
+
+    def render(self):
+        return Rectangle.format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.convert, self.lineWidth, self.fill)
 
 class Circle():
     "Render circle"
@@ -150,6 +179,13 @@ class Circle():
         self.fill = fill
         self.unit = unit
 
+    def __eq__(self, rhs):
+        """ Compare only graphical elements"""
+        if not isinstance(rhs, Circle):
+            return False
+
+        return self.x == rhs.x and self.y == rhs.y and self.radius == rhs.radius
+
     def render():
         return Circle.format%(self.x, self.y, self.radius, self.unit, self.lineWidth, self.fill)
 
@@ -157,7 +193,26 @@ class Arc():
     pass
 
 class Text():
-    pass
+    format = 'T %d %d %d %d %d %d "%s"'
+
+    def __init__(self, x, y, text, size, orientation = textOrientation.horizontal, unit = 0, convert = 1)
+        self.x = x
+        self.y = y
+        self.text = text
+        self.size = size
+        self.orientation = orientation
+        self.unit = unit
+        self.convert = convert
+
+    def __eq__(self, rhs):
+        """ Compare only graphical elements"""
+        if not isinstance(rhs, Text):
+            return False
+
+        return self.x == rhs.x and self.y == rhs.y and self.text == rhs.text
+
+    def render(self):
+        return Text.format%(self.orientation, self.x, self.y, self.size, self.unit, self.convert, self.text)
 
 class Pin(object):
     """Represents a pin assigned to a schematic symbol."""
@@ -226,6 +281,10 @@ class Symbol(object):
 
     def load(self, filename, unit = 0):
         """Load only graphic elements from a symbol file and add it to the given unit"""
+        pass
+
+    def optimize(self):
+        """Detect duplicate graphical elements from symbol and merge them to unit = 0"""
         pass
 
     def render(self, packageList = None):
