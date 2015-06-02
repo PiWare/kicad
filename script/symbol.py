@@ -25,14 +25,25 @@ cfg = config.Config("config")
 
 class fill():
     none = "N"
-    background = "f"
     foreground = "F"
+    background = "f"
 
-class textOrientation():
-    horizontal = 0
-    vertical = 1
+class representation():
+    """Symbol representation"""
 
-class fieldOrientation():
+    both = 0
+    normal = 1
+    morgan = 2
+
+class italic():
+    off = "Normal"
+    on = "Italic"
+
+class bold():
+    off = "0"
+    on = "1"
+
+class orientation():
     horizontal = "H"
     vertical = "V"
 
@@ -104,7 +115,7 @@ class Point():
         return self.x == rhs.x and self.y == rhs.y
 
     def render(self):
-        return Point.render%(self.x, self.y)
+        return Point.format%(self.x, self.y)
 
 class Field():
     """Symbol field"""
@@ -115,13 +126,13 @@ class Field():
 
 class Polygon():
     "Render polygon"
-    format = "P %d %d %d %d %s %s"
+    format = "P %d %d %d %d %s%s"
 
-    def __init__(self, unit, convert, width, fill):
-        self.unit = unit
-        self.convert = convert
+    def __init__(self, width, fill = fill.background, unit = 0, representation = representation.normal):
         self.width = width
         self.fill = fill
+        self.unit = unit
+        self.representation = representation
         self.points = []
 
     def __eq__(self, rhs):
@@ -142,24 +153,24 @@ class Polygon():
         self.points.append(point)
 
     def render(self):
-        out = ""
+        pts = ""
         for point in self.points:
-            out += point.render() + " "
-        return out
+            pts += point.render() + " "
+        return Polygon.format%(len(self.points), self.unit, self.representation, self.width, pts, self.fill)
 
 class Rectangle():
     "Render rectangle"
     format = "S %d %d %d %d %d %d %d %s"
 
-    def __init__(self, x1, y1, x2, y2, lineWidth, fill, unit = 0, convert = 1):
+    def __init__(self, x1, y1, x2, y2, width, fill = fill.background, unit = 0, representation = representation.normal):
         self.x1 = x1
         self.y1 = y1
         self.x2 = x2
         self.y2 = y2
-        self.lineWidth = lineWidth
+        self.width = width
         self.fill = fill
         self.unit = unit
-        self.convert = convert
+        self.representation = representation
 
     def __eq__(self, rhs):
         """ Compare only graphical elements"""
@@ -169,19 +180,20 @@ class Rectangle():
         return self.x1 == rhs.x1 and self.y1 == rhs.y1 and self.x2 == rhs.x2 and self.y2 == rhs.y2
 
     def render(self):
-        return Rectangle.format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.convert, self.lineWidth, self.fill)
+        return Rectangle.format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.representation, self.width, self.fill)
 
 class Circle():
     "Render circle"
-    format = "C %d %d %d %d 1 %d %s"
+    format = "C %d %d %d %d %d %d %s"
 
-    def __init__(self, x, y, radius, lineWidth, fill, unit = 0):
+    def __init__(self, x, y, radius, width, fill = fill.background, unit = 0, representation = representation.normal):
         self.x = x
         self.y = y
         self.radius = radius
-        self.lineWidth = lineWidth
+        self.width = width
         self.fill = fill
         self.unit = unit
+        self.representation = representation
 
     def __eq__(self, rhs):
         """ Compare only graphical elements"""
@@ -191,22 +203,35 @@ class Circle():
         return self.x == rhs.x and self.y == rhs.y and self.radius == rhs.radius
 
     def render():
-        return Circle.format%(self.x, self.y, self.radius, self.unit, self.lineWidth, self.fill)
+        return Circle.format%(self.x, self.y, self.radius, self.unit, self.representation, self.width, self.fill)
 
 class Arc():
     pass
 
 class Text():
-    format = 'T %d %d %d %d %d %d "%s"'
+    """Format text element
+        x, y - Position
+        text - Text
+        size - Size in mil
+        orientation - Angle in centidegree (supported, but not documented!)
+        unit - Unit number
+        convert - Shape number
+    """
 
-    def __init__(self, x, y, text, size, orientation = textOrientation.horizontal, unit = 0, convert = 1):
+    format = 'T %d %d %d %d 0 %d %d %s %s %s %s %s'
+
+    def __init__(self, x, y, text, size, orientation = 0, unit = 0, representation = representation.normal, italic = italic.off, bold = bold.off, hjustify = hjustify.center, vjustify = vjustify.center):
         self.x = x
         self.y = y
-        self.text = text
+        self.text = text.replace(' ', '~')
         self.size = size
         self.orientation = orientation
         self.unit = unit
-        self.convert = convert
+        self.representation = representation
+        self.italic = italic
+        self.bold = bold
+        self.hjustify = hjustify
+        self.vjustify = vjustify
 
     def __eq__(self, rhs):
         """ Compare only graphical elements"""
@@ -216,7 +241,7 @@ class Text():
         return self.x == rhs.x and self.y == rhs.y and self.text == rhs.text
 
     def render(self):
-        return Text.format%(self.orientation, self.x, self.y, self.size, self.unit, self.convert, self.text)
+        return Text.format%(self.orientation, self.x, self.y, self.size, self.unit, self.representation, self.text, self.italic, self.bold, self.hjustify, self.vjustify)
 
 class Pin(object):
     """Represents a pin assigned to a schematic symbol."""

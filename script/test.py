@@ -4,6 +4,7 @@ import re
 import csv
 import StringIO
 import symbol
+import itertools
 
 #file = open("data/template/resistor.lib", "r")
 file = open("data/template/test.lib", "r")
@@ -13,44 +14,70 @@ file.close()
 inDef = False
 inDraw = False
 for row in csv.reader(sym, delimiter = " ", skipinitialspace = True):
-    print row
+#   print row
     if row[0] == 'DEF':
         inDef = True
     elif row[0] == 'DRAW':
         inDraw = True
+        continue
     elif row[0] == 'ENDDEF':
         inDef = False
     elif row[0] == 'ENDDRAW':
         inDraw = False
 
     if inDraw:
+        input = " ".join(row)
+        print input
         for i in range(len(row)):
            try:
                row[i] = int(row[i])
            except:
                pass
 
+        output = ""
         type = row[0]
         row.pop(0)
-        if type == 'S':
-            data = dict(zip(['x1', 'y1', 'x2', 'y2', 'unit', 'convert', 'lineWidth', 'fill'], row))
-            print data
-            r = symbol.Rectangle(**data)
-            print r.render()
+        # Polygon
+        if type == 'P':
+            data = dict(zip(['unit', 'representation', 'width', 'fill'], row[1:4]+row[-1:]))
+            points = row[4:-1]
 
-        elif type == 'P':
-            data = dict(zip(['unit', 'convert', 'width', 'fill'], row[1:4]+row[-1:]))
-            p = symbol.Polygon(**data)
-            print data
-            print row[4:-1]
+            poly = symbol.Polygon(**data)
+            for i in range(0, len(points), 2):
+                poly.add(symbol.Point(points[i], points[i + 1]))
+            output = poly.render()
 
-        elif type == 'X':
-            data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberTextSize', 'nameTextSize', 'unit', 'convert', 'type', 'shape'], row))
+        # Rectangle
+        elif type == 'S':
+            data = dict(zip(['x1', 'y1', 'x2', 'y2', 'unit', 'representation', 'width', 'fill'], row))
 
+            rect = symbol.Rectangle(**data)
+            output = rect.render()
+
+        # Circle
+        elif type == 'C':
+            data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberTextSize', 'nameTextSize', 'unit', 'representation', 'type', 'shape'], row))
+
+        # Arc
+        elif type == 'A':
+            data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberTextSize', 'nameTextSize', 'unit', 'representation', 'type', 'shape'], row))
+
+        # Text
         elif type == 'T':
-            data = dict(zip(['orientation', 'x', 'y', 'size', 'unit', 'convert', 'text'], row))
-        #   symbol.Text(**data)
+            row.pop(4) # Pop unused argument
+            data = dict(zip(['orientation', 'x', 'y', 'size', 'unit', 'representation', 'text', 'italic', 'bold', 'hjustify', 'vjustify'], row))
 
+            text = symbol.Text(**data)
+            output = text.render()
+
+        # Pin
         elif type == 'X':
-            data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberTextSize', 'nameTextSize', 'unit', 'convert', 'type', 'shape'], row))
+            data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberTextSize', 'nameTextSize', 'unit', 'representation', 'type', 'shape'], row))
             print data
+
+        print output
+        if input == output:
+            print "PASS"
+        else:
+            print "FAILED"
+        print
