@@ -56,11 +56,17 @@ for row in csv.reader(sym, delimiter = " ", skipinitialspace = True):
 
         # Circle
         elif type == 'C':
-            data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberTextSize', 'nameTextSize', 'unit', 'representation', 'type', 'shape'], row))
+            data = dict(zip(['x', 'y', 'radius', 'unit', 'representation', 'width', 'fill'], row))
+
+            circ = symbol.Circle(**data)
+            output = circ.render()
 
         # Arc
         elif type == 'A':
-            data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberTextSize', 'nameTextSize', 'unit', 'representation', 'type', 'shape'], row))
+            data = dict(zip(['x', 'y', 'radius', 'startAngle', 'endAngle', 'unit', 'representation', 'width', 'fill', 'startX', 'startY', 'endX', 'endY'], row))
+
+            arc = symbol.Arc(**data)
+            output = arc.render()
 
         # Text
         elif type == 'T':

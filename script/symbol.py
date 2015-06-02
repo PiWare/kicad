@@ -184,6 +184,7 @@ class Rectangle():
 
 class Circle():
     "Render circle"
+
     format = "C %d %d %d %d %d %d %s"
 
     def __init__(self, x, y, radius, width, fill = fill.background, unit = 0, representation = representation.normal):
@@ -202,11 +203,39 @@ class Circle():
 
         return self.x == rhs.x and self.y == rhs.y and self.radius == rhs.radius
 
-    def render():
+    def render(self):
         return Circle.format%(self.x, self.y, self.radius, self.unit, self.representation, self.width, self.fill)
 
 class Arc():
-    pass
+    "Render arc"
+
+    format = "A %d %d %d %d %d %d %d %d %s %d %d %d %d"
+
+    def __init__(self, x, y, startX, startY, endX, endY, startAngle, endAngle, radius, width, fill = fill.background, unit = 0, representation = representation.normal):
+        self.x = x
+        self.y = y
+        self.startX = startX
+        self.startY = startY
+        self.endX = endX
+        self.endY = endY
+        self.startAngle = startAngle
+        self.endAngle = endAngle
+        self.radius = radius
+        self.width = width
+        self.fill = fill
+        self.unit = unit
+        self.representation = representation
+
+    def __eq__(self, rhs):
+        """ Compare only graphical elements"""
+        if not isinstance(rhs, Circle):
+            return False
+
+        return self.x == rhs.x and self.y == rhs.y and self.radius == rhs.radius
+
+    def render(self):
+        return Arc.format%(self.x, self.y, self.radius, self.startAngle, self.endAngle, self.unit, self.representation, self.width, self.fill, self.startX, self.startY, self.endX, self.endY)
+
 
 class Text():
     """Format text element
