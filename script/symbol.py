@@ -17,8 +17,11 @@
 
 #     This script contains commons object definitions to generate kicad symbols
 
-
 import config
+import re
+import csv
+import StringIO
+import itertools
 
 # Load the configuration file and provide it's values through the cfg object
 cfg = config.Config("config")
@@ -89,6 +92,7 @@ class type():
 # Add 'N' before characters, to create an invisible pin
 class shape():
     line = ""
+    invisible = "N"
     inverted = "I"
     clock = "C"
     invertedClock = "CI"
@@ -97,6 +101,14 @@ class shape():
     outputLow = "V"
     fallingEdgeClock = "F"
     nonLogic = "X"
+    _inverted = "NI"
+    _clock = "NC"
+    _invertedClock = "NCI"
+    _inputLow = "NL"
+    _clockLow = "NCL"
+    _outputLow = "NV"
+    _fallingEdgeClock = "NF"
+    _nonLogic = "NX"
 
 class Point():
     "Represents a point"
@@ -272,6 +284,34 @@ class Text():
     def render(self):
         return Text.format%(self.orientation, self.x, self.y, self.size, self.unit, self.representation, self.text, self.italic, self.bold, self.hjustify, self.vjustify)
 
+class Pin_():
+
+    format = "X %s %s %d %d %d %s %d %d %d %d %s %s"
+
+    def __init__(self, x, y, name, number, length, orientation, nameSize, numberSize, unit = 0, representation = representation.normal, type = type.input, shape = shape.line):
+        self.x = x
+        self.y = y
+        self.name = name
+        self.number = number
+        self.length = length
+        self.orientation = orientation
+        self.nameSize = nameSize
+        self.numberSize = numberSize
+        self.unit = unit
+        self.representation = representation
+        self.type = type
+        self.shape = shape
+
+    def __eq__(self, rhs):
+        """ Compare only graphical elements"""
+        if not isinstance(rhs, Pin_):
+            return False
+
+        return False
+
+    def render(self):
+        return (Pin_.format%(self.name, self.number, self.x, self.y, self.length, self.orientation, self.numberSize, self.nameSize, self.unit, self.representation, self.type, self.shape)).rstrip()
+
 class Pin(object):
     """Represents a pin assigned to a schematic symbol."""
 
@@ -309,7 +349,7 @@ class Symbol(object):
     ValueFieldFormat = 'F%i "%%s" %%i %%i %i H I L CNN'%(cfg.VALUE_FIELD,cfg.SYMBOL_NAME_SIZE)
     FootprintFieldFormat = "F%i"%(cfg.FOOTPRINT_FIELD) +' "%s" 0 0 30 H I C CCN'
 
-    def __init__(self, name, ref, nameCentered, package = ""):
+    def __init__(self, name = "", ref = "", nameCentered = True, package = ""):
         """Creates a new symbol instance.
 
         name -- symbol name.
@@ -337,8 +377,95 @@ class Symbol(object):
         bounds = self.getBounds()
         return (bounds[0]+bounds[2], bounds[1]+bounds[3]-cfg.SYMBOL_NAME_SIZE/2)
 
-    def load(self, filename, unit = 0):
-        """Load only graphic elements from a symbol file and add it to the given unit"""
+    def load(self, filename, unit = -1):
+        """Load only graphic elements from a symbol file and add it to the given unit
+            filename - Load given filename
+            unit - Change loaded symbol elements to given unit. If unit = -1, no changes will be made
+        """
+
+        file = open(filename, "r")
+        text = StringIO.StringIO(re.sub('^#.*$\s*', '', file.read(), 0, re.M))
+        file.close()
+
+        inDef = False
+        inDraw = False
+        for row in csv.reader(text, delimiter = " ", skipinitialspace = True):
+            if row[0] == 'DEF':
+                inDef = True
+            elif row[0] == 'DRAW':
+                inDraw = True
+                continue
+            elif row[0] == 'ENDDEF':
+                inDef = False
+            elif row[0] == 'ENDDRAW':
+                inDraw = False
+
+            if inDef and inDraw:
+                input = " ".join(row)
+                print input
+                for i in range(len(row)):
+                   try:
+                       row[i] = int(row[i])
+                   except:
+                       pass
+
+                output = ""
+                type = row[0]
+                row.pop(0)
+                # Polygon
+                if type == 'P':
+                    data = dict(zip(['unit', 'representation', 'width', 'fill'], row[1:4]+row[-1:]))
+                    points = row[4:-1]
+
+                    poly = Polygon(**data)
+                    for i in range(0, len(points), 2):
+                        poly.add(Point(points[i], points[i + 1]))
+                    output = poly.render()
+
+                # Rectangle
+                elif type == 'S':
+                    data = dict(zip(['x1', 'y1', 'x2', 'y2', 'unit', 'representation', 'width', 'fill'], row))
+
+                    rect = Rectangle(**data)
+                    output = rect.render()
+
+                # Circle
+                elif type == 'C':
+                    data = dict(zip(['x', 'y', 'radius', 'unit', 'representation', 'width', 'fill'], row))
+
+                    circ = Circle(**data)
+                    output = circ.render()
+
+                # Arc
+                elif type == 'A':
+                    data = dict(zip(['x', 'y', 'radius', 'startAngle', 'endAngle', 'unit', 'representation', 'width', 'fill', 'startX', 'startY', 'endX', 'endY'], row))
+
+                    arc = Arc(**data)
+                    output = arc.render()
+
+                # Text
+                elif type == 'T':
+                    row.pop(4) # Pop unused argument
+                    data = dict(zip(['orientation', 'x', 'y', 'size', 'unit', 'representation', 'text', 'italic', 'bold', 'hjustify', 'vjustify'], row))
+
+                    text = Text(**data)
+                    output = text.render()
+
+                # Pin
+                elif type == 'X':
+                    data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberSize', 'nameSize', 'unit', 'representation', 'type', 'shape'], row))
+
+                    p = Pin_(**data)
+                    output = p.render()
+
+                print output
+                if input == output:
+                    print "PASS"
+                else:
+                    print "FAILED"
+                print
+
+    def replaceLoad(self, template, dict):
         pass
 
     def optimize(self):

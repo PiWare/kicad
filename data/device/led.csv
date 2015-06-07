@@ -1,4 +1,4 @@
-symbol,name,unit,cathode,anode,text,manufacturer,alias,description,keyword,document,footprint
+symbol,name,unit,cathode,anode,color,manufacturer,alias,description,keyword,document,footprint
 led,L-59EGW,1,2,1,high efficiecy red,Kingbright,L-59EGW-CA,"The High Efficiency Red source color devices are made with
 Gallium Arsenide Phosphide on Gallium Phosphide Orange
 Light Emitting Diode.

@@ -1,89 +1,58 @@
 #!/usr/bin/python
 
-import re
-import csv
-import StringIO
+import os
 import symbol
-import itertools
+from symbol import cfg
+import csv
+import argparse
 
-#file = open("data/template/resistor.lib", "r")
-file = open("data/template/test.lib", "r")
-sym = StringIO.StringIO(re.sub('^#.*$\s*', '', file.read(), 0, re.M))
-file.close()
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description = 'Symbol generator from csv table.')
+    parser.add_argument('--csv', metavar = 'csv', type = str, help = 'CSV formatted input table', required = True)
+#   parser.add_argument('--output_path', metavar = 'output_path', type = str, help = 'Output path for generated KiCAD footprint files', required = True)
+    args = parser.parse_args()
 
-inDef = False
-inDraw = False
-for row in csv.reader(sym, delimiter = " ", skipinitialspace = True):
-#   print row
-    if row[0] == 'DEF':
-        inDef = True
-    elif row[0] == 'DRAW':
-        inDraw = True
-        continue
-    elif row[0] == 'ENDDEF':
-        inDef = False
-    elif row[0] == 'ENDDRAW':
-        inDraw = False
+    with open(args.csv, 'rb') as csvfile:
+        table = csv.reader(csvfile, delimiter=',', quotechar='\"')
 
-    if inDraw:
-        input = " ".join(row)
-        print input
-        for i in range(len(row)):
-           try:
-               row[i] = int(row[i])
-           except:
-               pass
+        last_name = ""
+        first_row = 1
+        for row in table:
+            if first_row == 1:
+                header = row
+                first_row = 0
+            else:
+                data = dict(zip(header, row))
+                # Can this be made little bit more elegant?
+                for key in data:
+                    try:
+                    #   if key.find("count") != -1:
+                    #       data[key] = int(data[key])
+                    #   else:
+                        data[key] = int(data[key])
+                    except:
+                        pass
 
-        output = ""
-        type = row[0]
-        row.pop(0)
-        # Polygon
-        if type == 'P':
-            data = dict(zip(['unit', 'representation', 'width', 'fill'], row[1:4]+row[-1:]))
-            points = row[4:-1]
+                template_file = cfg.SYMBOL_TEMPLATE_PATH + data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION
+                del data['symbol']
 
-            poly = symbol.Polygon(**data)
-            for i in range(0, len(points), 2):
-                poly.add(symbol.Point(points[i], points[i + 1]))
-            output = poly.render()
+                if os.path.isfile(template_file):
+                    print template_file
 
-        # Rectangle
-        elif type == 'S':
-            data = dict(zip(['x1', 'y1', 'x2', 'y2', 'unit', 'representation', 'width', 'fill'], row))
+                if last_name != data['name']:
+                    if 'sym' in locals():
+                        sym.render_()
+                        del sym
 
-            rect = symbol.Rectangle(**data)
-            output = rect.render()
+                    sym = symbol.Symbol()
 
-        # Circle
-        elif type == 'C':
-            data = dict(zip(['x', 'y', 'radius', 'unit', 'representation', 'width', 'fill'], row))
+                    print "New symbol "+data['name']
+                    last_name = data['name']
 
-            circ = symbol.Circle(**data)
-            output = circ.render()
+                print "Add unit %d"%(data['unit'])
+                sym.load(template_file, data['unit'])
+    print "Finish last symbol"
 
-        # Arc
-        elif type == 'A':
-            data = dict(zip(['x', 'y', 'radius', 'startAngle', 'endAngle', 'unit', 'representation', 'width', 'fill', 'startX', 'startY', 'endX', 'endY'], row))
-
-            arc = symbol.Arc(**data)
-            output = arc.render()
-
-        # Text
-        elif type == 'T':
-            row.pop(4) # Pop unused argument
-            data = dict(zip(['orientation', 'x', 'y', 'size', 'unit', 'representation', 'text', 'italic', 'bold', 'hjustify', 'vjustify'], row))
-
-            text = symbol.Text(**data)
-            output = text.render()
-
-        # Pin
-        elif type == 'X':
-            data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberTextSize', 'nameTextSize', 'unit', 'representation', 'type', 'shape'], row))
-            print data
-
-        print output
-        if input == output:
-            print "PASS"
-        else:
-            print "FAILED"
-        print
+#sym = symbol.Symbol()
+#sym.load("data/template/test.lib")
+#print sym.render_()
