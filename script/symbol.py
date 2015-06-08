@@ -76,7 +76,7 @@ class direction():
     right = "R"
     left = "L"
 
-class type():
+class Type():
     input = "I"
     output = "O"
     bidirectional = "B"
@@ -126,6 +126,12 @@ class Point():
 
         return self.x == rhs.x and self.y == rhs.y
 
+    def __ne__(self, rhs):
+        if not isinstance(rhs, Point):
+            return True
+
+        return self.x != rhs.x or self.y != rhs.y
+
     def render(self):
         return Point.format%(self.x, self.y)
 
@@ -155,11 +161,17 @@ class Polygon():
         if len(self.points) != len(rhs.points):
             return False
 
+        print "eq"
         for point1, point2 in zip(self.points, rhs.points):
             if point1 != point2:
+                print "False"
                 return False
 
+        print "True"
         return True
+
+    def __ne__(self, rhs):
+        print "ne"
 
     def add(self, point):
         self.points.append(point)
@@ -288,7 +300,7 @@ class Pin_():
 
     format = "X %s %s %d %d %d %s %d %d %d %d %s %s"
 
-    def __init__(self, x, y, name, number, length, orientation, nameSize, numberSize, unit = 0, representation = representation.normal, type = type.input, shape = shape.line):
+    def __init__(self, x, y, name, number, length, orientation, nameSize, numberSize, unit = 0, representation = representation.normal, type = Type.input, shape = shape.line):
         self.x = x
         self.y = y
         self.name = name
@@ -358,7 +370,7 @@ class Symbol(object):
         """
         self.name = name
         self.ref = ref
-        self.modules =[]
+        self.modules = []
         self.nameCentered = nameCentered
         self.footprint = package
 
@@ -402,7 +414,7 @@ class Symbol(object):
 
             if inDef and inDraw:
                 input = " ".join(row)
-                print input
+                #print input
                 for i in range(len(row)):
                    try:
                        row[i] = int(row[i])
@@ -459,18 +471,144 @@ class Symbol(object):
                     output = p.render()
 
                 print output
-                if input == output:
-                    print "PASS"
-                else:
-                    print "FAILED"
-                print
+                #if input == output:
+                #    print "PASS"
+                #else:
+                #    print "FAILED"
+                #print
 
-    def replaceLoad(self, template, dict):
-        pass
+    def replaceLoad(self, filename, unit, map):
+        file = open(filename, "r")
+        text = re.sub('^#.*$\s*', '', file.read(), 0, re.M)
+        file.close()
+
+        rep_map = {}
+        for key, value in map.iteritems():
+            if type(value) is str:
+                rep_map[key.upper()] = value.replace(' ', '~')
+            else:
+                rep_map[key.upper()] = value
+        print rep_map
+
+        text = re.sub("\$(\w+)", lambda m: rep_map[m.group(1)] if m.group(1) in rep_map else m.group(0), text)
+        print text
+
+        text = StringIO.StringIO(text)
+
+        inDef = False
+        inDraw = False
+        for row in csv.reader(text, delimiter = " ", skipinitialspace = True):
+            if row[0] == 'DEF':
+                inDef = True
+            elif row[0] == 'DRAW':
+                inDraw = True
+                continue
+            elif row[0] == 'ENDDEF':
+                inDef = False
+            elif row[0] == 'ENDDRAW':
+                inDraw = False
+
+            if inDef and inDraw:
+                input = " ".join(row)
+                #print input
+                for i in range(len(row)):
+                   try:
+                       row[i] = int(row[i])
+                   except:
+                       pass
+
+                output = ""
+                symbol_type = row[0]
+                row.pop(0)
+                # Polygon
+                if symbol_type == 'P':
+                    data = dict(zip(['unit', 'representation', 'width', 'fill'], row[1:4]+row[-1:]))
+                    if unit != -1:
+                        data['unit'] = unit
+
+                    points = row[4:-1]
+
+                    poly = Polygon(**data)
+                    for i in range(0, len(points), 2):
+                        poly.add(Point(points[i], points[i + 1]))
+                    self.modules.append(poly)
+                #   output = poly.render()
+
+                # Rectangle
+                elif symbol_type == 'S':
+                    data = dict(zip(['x1', 'y1', 'x2', 'y2', 'unit', 'representation', 'width', 'fill'], row))
+                    if unit != -1:
+                        data['unit'] = unit
+
+                    self.modules.append(Rectangle(**data))
+                #   output = rect.render()
+
+                # Circle
+                elif symbol_type == 'C':
+                    data = dict(zip(['x', 'y', 'radius', 'unit', 'representation', 'width', 'fill'], row))
+                    if unit != -1:
+                        data['unit'] = unit
+
+                    self.modules.append(Circle(**data))
+                #   output = circ.render()
+
+                # Arc
+                elif symbol_type == 'A':
+                    data = dict(zip(['x', 'y', 'radius', 'startAngle', 'endAngle', 'unit', 'representation', 'width', 'fill', 'startX', 'startY', 'endX', 'endY'], row))
+                    if unit != -1:
+                        data['unit'] = unit
+
+                    self.modules.append(Arc(**data))
+                #   output = arc.render()
+
+                # Text
+                elif symbol_type == 'T':
+                    row.pop(4) # Pop unused argument
+                    data = dict(zip(['orientation', 'x', 'y', 'size', 'unit', 'representation', 'text', 'italic', 'bold', 'hjustify', 'vjustify'], row))
+                    if unit != -1:
+                        data['unit'] = unit
+
+                    self.modules.append(Text(**data))
+                #   output = text.render()
+
+                # Pin
+                elif symbol_type == 'X':
+                    data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberSize', 'nameSize', 'unit', 'representation', 'type', 'shape'], row))
+                    if unit != -1:
+                        data['unit'] = unit
+
+                    self.modules.append(Pin_(**data))
+                #   output = p.render()
 
     def optimize(self):
         """Detect duplicate graphical elements from symbol and merge them to unit = 0"""
-        pass
+        list = []
+        for a, b in itertools.combinations(self.modules, 2):
+            if a == b:
+                print "Equal: ", a, b
+                a.unit = 0
+                list.append(b)
+
+        print "self.modules"
+        for module in self.modules:
+            print module
+        print
+
+        print "list"
+        for module in list:
+            print module
+        print
+
+        #lists = set(list)
+        test = [item for item in self.modules if item not in list]
+        print "test"
+        for module in test:
+            print module
+        print
+
+        for module in self.modules:
+            print module.render()
+
 
     def render(self, packageList = None):
         """Build the symbol representation.

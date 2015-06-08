@@ -24,14 +24,14 @@ if __name__ == "__main__":
             else:
                 data = dict(zip(header, row))
                 # Can this be made little bit more elegant?
-                for key in data:
-                    try:
-                    #   if key.find("count") != -1:
-                    #       data[key] = int(data[key])
-                    #   else:
-                        data[key] = int(data[key])
-                    except:
-                        pass
+            #   for key in data:
+            #       try:
+            #       #   if key.find("count") != -1:
+            #       #       data[key] = int(data[key])
+            #       #   else:
+            #           data[key] = int(data[key])
+            #       except:
+            #           pass
 
                 template_file = cfg.SYMBOL_TEMPLATE_PATH + data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION
                 del data['symbol']
@@ -41,6 +41,7 @@ if __name__ == "__main__":
 
                 if last_name != data['name']:
                     if 'sym' in locals():
+                        sym.optimize()
                         sym.render_()
                         del sym
 
@@ -49,8 +50,9 @@ if __name__ == "__main__":
                     print "New symbol "+data['name']
                     last_name = data['name']
 
-                print "Add unit %d"%(data['unit'])
-                sym.load(template_file, data['unit'])
+                print "Add unit %s"%(data['unit'])
+             #  sym.load(template_file, data['unit'])
+                sym.replaceLoad(template_file, int(data['unit']), data)
     print "Finish last symbol"
 
 #sym = symbol.Symbol()
