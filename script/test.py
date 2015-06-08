@@ -45,14 +45,17 @@ if __name__ == "__main__":
                         sym.render_()
                         del sym
 
+                    loadFields = True
                     sym = symbol.Symbol()
+                    sym.fields(data)
 
                     print "New symbol "+data['name']
                     last_name = data['name']
 
                 print "Add unit %s"%(data['unit'])
              #  sym.load(template_file, data['unit'])
-                sym.replaceLoad(template_file, int(data['unit']), data)
+                sym.replaceLoad(template_file, int(data['unit']), data, loadFields)
+                loadFields = False
     print "Finish last symbol"
 
 #sym = symbol.Symbol()

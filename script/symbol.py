@@ -119,31 +119,39 @@ class Point():
         self.x = x
         self.y = y
 
-    def __eq__(self, rhs):
+    def equal(self, rhs):
         """ Compare only graphical elements"""
         if not isinstance(rhs, Point):
             return False
 
         return self.x == rhs.x and self.y == rhs.y
 
-    def __ne__(self, rhs):
-        if not isinstance(rhs, Point):
-            return True
-
-        return self.x != rhs.x or self.y != rhs.y
-
     def render(self):
         return Point.format%(self.x, self.y)
 
 class Field():
     """Symbol field"""
+
     format = "F%d \"%s\" %d %d %d %s %s %s %s%s"
 
     def __init__(self, number, text, x, y, size, orientation, visibility = visibility.visible, hjustify = hjustify.center, vjustify = vjustify.center, style = style.none):
-        pass
+        self.number = number
+        self.text = text
+        self.x = x
+        self.y = y
+        self.size = size
+        self.orientation = orientation
+        self.visibility = visibility
+        self.hjustify = hjustify
+        self.vjustify = vjustify
+        self.style = style
+
+    def render(self):
+        return Field.format%(self.number, self.text, self.x, self.y, self.size, self.orientation, self.visibility, self.hjustify, self.vjustify, self.style)
 
 class Polygon():
     "Render polygon"
+
     format = "P %d %d %d %d %s%s"
 
     def __init__(self, width, fill = fill.background, unit = 0, representation = representation.normal):
@@ -153,7 +161,7 @@ class Polygon():
         self.representation = representation
         self.points = []
 
-    def __eq__(self, rhs):
+    def equal(self, rhs):
         """ Compare only graphical elements"""
         if not isinstance(rhs, Polygon):
             return False
@@ -161,17 +169,11 @@ class Polygon():
         if len(self.points) != len(rhs.points):
             return False
 
-        print "eq"
         for point1, point2 in zip(self.points, rhs.points):
-            if point1 != point2:
-                print "False"
+            if not point1.equal(point2):
                 return False
 
-        print "True"
         return True
-
-    def __ne__(self, rhs):
-        print "ne"
 
     def add(self, point):
         self.points.append(point)
@@ -184,6 +186,7 @@ class Polygon():
 
 class Rectangle():
     "Render rectangle"
+
     format = "S %d %d %d %d %d %d %d %s"
 
     def __init__(self, x1, y1, x2, y2, width, fill = fill.background, unit = 0, representation = representation.normal):
@@ -196,7 +199,7 @@ class Rectangle():
         self.unit = unit
         self.representation = representation
 
-    def __eq__(self, rhs):
+    def equal(self, rhs):
         """ Compare only graphical elements"""
         if not isinstance(rhs, Rectangle):
             return False
@@ -220,7 +223,7 @@ class Circle():
         self.unit = unit
         self.representation = representation
 
-    def __eq__(self, rhs):
+    def equal(self, rhs):
         """ Compare only graphical elements"""
         if not isinstance(rhs, Circle):
             return False
@@ -250,7 +253,7 @@ class Arc():
         self.unit = unit
         self.representation = representation
 
-    def __eq__(self, rhs):
+    def equal(self, rhs):
         """ Compare only graphical elements"""
         if not isinstance(rhs, Circle):
             return False
@@ -286,7 +289,7 @@ class Text():
         self.hjustify = hjustify
         self.vjustify = vjustify
 
-    def __eq__(self, rhs):
+    def equal(self, rhs):
         """ Compare only graphical elements"""
         if not isinstance(rhs, Text):
             return False
@@ -314,7 +317,7 @@ class Pin_():
         self.type = type
         self.shape = shape
 
-    def __eq__(self, rhs):
+    def equal(self, rhs):
         """ Compare only graphical elements"""
         if not isinstance(rhs, Pin_):
             return False
@@ -477,7 +480,7 @@ class Symbol(object):
                 #    print "FAILED"
                 #print
 
-    def replaceLoad(self, filename, unit, map):
+    def replaceLoad(self, filename, unit, map, loadFields = False):
         file = open(filename, "r")
         text = re.sub('^#.*$\s*', '', file.read(), 0, re.M)
         file.close()
@@ -508,16 +511,30 @@ class Symbol(object):
             elif row[0] == 'ENDDRAW':
                 inDraw = False
 
-            if inDef and inDraw:
-                input = " ".join(row)
-                #print input
-                for i in range(len(row)):
-                   try:
-                       row[i] = int(row[i])
-                   except:
-                       pass
+            for i in range(len(row)):
+               try:
+                   row[i] = int(row[i])
+               except:
+                   pass
 
-                output = ""
+            if inDef and not inDraw:
+                print row
+             #  print re.split('F(\d+)', row[0])
+                if loadFields:
+                    m = re.match(r"F(\d+)", row[0])
+                    if m:
+                        row.pop(0)
+                        data = dict(zip(['text', 'x', 'y', 'size', 'orientation', 'visibility', 'hjustify', 'vjustify'], row))
+                        data['style'] = data['vjustify'][1:]
+                        data['vjustify'] = data['vjustify'][0]
+                        data['number'] = int(m.group(1))
+                        print data
+
+                        f = Field(**data)
+                        print f.render()
+
+
+            elif inDef and inDraw:
                 symbol_type = row[0]
                 row.pop(0)
                 # Polygon
@@ -584,31 +601,28 @@ class Symbol(object):
         """Detect duplicate graphical elements from symbol and merge them to unit = 0"""
         list = []
         for a, b in itertools.combinations(self.modules, 2):
-            if a == b:
-                print "Equal: ", a, b
+            if a.equal(b):
                 a.unit = 0
                 list.append(b)
 
-        print "self.modules"
-        for module in self.modules:
-            print module
-        print
-
-        print "list"
-        for module in list:
-            print module
-        print
-
-        #lists = set(list)
-        test = [item for item in self.modules if item not in list]
-        print "test"
-        for module in test:
-            print module
-        print
-
+        self.modules = [item for item in self.modules if item not in list]
         for module in self.modules:
             print module.render()
 
+#   def render_(self):
+#       pass
+
+    def fields(self, map):
+    #   print map
+        for key, value in map.iteritems():
+            ukey = key.upper()
+            if hasattr(cfg, ukey+"_NAME") and hasattr(cfg, ukey+"_FIELD"):
+            #   fi = Field(
+                print ukey
+
+        #   print key, value
+    #   hasattr(cfg, name)
+    #   map[int(getattr(cfg, value))] = getattr(cfg, part[0]+"_NAME")
 
     def render(self, packageList = None):
         """Build the symbol representation.
