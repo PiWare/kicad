@@ -1,3 +1,71 @@
 EESchema-DOCLIB  Version 2.0
 #
+# +1V2
+#
+D Power supply symbol
+#
+# +1V5
+#
+D Power supply symbol
+#
+# +1V8
+#
+D Power supply symbol
+#
+# +2V5
+#
+D Power supply symbol
+#
+# +3V3
+#
+D Power supply symbol
+#
+# +5V
+#
+D Power supply symbol
+#
+# +9V
+#
+D Power supply symbol
+#
+# +10V
+#
+D Power supply symbol
+#
+# +12V
+#
+D Power supply symbol
+#
+# +24V
+#
+D Power supply symbol
+#
+# -3V3
+#
+D Power supply symbol
+#
+# -5V
+#
+D Power supply symbol
+#
+# -10V
+#
+D Power supply symbol
+#
+# -12V
+#
+D Power supply symbol
+#
+# GND
+#
+D Power supply symbol
+#
+# AGND
+#
+D Power supply symbol
+#
+# DGND
+#
+D Power supply symbol
+#
 #End Doc Library
