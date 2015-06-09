@@ -20,7 +20,6 @@
 import time
 import math
 import config
-import collection
 
 cfg = config.Config("config")
 
@@ -42,8 +41,6 @@ class type():
 	oval = "oval"
 	rect = "rect"
 	trapezoid = "trapezoid"
-
-area = collections.namedtuple('Area', ['x1', 'y1', 'x2', 'y2'])
 
 class text():
 	"""Generate text at x/y"""
