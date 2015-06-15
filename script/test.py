@@ -45,17 +45,30 @@ if __name__ == "__main__":
                         sym.render_()
                         del sym
 
-                    loadFields = True
+                    firstElement = True
                     sym = symbol.Symbol()
-                    sym.fields(data)
+                    #sym.fieldsSet(data)
 
                     print "New symbol "+data['name']
                     last_name = data['name']
 
                 print "Add unit %s"%(data['unit'])
              #  sym.load(template_file, data['unit'])
-                sym.replaceLoad(template_file, int(data['unit']), data, loadFields)
-                loadFields = False
+
+                # As many symbols can contain field elements, we load them only from the first symbol
+                sym.replaceLoad(template_file, int(data['unit']), data, firstElement)
+                if firstElement:
+                    if not sym.setFields(data):
+                        print "Error in ", template_file
+                        quit()
+                    sym.setDescription(data)
+                    firstElement = False
+
+    if 'sym' in locals():
+        sym.optimize()
+        sym.renderSymbol()
+        sym.renderDescription()
+        del sym
     print "Finish last symbol"
 
 #sym = symbol.Symbol()

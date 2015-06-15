@@ -120,7 +120,7 @@ class Point():
         self.y = y
 
     def equal(self, rhs):
-        """ Compare only graphical elements"""
+        """Compare only graphical elements"""
         if not isinstance(rhs, Point):
             return False
 
@@ -132,11 +132,20 @@ class Point():
 class Field():
     """Symbol field"""
 
-    format = "F%d \"%s\" %d %d %d %s %s %s %s%s"
+    format = "F%d \"%s\" %d %d %d %s %s %s %s%s \"%s\""
+    map = {}
+    for value in cfg.dict():
+        part = value.split("_", 1)
+        if len(part) == 2 and part[1] == 'FIELD':
+            map[int(getattr(cfg, value))] = getattr(cfg, part[0]+"_NAME")
 
-    def __init__(self, number, text, x, y, size, orientation, visibility = visibility.visible, hjustify = hjustify.center, vjustify = vjustify.center, style = style.none):
+    name = ""
+    for i in range(2):
+        name += str(i)
+
+    def __init__(self, number, value, x, y, size, orientation, visibility = visibility.visible, hjustify = hjustify.center, vjustify = vjustify.center, style = style.none):
         self.number = number
-        self.text = text
+        self.value = value
         self.x = x
         self.y = y
         self.size = size
@@ -145,9 +154,13 @@ class Field():
         self.hjustify = hjustify
         self.vjustify = vjustify
         self.style = style
+        self.comment = Field.map[number]
+
+    def setValue(self, value):
+        self.value = value
 
     def render(self):
-        return Field.format%(self.number, self.text, self.x, self.y, self.size, self.orientation, self.visibility, self.hjustify, self.vjustify, self.style)
+        return Field.format%(self.number, self.value, self.x, self.y, self.size, self.orientation, self.visibility, self.hjustify, self.vjustify, self.style, self.comment)
 
 class Polygon():
     "Render polygon"
@@ -162,7 +175,7 @@ class Polygon():
         self.points = []
 
     def equal(self, rhs):
-        """ Compare only graphical elements"""
+        """Compare only graphical elements"""
         if not isinstance(rhs, Polygon):
             return False
 
@@ -200,7 +213,7 @@ class Rectangle():
         self.representation = representation
 
     def equal(self, rhs):
-        """ Compare only graphical elements"""
+        """Compare only graphical elements"""
         if not isinstance(rhs, Rectangle):
             return False
 
@@ -224,7 +237,7 @@ class Circle():
         self.representation = representation
 
     def equal(self, rhs):
-        """ Compare only graphical elements"""
+        """Compare only graphical elements"""
         if not isinstance(rhs, Circle):
             return False
 
@@ -254,7 +267,7 @@ class Arc():
         self.representation = representation
 
     def equal(self, rhs):
-        """ Compare only graphical elements"""
+        """Compare only graphical elements"""
         if not isinstance(rhs, Circle):
             return False
 
@@ -290,7 +303,7 @@ class Text():
         self.vjustify = vjustify
 
     def equal(self, rhs):
-        """ Compare only graphical elements"""
+        """Compare only graphical elements"""
         if not isinstance(rhs, Text):
             return False
 
@@ -318,7 +331,7 @@ class Pin_():
         self.shape = shape
 
     def equal(self, rhs):
-        """ Compare only graphical elements"""
+        """Compare only graphical elements"""
         if not isinstance(rhs, Pin_):
             return False
 
@@ -373,6 +386,8 @@ class Symbol(object):
         """
         self.name = name
         self.ref = ref
+        self.alias = ""
+        self.fields = {}
         self.modules = []
         self.nameCentered = nameCentered
         self.footprint = package
@@ -480,7 +495,14 @@ class Symbol(object):
                 #    print "FAILED"
                 #print
 
-    def replaceLoad(self, filename, unit, map, loadFields = False):
+    def replaceLoad(self, filename, unit = 0, map = {}, header = False):
+        """Load graphic elements from a symbol file and add it to the given unit
+            filename - Load given filename
+            unit - Change loaded symbol elements to given unit. If unit = -1, no changes will be made
+            map - Text starting with dollar sign will be replaced with corresponding value.
+            header - Load DEF and F# parts from file. Otherwise only graphic elements are taken.
+        """
+
         file = open(filename, "r")
         text = re.sub('^#.*$\s*', '', file.read(), 0, re.M)
         file.close()
@@ -491,11 +513,8 @@ class Symbol(object):
                 rep_map[key.upper()] = value.replace(' ', '~')
             else:
                 rep_map[key.upper()] = value
-        print rep_map
 
         text = re.sub("\$(\w+)", lambda m: rep_map[m.group(1)] if m.group(1) in rep_map else m.group(0), text)
-        print text
-
         text = StringIO.StringIO(text)
 
         inDef = False
@@ -518,21 +537,28 @@ class Symbol(object):
                    pass
 
             if inDef and not inDraw:
-                print row
-             #  print re.split('F(\d+)', row[0])
-                if loadFields:
-                    m = re.match(r"F(\d+)", row[0])
-                    if m:
+                if header:
+                    if row[0] == 'DEF':
                         row.pop(0)
-                        data = dict(zip(['text', 'x', 'y', 'size', 'orientation', 'visibility', 'hjustify', 'vjustify'], row))
-                        data['style'] = data['vjustify'][1:]
-                        data['vjustify'] = data['vjustify'][0]
-                        data['number'] = int(m.group(1))
-                        print data
+                        print row
+                        self.name = row[0]
+                        self.reference = row[1]
+                        self.offset = row[3]
+                        self.pinnumber = row[4]
+                        self.pinname = row[5]
+                        self.count = 0 # = highest unit if != 0
+                        self.locked = False # False, if no component part in unit = 0
+                        self.flag = row[7]
+                    else:
+                        m = re.match(r"F(\d+)", row[0])
+                        if m:
+                            row.pop(0)
+                            data = dict(zip(['value', 'x', 'y', 'size', 'orientation', 'visibility', 'hjustify', 'vjustify'], row))
+                            data['style'] = data['vjustify'][1:]
+                            data['vjustify'] = data['vjustify'][0]
+                            data['number'] = int(m.group(1))
 
-                        f = Field(**data)
-                        print f.render()
-
+                            self.fields[int(m.group(1))] = Field(**data)
 
             elif inDef and inDraw:
                 symbol_type = row[0]
@@ -549,7 +575,6 @@ class Symbol(object):
                     for i in range(0, len(points), 2):
                         poly.add(Point(points[i], points[i + 1]))
                     self.modules.append(poly)
-                #   output = poly.render()
 
                 # Rectangle
                 elif symbol_type == 'S':
@@ -558,7 +583,6 @@ class Symbol(object):
                         data['unit'] = unit
 
                     self.modules.append(Rectangle(**data))
-                #   output = rect.render()
 
                 # Circle
                 elif symbol_type == 'C':
@@ -567,7 +591,6 @@ class Symbol(object):
                         data['unit'] = unit
 
                     self.modules.append(Circle(**data))
-                #   output = circ.render()
 
                 # Arc
                 elif symbol_type == 'A':
@@ -576,7 +599,6 @@ class Symbol(object):
                         data['unit'] = unit
 
                     self.modules.append(Arc(**data))
-                #   output = arc.render()
 
                 # Text
                 elif symbol_type == 'T':
@@ -586,7 +608,6 @@ class Symbol(object):
                         data['unit'] = unit
 
                     self.modules.append(Text(**data))
-                #   output = text.render()
 
                 # Pin
                 elif symbol_type == 'X':
@@ -595,7 +616,6 @@ class Symbol(object):
                         data['unit'] = unit
 
                     self.modules.append(Pin_(**data))
-                #   output = p.render()
 
     def optimize(self):
         """Detect duplicate graphical elements from symbol and merge them to unit = 0"""
@@ -606,23 +626,39 @@ class Symbol(object):
                 list.append(b)
 
         self.modules = [item for item in self.modules if item not in list]
-        for module in self.modules:
-            print module.render()
 
-#   def render_(self):
-#       pass
-
-    def fields(self, map):
-    #   print map
+    def setFields(self, map):
         for key, value in map.iteritems():
             ukey = key.upper()
             if hasattr(cfg, ukey+"_NAME") and hasattr(cfg, ukey+"_FIELD"):
-            #   fi = Field(
-                print ukey
+                id = int(getattr(cfg, ukey + "_FIELD"))
+                if id in self.fields:
+                    self.fields[id].setValue(value)
+                else:
+                    print "Field %d (%s) not defined in symbol"%(id, getattr(cfg, ukey + "_NAME"))
+                    return False
+        return True
+
+    def setDescription(self, map):
+        pass
 
         #   print key, value
     #   hasattr(cfg, name)
     #   map[int(getattr(cfg, value))] = getattr(cfg, part[0]+"_NAME")
+
+    def renderSymbol(self):
+        print "DEF"
+        for key, field in self.fields.iteritems():
+            print field.render()
+
+        print "DRAW"
+        for module in self.modules:
+            print module.render()
+        print "ENDDRAW"
+        print "ENDDEF"
+
+    def renderDescription(self):
+        pass
 
     def render(self, packageList = None):
         """Build the symbol representation.
