@@ -52,22 +52,22 @@ if __name__ == "__main__":
                     print "New symbol "+data['name']
                     last_name = data['name']
 
-                print "Add unit %s"%(data['unit'])
+             #  print "Add unit %s"%(data['unit'])
              #  sym.load(template_file, data['unit'])
 
                 # As many symbols can contain field elements, we load them only from the first symbol
-                sym.replaceLoad(template_file, int(data['unit']), data, firstElement)
+                sym.load(template_file, int(data['unit']), symbol.representation.normal, data, firstElement)
                 if firstElement:
                     if not sym.setFields(data):
                         print "Error in ", template_file
                         quit()
-                    sym.setDescription(data)
+                    sym.setDescriptions(data)
                     firstElement = False
 
     if 'sym' in locals():
         sym.optimize()
-        sym.renderSymbol()
-        sym.renderDescription()
+        print "\n".join(sym.renderSymbol())
+        print "\n".join(sym.renderDescription())
         del sym
     print "Finish last symbol"
 

@@ -110,10 +110,39 @@ class shape():
     _fallingEdgeClock = "NF"
     _nonLogic = "NX"
 
-class Point():
+class Field(object):
+    """Symbol field"""
+
+    Format = "F%d \"%s\" %d %d %d %s %s %s %s%s \"%s\""
+    Map = {}
+    for value in cfg.dict():
+        part = value.split("_", 1)
+        if len(part) == 2 and part[1] == 'FIELD':
+            Map[int(getattr(cfg, value))] = getattr(cfg, part[0]+"_NAME")
+
+    def __init__(self, number, value, x, y, size, orientation, visibility = visibility.visible, hjustify = hjustify.center, vjustify = vjustify.center, style = style.none):
+        self.number = number
+        self.value = value
+        self.x = x
+        self.y = y
+        self.size = size
+        self.orientation = orientation
+        self.visibility = visibility
+        self.hjustify = hjustify
+        self.vjustify = vjustify
+        self.style = style
+        self.comment = Field.Map[number]
+
+    def setValue(self, value):
+        self.value = value
+
+    def render(self):
+        return Field.Format%(self.number, self.value, self.x, self.y, self.size, self.orientation, self.visibility, self.hjustify, self.vjustify, self.style, self.comment)
+
+class Point(object):
     "Represents a point"
 
-    format = "%d %d"
+    Format = "%d %d"
 
     def __init__(self, x, y):
         self.x = x
@@ -127,51 +156,30 @@ class Point():
         return self.x == rhs.x and self.y == rhs.y
 
     def render(self):
-        return Point.format%(self.x, self.y)
+        return Point.Format%(self.x, self.y)
 
-class Field():
-    """Symbol field"""
+class Item(object):
+    "Base item for graphical symbol elements"
 
-    format = "F%d \"%s\" %d %d %d %s %s %s %s%s \"%s\""
-    map = {}
-    for value in cfg.dict():
-        part = value.split("_", 1)
-        if len(part) == 2 and part[1] == 'FIELD':
-            map[int(getattr(cfg, value))] = getattr(cfg, part[0]+"_NAME")
-
-    name = ""
-    for i in range(2):
-        name += str(i)
-
-    def __init__(self, number, value, x, y, size, orientation, visibility = visibility.visible, hjustify = hjustify.center, vjustify = vjustify.center, style = style.none):
-        self.number = number
-        self.value = value
-        self.x = x
-        self.y = y
-        self.size = size
-        self.orientation = orientation
-        self.visibility = visibility
-        self.hjustify = hjustify
-        self.vjustify = vjustify
-        self.style = style
-        self.comment = Field.map[number]
-
-    def setValue(self, value):
-        self.value = value
-
-    def render(self):
-        return Field.format%(self.number, self.value, self.x, self.y, self.size, self.orientation, self.visibility, self.hjustify, self.vjustify, self.style, self.comment)
-
-class Polygon():
-    "Render polygon"
-
-    format = "P %d %d %d %d %s%s"
-
-    def __init__(self, width, fill = fill.background, unit = 0, representation = representation.normal):
-        self.width = width
-        self.fill = fill
+    def __init__(self, unit = 0, representation = representation.normal, prio = 0):
         self.unit = unit
         self.representation = representation
+        self.prio = prio
+
+    def priority(self):
+        return self.unit * 65536 + self.prio
+
+class Polygon(Item):
+    "Render polygon"
+
+    Format = "P %d %d %d %d %s%s"
+    Prio = 2
+
+    def __init__(self, width, fill = fill.background, unit = 0, representation = representation.normal):
+        super(Polygon, self).__init__(unit, representation, Polygon.Prio)
+
+        self.width = width
+        self.fill = fill
         self.points = []
 
     def equal(self, rhs):
@@ -191,26 +199,30 @@ class Polygon():
     def add(self, point):
         self.points.append(point)
 
+    def priority(self):
+        return self.unit * 65536 + len(self.points) * 256 + self.prio
+
     def render(self):
         pts = ""
         for point in self.points:
             pts += point.render() + " "
-        return Polygon.format%(len(self.points), self.unit, self.representation, self.width, pts, self.fill)
+        return Polygon.Format%(len(self.points), self.unit, self.representation, self.width, pts, self.fill)
 
-class Rectangle():
+class Rectangle(Item):
     "Render rectangle"
 
-    format = "S %d %d %d %d %d %d %d %s"
+    Format = "S %d %d %d %d %d %d %d %s"
+    Prio = 1
 
     def __init__(self, x1, y1, x2, y2, width, fill = fill.background, unit = 0, representation = representation.normal):
+        super(Rectangle, self).__init__(unit, representation, Rectangle.Prio)
+
         self.x1 = x1
         self.y1 = y1
         self.x2 = x2
         self.y2 = y2
         self.width = width
         self.fill = fill
-        self.unit = unit
-        self.representation = representation
 
     def equal(self, rhs):
         """Compare only graphical elements"""
@@ -220,21 +232,22 @@ class Rectangle():
         return self.x1 == rhs.x1 and self.y1 == rhs.y1 and self.x2 == rhs.x2 and self.y2 == rhs.y2
 
     def render(self):
-        return Rectangle.format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.representation, self.width, self.fill)
+        return Rectangle.Format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.representation, self.width, self.fill)
 
-class Circle():
+class Circle(Item):
     "Render circle"
 
-    format = "C %d %d %d %d %d %d %s"
+    Format = "C %d %d %d %d %d %d %s"
+    Prio = 3
 
     def __init__(self, x, y, radius, width, fill = fill.background, unit = 0, representation = representation.normal):
+        super(Circle, self).__init__(unit, representation, Circle.Prio)
+
         self.x = x
         self.y = y
         self.radius = radius
         self.width = width
         self.fill = fill
-        self.unit = unit
-        self.representation = representation
 
     def equal(self, rhs):
         """Compare only graphical elements"""
@@ -244,14 +257,17 @@ class Circle():
         return self.x == rhs.x and self.y == rhs.y and self.radius == rhs.radius
 
     def render(self):
-        return Circle.format%(self.x, self.y, self.radius, self.unit, self.representation, self.width, self.fill)
+        return Circle.Format%(self.x, self.y, self.radius, self.unit, self.representation, self.width, self.fill)
 
-class Arc():
+class Arc(Item):
     "Render arc"
 
-    format = "A %d %d %d %d %d %d %d %d %s %d %d %d %d"
+    Format = "A %d %d %d %d %d %d %d %d %s %d %d %d %d"
+    Prio = 4
 
     def __init__(self, x, y, startX, startY, endX, endY, startAngle, endAngle, radius, width, fill = fill.background, unit = 0, representation = representation.normal):
+        super(Arc, self).__init__(unit, representation, Arc.Prio)
+
         self.x = x
         self.y = y
         self.startX = startX
@@ -263,8 +279,6 @@ class Arc():
         self.radius = radius
         self.width = width
         self.fill = fill
-        self.unit = unit
-        self.representation = representation
 
     def equal(self, rhs):
         """Compare only graphical elements"""
@@ -274,10 +288,10 @@ class Arc():
         return self.x == rhs.x and self.y == rhs.y and self.radius == rhs.radius
 
     def render(self):
-        return Arc.format%(self.x, self.y, self.radius, self.startAngle, self.endAngle, self.unit, self.representation, self.width, self.fill, self.startX, self.startY, self.endX, self.endY)
+        return Arc.Format%(self.x, self.y, self.radius, self.startAngle, self.endAngle, self.unit, self.representation, self.width, self.fill, self.startX, self.startY, self.endX, self.endY)
 
 
-class Text():
+class Text(Item):
     """Format text element
         x, y - Position
         text - Text
@@ -287,16 +301,17 @@ class Text():
         convert - Shape number
     """
 
-    format = 'T %d %d %d %d 0 %d %d %s %s %s %s %s'
+    Format = 'T %d %d %d %d 0 %d %d %s %s %s %s %s'
+    Prio = 0
 
     def __init__(self, x, y, text, size, orientation = 0, unit = 0, representation = representation.normal, italic = italic.off, bold = bold.off, hjustify = hjustify.center, vjustify = vjustify.center):
+        super(Text, self).__init__(unit, representation, Text.Prio)
+
         self.x = x
         self.y = y
         self.text = text.replace(' ', '~')
         self.size = size
         self.orientation = orientation
-        self.unit = unit
-        self.representation = representation
         self.italic = italic
         self.bold = bold
         self.hjustify = hjustify
@@ -310,13 +325,16 @@ class Text():
         return self.x == rhs.x and self.y == rhs.y and self.text == rhs.text
 
     def render(self):
-        return Text.format%(self.orientation, self.x, self.y, self.size, self.unit, self.representation, self.text, self.italic, self.bold, self.hjustify, self.vjustify)
+        return Text.Format%(self.orientation, self.x, self.y, self.size, self.unit, self.representation, self.text, self.italic, self.bold, self.hjustify, self.vjustify)
 
-class Pin_():
+class Pin_(Item):
 
-    format = "X %s %s %d %d %d %s %d %d %d %d %s %s"
+    Format = "X %s %s %d %d %d %s %d %d %d %d %s %s"
+    Prio = 10
 
     def __init__(self, x, y, name, number, length, orientation, nameSize, numberSize, unit = 0, representation = representation.normal, type = Type.input, shape = shape.line):
+        super(Pin_, self).__init__(unit, representation, Pin_.Prio)
+
         self.x = x
         self.y = y
         self.name = name
@@ -325,8 +343,6 @@ class Pin_():
         self.orientation = orientation
         self.nameSize = nameSize
         self.numberSize = numberSize
-        self.unit = unit
-        self.representation = representation
         self.type = type
         self.shape = shape
 
@@ -337,8 +353,11 @@ class Pin_():
 
         return False
 
+    def priority(self):
+        return self.unit * 65536 + self.number * 256 + self.prio
+
     def render(self):
-        return (Pin_.format%(self.name, self.number, self.x, self.y, self.length, self.orientation, self.numberSize, self.nameSize, self.unit, self.representation, self.type, self.shape)).rstrip()
+        return (Pin_.Format%(self.name, self.number, self.x, self.y, self.length, self.orientation, self.numberSize, self.nameSize, self.unit, self.representation, self.type, self.shape)).rstrip()
 
 class Pin(object):
     """Represents a pin assigned to a schematic symbol."""
@@ -376,8 +395,9 @@ class Symbol(object):
     RefFieldFormat = 'F%i "%%s" %%i %%i %i H V L CNN'%(cfg.REFERENCE_FIELD,cfg.SYMBOL_NAME_SIZE)
     ValueFieldFormat = 'F%i "%%s" %%i %%i %i H I L CNN'%(cfg.VALUE_FIELD,cfg.SYMBOL_NAME_SIZE)
     FootprintFieldFormat = "F%i"%(cfg.FOOTPRINT_FIELD) +' "%s" 0 0 30 H I C CCN'
+    Format = "DEF %s %s 0 %i %s %s %i %s %s"
 
-    def __init__(self, name = "", ref = "", nameCentered = True, package = ""):
+    def __init__(self, name = "", reference = "", nameCentered = True, package = ""):
         """Creates a new symbol instance.
 
         name -- symbol name.
@@ -385,15 +405,19 @@ class Symbol(object):
         nameCentered -- a boolean indicating if the name should be centered according to the symbol boundaries.
         """
         self.name = name
-        self.ref = ref
+        self.reference = reference
         self.alias = ""
         self.fields = {}
         self.modules = []
+        self.descriptions = {}
         self.nameCentered = nameCentered
         self.footprint = package
+        self.units = 0
+        self.files = []
 
     def addModule(self, module):
         """Inserts a new module to the symbol. Returns the newly added module instance."""
+        self.units = max(self.units, module.unit)
         self.modules.append(module)
         return module
 
@@ -407,101 +431,17 @@ class Symbol(object):
         bounds = self.getBounds()
         return (bounds[0]+bounds[2], bounds[1]+bounds[3]-cfg.SYMBOL_NAME_SIZE/2)
 
-    def load(self, filename, unit = -1):
-        """Load only graphic elements from a symbol file and add it to the given unit
-            filename - Load given filename
-            unit - Change loaded symbol elements to given unit. If unit = -1, no changes will be made
-        """
-
-        file = open(filename, "r")
-        text = StringIO.StringIO(re.sub('^#.*$\s*', '', file.read(), 0, re.M))
-        file.close()
-
-        inDef = False
-        inDraw = False
-        for row in csv.reader(text, delimiter = " ", skipinitialspace = True):
-            if row[0] == 'DEF':
-                inDef = True
-            elif row[0] == 'DRAW':
-                inDraw = True
-                continue
-            elif row[0] == 'ENDDEF':
-                inDef = False
-            elif row[0] == 'ENDDRAW':
-                inDraw = False
-
-            if inDef and inDraw:
-                input = " ".join(row)
-                #print input
-                for i in range(len(row)):
-                   try:
-                       row[i] = int(row[i])
-                   except:
-                       pass
-
-                output = ""
-                type = row[0]
-                row.pop(0)
-                # Polygon
-                if type == 'P':
-                    data = dict(zip(['unit', 'representation', 'width', 'fill'], row[1:4]+row[-1:]))
-                    points = row[4:-1]
-
-                    poly = Polygon(**data)
-                    for i in range(0, len(points), 2):
-                        poly.add(Point(points[i], points[i + 1]))
-                    output = poly.render()
-
-                # Rectangle
-                elif type == 'S':
-                    data = dict(zip(['x1', 'y1', 'x2', 'y2', 'unit', 'representation', 'width', 'fill'], row))
-
-                    rect = Rectangle(**data)
-                    output = rect.render()
-
-                # Circle
-                elif type == 'C':
-                    data = dict(zip(['x', 'y', 'radius', 'unit', 'representation', 'width', 'fill'], row))
-
-                    circ = Circle(**data)
-                    output = circ.render()
-
-                # Arc
-                elif type == 'A':
-                    data = dict(zip(['x', 'y', 'radius', 'startAngle', 'endAngle', 'unit', 'representation', 'width', 'fill', 'startX', 'startY', 'endX', 'endY'], row))
-
-                    arc = Arc(**data)
-                    output = arc.render()
-
-                # Text
-                elif type == 'T':
-                    row.pop(4) # Pop unused argument
-                    data = dict(zip(['orientation', 'x', 'y', 'size', 'unit', 'representation', 'text', 'italic', 'bold', 'hjustify', 'vjustify'], row))
-
-                    text = Text(**data)
-                    output = text.render()
-
-                # Pin
-                elif type == 'X':
-                    data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberSize', 'nameSize', 'unit', 'representation', 'type', 'shape'], row))
-
-                    p = Pin_(**data)
-                    output = p.render()
-
-                print output
-                #if input == output:
-                #    print "PASS"
-                #else:
-                #    print "FAILED"
-                #print
-
-    def replaceLoad(self, filename, unit = 0, map = {}, header = False):
+    def load(self, filename, unit = 0, representation = representation.both, map = {}, header = False):
         """Load graphic elements from a symbol file and add it to the given unit
             filename - Load given filename
-            unit - Change loaded symbol elements to given unit. If unit = -1, no changes will be made
+            unit - Change loaded symbol elements to given unit. If unit = -1, no changes will be made.
+            representation - Change loaded symbol elements to given representation.
             map - Text starting with dollar sign will be replaced with corresponding value.
             header - Load DEF and F# parts from file. Otherwise only graphic elements are taken.
         """
+
+        if filename not in self.files:
+            self.files.append(filename)
 
         file = open(filename, "r")
         text = re.sub('^#.*$\s*', '', file.read(), 0, re.M)
@@ -540,7 +480,6 @@ class Symbol(object):
                 if header:
                     if row[0] == 'DEF':
                         row.pop(0)
-                        print row
                         self.name = row[0]
                         self.reference = row[1]
                         self.offset = row[3]
@@ -548,7 +487,7 @@ class Symbol(object):
                         self.pinname = row[5]
                         self.count = 0 # = highest unit if != 0
                         self.locked = False # False, if no component part in unit = 0
-                        self.flag = row[7]
+                        self.flag = row[8]
                     else:
                         m = re.match(r"F(\d+)", row[0])
                         if m:
@@ -568,37 +507,41 @@ class Symbol(object):
                     data = dict(zip(['unit', 'representation', 'width', 'fill'], row[1:4]+row[-1:]))
                     if unit != -1:
                         data['unit'] = unit
+                    data['representation'] = representation
 
                     points = row[4:-1]
 
                     poly = Polygon(**data)
                     for i in range(0, len(points), 2):
                         poly.add(Point(points[i], points[i + 1]))
-                    self.modules.append(poly)
+                    self.addModule(poly)
 
                 # Rectangle
                 elif symbol_type == 'S':
                     data = dict(zip(['x1', 'y1', 'x2', 'y2', 'unit', 'representation', 'width', 'fill'], row))
                     if unit != -1:
                         data['unit'] = unit
+                    data['representation'] = representation
 
-                    self.modules.append(Rectangle(**data))
+                    self.addModule(Rectangle(**data))
 
                 # Circle
                 elif symbol_type == 'C':
                     data = dict(zip(['x', 'y', 'radius', 'unit', 'representation', 'width', 'fill'], row))
                     if unit != -1:
                         data['unit'] = unit
+                    data['representation'] = representation
 
-                    self.modules.append(Circle(**data))
+                    self.addModule(Circle(**data))
 
                 # Arc
                 elif symbol_type == 'A':
                     data = dict(zip(['x', 'y', 'radius', 'startAngle', 'endAngle', 'unit', 'representation', 'width', 'fill', 'startX', 'startY', 'endX', 'endY'], row))
                     if unit != -1:
                         data['unit'] = unit
+                    data['representation'] = representation
 
-                    self.modules.append(Arc(**data))
+                    self.addModule(Arc(**data))
 
                 # Text
                 elif symbol_type == 'T':
@@ -606,16 +549,27 @@ class Symbol(object):
                     data = dict(zip(['orientation', 'x', 'y', 'size', 'unit', 'representation', 'text', 'italic', 'bold', 'hjustify', 'vjustify'], row))
                     if unit != -1:
                         data['unit'] = unit
+                    data['representation'] = representation
 
-                    self.modules.append(Text(**data))
+                    self.addModule(Text(**data))
 
                 # Pin
                 elif symbol_type == 'X':
                     data = dict(zip(['name', 'number', 'x', 'y', 'length', 'orientation', 'numberSize', 'nameSize', 'unit', 'representation', 'type', 'shape'], row))
                     if unit != -1:
                         data['unit'] = unit
+                    data['representation'] = representation
 
-                    self.modules.append(Pin_(**data))
+                    self.addModule(Pin_(**data))
+
+        # Overwrite properties, if defined in map
+        if header:
+            if 'name' in map:
+                self.name = map['name']
+            if 'reference' in map:
+                self.reference = map['reference']
+            if 'alias' in map:
+                self.alias = map['alias']
 
     def optimize(self):
         """Detect duplicate graphical elements from symbol and merge them to unit = 0"""
@@ -639,26 +593,42 @@ class Symbol(object):
                     return False
         return True
 
-    def setDescription(self, map):
-        pass
-
-        #   print key, value
-    #   hasattr(cfg, name)
-    #   map[int(getattr(cfg, value))] = getattr(cfg, part[0]+"_NAME")
+    def setDescriptions(self, map):
+        if 'description' in map:
+            self.descriptions['D'] = map['description'].translate(None, "\n\r")
+        if 'keywords' in map:
+            self.descriptions['K'] = map['keywords'].translate(None, "\n\r")
+        if 'document' in map:
+            self.descriptions['F'] = map['document'].translate(None, "\n\r")
 
     def renderSymbol(self):
-        print "DEF"
-        for key, field in self.fields.iteritems():
-            print field.render()
+        locked = "L"
+        count = 1
+        if self.units != 0:
+            count = self.units
+            # If all parts are loaded from the same file, we should have a swapable device!
+            if len(self.files) == 1:
+                locked = "F"
 
-        print "DRAW"
-        for module in self.modules:
-            print module.render()
-        print "ENDDRAW"
-        print "ENDDEF"
+        result = [ Symbol.Format%(self.name, self.reference, self.offset, self.pinnumber, self.pinname, count, locked, self.flag) ]
+        for key, field in self.fields.iteritems():
+            result.append(field.render())
+
+        if len(self.alias):
+            result.append("ALIAS "+self.alias)
+
+        result.append("DRAW")
+        for module in sorted(self.modules, key = lambda x: x.priority()):
+            result.append(module.render())
+        result.extend(["ENDDRAW", "ENDDEF"])
+        return result
 
     def renderDescription(self):
-        pass
+        result = [ "$CMP "+self.name]
+        for key, description in self.descriptions.iteritems():
+            result.append(key+" "+description)
+        result.append("$ENDCMP")
+        return result
 
     def render(self, packageList = None):
         """Build the symbol representation.
@@ -669,8 +639,8 @@ class Symbol(object):
         refFieldPos = self.refFieldPos()
 
         moduleList = map(lambda x : x.render(self.name, valueFieldPos[0], self.nameCentered), self.modules)
-        result = [ Symbol.DefFormat%(self.name, self.ref, len(self.modules)),
-                Symbol.RefFieldFormat%(self.ref, refFieldPos[0], refFieldPos[1]),
+        result = [ Symbol.DefFormat%(self.name, self.reference, len(self.modules)),
+                Symbol.RefFieldFormat%(self.reference, refFieldPos[0], refFieldPos[1]),
                 Symbol.ValueFieldFormat%(self.name, valueFieldPos[0], valueFieldPos[1])]
         if self.footprint != None:
             if self.footprint != "":
