@@ -16,9 +16,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     symbol_output = open(args.symbol, "w")
-    symbol_output.write("EESchema-LIBRARY Version 2.3\n")
+    symbol_output.write("EESchema-LIBRARY Version 2.3\n#encoding utf-8\n")
     desc_output = open(args.desc, "w")
     desc_output.write('EESchema-DOCLIB Version 2.0\n')
+
+	args.template_path = os.path.normpath(args.template_path)
 
     with open(args.csv, 'rb') as csvfile:
         table = csv.reader(csvfile, delimiter=',', quotechar='\"')
@@ -31,7 +33,7 @@ if __name__ == "__main__":
                 first_row = 0
             else:
                 data = dict(zip(header, row))
-                template_file = args.template_path + data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION
+                template_file = os.path.join(args.template_path, data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION)
                 del data['symbol']
 
                 if not os.path.isfile(template_file):
