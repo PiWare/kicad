@@ -1,5 +1,7 @@
-symbol,name,document,in_a,in_b,out,supply_a,supply_b
-,74HC00,,,,,,
-,74HC00,,,,,,
-,74HC04,,,,,,
-,74HC04,,,,,,
+symbol,name,unit,in,out,vcc,gnd,reference,alias,document,footprint,description,keywords
+logic_schmitt_not_power,74HC14N,1,1,2,14,7,IC,74HCT14N,doc/logic/74HC_HCT14.pdf,dip14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger"
+logic_schmitt_not,74HC14N,2,3,4,,,,,,,,
+logic_schmitt_not,74HC14N,3,5,6,,,,,,,,
+logic_schmitt_not,74HC14N,4,9,8,,,,,,,,
+logic_schmitt_not,74HC14N,5,11,10,,,,,,,,
+logic_schmitt_not,74HC14N,6,13,12,,,,,,,,

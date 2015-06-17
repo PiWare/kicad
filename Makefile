@@ -21,7 +21,8 @@ LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
 # Template based symbols
 TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/led.lib \
-	$(LIBRARY_ROOT)/transistor.lib
+	$(LIBRARY_ROOT)/transistor.lib \
+	$(LIBRARY_ROOT)/logic.lib
 
 TEMPLATE_LIBRARIES_CSV := $(patsubst $(LIBRARY_ROOT)/%.lib, $(CSV_ROOT)/%.csv, $(TEMPLATE_LIBRARIES))
 
@@ -62,7 +63,9 @@ $(FOOTPRINTS): %: data/footprint/%.csv
 summary.txt: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES)
 	$(SUMMARY_SCRIPT) --libs $(LIBRARIES) --footprints $(FOOTPRINTS) --output $@
 
-library.pro: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES)
+# Uncomment dependency on $(FOOTPRINTS), when it works!
+#library.pro: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES)
+library.pro: $(LIBRARIES) $(TEMPLATE_LIBRARIES)
 	$(PROJECT_SCRIPT) --template data/project.pro --symbol_path $(LIBRARY_ROOT) --footprint_path $(FOOTPRINT_ROOT) --project $@
 
 README.md: config
