@@ -1,5 +1,7 @@
 LIBRARY_ROOT = library
 FOOTPRINT_ROOT = modules
+CSV_ROOT := data/device
+TEMPLATE_ROOT := data/template
 
 COMMON_SCRIPT_DEPS = script/config.py script/symbol.py config
 CPU_SCRIPT = script/cpu.py
@@ -16,16 +18,20 @@ LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
 			$(LIBRARY_ROOT)/capacitor.lib
 
 # Template based symbols
-TEMPLATE_LIBRARIES = $(LIBRARY_ROOT)/supply.lib
-DEVICES = $(LIBRARY_ROOT)/led.lib
+TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
+	$(LIBRARY_ROOT)/led.lib
+#	$(LIBRARY_ROOT)/transistor.lib
 
+TEMPLATE_LIBRARIES_CSV := $(patsubst $(LIBRARY_ROOT)/%.lib, $(CSV_ROOT)/%.csv, $(TEMPLATE_LIBRARIES))
+
+# Footprints
 FOOTPRINTS = dip \
 	soic \
 	plcc \
 	pqfp \
 	sqfp
 
-all: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES) $(DEVICES) summary.txt README.md
+all: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES) summary.txt README.md
 
 MCU_CLOCK = data/mcu/pin-table-TM4C123GH6PM.csv\
 			data/mcu/stm32F030C8T6RT.csv
@@ -43,16 +49,9 @@ CAPACITOR = data/avx_condensator.csv
 $(LIBRARY_ROOT)/capacitor.lib: $(CAPACITOR_SCRIPT) $(COMMON_SCRIPT_DEPS) $(CAPACITOR)
 	$(CAPACITOR_SCRIPT) --data $(CAPACITOR) --output $@
 
-SUPPLY = data/device/supply.csv
-
-$(LIBRARY_ROOT)/supply.lib: $(DEVICE_SCRIPT) $(COMMON_SCRIPT_DEPS) $(SUPPLY)
-	$(DEVICE_SCRIPT) --csv $(SUPPLY) --symbol $@ --desc $(addsuffix .dcm, $(basename $@))
-
-DEVICE_CSV = data/device/led.csv
-
-$(DEVICES): $(DEVICE_SCRIPT) $(COMMON_SCRIPT_DEPS) $(DEVICE_CSV)
-	$(DEVICE_SCRIPT) --csv $(DEVICE_CSV) --symbol $@ --desc $(addsuffix .dcm, $(basename $@))
-
+# Template based symbols
+$(LIBRARY_ROOT)/%.lib: $(CSV_ROOT)/%.csv
+	$(DEVICE_SCRIPT) --csv $< --symbol $@ --desc $(addsuffix .dcm, $(basename $@)) --template_path $(TEMPLATE_ROOT)/
 
 # Footprint generation
 $(FOOTPRINTS): %: data/footprint/%.csv
