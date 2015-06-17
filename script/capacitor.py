@@ -37,6 +37,7 @@ from symbol import Symbol, Pin, cfg
 class LocalModule(object):
     def __init__(self,polarized):
         self.polarized = polarized
+        self.unit = 0
 
     def render(self, name, valueFieldXPos, nameCentered ):
        if self.polarized:

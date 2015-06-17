@@ -1,18 +1,18 @@
-symbol,name,reference,value,description
-supply_positive,+1V2,#PWR,,Power supply symbol
-supply_positive,+1V5,#PWR,,Power supply symbol
-supply_positive,+1V8,#PWR,,Power supply symbol
-supply_positive,+2V5,#PWR,,Power supply symbol
-supply_positive,+3V3,#PWR,,Power supply symbol
-supply_positive,+5V,#PWR,,Power supply symbol
-supply_positive,+9V,#PWR,,Power supply symbol
-supply_positive,+10V,#PWR,,Power supply symbol
-supply_positive,+12V,#PWR,,Power supply symbol
-supply_positive,+24V,#PWR,,Power supply symbol
-supply_negative,-3V3,#PWR,,Power supply symbol
-supply_negative,-5V,#PWR,,Power supply symbol
-supply_negative,-10V,#PWR,,Power supply symbol
-supply_negative,-12V,#PWR,,Power supply symbol
-supply_ground,GND,#PWR,,Power supply symbol
-supply_ground,AGND,#PWR,,Power supply symbol
-supply_ground,DGND,#PWR,,Power supply symbol
+symbol,name,reference,description
+supply_positive,+1V2,#PWR,+1V2 Power supply symbol
+supply_positive,+1V5,#PWR,+1V5 Power supply symbol
+supply_positive,+1V8,#PWR,+1V8 Power supply symbol
+supply_positive,+2V5,#PWR,+2V5 Power supply symbol
+supply_positive,+3V3,#PWR,+3V3 Power supply symbol
+supply_positive,+5V,#PWR,+5V Power supply symbol
+supply_positive,+9V,#PWR,+9V Power supply symbol
+supply_positive,+10V,#PWR,+10V Power supply symbol
+supply_positive,+12V,#PWR,+12V Power supply symbol
+supply_positive,+24V,#PWR,+24V Power supply symbol
+supply_negative,-3V3,#PWR,-3V3 Power supply symbol
+supply_negative,-5V,#PWR,-5V Power supply symbol
+supply_negative,-10V,#PWR,-10V Power supply symbol
+supply_negative,-12V,#PWR,-12V Power supply symbol
+supply_ground,GND,#PWR,GND Power supply symbol
+supply_ground,AGND,#PWR,AGND Power supply symbol
+supply_ground,DGND,#PWR,DGND Power supply symbol

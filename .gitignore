@@ -3,3 +3,5 @@
 *.bak
 *.bck
 *.pyc
+
+data/template/*.dcm

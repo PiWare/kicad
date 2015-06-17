@@ -146,6 +146,7 @@ class Module(object):
         self.representation = representation
         self.number = number
         self.pins = { "U" : [], "L" : [], "R" : [], "D" : [] }
+        self.unit = 0
 
     def addPin(self, pin, orientation):
         """Add a pin to the module with the given orientation."""
@@ -186,7 +187,7 @@ class Cpu(Symbol):
 
     def refFieldPos(self):
         if self.nameCentered:
-            return ( -(len(self.ref)+4)/4*cfg.SYMBOL_NAME_SIZE
+            return ( -(len(self.reference)+4)/4*cfg.SYMBOL_NAME_SIZE
                     , -cfg.SYMBOL_TEXT_MARGIN )
         else:
             return ( cfg.SYMBOL_TEXT_MARGIN, cfg.SYMBOL_NAME_SIZE )
@@ -196,7 +197,7 @@ class Cpu(Symbol):
             return ( -(len(self.name))/4*cfg.SYMBOL_NAME_SIZE
                     , cfg.SYMBOL_TEXT_MARGIN )
         else:
-            return ( (len(self.name)/2 + len(self.ref)+4)*cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_TEXT_MARGIN,
+            return ( (len(self.name)/2 + len(self.reference)+4)*cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_TEXT_MARGIN,
                 cfg.SYMBOL_NAME_SIZE
             )
 

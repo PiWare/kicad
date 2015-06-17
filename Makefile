@@ -17,6 +17,7 @@ LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
 
 # Template based symbols
 TEMPLATE_LIBRARIES = $(LIBRARY_ROOT)/supply.lib
+DEVICES = $(LIBRARY_ROOT)/led.lib
 
 FOOTPRINTS = dip \
 	soic \
@@ -24,7 +25,7 @@ FOOTPRINTS = dip \
 	pqfp \
 	sqfp
 
-all: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES) summary.txt README.md
+all: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES) $(DEVICES) summary.txt README.md
 
 MCU_CLOCK = data/mcu/pin-table-TM4C123GH6PM.csv\
 			data/mcu/stm32F030C8T6RT.csv
@@ -46,6 +47,12 @@ SUPPLY = data/device/supply.csv
 
 $(LIBRARY_ROOT)/supply.lib: $(DEVICE_SCRIPT) $(COMMON_SCRIPT_DEPS) $(SUPPLY)
 	$(DEVICE_SCRIPT) --csv $(SUPPLY) --symbol $@ --desc $(addsuffix .dcm, $(basename $@))
+
+DEVICE_CSV = data/device/led.csv
+
+$(DEVICES): $(DEVICE_SCRIPT) $(COMMON_SCRIPT_DEPS) $(DEVICE_CSV)
+	$(DEVICE_SCRIPT) --csv $(DEVICE_CSV) --symbol $@ --desc $(addsuffix .dcm, $(basename $@))
+
 
 # Footprint generation
 $(FOOTPRINTS): %: data/footprint/%.csv

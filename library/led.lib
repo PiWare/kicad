@@ -1,0 +1,76 @@
+EESchema-LIBRARY Version 2.3
+#
+# L-59EGW
+#
+DEF L-59EGW LED 0 0 Y Y 2 F N
+F0 "LED" -50 125 60 H V R CNN "Reference"
+F1 "L-59EGW" 0 -125 60 H V C CNN "Name"
+F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
+F3 "L-59.pdf" 0 -425 60 H I C CNN "Document"
+F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
+ALIAS L-59EGW-CA
+DRAW
+P 2 0 1 10 50 50 50 -50 N
+P 2 0 1 0 -25 75 25 125 N
+P 2 0 1 0 5 60 55 110 N
+P 3 0 1 0 0 115 25 125 15 100 N
+P 3 0 1 0 30 100 55 110 45 85 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+T 0 100 125 60 0 1 1 high~efficiency~red Normal 0 L C
+X A 1 -200 0 150 R 50 50 1 1 P
+X C 2 200 0 150 L 50 50 1 1 P
+T 0 100 125 60 0 2 1 green Normal 0 L C
+X C 2 200 0 150 L 50 50 2 1 P
+X A 3 -200 0 150 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# L-59EYW
+#
+DEF L-59EYW LED 0 0 Y Y 2 F N
+F0 "LED" -50 125 60 H V R CNN "Reference"
+F1 "L-59EYW" 0 -125 60 H V C CNN "Name"
+F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
+F3 "L-59.pdf" 0 -425 60 H I C CNN "Document"
+F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
+DRAW
+P 2 0 1 10 50 50 50 -50 N
+P 2 0 1 0 -25 75 25 125 N
+P 2 0 1 0 5 60 55 110 N
+P 3 0 1 0 0 115 25 125 15 100 N
+P 3 0 1 0 30 100 55 110 45 85 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+T 0 100 125 60 0 1 1 high~efficiency~red Normal 0 L C
+X A 1 -200 0 150 R 50 50 1 1 P
+X C 2 200 0 150 L 50 50 1 1 P
+T 0 100 125 60 0 2 1 yellow Normal 0 L C
+X C 2 200 0 150 L 50 50 2 1 P
+X A 3 -200 0 150 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# L-59GYW
+#
+DEF L-59GYW LED 0 0 Y Y 2 F N
+F0 "LED" -50 125 60 H V R CNN "Reference"
+F1 "L-59GYW" 0 -125 60 H V C CNN "Name"
+F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
+F3 "L-59.pdf" 0 -425 60 H I C CNN "Document"
+F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
+DRAW
+P 2 0 1 10 50 50 50 -50 N
+P 2 0 1 0 -25 75 25 125 N
+P 2 0 1 0 5 60 55 110 N
+P 3 0 1 0 0 115 25 125 15 100 N
+P 3 0 1 0 30 100 55 110 45 85 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+T 0 100 125 60 0 1 1 green Normal 0 L C
+X A 1 -200 0 150 R 50 50 1 1 P
+X C 2 200 0 150 L 50 50 1 1 P
+T 0 100 125 60 0 2 1 yellow Normal 0 L C
+X C 2 200 0 150 L 50 50 2 1 P
+X A 3 -200 0 150 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# End Library

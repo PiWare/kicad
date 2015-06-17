@@ -1,71 +1,105 @@
-EESchema-DOCLIB  Version 2.0
+EESchema-DOCLIB Version 2.0
 #
 # +1V2
 #
-D Power supply symbol
+$CMP +1V2
+D +1V2 Power supply symbol
+$ENDCMP
 #
 # +1V5
 #
-D Power supply symbol
+$CMP +1V5
+D +1V5 Power supply symbol
+$ENDCMP
 #
 # +1V8
 #
-D Power supply symbol
+$CMP +1V8
+D +1V8 Power supply symbol
+$ENDCMP
 #
 # +2V5
 #
-D Power supply symbol
+$CMP +2V5
+D +2V5 Power supply symbol
+$ENDCMP
 #
 # +3V3
 #
-D Power supply symbol
+$CMP +3V3
+D +3V3 Power supply symbol
+$ENDCMP
 #
 # +5V
 #
-D Power supply symbol
+$CMP +5V
+D +5V Power supply symbol
+$ENDCMP
 #
 # +9V
 #
-D Power supply symbol
+$CMP +9V
+D +9V Power supply symbol
+$ENDCMP
 #
 # +10V
 #
-D Power supply symbol
+$CMP +10V
+D +10V Power supply symbol
+$ENDCMP
 #
 # +12V
 #
-D Power supply symbol
+$CMP +12V
+D +12V Power supply symbol
+$ENDCMP
 #
 # +24V
 #
-D Power supply symbol
+$CMP +24V
+D +24V Power supply symbol
+$ENDCMP
 #
 # -3V3
 #
-D Power supply symbol
+$CMP -3V3
+D -3V3 Power supply symbol
+$ENDCMP
 #
 # -5V
 #
-D Power supply symbol
+$CMP -5V
+D -5V Power supply symbol
+$ENDCMP
 #
 # -10V
 #
-D Power supply symbol
+$CMP -10V
+D -10V Power supply symbol
+$ENDCMP
 #
 # -12V
 #
-D Power supply symbol
+$CMP -12V
+D -12V Power supply symbol
+$ENDCMP
 #
 # GND
 #
-D Power supply symbol
+$CMP GND
+D GND Power supply symbol
+$ENDCMP
 #
 # AGND
 #
-D Power supply symbol
+$CMP AGND
+D AGND Power supply symbol
+$ENDCMP
 #
 # DGND
 #
-D Power supply symbol
+$CMP DGND
+D DGND Power supply symbol
+$ENDCMP
 #
-#End Doc Library
+# End Doc Library

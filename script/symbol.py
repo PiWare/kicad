@@ -1,23 +1,24 @@
 #!/usr/bin/python
 #
-#     Copyright (C) 2015 Thomas Bernard
+# Copyright (C) 2015 Thomas Bernard and Benjamind Fueldner
 #
-#     This program is free software: you can redistribute it and/or modify
-#     it under the terms of the GNU General Public License as published by
-#     the Free Software Foundation, either version 3 of the License, or
-#     (at your option) any later version.
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
 #
-#     This program is distributed in the hope that it will be useful,
-#     but WITHOUT ANY WARRANTY; without even the implied warranty of
-#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#     GNU General Public License for more details.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
 #
-#     You should have received a copy of the GNU General Public License
-#     along with this program.  If not, see <http://www.gnu.org/licenses/>
-
-#     This script contains commons object definitions to generate kicad symbols
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>
+#
+# This script contains commons object definitions to generate kicad symbols
 
 import config
+import sys
 import re
 import csv
 import StringIO
@@ -167,7 +168,7 @@ class Item(object):
         self.prio = prio
 
     def priority(self):
-        return self.unit * 65536 + self.prio
+        return self.unit * 65536 + self.prio * 256
 
 class Polygon(Item):
     "Render polygon"
@@ -200,7 +201,7 @@ class Polygon(Item):
         self.points.append(point)
 
     def priority(self):
-        return self.unit * 65536 + len(self.points) * 256 + self.prio
+        return self.unit * 65536 + self.prio * 256 + len(self.points)
 
     def render(self):
         pts = ""
@@ -290,7 +291,6 @@ class Arc(Item):
     def render(self):
         return Arc.Format%(self.x, self.y, self.radius, self.startAngle, self.endAngle, self.unit, self.representation, self.width, self.fill, self.startX, self.startY, self.endX, self.endY)
 
-
 class Text(Item):
     """Format text element
         x, y - Position
@@ -354,7 +354,10 @@ class Pin_(Item):
         return False
 
     def priority(self):
-        return self.unit * 65536 + self.number * 256 + self.prio
+        try:
+            return self.unit * 65536 + self.prio * 256 + self.number
+        except:
+            return self.unit * 65536 + self.prio * 256
 
     def render(self):
         return (Pin_.Format%(self.name, self.number, self.x, self.y, self.length, self.orientation, self.numberSize, self.nameSize, self.unit, self.representation, self.type, self.shape)).rstrip()
@@ -375,6 +378,7 @@ class Pin(object):
         self.length = len(name)*cfg.SYMBOL_PIN_NAME_SIZE
         self.type = type
         self.number = number
+        self.unit = 0
 
     def render(self,x,y,orientation,group,convert):
         """Make a representation for the pin using the pin properties and the positioning information.
@@ -386,7 +390,6 @@ class Pin(object):
         convert -- kicad convert (usually 2, or 0 for pins common to all modules)
         """
         return Pin.FormatString %(self.name, self.number, x, y, orientation, group, convert, self.type)
-
 
 class Symbol(object):
     """Represents a kicad schematic library symbol."""
@@ -406,7 +409,7 @@ class Symbol(object):
         """
         self.name = name
         self.reference = reference
-        self.alias = ""
+        self.alias = []
         self.fields = {}
         self.modules = []
         self.descriptions = {}
@@ -460,7 +463,11 @@ class Symbol(object):
         inDef = False
         inDraw = False
         for row in csv.reader(text, delimiter = " ", skipinitialspace = True):
-            if row[0] == 'DEF':
+            if row[0] == 'EESchema-LIBRARY':
+                if row[2] != '2.3':
+                    print "Symbol version %s is not supported yet!"%(row[2])
+                    sys.exit(2)
+            elif row[0] == 'DEF':
                 inDef = True
             elif row[0] == 'DRAW':
                 inDraw = True
@@ -569,10 +576,16 @@ class Symbol(object):
             if 'reference' in map:
                 self.reference = map['reference']
             if 'alias' in map:
-                self.alias = map['alias']
+                self.alias = map['alias'].split()
 
     def optimize(self):
-        """Detect duplicate graphical elements from symbol and merge them to unit = 0"""
+        """Remove empty fields and detect duplicate graphical elements from symbol and merge them to unit = 0"""
+        list = []
+        for key, field in self.fields.iteritems():
+            if not len(field.value):
+                list.append(key)
+        self.fields = { key: self.fields[key] for key in self.fields if key not in list }
+
         list = []
         for a, b in itertools.combinations(self.modules, 2):
             if a.equal(b):
@@ -602,6 +615,7 @@ class Symbol(object):
             self.descriptions['F'] = map['document'].translate(None, "\n\r")
 
     def renderSymbol(self):
+        """Render symbol"""
         locked = "L"
         count = 1
         if self.units != 0:
@@ -610,24 +624,30 @@ class Symbol(object):
             if len(self.files) == 1:
                 locked = "F"
 
-        result = [ Symbol.Format%(self.name, self.reference, self.offset, self.pinnumber, self.pinname, count, locked, self.flag) ]
+        result = [ "#", "# "+self.name, "#", Symbol.Format%(self.name, self.reference, self.offset, self.pinnumber, self.pinname, count, locked, self.flag) ]
         for key, field in self.fields.iteritems():
             result.append(field.render())
 
         if len(self.alias):
-            result.append("ALIAS "+self.alias)
+            result.append("ALIAS "+" ".join(self.alias))
 
         result.append("DRAW")
         for module in sorted(self.modules, key = lambda x: x.priority()):
             result.append(module.render())
-        result.extend(["ENDDRAW", "ENDDEF"])
+
+        result.extend(["ENDDRAW", "ENDDEF", ""])
         return result
 
     def renderDescription(self):
-        result = [ "$CMP "+self.name]
+        """Render description for symbol and all aliases"""
+        base = []
         for key, description in self.descriptions.iteritems():
-            result.append(key+" "+description)
-        result.append("$ENDCMP")
+            base.append(key+" "+description)
+        base.append("$ENDCMP")
+        result = [ "#", "# "+self.name, "#", "$CMP "+self.name] + base
+        for alias in self.alias:
+            result += [ "#", "# "+alias, "#", "$CMP "+alias] + base
+        result.append("")
         return result
 
     def render(self, packageList = None):
