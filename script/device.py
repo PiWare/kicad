@@ -12,6 +12,7 @@ if __name__ == "__main__":
     parser.add_argument('--csv', metavar = 'csv', type = str, help = 'CSV formatted input table', required = True)
     parser.add_argument('--symbol', metavar = 'symbol', type = str, help = 'Output file for generated KiCAD symbols', required = True)
     parser.add_argument('--desc', metavar = 'desc', type = str, help = 'Output file for generated KiCAD symbol description', required = True)
+    parser.add_argument('--template_path', metavar = 'template_path', type = str, help = 'Path to template symbols', required = True)
     args = parser.parse_args()
 
     symbol_output = open(args.symbol, "w")
@@ -30,7 +31,7 @@ if __name__ == "__main__":
                 first_row = 0
             else:
                 data = dict(zip(header, row))
-                template_file = cfg.SYMBOL_TEMPLATE_PATH + data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION
+                template_file = args.template_path + data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION
                 del data['symbol']
 
                 if not os.path.isfile(template_file):

@@ -6,7 +6,7 @@ DEF L-59EGW LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59EGW" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 ALIAS L-59EGW-CA
 DRAW
@@ -31,7 +31,7 @@ DEF L-59EYW LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59EYW" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
 P 2 0 1 10 50 50 50 -50 N
@@ -55,7 +55,7 @@ DEF L-59GYW LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59GYW" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
 P 2 0 1 10 50 50 50 -50 N

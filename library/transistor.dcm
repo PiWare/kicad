@@ -1,3 +1,1283 @@
-EESchema-DOCLIB  Version 2.0
+EESchema-DOCLIB Version 2.0
 #
-#End Doc Library
+# BC237
+#
+$CMP BC237
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC237A
+#
+$CMP BC237A
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC237B
+#
+$CMP BC237B
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC237C
+#
+$CMP BC237C
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC238
+#
+$CMP BC238
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC238A
+#
+$CMP BC238A
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC238B
+#
+$CMP BC238B
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC238C
+#
+$CMP BC238C
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC239
+#
+$CMP BC239
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC239A
+#
+$CMP BC239A
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC239B
+#
+$CMP BC239B
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC239C
+#
+$CMP BC239C
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC237_239.pdf
+$ENDCMP
+#
+# BC307
+#
+$CMP BC307
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC307A
+#
+$CMP BC307A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC307B
+#
+$CMP BC307B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC307C
+#
+$CMP BC307C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC308
+#
+$CMP BC308
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC308A
+#
+$CMP BC308A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC308B
+#
+$CMP BC308B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC308C
+#
+$CMP BC308C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC309
+#
+$CMP BC309
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC309A
+#
+$CMP BC309A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC309B
+#
+$CMP BC309B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC309C
+#
+$CMP BC309C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC307_309.pdf
+$ENDCMP
+#
+# BC327
+#
+$CMP BC327
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC327_328.pdf
+$ENDCMP
+#
+# BC327A
+#
+$CMP BC327A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC327_328.pdf
+$ENDCMP
+#
+# BC327B
+#
+$CMP BC327B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC327_328.pdf
+$ENDCMP
+#
+# BC327C
+#
+$CMP BC327C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC327_328.pdf
+$ENDCMP
+#
+# BC328
+#
+$CMP BC328
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC327_328.pdf
+$ENDCMP
+#
+# BC328A
+#
+$CMP BC328A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC327_328.pdf
+$ENDCMP
+#
+# BC328B
+#
+$CMP BC328B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC327_328.pdf
+$ENDCMP
+#
+# BC328C
+#
+$CMP BC328C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC327_328.pdf
+$ENDCMP
+#
+# BC337
+#
+$CMP BC337
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC337_338.pdf
+$ENDCMP
+#
+# BC337A
+#
+$CMP BC337A
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC337_338.pdf
+$ENDCMP
+#
+# BC337B
+#
+$CMP BC337B
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC337_338.pdf
+$ENDCMP
+#
+# BC337C
+#
+$CMP BC337C
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC337_338.pdf
+$ENDCMP
+#
+# BC338
+#
+$CMP BC338
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC337_338.pdf
+$ENDCMP
+#
+# BC338A
+#
+$CMP BC338A
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC337_338.pdf
+$ENDCMP
+#
+# BC338B
+#
+$CMP BC338B
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC337_338.pdf
+$ENDCMP
+#
+# BC338C
+#
+$CMP BC338C
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC337_338.pdf
+$ENDCMP
+#
+# BC546
+#
+$CMP BC546
+K transistor, npn, high voltage
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC546A
+#
+$CMP BC546A
+K transistor, npn, high voltage
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC546B
+#
+$CMP BC546B
+K transistor, npn, high voltage
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC546C
+#
+$CMP BC546C
+K transistor, npn, high voltage
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC547
+#
+$CMP BC547
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC547A
+#
+$CMP BC547A
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC547B
+#
+$CMP BC547B
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC547C
+#
+$CMP BC547C
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC548
+#
+$CMP BC548
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC548A
+#
+$CMP BC548A
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC548B
+#
+$CMP BC548B
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC548C
+#
+$CMP BC548C
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC549
+#
+$CMP BC549
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC549A
+#
+$CMP BC549A
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC549B
+#
+$CMP BC549B
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC549C
+#
+$CMP BC549C
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC550
+#
+$CMP BC550
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC550A
+#
+$CMP BC550A
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC550B
+#
+$CMP BC550B
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC550C
+#
+$CMP BC550C
+K transistor, npn, low noise
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC546_550.pdf
+$ENDCMP
+#
+# BC556
+#
+$CMP BC556
+K transistor, pnp, high voltage
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC556A
+#
+$CMP BC556A
+K transistor, pnp, high voltage
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC556B
+#
+$CMP BC556B
+K transistor, pnp, high voltage
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC556C
+#
+$CMP BC556C
+K transistor, pnp, high voltage
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC557
+#
+$CMP BC557
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC557A
+#
+$CMP BC557A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC557B
+#
+$CMP BC557B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC557C
+#
+$CMP BC557C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC558
+#
+$CMP BC558
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC558A
+#
+$CMP BC558A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC558B
+#
+$CMP BC558B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC558C
+#
+$CMP BC558C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC559
+#
+$CMP BC559
+K transistor, pnp, low noise
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC559A
+#
+$CMP BC559A
+K transistor, pnp, low noise
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC559B
+#
+$CMP BC559B
+K transistor, pnp, low noise
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC559C
+#
+$CMP BC559C
+K transistor, pnp, low noise
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC560
+#
+$CMP BC560
+K transistor, pnp, low noise
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC560A
+#
+$CMP BC560A
+K transistor, pnp, low noise
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC560B
+#
+$CMP BC560B
+K transistor, pnp, low noise
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC560C
+#
+$CMP BC560C
+K transistor, pnp, low noise
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC556_560.pdf
+$ENDCMP
+#
+# BC635
+#
+$CMP BC635
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC635A
+#
+$CMP BC635A
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC635B
+#
+$CMP BC635B
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC635C
+#
+$CMP BC635C
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC637
+#
+$CMP BC637
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC637A
+#
+$CMP BC637A
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC637B
+#
+$CMP BC637B
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC637C
+#
+$CMP BC637C
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC639
+#
+$CMP BC639
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC639A
+#
+$CMP BC639A
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC639B
+#
+$CMP BC639B
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC639C
+#
+$CMP BC639C
+K transistor, npn
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC635_BC637_BC639.pdf
+$ENDCMP
+#
+# BC636
+#
+$CMP BC636
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC636A
+#
+$CMP BC636A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC636B
+#
+$CMP BC636B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC636C
+#
+$CMP BC636C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC638
+#
+$CMP BC638
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC638A
+#
+$CMP BC638A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC638B
+#
+$CMP BC638B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC638C
+#
+$CMP BC638C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC640
+#
+$CMP BC640
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC640A
+#
+$CMP BC640A
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC640B
+#
+$CMP BC640B
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC640C
+#
+$CMP BC640C
+K transistor, pnp
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC636_BC638_BC640.pdf
+$ENDCMP
+#
+# BC807
+#
+$CMP BC807
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC807_808.pdf
+$ENDCMP
+#
+# BC807A
+#
+$CMP BC807A
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC807_808.pdf
+$ENDCMP
+#
+# BC807B
+#
+$CMP BC807B
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC807_808.pdf
+$ENDCMP
+#
+# BC807C
+#
+$CMP BC807C
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC807_808.pdf
+$ENDCMP
+#
+# BC808
+#
+$CMP BC808
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC807_808.pdf
+$ENDCMP
+#
+# BC808A
+#
+$CMP BC808A
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC807_808.pdf
+$ENDCMP
+#
+# BC808B
+#
+$CMP BC808B
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC807_808.pdf
+$ENDCMP
+#
+# BC808C
+#
+$CMP BC808C
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC807_808.pdf
+$ENDCMP
+#
+# BC817
+#
+$CMP BC817
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC817_818.pdf
+$ENDCMP
+#
+# BC817A
+#
+$CMP BC817A
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC817_818.pdf
+$ENDCMP
+#
+# BC817B
+#
+$CMP BC817B
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC817_818.pdf
+$ENDCMP
+#
+# BC817C
+#
+$CMP BC817C
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC817_818.pdf
+$ENDCMP
+#
+# BC818
+#
+$CMP BC818
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC817_818.pdf
+$ENDCMP
+#
+# BC818A
+#
+$CMP BC818A
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC817_818.pdf
+$ENDCMP
+#
+# BC818B
+#
+$CMP BC818B
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC817_818.pdf
+$ENDCMP
+#
+# BC818C
+#
+$CMP BC818C
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC817_818.pdf
+$ENDCMP
+#
+# BC846
+#
+$CMP BC846
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC846A
+#
+$CMP BC846A
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC846B
+#
+$CMP BC846B
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC846C
+#
+$CMP BC846C
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC847
+#
+$CMP BC847
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC847A
+#
+$CMP BC847A
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC847B
+#
+$CMP BC847B
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC847C
+#
+$CMP BC847C
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC848
+#
+$CMP BC848
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC848A
+#
+$CMP BC848A
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC848B
+#
+$CMP BC848B
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC848C
+#
+$CMP BC848C
+K transistor, npn, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC849
+#
+$CMP BC849
+K transistor, npn, low noise, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC849A
+#
+$CMP BC849A
+K transistor, npn, low noise, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC849B
+#
+$CMP BC849B
+K transistor, npn, low noise, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC849C
+#
+$CMP BC849C
+K transistor, npn, low noise, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC850
+#
+$CMP BC850
+K transistor, npn, low noise, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC850A
+#
+$CMP BC850A
+K transistor, npn, low noise, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC850B
+#
+$CMP BC850B
+K transistor, npn, low noise, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC850C
+#
+$CMP BC850C
+K transistor, npn, low noise, smd
+D NPN Epitaxial Silicon Transistor
+F doc/transistor/BC846_850.pdf
+$ENDCMP
+#
+# BC856
+#
+$CMP BC856
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC856A
+#
+$CMP BC856A
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC856B
+#
+$CMP BC856B
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC856C
+#
+$CMP BC856C
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC857
+#
+$CMP BC857
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC857A
+#
+$CMP BC857A
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC857B
+#
+$CMP BC857B
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC857C
+#
+$CMP BC857C
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC858
+#
+$CMP BC858
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC858A
+#
+$CMP BC858A
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC858B
+#
+$CMP BC858B
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC858C
+#
+$CMP BC858C
+K transistor, pnp, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC859
+#
+$CMP BC859
+K transistor, pnp, low noise, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC859A
+#
+$CMP BC859A
+K transistor, pnp, low noise, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC859B
+#
+$CMP BC859B
+K transistor, pnp, low noise, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC859C
+#
+$CMP BC859C
+K transistor, pnp, low noise, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC860
+#
+$CMP BC860
+K transistor, pnp, low noise, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC860A
+#
+$CMP BC860A
+K transistor, pnp, low noise, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC860B
+#
+$CMP BC860B
+K transistor, pnp, low noise, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# BC860C
+#
+$CMP BC860C
+K transistor, pnp, low noise, smd
+D PNP Epitaxial Silicon Transistor
+F doc/transistor/BC856_860.pdf
+$ENDCMP
+#
+# End Doc Library

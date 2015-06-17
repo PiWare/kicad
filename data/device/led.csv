@@ -10,7 +10,7 @@ Emitting Diode.
 The Super Bright Red source color devices are made with
 Gallium Aluminum Arsenide Red Light Emitting Diode.
 The Hyper Red (SURK) source color devices are made
-with DH InGaAlP on GaAs substrate Light Emitting Diode.","led, bicolor, red, green",L-59.pdf,led_duo_5mm
+with DH InGaAlP on GaAs substrate Light Emitting Diode.","led, bicolor, red, green",doc/led/L-59.pdf,led_duo_5mm
 led,L-59EGW,2,2,3,green,,,,,,,
 led,L-59EYW,1,2,1,high efficiency red,LED,Kingbright,,"The High Efficiency Red source color devices are made with
 Gallium Arsenide Phosphide on Gallium Phosphide Orange
@@ -23,7 +23,7 @@ Emitting Diode.
 The Super Bright Red source color devices are made with
 Gallium Aluminum Arsenide Red Light Emitting Diode.
 The Hyper Red (SURK) source color devices are made
-with DH InGaAlP on GaAs substrate Light Emitting Diode.","led, bicolor, red, yellow",L-59.pdf,led_duo_5mm
+with DH InGaAlP on GaAs substrate Light Emitting Diode.","led, bicolor, red, yellow",doc/led/L-59.pdf,led_duo_5mm
 led,L-59EYW,2,2,3,yellow,,,,,,,
 led,L-59GYW,1,2,1,green,LED,Kingbright,,"The High Efficiency Red source color devices are made with
 Gallium Arsenide Phosphide on Gallium Phosphide Orange
@@ -36,5 +36,5 @@ Emitting Diode.
 The Super Bright Red source color devices are made with
 Gallium Aluminum Arsenide Red Light Emitting Diode.
 The Hyper Red (SURK) source color devices are made
-with DH InGaAlP on GaAs substrate Light Emitting Diode.","led, bicolor, green, yellow",L-59.pdf,led_duo_5mm
+with DH InGaAlP on GaAs substrate Light Emitting Diode.","led, bicolor, green, yellow",doc/led/L-59.pdf,led_duo_5mm
 led,L-59GYW,2,2,3,yellow,,,,,,,
