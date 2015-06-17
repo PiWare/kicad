@@ -20,32 +20,76 @@
 import os
 import ConfigParser
 import StringIO
+import argparse
+import datetime
+import locale
 
 if __name__ == "__main__":
-  # parser = argparse.ArgumentParser(description = 'Footprint generator from csv table.')
-  # parser.add_argument('--csv', metavar = 'csv', type = str, help = 'CSV formatted input table', required = True)
-  # parser.add_argument('--output_path', metavar = 'output_path', type = str, help = 'Output path for generated KiCAD footprint files', required = True)
-  # args = parser.parse_args()
+    parser = argparse.ArgumentParser(description = 'Project file generation.')
+    parser.add_argument('--template', metavar = 'template', type = str, help = 'Project template input file', required = True)
+    parser.add_argument('--project', metavar = 'project', type = str, help = 'Output project file', required = True)
+    parser.add_argument('--symbol_path', metavar = 'symbol_path', type = str, help = 'Symbol path', required = True)
+    parser.add_argument('--footprint_path', metavar = 'footprint_path', type = str, help = 'Footprint path', required = True)
+    args = parser.parse_args()
 
-    file = open('library.pro', "r")
+    file = open(args.template, "r")
     data  = file.read()
     file.close()
 
+    args.symbol_path = os.path.normpath(args.symbol_path)
+    args.footprint_path = os.path.normpath(args.footprint_path)
+
+    # KiCAD project file is in INI format, but the first section is missing!
     data = '[hidden]\n' + data
     buffer = StringIO.StringIO(data)
     project = ConfigParser.RawConfigParser()
     project.readfp(buffer)
-    print project.get('general', 'version')
-    print project.sections()
+    buffer.close()
 
+    # Update timestamp
+    project.set('hidden', 'update', datetime.datetime.today().strftime("%a %d %b %Y %H:%M:%S %Z"))
+
+    #print project.get('general', 'version')
+    #print project.sections()
+
+    # Symbol libs
     project.remove_section('eeschema/libraries')
     project.add_section('eeschema/libraries')
+    project.set('eeschema', 'libdir', args.symbol_path)
+
+    libs = []
+    for file in os.listdir(args.symbol_path):
+        if os.path.isfile(os.path.join(args.symbol_path, file)) and file.endswith(".lib"):
+            libs.append(os.path.splitext(file)[0])
+    libs.sort()
 
     index = 1
-    for file in os.listdir("library"):
-        if file.endswith(".lib"):
-            project.set('eeschema/libraries', 'LibName'+str(index), os.path.splitext(file)[0])
-            index += 1
+    for lib in libs:
+        project.set('eeschema/libraries', 'LibName'+str(index), lib)
+        index += 1
 
+    # Footprint libs
+    project.remove_section('pcbnew/libraries')
+    project.add_section('pcbnew/libraries')
+    project.set('pcbnew/libraries', 'libdir', args.footprint_path)
+
+    libs = []
+    for file in os.listdir(args.footprint_path):
+        if os.path.isdir(os.path.join(args.footprint_path, file)):
+            libs.append(file)
+    libs.sort()
+
+    index = 1
+    for lib in libs:
+        project.set('pcbnew/libraries', 'LibName'+str(index), lib)
+        index += 1
+
+    # Serialize INI data and strip of [hidden] section
+    buffer = StringIO.StringIO()
     project.write(buffer)
-    print buffer.getvalue()
+    data = buffer.getvalue()
+    data = data.replace("[hidden]\n", "")
+
+    file = open(args.project, "w")
+    file.write(data)
+    file.close()

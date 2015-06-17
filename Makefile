@@ -11,6 +11,7 @@ DEVICE_SCRIPT = script/device.py
 FOOTPRINT_SCRIPT = script/footprint.py
 SUMMARY_SCRIPT = script/summary.py
 README_SCRIPT = script/readme.py
+PROJECT_SCRIPT = script/project.py
 
 # Generator based symbols
 LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
@@ -31,7 +32,7 @@ FOOTPRINTS = dip \
 	pqfp \
 	sqfp
 
-all: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES) summary.txt README.md
+all: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES) summary.txt library.pro README.md
 
 MCU_CLOCK = data/mcu/pin-table-TM4C123GH6PM.csv\
 			data/mcu/stm32F030C8T6RT.csv
@@ -58,8 +59,11 @@ $(FOOTPRINTS): %: data/footprint/%.csv
 	mkdir -p $(FOOTPRINT_ROOT)/$@
 	$(FOOTPRINT_SCRIPT) --csv $< --output_path $(FOOTPRINT_ROOT)/$@
 
-summary.txt: $(FOOTPRINTS) $(LIBRARIES)
+summary.txt: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES)
 	$(SUMMARY_SCRIPT) --libs $(LIBRARIES) --footprints $(FOOTPRINTS) --output $@
+
+library.pro: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES)
+	$(PROJECT_SCRIPT) --template data/project.pro --symbol_path $(LIBRARY_ROOT) --footprint_path $(FOOTPRINT_ROOT) --project $@
 
 README.md: config
 	$(README_SCRIPT) --output $@
