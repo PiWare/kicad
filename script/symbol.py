@@ -77,6 +77,12 @@ class direction():
     right = "R"
     left = "L"
 
+class directionFlipped():
+    up = "D"
+    down = "U"
+    right = "L"
+    left = "R"
+
 class Type():
     input = "I"
     output = "O"
@@ -417,6 +423,12 @@ class Symbol(object):
         self.footprint = package
         self.units = 0
         self.files = []
+
+        # FIXME: Detect these automatically or set by ctor!
+        self.offset = 0
+        self.pinnumber = 'Y'
+        self.pinname = 'Y'
+        self.flag = 'N'
 
     def addModule(self, module):
         """Inserts a new module to the symbol. Returns the newly added module instance."""
