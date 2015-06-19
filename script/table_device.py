@@ -37,19 +37,18 @@ if __name__ == "__main__":
     with open(args.csv, 'rb') as csvfile:
         table = csv.reader(csvfile, delimiter=',', quotechar='\"')
 
-        last_name = ""
         first_row = 1
         for row in table:
             if first_row == 1:
                 header = row
                 first_row = 0
             else:
-                data = dict(zip(header, row))
                 for i in range(len(row)):
                     try:
                         row[i] = int(row[i])
                     except:
                         pass
+                data = dict(zip(header, row))
 
                 direction = data['direction']
                 #del data['direction']

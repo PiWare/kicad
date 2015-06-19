@@ -1,0 +1,3 @@
+name;number;type;shape;direction;decoration
+~;1;passive;line;left;rectangle
+~;2;passive;line;right;rectangle
