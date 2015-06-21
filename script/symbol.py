@@ -127,8 +127,8 @@ class Field(object):
         if len(part) == 2 and part[1] == 'FIELD':
             Map[int(getattr(cfg, value))] = getattr(cfg, part[0]+"_NAME")
 
-    def __init__(self, number, value, x, y, size, orientation, visibility = visibility.visible, hjustify = hjustify.center, vjustify = vjustify.center, style = style.none):
-        self.number = number
+    def __init__(self, id, value, x, y, size, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.center, vjustify = vjustify.center, style = style.none):
+        self.id = id
         self.value = value
         self.x = x
         self.y = y
@@ -138,13 +138,13 @@ class Field(object):
         self.hjustify = hjustify
         self.vjustify = vjustify
         self.style = style
-        self.comment = Field.Map[number]
+        self.comment = Field.Map[id]
 
     def setValue(self, value):
         self.value = value
 
     def render(self):
-        return Field.Format%(self.number, self.value, self.x, self.y, self.size, self.orientation, self.visibility, self.hjustify, self.vjustify, self.style, self.comment)
+        return Field.Format%(self.id, self.value, self.x, self.y, self.size, self.orientation, self.visibility, self.hjustify, self.vjustify, self.style, self.comment)
 
 class Point(object):
     "Represents a point"
@@ -344,7 +344,11 @@ class Pin_(Item):
         self.x = x
         self.y = y
         self.name = name
-        self.number = number
+        # FIXME: Try another way if we use BGA (A1, B2, ...)
+        try:
+            self.number = int(number)
+        except:
+            self.number = number
         self.length = length
         self.orientation = orientation
         self.nameSize = nameSize
@@ -429,6 +433,11 @@ class Symbol(object):
         self.pinnumber = 'Y'
         self.pinname = 'Y'
         self.flag = 'N'
+
+    def addField(self, field):
+        """Insert field to the symbol. Returns added field"""
+        self.fields[field.id] = field
+        return field
 
     def addModule(self, module):
         """Inserts a new module to the symbol. Returns the newly added module instance."""

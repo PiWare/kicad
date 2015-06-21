@@ -11,10 +11,8 @@ import argparse
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description = 'Symbol generator from csv table.')
-    parser.add_argument('--csv', metavar = 'csv', type = str, help = 'CSV formatted input table', required = True)
-#   parser.add_argument('--symbol', metavar = 'symbol', type = str, help = 'Output file for generated KiCAD symbols', required = True)
-#   parser.add_argument('--desc', metavar = 'desc', type = str, help = 'Output file for generated KiCAD symbol description', required = True)
-#   parser.add_argument('--template_path', metavar = 'template_path', type = str, help = 'Path to template symbols', required = True)
+    parser.add_argument('--csv', type = str, help = 'CSV formatted input table', required = True)
+    parser.add_argument('--symbol', type = str, help = 'KiCAD output symbol file', required = True)
     args = parser.parse_args()
 
 #   symbol_output = open(args.symbol, "w")
@@ -26,7 +24,8 @@ if __name__ == "__main__":
     pinSpace = 200
     pinLength = 200
     fontSize = 50
-    lineWidth = 20
+    lineWidthOuter = 20
+    lineWidthInner = 10
     referenceSpace = 500
 
     sym = symbol.Symbol()
@@ -37,18 +36,19 @@ if __name__ == "__main__":
     with open(args.csv, 'rb') as csvfile:
         table = csv.reader(csvfile, delimiter=',', quotechar='\"')
 
+        last_name = ""
         first_row = 1
         for row in table:
             if first_row == 1:
                 header = row
                 first_row = 0
             else:
+                data = dict(zip(header, row))
                 for i in range(len(row)):
                     try:
                         row[i] = int(row[i])
                     except:
                         pass
-                data = dict(zip(header, row))
 
                 direction = data['direction']
                 #del data['direction']
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     width = max(width, nameWidth)
     height = max(height, nameHeight)
 
-    sym.addModule(symbol.Rectangle(-width / 2, -height / 2, width / 2, height / 2, lineWidth, symbol.fill.background, 0, symbol.representation.normal))
+    sym.addModule(symbol.Rectangle(-width / 2, -height / 2, width / 2, height / 2, lineWidthOuter, symbol.fill.background, 0, symbol.representation.normal))
     sym.name = "TEST"
     sym.reference = "IC"
 
@@ -117,7 +117,26 @@ if __name__ == "__main__":
                 getattr(symbol.Type, data['type']), getattr(symbol.shape, data['shape'])))
         y -= pinGrid
 
+    y = height / 2 - pinSpace
+    for l, r in zip(left, right):
+        if l['type'] == r['type'] and l['type'] == 'space':
+            poly = symbol.Polygon(lineWidthInner)
+            poly.add(symbol.Point(-width / 2, y))
+            poly.add(symbol.Point(width / 2, y))
+            sym.addModule(poly)
+        y -= pinGrid
+
+    # Fields
+    sym.addField(symbol.Field(cfg.REFERENCE_FIELD, "IC", 0, fontSize, fontSize))
+    sym.addField(symbol.Field(cfg.NAME_FIELD, "MAX232", 0, -fontSize, fontSize))
+
+    sym.offset = fontSize
     sym.optimize()
-    print "\n".join(sym.renderSymbol())
+
+    with open(args.symbol, 'w') as symbol_output:
+        symbol_output.write("EESchema-LIBRARY Version 2.3\n#encoding utf-8\n")
+        symbol_output.write("\n".join(sym.renderSymbol()))
+        symbol_output.close()
+
 #   symbol_output.write("#\n# End Library\n")
 #   desc_output.write("#\n# End Doc Library\n")
