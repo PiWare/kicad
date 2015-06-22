@@ -1,7 +1,28 @@
-symbol,name,unit,in,out,vcc,gnd,reference,alias,document,footprint,description,keywords
-logic_schmitt_not_power,74HC14N,1,1,2,14,7,IC,74HCT14N,doc/logic/74HC_HCT14.pdf,dip14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger"
-logic_schmitt_not,74HC14N,2,3,4,,,,,,,,
-logic_schmitt_not,74HC14N,3,5,6,,,,,,,,
-logic_schmitt_not,74HC14N,4,9,8,,,,,,,,
-logic_schmitt_not,74HC14N,5,11,10,,,,,,,,
-logic_schmitt_not,74HC14N,6,13,12,,,,,,,,
+symbol,name,unit,a,b,c,d,in,out,vcc,gnd,reference,alias,document,footprint,description,keywords
+logic_schmitt_not_power,74HC14N,1,,,,,1,2,14,7,IC,74HCT14N,doc/logic/74HC_HCT14.pdf,dip_14,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger"
+logic_schmitt_not,74HC14N,2,,,,,3,4,,,,,,,,
+logic_schmitt_not,74HC14N,3,,,,,5,6,,,,,,,,
+logic_schmitt_not,74HC14N,4,,,,,9,8,,,,,,,,
+logic_schmitt_not,74HC14N,5,,,,,11,10,,,,,,,,
+logic_schmitt_not,74HC14N,6,,,,,13,12,,,,,,,,
+74_138,74HC138N,,,,,,,,,,IC,74HCT138N,doc/logic/74HC_HCT138.pdf,,Inverting 3-to-8 line decoder/demultiplexer,"decoder, demultiplexer, inverter"
+logic_nand2_power,74AHC00N,1,1,2,,,,3,14,7,IC,74AHCT00N,doc/logic/74AHC_AHCT00.pdf,dip_14,Quad 2-input nand gate,"quad, nand"
+logic_nand2,74AHC00N,2,4,5,,,,6,,,,,,,,
+logic_nand2,74AHC00N,3,9,10,,,,8,,,,,,,,
+logic_nand2,74AHC00N,4,12,13,,,,11,,,,,,,,
+logic_nand2_power,74AHC00D,1,1,2,,,,3,14,7,IC,74AHCT00D,doc/logic/74AHC_AHCT00.pdf,so_14,Quad 2-input nand gate,"quad, nand"
+logic_nand2,74AHC00D,2,4,5,,,,6,,,,,,,,
+logic_nand2,74AHC00D,3,9,10,,,,8,,,,,,,,
+logic_nand2,74AHC00D,4,12,13,,,,11,,,,,,,,
+logic_nand2_power,74AHC00PW,1,1,2,,,,3,14,7,IC,74AHCT00PW,doc/logic/74AHC_AHCT00.pdf,tssop_14,Quad 2-input nand gate,"quad, nand"
+logic_nand2,74AHC00PW,2,4,5,,,,6,,,,,,,,
+logic_nand2,74AHC00PW,3,9,10,,,,8,,,,,,,,
+logic_nand2,74AHC00PW,4,12,13,,,,11,,,,,,,,
+logic_nand2_power,74AHC00BQ,1,1,2,,,,3,14,7,IC,74AHCT00BQ,doc/logic/74AHC_AHCT00.pdf,dhvqfn_14,Quad 2-input nand gate,"quad, nand"
+logic_nand2,74AHC00BQ,2,4,5,,,,6,,,,,,,,
+logic_nand2,74AHC00BQ,3,9,10,,,,8,,,,,,,,
+logic_nand2,74AHC00BQ,4,12,13,,,,11,,,,,,,,
+logic_nand2_power,74AHC1G00GW,0,1,2,,,,4,5,3,IC,74AHCT1G00GW,doc/logic/74AHC_AHCT1G00.pdf,tssop_5,2-input NAND gate,"single, nand"
+logic_nand2_power,74AHC1G00GV,0,1,2,,,,4,5,3,IC,74AHCT1G00GV,doc/logic/74AHC_AHCT1G00.pdf,sc_74a,2-input NAND gate,"single, nand"
+logic_nor2_power,74AHC1G02GW,0,1,2,,,,4,5,3,IC,74AHCT1G02GW,doc/logic/74AHC_AHCT1G02.pdf,tssop_5,2-input NOR gate,"single, nor"
+logic_nor2_power,74AHC1G02GV,0,1,2,,,,4,5,3,IC,74AHCT1G02GV,doc/logic/74AHC_AHCT1G02.pdf,sc_74a,2-input NOR gate,"single, nor"
