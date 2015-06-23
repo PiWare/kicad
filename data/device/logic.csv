@@ -1,47 +1,65 @@
-symbol,name,unit,a,b,c,d,e,y,z,vcc,gnd,reference,alias,document,footprint,version,description,keywords
-logic_schmitt_not_power,74HC14N,1,1,,,,,2,,14,7,IC,74HCT14N,doc/logic/74HC_HCT14.pdf,dip_14,,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger"
-logic_schmitt_not,74HC14N,2,3,,,,,4,,,,,,,,,,
-logic_schmitt_not,74HC14N,3,5,,,,,6,,,,,,,,,,
-logic_schmitt_not,74HC14N,4,9,,,,,8,,,,,,,,,,
-logic_schmitt_not,74HC14N,5,11,,,,,10,,,,,,,,,,
-logic_schmitt_not,74HC14N,6,13,,,,,12,,,,,,,,,,
-74_138,74HC138N,,,,,,,,,,,IC,74HCT138N,doc/logic/74HC_HCT138.pdf,,,Inverting 3-to-8 line decoder/demultiplexer,"decoder, demultiplexer, inverter"
-logic_nand2_power,74AHC00N,1,1,2,,,,3,,14,7,IC,74AHCT00N,doc/logic/74AHC_AHCT00.pdf,dip_14,,Quad 2-input nand gate,"quad, nand"
-logic_nand2,74AHC00N,2,4,5,,,,6,,,,,,,,,,
-logic_nand2,74AHC00N,3,9,10,,,,8,,,,,,,,,,
-logic_nand2,74AHC00N,4,12,13,,,,11,,,,,,,,,,
-logic_nand2_power,74AHC00D,1,1,2,,,,3,,14,7,IC,74AHCT00D,doc/logic/74AHC_AHCT00.pdf,so_14,,Quad 2-input nand gate,"quad, nand"
-logic_nand2,74AHC00D,2,4,5,,,,6,,,,,,,,,,
-logic_nand2,74AHC00D,3,9,10,,,,8,,,,,,,,,,
-logic_nand2,74AHC00D,4,12,13,,,,11,,,,,,,,,,
-logic_nand2_power,74AHC00PW,1,1,2,,,,3,,14,7,IC,74AHCT00PW,doc/logic/74AHC_AHCT00.pdf,tssop_14,,Quad 2-input nand gate,"quad, nand"
-logic_nand2,74AHC00PW,2,4,5,,,,6,,,,,,,,,,
-logic_nand2,74AHC00PW,3,9,10,,,,8,,,,,,,,,,
-logic_nand2,74AHC00PW,4,12,13,,,,11,,,,,,,,,,
-logic_nand2_power,74AHC00BQ,1,1,2,,,,3,,14,7,IC,74AHCT00BQ,doc/logic/74AHC_AHCT00.pdf,dhvqfn_14,,Quad 2-input nand gate,"quad, nand"
-logic_nand2,74AHC00BQ,2,4,5,,,,6,,,,,,,,,,
-logic_nand2,74AHC00BQ,3,9,10,,,,8,,,,,,,,,,
-logic_nand2,74AHC00BQ,4,12,13,,,,11,,,,,,,,,,
-logic_nand2_power,74AHC1G00GW,0,1,2,,,,4,,5,3,IC,74AHCT1G00GW,doc/logic/74AHC_AHCT1G00.pdf,tssop_5,,2-input NAND gate,"single, nand"
-logic_nand2_power,74AHC1G00GV,0,1,2,,,,4,,5,3,IC,74AHCT1G00GV,doc/logic/74AHC_AHCT1G00.pdf,sc_74a,,2-input NAND gate,"single, nand"
-logic_nor2_power,74AHC1G02GW,0,1,2,,,,4,,5,3,IC,74AHCT1G02GW,doc/logic/74AHC_AHCT1G02.pdf,tssop_5,,2-input NOR gate,"single, nor"
-logic_nor2_power,74AHC1G02GV,0,1,2,,,,4,,5,3,IC,74AHCT1G02GV,doc/logic/74AHC_AHCT1G02.pdf,sc_74a,,2-input NOR gate,"single, nor"
-logic_not_power,74AHC1G04GW,0,2,,,,,4,,5,3,IC,74AHCT1G04GW,doc/logic/74AHC_AHCT1G04.pdf,tssop_5,,Inverter,"single, inverter"
-logic_not_power,74AHC1G04GV,0,2,,,,,4,,5,3,IC,74AHCT1G04GV,doc/logic/74AHC_AHCT1G04.pdf,sc_74a,,Inverter,"single, inverter"
-logic_not_power,74AHC1G04GM,0,2,,,,,4,,5,3,IC,74AHCT1G04GM,doc/logic/74AHC_AHCT1G04.pdf,Xson_6,,Inverter,"single, inverter"
-logic_not_power,74AHC1G06GW,0,2,,,,,4,,5,3,IC,74AHCT1G06GW,doc/logic/74AHC_AHCT1G06.pdf,tssop_5,,Inverter with open-drain output,"single, inverter, open-drain output"
-logic_not_power,74AHC1G06GV,0,2,,,,,4,,5,3,IC,74AHCT1G06GV,doc/logic/74AHC_AHCT1G06.pdf,sc_74a,,Inverter with open-drain output,"single, inverter, open-drain output"
-logic_buffer_power,74AHC1G07GW,0,2,,,,,4,,5,3,IC,74AHCT1G07GW,doc/logic/74AHC_AHCT1G07.pdf,tssop_5,,Buffer with open-drain output,"single, buffer, open-drain output"
-logic_buffer_power,74AHC1G07GV,0,2,,,,,4,,5,3,IC,74AHCT1G07GV,doc/logic/74AHC_AHCT1G07.pdf,sc_74a,,Buffer with open-drain output,"single, buffer, open-drain output"
-logic_and2_power,74AHC1G08GW,0,2,1,,,,4,,5,3,IC,74AHCT1G08GW,doc/logic/74AHC_AHCT1G08.pdf,tssop_5,,2-input AND gate,"single, and"
-logic_and2_power,74AHC1G08GV,0,2,1,,,,4,,5,3,IC,74AHCT1G08GV,doc/logic/74AHC_AHCT1G08.pdf,sc_74a,,2-input AND gate,"single, and"
-logic_schmitt_not_power,74AHC1G14GW,0,2,,,,,4,,5,3,IC,74AHCT1G14GW,doc/logic/74AHC_AHCT1G14.pdf,tssop_5,,Inverting Schmitt trigger,"single, inverter, schmitt trigger"
-logic_schmitt_not_power,74AHC1G14GV,0,2,,,,,4,,5,3,IC,74AHCT1G14GV,doc/logic/74AHC_AHCT1G14.pdf,sc_74a,,Inverting Schmitt trigger,"single, inverter, schmitt trigger"
-logic_schmitt_power,74AHC1G17GW,0,2,,,,,4,,5,3,IC,74AHCT1G17GW,doc/logic/74AHC_AHCT1G17.pdf,tssop_5,SOT353-1,Single Schmitt trigger buffer,"single, buffer, schmitt trigger"
-logic_schmitt_power,74AHC1G17GV,0,2,,,,,4,,5,3,IC,74AHCT1G17GV,doc/logic/74AHC_AHCT1G17.pdf,sc_74a,SOT753,Single Schmitt trigger buffer,"single, buffer, schmitt trigger"
-logic_schmitt_power,74AHC1G17GM,0,2,,,,,4,,5,3,IC,74AHCT1G17GM,doc/logic/74AHC_AHCT1G17.pdf,xson_6,SOT886,Single Schmitt trigger buffer,"single, buffer, schmitt trigger"
-logic_schmitt_power,74AHC1G17GF,0,2,,,,,4,,5,3,IC,74AHCT1G17GF,doc/logic/74AHC_AHCT1G17.pdf,xson_6,SOT891,Single Schmitt trigger buffer,"single, buffer, schmitt trigger"
-logic_or2_power,74AHC1G32GW,0,2,1,,,,4,,5,3,IC,74AHCT1G32GW,doc/logic/74AHC_AHCT1G32.pdf,tssop_5,SOT353-1,2-input OR gate,"single, or"
-logic_or2_power,74AHC1G32GV,0,2,1,,,,4,,5,3,IC,74AHCT1G32GV,doc/logic/74AHC_AHCT1G32.pdf,sc_74a,SOT753,2-input OR gate,"single, or"
-logic_switch_power,74AHC1G66GW,0,,,,,4,1,2,5,3,IC,74AHCT1G66GW,doc/logic/74AHC_AHCT1G66.pdf,tssop_5,SOT353-1,Single-pole single-throw analog switch,"single, switch"
-logic_switch_power,74AHC1G66GV,0,,,,,4,1,2,5,3,IC,74AHCT1G66GV,doc/logic/74AHC_AHCT1G66.pdf,sc_74a,SOT753,Single-pole single-throw analog switch,"single, switch"
+symbol,name,unit,a,b,c,d,e,q,cp,oe,y,z,vcc,gnd,reference,alias,document,footprint,version,description,keywords
+logic_schmitt_not_power,74HC14N,1,1,,,,,,,,2,,14,7,IC,74HCT14N,doc/logic/74HC_HCT14.pdf,dip_14,,Hex inverting Schmitt trigger,"hex, inverter, schmitt trigger"
+logic_schmitt_not,74HC14N,2,3,,,,,,,,4,,,,,,,,,,
+logic_schmitt_not,74HC14N,3,5,,,,,,,,6,,,,,,,,,,
+logic_schmitt_not,74HC14N,4,9,,,,,,,,8,,,,,,,,,,
+logic_schmitt_not,74HC14N,5,11,,,,,,,,10,,,,,,,,,,
+logic_schmitt_not,74HC14N,6,13,,,,,,,,12,,,,,,,,,,
+74_138,74HC138N,,,,,,,,,,,,,,IC,74HCT138N,doc/logic/74HC_HCT138.pdf,,,Inverting 3-to-8 line decoder/demultiplexer,"decoder, demultiplexer, inverter"
+logic_nand2_power,74AHC00N,1,1,2,,,,,,,3,,14,7,IC,74AHCT00N,doc/logic/74AHC_AHCT00.pdf,dip_14,,Quad 2-input nand gate,"quad, nand"
+logic_nand2,74AHC00N,2,4,5,,,,,,,6,,,,,,,,,,
+logic_nand2,74AHC00N,3,9,10,,,,,,,8,,,,,,,,,,
+logic_nand2,74AHC00N,4,12,13,,,,,,,11,,,,,,,,,,
+logic_nand2_power,74AHC00D,1,1,2,,,,,,,3,,14,7,IC,74AHCT00D,doc/logic/74AHC_AHCT00.pdf,so_14,,Quad 2-input nand gate,"quad, nand"
+logic_nand2,74AHC00D,2,4,5,,,,,,,6,,,,,,,,,,
+logic_nand2,74AHC00D,3,9,10,,,,,,,8,,,,,,,,,,
+logic_nand2,74AHC00D,4,12,13,,,,,,,11,,,,,,,,,,
+logic_nand2_power,74AHC00PW,1,1,2,,,,,,,3,,14,7,IC,74AHCT00PW,doc/logic/74AHC_AHCT00.pdf,tssop_14,,Quad 2-input nand gate,"quad, nand"
+logic_nand2,74AHC00PW,2,4,5,,,,,,,6,,,,,,,,,,
+logic_nand2,74AHC00PW,3,9,10,,,,,,,8,,,,,,,,,,
+logic_nand2,74AHC00PW,4,12,13,,,,,,,11,,,,,,,,,,
+logic_nand2_power,74AHC00BQ,1,1,2,,,,,,,3,,14,7,IC,74AHCT00BQ,doc/logic/74AHC_AHCT00.pdf,dhvqfn_14,,Quad 2-input nand gate,"quad, nand"
+logic_nand2,74AHC00BQ,2,4,5,,,,,,,6,,,,,,,,,,
+logic_nand2,74AHC00BQ,3,9,10,,,,,,,8,,,,,,,,,,
+logic_nand2,74AHC00BQ,4,12,13,,,,,,,11,,,,,,,,,,
+logic_nand2_power,74AHC1G00GW,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G00GW,doc/logic/74AHC_AHCT1G00.pdf,tssop_5,SOT353-1,Single 2-input NAND gate,"single, nand"
+logic_nand2_power,74AHC1G00GV,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G00GV,doc/logic/74AHC_AHCT1G00.pdf,sc_74a,SOT753,Single 2-input NAND gate,"single, nand"
+logic_nor2_power,74AHC1G02GW,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G02GW,doc/logic/74AHC_AHCT1G02.pdf,tssop_5,SOT353-1,Single 2-input NOR gate,"single, nor"
+logic_nor2_power,74AHC1G02GV,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G02GV,doc/logic/74AHC_AHCT1G02.pdf,sc_74a,SOT753,Single 2-input NOR gate,"single, nor"
+logic_not_power,74AHC1G04GW,0,2,,,,,,,,4,,5,3,IC,74AHCT1G04GW,doc/logic/74AHC_AHCT1G04.pdf,tssop_5,SOT353-1,Single inverter,"single, inverter"
+logic_not_power,74AHC1G04GV,0,2,,,,,,,,4,,5,3,IC,74AHCT1G04GV,doc/logic/74AHC_AHCT1G04.pdf,sc_74a,SOT753,Single inverter,"single, inverter"
+logic_not_power,74AHC1G04GM,0,2,,,,,,,,4,,5,3,IC,74AHCT1G04GM,doc/logic/74AHC_AHCT1G04.pdf,Xson_6,,Single inverter,"single, inverter"
+logic_not_power,74AHC1G06GW,0,2,,,,,,,,4,,5,3,IC,74AHCT1G06GW,doc/logic/74AHC_AHCT1G06.pdf,tssop_5,SOT353-1,Single inverter with open-drain output,"single, inverter, open-drain output"
+logic_not_power,74AHC1G06GV,0,2,,,,,,,,4,,5,3,IC,74AHCT1G06GV,doc/logic/74AHC_AHCT1G06.pdf,sc_74a,SOT753,Single inverter with open-drain output,"single, inverter, open-drain output"
+logic_buffer_power,74AHC1G07GW,0,2,,,,,,,,4,,5,3,IC,74AHCT1G07GW,doc/logic/74AHC_AHCT1G07.pdf,tssop_5,SOT353-1,Single buffer with open-drain output,"single, buffer, open-drain output"
+logic_buffer_power,74AHC1G07GV,0,2,,,,,,,,4,,5,3,IC,74AHCT1G07GV,doc/logic/74AHC_AHCT1G07.pdf,sc_74a,SOT753,Single buffer with open-drain output,"single, buffer, open-drain output"
+logic_and2_power,74AHC1G08GW,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G08GW,doc/logic/74AHC_AHCT1G08.pdf,tssop_5,SOT353-1,Single 2-input AND gate,"single, and"
+logic_and2_power,74AHC1G08GV,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G08GV,doc/logic/74AHC_AHCT1G08.pdf,sc_74a,SOT753,Single 2-input AND gate,"single, and"
+logic_schmitt_not_power,74AHC1G14GW,0,2,,,,,,,,4,,5,3,IC,74AHCT1G14GW,doc/logic/74AHC_AHCT1G14.pdf,tssop_5,SOT353-1,Single inverting Schmitt trigger,"single, inverter, schmitt trigger"
+logic_schmitt_not_power,74AHC1G14GV,0,2,,,,,,,,4,,5,3,IC,74AHCT1G14GV,doc/logic/74AHC_AHCT1G14.pdf,sc_74a,SOT753,Single inverting Schmitt trigger,"single, inverter, schmitt trigger"
+logic_schmitt_power,74AHC1G17GW,0,2,,,,,,,,4,,5,3,IC,74AHCT1G17GW,doc/logic/74AHC_AHCT1G17.pdf,tssop_5,SOT353-1,Single Schmitt trigger buffer,"single, buffer, schmitt trigger"
+logic_schmitt_power,74AHC1G17GV,0,2,,,,,,,,4,,5,3,IC,74AHCT1G17GV,doc/logic/74AHC_AHCT1G17.pdf,sc_74a,SOT753,Single Schmitt trigger buffer,"single, buffer, schmitt trigger"
+logic_schmitt_power,74AHC1G17GM,0,2,,,,,,,,4,,5,3,IC,74AHCT1G17GM,doc/logic/74AHC_AHCT1G17.pdf,xson_6,SOT886,Single Schmitt trigger buffer,"single, buffer, schmitt trigger"
+logic_schmitt_power,74AHC1G17GF,0,2,,,,,,,,4,,5,3,IC,74AHCT1G17GF,doc/logic/74AHC_AHCT1G17.pdf,xson_6,SOT891,Single Schmitt trigger buffer,"single, buffer, schmitt trigger"
+logic_or2_power,74AHC1G32GW,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G32GW,doc/logic/74AHC_AHCT1G32.pdf,tssop_5,SOT353-1,Single 2-input OR gate,"single, or"
+logic_or2_power,74AHC1G32GV,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G32GV,doc/logic/74AHC_AHCT1G32.pdf,sc_74a,SOT753,Single 2-input OR gate,"single, or"
+logic_switch_power,74AHC1G66GW,0,,,,,4,,,,1,2,5,3,IC,74AHCT1G66GW,doc/logic/74AHC_AHCT1G66.pdf,tssop_5,SOT353-1,Single-pole single-throw analog switch,"single, switch"
+logic_switch_power,74AHC1G66GV,0,,,,,4,,,,1,2,5,3,IC,74AHCT1G66GV,doc/logic/74AHC_AHCT1G66.pdf,sc_74a,SOT753,Single-pole single-throw analog switch,"single, switch"
+logic_dff_power,74AHC1G79GW,0,,,,1,,4,2,,,,5,3,IC,74AHCT1G79GW,doc/logic/74AHC_AHCT1G79.pdf,tssop_5,SOT353-1,Single D-type flip-flop; positive-edge trigger,"single, dff"
+logic_dff_power,74AHC1G79GV,0,,,,1,,4,2,,,,5,3,IC,74AHCT1G79GV,doc/logic/74AHC_AHCT1G79.pdf,sc_74a,SOT753,Single D-type flip-flop; positive-edge trigger,"single, dff"
+logic_xor2_power,74AHC1G86GW,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G86GW,doc/logic/74AHC_AHCT1G86.pdf,tssop_5,SOT353-1,Single 2-input EXCLUSIVE-OR gate,"single, xor"
+logic_xor2_power,74AHC1G86GV,0,2,1,,,,,,,4,,5,3,IC,74AHCT1G86GV,doc/logic/74AHC_AHCT1G86.pdf,sc_74a,SOT753,Single 2-input EXCLUSIVE-OR gate,"single, xor"
+logic_buffer_enable_not_power,74AHC1G125GW,0,2,,,,,,,1,4,,5,3,IC,74AHCT1G125GW,doc/logic/74AHC_AHCT1G125.pdf,tssop_5,SOT353-1,Single bus buffer/line driver; 3-state,"single, buffer, 3-state"
+logic_buffer_enable_not_power,74AHC1G125GV,0,2,,,,,,,1,4,,5,3,IC,74AHCT1G125GV,doc/logic/74AHC_AHCT1G125.pdf,sc_74a,SOT753,Single bus buffer/line driver; 3-state,"single, buffer, 3-state"
+logic_buffer_enable_not_power,74AHC1G125GM,0,2,,,,,,,1,4,,5,3,IC,74AHCT1G125GM,doc/logic/74AHC_AHCT1G125.pdf,xson_6,SOT886,Single bus buffer/line driver; 3-state,"single, buffer, 3-state"
+logic_buffer_enable_not_power,74AHC1G125GF,0,2,,,,,,,1,4,,5,3,IC,74AHCT1G125GF,doc/logic/74AHC_AHCT1G125.pdf,xson_6,SOT891,Single bus buffer/line driver; 3-state,"single, buffer, 3-state"
+logic_buffer_enable_power,74AHC1G126GW,0,2,,,,,,,1,4,,5,3,IC,74AHCT1G126GW,doc/logic/74AHC_AHCT1G126.pdf,tssop_5,SOT353-1,Single bus buffer/line driver; 3-state,"single, buffer, 3-state"
+logic_buffer_enable_power,74AHC1G126GV,0,2,,,,,,,1,4,,5,3,IC,74AHCT1G126GV,doc/logic/74AHC_AHCT1G126.pdf,sc_74a,SOT753,Single bus buffer/line driver; 3-state,"single, buffer, 3-state"
+logic_buffer_enable_power,74AHC1G126GM,0,2,,,,,,,1,4,,5,3,IC,74AHCT1G126GM,doc/logic/74AHC_AHCT1G126.pdf,xson_6,SOT886,Single bus buffer/line driver; 3-state,"single, buffer, 3-state"
+logic_buffer_enable_power,74AHC1G126GF,0,2,,,,,,,1,4,,5,3,IC,74AHCT1G126GF,doc/logic/74AHC_AHCT1G126.pdf,xson_6,SOT891,Single bus buffer/line driver; 3-state,"single, buffer, 3-state"
+logic_nand2_power,74AHC2G00DP,1,1,2,,,,,,,7,,5,3,IC,74AHCT2G00DP,doc/logic/74AHC_AHCT2G00.pdf,tssop_8,SOT505-2,Dual 2-input NAND gate,"dual, nand"
+logic_nand2,74AHC2G00DP,2,5,6,,,,,,,3,,,,,,,,,,
+logic_nand2_power,74AHC2G00DC,1,1,2,,,,,,,7,,5,3,IC,74AHCT2G00DC,doc/logic/74AHC_AHCT2G00.pdf,vssop_8,SOT765-1,Dual 2-input NAND gate,"dual, nand"
+logic_nand2,74AHC2G00DC,2,5,6,,,,,,,3,,,,,,,,,,
+logic_nand2_power,74AHC2G00GD,1,1,2,,,,,,,7,,5,3,IC,74AHCT2G00GD,doc/logic/74AHC_AHCT2G00.pdf,xson_8,SOT996-2,Dual 2-input NAND gate,"dual, nand"
+logic_nand2,74AHC2G00GD,2,5,6,,,,,,,3,,,,,,,,,,
