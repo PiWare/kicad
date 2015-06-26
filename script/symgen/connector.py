@@ -8,7 +8,7 @@ import argparse
 
 def PinTable(number, orientation, decoration = ''):
     line = ['name', 'number', 'type', 'shape', 'direction', 'decoration']
-    result = ";".join(line)+"\n"
+    result = ",".join(line)+"\n"
     if (orientation == 'both'):
         if number % 2:
             raise ValueError('If orientation is both, number of pins can not be odd!')
@@ -16,14 +16,14 @@ def PinTable(number, orientation, decoration = ''):
         pin = 1
         for index in range(number / 2):
             line = ['~', str(pin), 'passive', 'line', 'left', decoration]
-            result += ";".join(line)+"\n"
+            result += ",".join(line)+"\n"
             line = ['~', str(pin + 1), 'passive', 'line', 'right', decoration]
-            result += ";".join(line)+"\n"
+            result += ",".join(line)+"\n"
             pin += 2
     else:
         for pin in range(number):
             line = ['~', str(pin + 1), 'passive', 'line', orientation, decoration]
-            result += ";".join(line)+"\n"
+            result += ",".join(line)+"\n"
     return result
 
 if __name__ == "__main__":

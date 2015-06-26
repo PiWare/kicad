@@ -1,2 +1,2 @@
-name;number;type;shape;direction;decoration
-~;1;passive;line;left;rectangle
+name,number,type,shape,direction,decoration
+~,1,passive,line,left,rectangle
