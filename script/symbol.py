@@ -599,6 +599,116 @@ class Symbol(object):
             if 'alias' in map:
                 self.alias = map['alias'].split()
 
+    def fromCSV(self, filename, name, reference, offset, nameVisible = True, numberVisible = True, centered = True):
+        self.name = name
+        self.reference = reference
+        self.offset = offset
+
+        pinsLeft = []
+        pinsRight = []
+        pinsUp = []
+        pinsDown = []
+        with open(filename, 'rb') as csvfile:
+            table = csv.reader(csvfile, delimiter=',', quotechar='\"')
+
+            first_row = 1
+            for row in table:
+                if first_row == 1:
+                    header = row
+                    first_row = 0
+                else:
+                    data = dict(zip(header, row))
+                    for i in range(len(row)):
+                        try:
+                            row[i] = int(row[i])
+                        except:
+                            pass
+
+                    if data['direction'] == 'left':
+                        pinsLeft.append(data)
+                    elif data['direction'] == 'right':
+                        pinsRight.append(data)
+                    elif data['direction'] == 'up':
+                        pinsUp.append(data)
+                    elif data['direction'] == 'down':
+                        pinsDown.append(data)
+
+        nameWidthLeft = 0
+        nameWidthRight = 0
+        nameHeightUp = 0
+        nameHeightDown = 0
+        for data in pinsLeft:
+            nameWidthLeft = max(nameWidthLeft, len(data['name'].translate(None, "~")) * cfg.SYMBOL_PIN_NAME_SIZE)
+        for data in pinsRight:
+            nameWidthRight = max(nameWidthRight, len(data['name'].translate(None, "~")) * cfg.SYMBOL_PIN_NAME_SIZE)
+
+        for data in pinsUp:
+            nameHeightUp = max(nameHeightUp, len(data['name'].translate(None, "~")) * cfg.SYMBOL_PIN_NAME_SIZE)
+        for data in pinsDown:
+            nameHeightDown = max(nameHeightDown, len(data['name'].translate(None, "~")) * cfg.SYMBOL_PIN_NAME_SIZE)
+
+        nameWidth = nameWidthLeft + cfg.SYMBOL_TEXT_SPACE + nameWidthRight
+        nameHeight = nameHeightUp + nameHeightDown
+
+        width = (max(len(pinsUp), len(pinsDown)) - 1) * cfg.SYMBOL_PIN_GRID + 2 * cfg.SYMBOL_PIN_SPACE
+        height = (max(len(pinsLeft), len(pinsRight)) - 1) * cfg.SYMBOL_PIN_GRID + 2 * cfg.SYMBOL_PIN_SPACE
+
+        width = max(width, nameWidth)
+        height = max(height, nameHeight)
+
+        self.addModule(Rectangle(-width / 2, -height / 2, width / 2, height / 2, cfg.SYMBOL_LINE_WIDTH, fill.background, 0, representation.normal))
+
+        x = -width / 2 - cfg.SYMBOL_PIN_LENGTH
+        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        for data in pinsLeft:
+            if data['type'] != 'space':
+                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, 0, representation.normal,
+                    getattr(Type, data['type']), getattr(shape, data['shape'])))
+            y -= cfg.SYMBOL_PIN_GRID
+
+        x = width / 2 + cfg.SYMBOL_PIN_LENGTH
+        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        for data in pinsRight:
+            if data['type'] != 'space':
+                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, 0, representation.normal,
+                    getattr(Type, data['type']), getattr(shape, data['shape'])))
+            y -= cfg.SYMBOL_PIN_GRID
+
+        x = cfg.SYMBOL_PIN_GRID * -((float(len(pinsUp)) / 2) - 0.5)
+        y = height / 2 + cfg.SYMBOL_PIN_LENGTH
+        for data in pinsUp:
+            if data['type'] != 'space':
+                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, 0, representation.normal,
+                    getattr(Type, data['type']), getattr(shape, data['shape'])))
+            x += cfg.SYMBOL_PIN_GRID
+
+        x = cfg.SYMBOL_PIN_GRID * -((float(len(pinsDown)) / 2) - 0.5)
+        y = -height / 2 - cfg.SYMBOL_PIN_LENGTH
+        for data in pinsDown:
+            if data['type'] != 'space':
+                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, 0, representation.normal,
+                    getattr(Type, data['type']), getattr(shape, data['shape'])))
+            x += cfg.SYMBOL_PIN_GRID
+
+        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        for l, r in zip(pinsLeft, pinsRight):
+            if l['type'] == r['type'] and l['type'] == 'space':
+                poly = Polygon(cfg.SYMBOL_SPACE_WIDTH)
+                poly.add(Point(-width / 2, y))
+                poly.add(Point(width / 2, y))
+                self.addModule(poly)
+            y -= cfg.SYMBOL_PIN_GRID
+
+        # Fields
+        if centered:
+            self.addField(Field(cfg.REFERENCE_FIELD, self.reference, 0, cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
+            self.addField(Field(cfg.NAME_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
+        #   self.addField(Field(cfg.FOOTPRINT_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
+        #   self.addField(Field(cfg.DOCUMENT_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
+        else:
+            self.addField(Field(cfg.REFERENCE_FIELD, self.reference, -width / 2, height / 2 + cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
+            self.addField(Field(cfg.NAME_FIELD, self.name, -width / 2, -height / 2 - cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
+
     def optimize(self):
         """Remove empty fields and detect duplicate graphical elements from symbol and merge them to unit = 0"""
         list = []

@@ -2,8 +2,6 @@
 
 # http://www.nxp.com/technical-support-portal/#/tid=50808,tab=datasheets
 
-import os
-import sys
 import symbol
 from symbol import cfg
 import csv
@@ -20,117 +18,8 @@ if __name__ == "__main__":
 #   desc_output = open(args.desc, "w")
 #   desc_output.write('EESchema-DOCLIB Version 2.0\n')
 
-    pinGrid = 200
-    pinSpace = 200
-    pinLength = 200
-    fontSize = 50
-    lineWidthOuter = 20
-    lineWidthInner = 10
-    referenceSpace = 500
-
     sym = symbol.Symbol()
-    left = []
-    right = []
-    up = []
-    down = []
-    with open(args.csv, 'rb') as csvfile:
-        table = csv.reader(csvfile, delimiter=',', quotechar='\"')
-
-        last_name = ""
-        first_row = 1
-        for row in table:
-            if first_row == 1:
-                header = row
-                first_row = 0
-            else:
-                data = dict(zip(header, row))
-                for i in range(len(row)):
-                    try:
-                        row[i] = int(row[i])
-                    except:
-                        pass
-
-                direction = data['direction']
-                #del data['direction']
-
-                if direction == 'left':
-                    left.append(data)
-                elif direction == 'right':
-                    right.append(data)
-                elif direction == 'up':
-                    up.append(data)
-                elif direction == 'down':
-                    down.append(data)
-
-#               if not os.path.isfile(template_file):
-#                   print "Template file '%s' does not exist!"%(template_file)
-#                   sys.exit(2)
-
-#                   if 'sym' in locals():
-#                       sym.optimize()
-#                       symbol_output.write("\n".join(sym.renderSymbol()))
-#                       desc_output.write("\n".join(sym.renderDescription()))
-#                       del sym
-    nameWidthLeft = 0
-    nameWidthRight = 0
-    nameHeightUp = 0
-    nameHeightDown = 0
-    for data in left:
-        nameWidthLeft = max(nameWidthLeft, len(data['name'].translate(None, "~")) * fontSize)
-    for data in right:
-        nameWidthRight = max(nameWidthRight, len(data['name'].translate(None, "~")) * fontSize)
-
-    for data in up:
-        nameHeightUp = max(nameHeightUp, len(data['name'].translate(None, "~")) * fontSize)
-    for data in down:
-        nameHeightDown = max(nameHeightDown, len(data['name'].translate(None, "~")) * fontSize)
-
-    nameWidth = nameWidthLeft + referenceSpace + nameWidthRight
-    nameHeight = nameHeightUp + nameHeightDown
-    print nameWidth, nameHeight
-
-    width = (max(len(up), len(down)) - 1) * pinGrid + 2 * pinSpace
-    height = (max(len(left), len(right)) - 1) * pinGrid + 2 * pinSpace
-
-    print width, height
-
-    width = max(width, nameWidth)
-    height = max(height, nameHeight)
-
-    sym.addModule(symbol.Rectangle(-width / 2, -height / 2, width / 2, height / 2, lineWidthOuter, symbol.fill.background, 0, symbol.representation.normal))
-    sym.name = "TEST"
-    sym.reference = "IC"
-
-    x = -width / 2 - pinLength
-    y = height / 2 - pinSpace
-    for data in left:
-        if data['type'] != 'space':
-            sym.addModule(symbol.Pin_(x, y, data['name'], data['number'], pinLength, getattr(symbol.directionFlipped, data['direction']), fontSize, fontSize, 0, symbol.representation.normal,
-                getattr(symbol.Type, data['type']), getattr(symbol.shape, data['shape'])))
-        y -= pinGrid
-
-    x = width / 2 + pinLength
-    y = height / 2 - pinSpace
-    for data in right:
-        if data['type'] != 'space':
-            sym.addModule(symbol.Pin_(x, y, data['name'], data['number'], pinLength, getattr(symbol.directionFlipped, data['direction']), fontSize, fontSize, 0, symbol.representation.normal,
-                getattr(symbol.Type, data['type']), getattr(symbol.shape, data['shape'])))
-        y -= pinGrid
-
-    y = height / 2 - pinSpace
-    for l, r in zip(left, right):
-        if l['type'] == r['type'] and l['type'] == 'space':
-            poly = symbol.Polygon(lineWidthInner)
-            poly.add(symbol.Point(-width / 2, y))
-            poly.add(symbol.Point(width / 2, y))
-            sym.addModule(poly)
-        y -= pinGrid
-
-    # Fields
-    sym.addField(symbol.Field(cfg.REFERENCE_FIELD, "IC", 0, fontSize, fontSize))
-    sym.addField(symbol.Field(cfg.NAME_FIELD, "MAX232", 0, -fontSize, fontSize))
-
-    sym.offset = fontSize
+    sym.fromCSV(args.csv, "TEST", "IC", 50, True, True, False)
     sym.optimize()
 
     with open(args.symbol, 'w') as symbol_output:
