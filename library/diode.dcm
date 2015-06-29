@@ -1,0 +1,131 @@
+EESchema-DOCLIB Version 2.0
+#
+# BAS40
+#
+$CMP BAS40
+K diode, schottky
+D Schottky barrier (double) diodes
+F doc/diode/BAS40.pdf
+$ENDCMP
+#
+# BAS40-04
+#
+$CMP BAS40-04
+K diode, schottky
+D Schottky barrier (double) diodes
+F doc/diode/BAS40.pdf
+$ENDCMP
+#
+# BAS40-05
+#
+$CMP BAS40-05
+K diode, schottky
+D Schottky barrier (double) diodes
+F doc/diode/BAS40.pdf
+$ENDCMP
+#
+# BAS40-06
+#
+$CMP BAS40-06
+K diode, schottky
+D Schottky barrier (double) diodes
+F doc/diode/BAS40.pdf
+$ENDCMP
+#
+# BAS40-07
+#
+$CMP BAS40-07
+K diode, schottky
+D Schottky barrier (double) diodes
+F doc/diode/BAS40.pdf
+$ENDCMP
+#
+# 1N4148
+#
+$CMP 1N4148
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# 1N914
+#
+$CMP 1N914
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# 1N916
+#
+$CMP 1N916
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# 1N916A
+#
+$CMP 1N916A
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# 1N916B
+#
+$CMP 1N916B
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# 1N4448
+#
+$CMP 1N4448
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# FDLL4148
+#
+$CMP FDLL4148
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# FDLL914
+#
+$CMP FDLL914
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# FDLL914A
+#
+$CMP FDLL914A
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# FDLL914B
+#
+$CMP FDLL914B
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# FDLL4448
+#
+$CMP FDLL4448
+K diode
+D Small signal diode
+F doc/diode/1N4148.pdf
+$ENDCMP
+#
+# End Doc Library

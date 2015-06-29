@@ -5,7 +5,7 @@ logic_nor2_power,74AHC1G02GW,0,2,1,,,,,,,,,,4,,5,3,IC,74AHCT1G02GW,doc/logic/74A
 logic_nor2_power,74AHC1G02GV,0,2,1,,,,,,,,,,4,,5,3,IC,74AHCT1G02GV,doc/logic/74AHC_AHCT1G02.pdf,sc_74a,SOT753,Single 2-input NOR gate,"single, nor, smd"
 logic_not_power,74AHC1G04GW,0,2,,,,,,,,,,,4,,5,3,IC,74AHCT1G04GW,doc/logic/74AHC_AHCT1G04.pdf,tssop_5,SOT353-1,Single inverter,"single, inverter, smd"
 logic_not_power,74AHC1G04GV,0,2,,,,,,,,,,,4,,5,3,IC,74AHCT1G04GV,doc/logic/74AHC_AHCT1G04.pdf,sc_74a,SOT753,Single inverter,"single, inverter, smd"
-logic_not_power,74AHC1G04GM,0,2,,,,,,,,,,,4,,5,3,IC,74AHCT1G04GM,doc/logic/74AHC_AHCT1G04.pdf,Xson_6,,Single inverter,"single, inverter, smd"
+logic_not_power,74AHC1G04GM,0,2,,,,,,,,,,,4,,5,3,IC,74AHCT1G04GM,doc/logic/74AHC_AHCT1G04.pdf,xson_6,,Single inverter,"single, inverter, smd"
 logic_not_power,74AHC1G06GW,0,2,,,,,,,,,,,4,,5,3,IC,74AHCT1G06GW,doc/logic/74AHC_AHCT1G06.pdf,tssop_5,SOT353-1,Single inverter with open-drain output,"single, inverter, open-drain output, smd"
 logic_not_power,74AHC1G06GV,0,2,,,,,,,,,,,4,,5,3,IC,74AHCT1G06GV,doc/logic/74AHC_AHCT1G06.pdf,sc_74a,SOT753,Single inverter with open-drain output,"single, inverter, open-drain output, smd"
 logic_buffer_power,74AHC1G07GW,0,2,,,,,,,,,,,4,,5,3,IC,74AHCT1G07GW,doc/logic/74AHC_AHCT1G07.pdf,tssop_5,SOT353-1,Single buffer with open-drain output,"single, buffer, open-drain output, smd"
@@ -207,5 +207,3 @@ logic_or2_power,74AHC32BQ,1,1,2,,,,,,,,,,3,,14,7,IC,74AHCT32BQ,doc/logic/74AHC_A
 logic_or2,74AHC32BQ,2,4,5,,,,,,,,,,6,,,,,,,,,,
 logic_or2,74AHC32BQ,3,9,10,,,,,,,,,,8,,,,,,,,,,
 logic_or2,74AHC32BQ,4,12,13,,,,,,,,,,11,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-74_138,74HC138N,,,,,,,,,,,,,,,,,IC,74HCT138N,doc/logic/74HC_HCT138.pdf,,,Inverting 3-to-8 line decoder/demultiplexer,"decoder, demultiplexer, inverter"

@@ -82,8 +82,8 @@ class Square(object):
         maxPinsHoriz = max(len(pins["U"]), len(pins["D"]))
         maxPinsVert = max(len(pins["R"]), len(pins["L"]))
 
-        width = max([symbolNameWidth, maxPinNameWidth, maxPinsHoriz*cfg.SYMBOL_GRID*3])
-        height = max(maxPinNameHeight, maxPinsVert*cfg.SYMBOL_GRID*3)+cfg.SYMBOL_TEXT_MARGIN
+        width = max([symbolNameWidth, maxPinNameWidth, maxPinsHoriz*cfg.SYMBOL_PIN_GRID*3])
+        height = max(maxPinNameHeight, maxPinsVert*cfg.SYMBOL_PIN_GRID*3)+cfg.SYMBOL_TEXT_MARGIN
 
         # Add a bit of space between the pins and the border of the outline
         if len(pins["U"]) > 0 and len(pins["D"])>0:
@@ -122,17 +122,17 @@ class Module(object):
             "R" : (-cfg.SYMBOL_PIN_LENGTH,0)
             }
     PinStep = {
-            "U" : (cfg.SYMBOL_GRID*3,0),
-            "D" : (cfg.SYMBOL_GRID*3,0),
-            "L" : (0,cfg.SYMBOL_GRID*3),
-            "R" : (0,cfg.SYMBOL_GRID*3)
+            "U" : (cfg.SYMBOL_PIN_GRID*3,0),
+            "D" : (cfg.SYMBOL_PIN_GRID*3,0),
+            "L" : (0,cfg.SYMBOL_PIN_GRID*3),
+            "R" : (0,cfg.SYMBOL_PIN_GRID*3)
             }
 
     PinStartOffset = {
-            "U" : (cfg.SYMBOL_GRID*3,0),
-            "D" : (cfg.SYMBOL_GRID*3,0),
-            "L" : (0,cfg.SYMBOL_GRID),
-            "R" : (0,cfg.SYMBOL_GRID)
+            "U" : (cfg.SYMBOL_PIN_GRID*3,0),
+            "D" : (cfg.SYMBOL_PIN_GRID*3,0),
+            "L" : (0,cfg.SYMBOL_PIN_GRID),
+            "R" : (0,cfg.SYMBOL_PIN_GRID)
             }
 
 

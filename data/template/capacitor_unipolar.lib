@@ -1,20 +1,20 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# capacitor_unipolar
+# name
 #
-DEF capacitor_unipolar C 0 0 N N 1 F N
-F0 "C" 50 100 60 H V L CNN
-F1 "capacitor_unipolar" 50 -100 60 H V L CNN
-F2 "footprint" -100 0 60 V V C CNN
-F3 "" 0 0 60 H V C CNN
+DEF name ref 0 0 N N 1 F N
+F0 "ref" 50 100 60 H V L CNN
+F1 "name" 50 -100 60 H V L CNN
+F2 "footprint" -100 0 60 V I C CNN
+F3 "document" 0 0 60 H I C CNN
 DRAW
 S -50 -30 50 -10 0 1 10 F
 S -50 10 50 30 0 1 10 N
 P 2 0 1 0  30 60  50 60 N
 P 2 0 1 0  40 70  40 50 N
-X 1 1 0 150 120 D 50 50 1 1 P
-X 2 2 0 -150 120 U 50 50 1 1 P
+X ~ $1 0 150 120 D 50 50 1 1 P
+X ~ $2 0 -150 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

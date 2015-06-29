@@ -2,6 +2,7 @@ LIBRARY_ROOT = library
 FOOTPRINT_ROOT = modules
 CSV_ROOT := data/device
 TEMPLATE_ROOT := data/template
+TABLE_ROOT := data/symbol
 
 COMMON_SCRIPT_DEPS = script/config.py script/symbol.py config
 CPU_SCRIPT = script/cpu.py
@@ -18,11 +19,12 @@ LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
 			$(LIBRARY_ROOT)/rf.lib \
 			$(LIBRARY_ROOT)/capacitor.lib
 
-# Template based symbols
+# Template/table based symbols
 TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/led.lib \
 	$(LIBRARY_ROOT)/transistor.lib \
-	$(LIBRARY_ROOT)/logic.lib
+	$(LIBRARY_ROOT)/logic.lib \
+	$(LIBRARY_ROOT)/diode.lib
 
 TEMPLATE_LIBRARIES_CSV := $(patsubst $(LIBRARY_ROOT)/%.lib, $(CSV_ROOT)/%.csv, $(TEMPLATE_LIBRARIES))
 
@@ -53,7 +55,7 @@ $(LIBRARY_ROOT)/capacitor.lib: $(CAPACITOR_SCRIPT) $(COMMON_SCRIPT_DEPS) $(CAPAC
 
 # Template based symbols
 $(LIBRARY_ROOT)/%.lib: $(CSV_ROOT)/%.csv
-	$(DEVICE_SCRIPT) --csv $< --symbol $@ --desc $(addsuffix .dcm, $(basename $@)) --template_path $(TEMPLATE_ROOT)/
+	$(DEVICE_SCRIPT) --csv $< --symbol $@ --desc $(addsuffix .dcm, $(basename $@)) --template_path $(TEMPLATE_ROOT)/ --table_path $(TABLE_ROOT)/
 
 # Footprint generation
 $(FOOTPRINTS): %: data/footprint/%.csv

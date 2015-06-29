@@ -13,7 +13,7 @@ if __name__ == "__main__":
     parser.add_argument('--symbol', type = str, help = 'Output file for generated KiCAD symbols', required = True)
     parser.add_argument('--desc', type = str, help = 'Output file for generated KiCAD symbol description', required = True)
     parser.add_argument('--template_path', type = str, help = 'Path to template symbols', required = True)
-    parser.add_argument('--symbol_path', type = str, help = 'Path to csv symbols', required = True)
+    parser.add_argument('--table_path', type = str, help = 'Path to table based symbols', required = True)
     args = parser.parse_args()
 
     symbol_output = open(args.symbol, "w")
@@ -22,7 +22,7 @@ if __name__ == "__main__":
     desc_output.write('EESchema-DOCLIB Version 2.0\n')
 
     args.template_path = os.path.normpath(args.template_path)
-    args.symbol_path = os.path.normpath(args.symbol_path)
+    args.table_path = os.path.normpath(args.table_path)
 
     with open(args.csv, 'rb') as csvfile:
         table = csv.reader(csvfile, delimiter=',', quotechar='\"')
@@ -56,6 +56,8 @@ if __name__ == "__main__":
                 # As many symbols can contain field elements, we load them only from the first symbol
                 if not 'unit' in data:
                     data['unit'] = 0
+                #print data
+                print template_file
                 sym.load(template_file, int(data['unit']), symbol.representation.normal, data, firstElement)
                 if firstElement:
                     if not sym.setFields(data):

@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.3
 #
 # name
 #
-DEF name ref 0 0 Y Y 6 L N
+DEF name ref 0 0 Y Y 1 F N
 F0 "ref" 50 150 60 H V L CNN
 F1 "name" 50 -150 60 H V L CNN
 F2 "footprint" 50 -250 60 H I L CNN
@@ -11,7 +11,10 @@ F3 "document" 50 -350 60 H I L CNN
 DRAW
 P 4 0 1 20  -150 150  150 0  -150 -150  -150 150 f
 X A $A -250 0 100 R 40 40 1 1 I
+X ~OE $OE -75 -200 75 U 40 40 1 1 I I
 X Y $Y 250 0 100 L 40 40 1 1 O
+X VCC $VCC 0 200 125 D 40 40 1 1 W
+X GND $GND 0 -200 125 U 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #

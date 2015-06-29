@@ -1,19 +1,1411 @@
 EESchema-DOCLIB Version 2.0
 #
-# 74HC14N
+# 74AHC1G00GW
 #
-$CMP 74HC14N
-K hex, inverter, schmitt trigger
-D Hex inverting Schmitt trigger
-F doc/logic/74HC_HCT14.pdf
+$CMP 74AHC1G00GW
+K single, nand, smd
+D Single 2-input NAND gate
+F doc/logic/74AHC_AHCT1G00.pdf
 $ENDCMP
 #
-# 74HCT14N
+# 74AHCT1G00GW
 #
-$CMP 74HCT14N
+$CMP 74AHCT1G00GW
+K single, nand, smd
+D Single 2-input NAND gate
+F doc/logic/74AHC_AHCT1G00.pdf
+$ENDCMP
+#
+# 74AHC1G00GV
+#
+$CMP 74AHC1G00GV
+K single, nand, smd
+D Single 2-input NAND gate
+F doc/logic/74AHC_AHCT1G00.pdf
+$ENDCMP
+#
+# 74AHCT1G00GV
+#
+$CMP 74AHCT1G00GV
+K single, nand, smd
+D Single 2-input NAND gate
+F doc/logic/74AHC_AHCT1G00.pdf
+$ENDCMP
+#
+# 74AHC1G02GW
+#
+$CMP 74AHC1G02GW
+K single, nor, smd
+D Single 2-input NOR gate
+F doc/logic/74AHC_AHCT1G02.pdf
+$ENDCMP
+#
+# 74AHCT1G02GW
+#
+$CMP 74AHCT1G02GW
+K single, nor, smd
+D Single 2-input NOR gate
+F doc/logic/74AHC_AHCT1G02.pdf
+$ENDCMP
+#
+# 74AHC1G02GV
+#
+$CMP 74AHC1G02GV
+K single, nor, smd
+D Single 2-input NOR gate
+F doc/logic/74AHC_AHCT1G02.pdf
+$ENDCMP
+#
+# 74AHCT1G02GV
+#
+$CMP 74AHCT1G02GV
+K single, nor, smd
+D Single 2-input NOR gate
+F doc/logic/74AHC_AHCT1G02.pdf
+$ENDCMP
+#
+# 74AHC1G04GW
+#
+$CMP 74AHC1G04GW
+K single, inverter, smd
+D Single inverter
+F doc/logic/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+# 74AHCT1G04GW
+#
+$CMP 74AHCT1G04GW
+K single, inverter, smd
+D Single inverter
+F doc/logic/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+# 74AHC1G04GV
+#
+$CMP 74AHC1G04GV
+K single, inverter, smd
+D Single inverter
+F doc/logic/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+# 74AHCT1G04GV
+#
+$CMP 74AHCT1G04GV
+K single, inverter, smd
+D Single inverter
+F doc/logic/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+# 74AHC1G04GM
+#
+$CMP 74AHC1G04GM
+K single, inverter, smd
+D Single inverter
+F doc/logic/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+# 74AHCT1G04GM
+#
+$CMP 74AHCT1G04GM
+K single, inverter, smd
+D Single inverter
+F doc/logic/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+# 74AHC1G06GW
+#
+$CMP 74AHC1G06GW
+K single, inverter, open-drain output, smd
+D Single inverter with open-drain output
+F doc/logic/74AHC_AHCT1G06.pdf
+$ENDCMP
+#
+# 74AHCT1G06GW
+#
+$CMP 74AHCT1G06GW
+K single, inverter, open-drain output, smd
+D Single inverter with open-drain output
+F doc/logic/74AHC_AHCT1G06.pdf
+$ENDCMP
+#
+# 74AHC1G06GV
+#
+$CMP 74AHC1G06GV
+K single, inverter, open-drain output, smd
+D Single inverter with open-drain output
+F doc/logic/74AHC_AHCT1G06.pdf
+$ENDCMP
+#
+# 74AHCT1G06GV
+#
+$CMP 74AHCT1G06GV
+K single, inverter, open-drain output, smd
+D Single inverter with open-drain output
+F doc/logic/74AHC_AHCT1G06.pdf
+$ENDCMP
+#
+# 74AHC1G07GW
+#
+$CMP 74AHC1G07GW
+K single, buffer, open-drain output, smd
+D Single buffer with open-drain output
+F doc/logic/74AHC_AHCT1G07.pdf
+$ENDCMP
+#
+# 74AHCT1G07GW
+#
+$CMP 74AHCT1G07GW
+K single, buffer, open-drain output, smd
+D Single buffer with open-drain output
+F doc/logic/74AHC_AHCT1G07.pdf
+$ENDCMP
+#
+# 74AHC1G07GV
+#
+$CMP 74AHC1G07GV
+K single, buffer, open-drain output, smd
+D Single buffer with open-drain output
+F doc/logic/74AHC_AHCT1G07.pdf
+$ENDCMP
+#
+# 74AHCT1G07GV
+#
+$CMP 74AHCT1G07GV
+K single, buffer, open-drain output, smd
+D Single buffer with open-drain output
+F doc/logic/74AHC_AHCT1G07.pdf
+$ENDCMP
+#
+# 74AHC1G08GW
+#
+$CMP 74AHC1G08GW
+K single, and, smd
+D Single 2-input AND gate
+F doc/logic/74AHC_AHCT1G08.pdf
+$ENDCMP
+#
+# 74AHCT1G08GW
+#
+$CMP 74AHCT1G08GW
+K single, and, smd
+D Single 2-input AND gate
+F doc/logic/74AHC_AHCT1G08.pdf
+$ENDCMP
+#
+# 74AHC1G08GV
+#
+$CMP 74AHC1G08GV
+K single, and, smd
+D Single 2-input AND gate
+F doc/logic/74AHC_AHCT1G08.pdf
+$ENDCMP
+#
+# 74AHCT1G08GV
+#
+$CMP 74AHCT1G08GV
+K single, and, smd
+D Single 2-input AND gate
+F doc/logic/74AHC_AHCT1G08.pdf
+$ENDCMP
+#
+# 74AHC1G14GW
+#
+$CMP 74AHC1G14GW
+K single, inverter, schmitt trigger, smd
+D Single inverting Schmitt trigger
+F doc/logic/74AHC_AHCT1G14.pdf
+$ENDCMP
+#
+# 74AHCT1G14GW
+#
+$CMP 74AHCT1G14GW
+K single, inverter, schmitt trigger, smd
+D Single inverting Schmitt trigger
+F doc/logic/74AHC_AHCT1G14.pdf
+$ENDCMP
+#
+# 74AHC1G14GV
+#
+$CMP 74AHC1G14GV
+K single, inverter, schmitt trigger, smd
+D Single inverting Schmitt trigger
+F doc/logic/74AHC_AHCT1G14.pdf
+$ENDCMP
+#
+# 74AHCT1G14GV
+#
+$CMP 74AHCT1G14GV
+K single, inverter, schmitt trigger, smd
+D Single inverting Schmitt trigger
+F doc/logic/74AHC_AHCT1G14.pdf
+$ENDCMP
+#
+# 74AHC1G17GW
+#
+$CMP 74AHC1G17GW
+K single, buffer, schmitt trigger, smd
+D Single Schmitt trigger buffer
+F doc/logic/74AHC_AHCT1G17.pdf
+$ENDCMP
+#
+# 74AHCT1G17GW
+#
+$CMP 74AHCT1G17GW
+K single, buffer, schmitt trigger, smd
+D Single Schmitt trigger buffer
+F doc/logic/74AHC_AHCT1G17.pdf
+$ENDCMP
+#
+# 74AHC1G17GV
+#
+$CMP 74AHC1G17GV
+K single, buffer, schmitt trigger, smd
+D Single Schmitt trigger buffer
+F doc/logic/74AHC_AHCT1G17.pdf
+$ENDCMP
+#
+# 74AHCT1G17GV
+#
+$CMP 74AHCT1G17GV
+K single, buffer, schmitt trigger, smd
+D Single Schmitt trigger buffer
+F doc/logic/74AHC_AHCT1G17.pdf
+$ENDCMP
+#
+# 74AHC1G17GM
+#
+$CMP 74AHC1G17GM
+K single, buffer, schmitt trigger, smd
+D Single Schmitt trigger buffer
+F doc/logic/74AHC_AHCT1G17.pdf
+$ENDCMP
+#
+# 74AHCT1G17GM
+#
+$CMP 74AHCT1G17GM
+K single, buffer, schmitt trigger, smd
+D Single Schmitt trigger buffer
+F doc/logic/74AHC_AHCT1G17.pdf
+$ENDCMP
+#
+# 74AHC1G17GF
+#
+$CMP 74AHC1G17GF
+K single, buffer, schmitt trigger, smd
+D Single Schmitt trigger buffer
+F doc/logic/74AHC_AHCT1G17.pdf
+$ENDCMP
+#
+# 74AHCT1G17GF
+#
+$CMP 74AHCT1G17GF
+K single, buffer, schmitt trigger, smd
+D Single Schmitt trigger buffer
+F doc/logic/74AHC_AHCT1G17.pdf
+$ENDCMP
+#
+# 74AHC1G32GW
+#
+$CMP 74AHC1G32GW
+K single, or, smd
+D Single 2-input OR gate
+F doc/logic/74AHC_AHCT1G32.pdf
+$ENDCMP
+#
+# 74AHCT1G32GW
+#
+$CMP 74AHCT1G32GW
+K single, or, smd
+D Single 2-input OR gate
+F doc/logic/74AHC_AHCT1G32.pdf
+$ENDCMP
+#
+# 74AHC1G32GV
+#
+$CMP 74AHC1G32GV
+K single, or, smd
+D Single 2-input OR gate
+F doc/logic/74AHC_AHCT1G32.pdf
+$ENDCMP
+#
+# 74AHCT1G32GV
+#
+$CMP 74AHCT1G32GV
+K single, or, smd
+D Single 2-input OR gate
+F doc/logic/74AHC_AHCT1G32.pdf
+$ENDCMP
+#
+# 74AHC1G66GW
+#
+$CMP 74AHC1G66GW
+K single, switch, smd
+D Single-pole single-throw analog switch
+F doc/logic/74AHC_AHCT1G66.pdf
+$ENDCMP
+#
+# 74AHCT1G66GW
+#
+$CMP 74AHCT1G66GW
+K single, switch, smd
+D Single-pole single-throw analog switch
+F doc/logic/74AHC_AHCT1G66.pdf
+$ENDCMP
+#
+# 74AHC1G66GV
+#
+$CMP 74AHC1G66GV
+K single, switch, smd
+D Single-pole single-throw analog switch
+F doc/logic/74AHC_AHCT1G66.pdf
+$ENDCMP
+#
+# 74AHCT1G66GV
+#
+$CMP 74AHCT1G66GV
+K single, switch, smd
+D Single-pole single-throw analog switch
+F doc/logic/74AHC_AHCT1G66.pdf
+$ENDCMP
+#
+# 74AHC1G79GW
+#
+$CMP 74AHC1G79GW
+K single, dff, smd
+D Single D-type flip-flop, positive-edge trigger
+F doc/logic/74AHC_AHCT1G79.pdf
+$ENDCMP
+#
+# 74AHCT1G79GW
+#
+$CMP 74AHCT1G79GW
+K single, dff, smd
+D Single D-type flip-flop, positive-edge trigger
+F doc/logic/74AHC_AHCT1G79.pdf
+$ENDCMP
+#
+# 74AHC1G79GV
+#
+$CMP 74AHC1G79GV
+K single, dff, smd
+D Single D-type flip-flop, positive-edge trigger
+F doc/logic/74AHC_AHCT1G79.pdf
+$ENDCMP
+#
+# 74AHCT1G79GV
+#
+$CMP 74AHCT1G79GV
+K single, dff, smd
+D Single D-type flip-flop, positive-edge trigger
+F doc/logic/74AHC_AHCT1G79.pdf
+$ENDCMP
+#
+# 74AHC1G86GW
+#
+$CMP 74AHC1G86GW
+K single, xor
+D Single 2-input EXCLUSIVE-OR gate
+F doc/logic/74AHC_AHCT1G86.pdf
+$ENDCMP
+#
+# 74AHCT1G86GW
+#
+$CMP 74AHCT1G86GW
+K single, xor
+D Single 2-input EXCLUSIVE-OR gate
+F doc/logic/74AHC_AHCT1G86.pdf
+$ENDCMP
+#
+# 74AHC1G86GV
+#
+$CMP 74AHC1G86GV
+K single, xor
+D Single 2-input EXCLUSIVE-OR gate
+F doc/logic/74AHC_AHCT1G86.pdf
+$ENDCMP
+#
+# 74AHCT1G86GV
+#
+$CMP 74AHCT1G86GV
+K single, xor
+D Single 2-input EXCLUSIVE-OR gate
+F doc/logic/74AHC_AHCT1G86.pdf
+$ENDCMP
+#
+# 74AHC1G125GW
+#
+$CMP 74AHC1G125GW
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G125.pdf
+$ENDCMP
+#
+# 74AHCT1G125GW
+#
+$CMP 74AHCT1G125GW
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G125.pdf
+$ENDCMP
+#
+# 74AHC1G125GV
+#
+$CMP 74AHC1G125GV
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G125.pdf
+$ENDCMP
+#
+# 74AHCT1G125GV
+#
+$CMP 74AHCT1G125GV
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G125.pdf
+$ENDCMP
+#
+# 74AHC1G125GM
+#
+$CMP 74AHC1G125GM
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G125.pdf
+$ENDCMP
+#
+# 74AHCT1G125GM
+#
+$CMP 74AHCT1G125GM
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G125.pdf
+$ENDCMP
+#
+# 74AHC1G125GF
+#
+$CMP 74AHC1G125GF
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G125.pdf
+$ENDCMP
+#
+# 74AHCT1G125GF
+#
+$CMP 74AHCT1G125GF
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G125.pdf
+$ENDCMP
+#
+# 74AHC1G126GW
+#
+$CMP 74AHC1G126GW
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G126.pdf
+$ENDCMP
+#
+# 74AHCT1G126GW
+#
+$CMP 74AHCT1G126GW
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G126.pdf
+$ENDCMP
+#
+# 74AHC1G126GV
+#
+$CMP 74AHC1G126GV
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G126.pdf
+$ENDCMP
+#
+# 74AHCT1G126GV
+#
+$CMP 74AHCT1G126GV
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G126.pdf
+$ENDCMP
+#
+# 74AHC1G126GM
+#
+$CMP 74AHC1G126GM
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G126.pdf
+$ENDCMP
+#
+# 74AHCT1G126GM
+#
+$CMP 74AHCT1G126GM
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G126.pdf
+$ENDCMP
+#
+# 74AHC1G126GF
+#
+$CMP 74AHC1G126GF
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G126.pdf
+$ENDCMP
+#
+# 74AHCT1G126GF
+#
+$CMP 74AHCT1G126GF
+K single, buffer, 3-state, smd
+D Single bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT1G126.pdf
+$ENDCMP
+#
+# 74AHC2G00DP
+#
+$CMP 74AHC2G00DP
+K dual, nand, smd
+D Dual 2-input NAND gate
+F doc/logic/74AHC_AHCT2G00.pdf
+$ENDCMP
+#
+# 74AHCT2G00DP
+#
+$CMP 74AHCT2G00DP
+K dual, nand, smd
+D Dual 2-input NAND gate
+F doc/logic/74AHC_AHCT2G00.pdf
+$ENDCMP
+#
+# 74AHC2G00DC
+#
+$CMP 74AHC2G00DC
+K dual, nand, smd
+D Dual 2-input NAND gate
+F doc/logic/74AHC_AHCT2G00.pdf
+$ENDCMP
+#
+# 74AHCT2G00DC
+#
+$CMP 74AHCT2G00DC
+K dual, nand, smd
+D Dual 2-input NAND gate
+F doc/logic/74AHC_AHCT2G00.pdf
+$ENDCMP
+#
+# 74AHC2G00GD
+#
+$CMP 74AHC2G00GD
+K dual, nand, smd
+D Dual 2-input NAND gate
+F doc/logic/74AHC_AHCT2G00.pdf
+$ENDCMP
+#
+# 74AHCT2G00GD
+#
+$CMP 74AHCT2G00GD
+K dual, nand, smd
+D Dual 2-input NAND gate
+F doc/logic/74AHC_AHCT2G00.pdf
+$ENDCMP
+#
+# 74AHC2G08DP
+#
+$CMP 74AHC2G08DP
+K dual, and, smd
+D Dual 2-input AND gate
+F doc/logic/74AHC_AHCT2G08.pdf
+$ENDCMP
+#
+# 74AHCT2G08DP
+#
+$CMP 74AHCT2G08DP
+K dual, and, smd
+D Dual 2-input AND gate
+F doc/logic/74AHC_AHCT2G08.pdf
+$ENDCMP
+#
+# 74AHC2G08DC
+#
+$CMP 74AHC2G08DC
+K dual, and, smd
+D Dual 2-input AND gate
+F doc/logic/74AHC_AHCT2G08.pdf
+$ENDCMP
+#
+# 74AHCT2G08DC
+#
+$CMP 74AHCT2G08DC
+K dual, and, smd
+D Dual 2-input AND gate
+F doc/logic/74AHC_AHCT2G08.pdf
+$ENDCMP
+#
+# 74AHC2G08GD
+#
+$CMP 74AHC2G08GD
+K dual, and, smd
+D Dual 2-input AND gate
+F doc/logic/74AHC_AHCT2G08.pdf
+$ENDCMP
+#
+# 74AHCT2G08GD
+#
+$CMP 74AHCT2G08GD
+K dual, and, smd
+D Dual 2-input AND gate
+F doc/logic/74AHC_AHCT2G08.pdf
+$ENDCMP
+#
+# 74AHC2G32DP
+#
+$CMP 74AHC2G32DP
+K dual, or, smd
+D Dual 2-input OR gate
+F doc/logic/74AHC_AHCT2G32.pdf
+$ENDCMP
+#
+# 74AHCT2G32DP
+#
+$CMP 74AHCT2G32DP
+K dual, or, smd
+D Dual 2-input OR gate
+F doc/logic/74AHC_AHCT2G32.pdf
+$ENDCMP
+#
+# 74AHC2G32DC
+#
+$CMP 74AHC2G32DC
+K dual, or, smd
+D Dual 2-input OR gate
+F doc/logic/74AHC_AHCT2G32.pdf
+$ENDCMP
+#
+# 74AHCT2G32DC
+#
+$CMP 74AHCT2G32DC
+K dual, or, smd
+D Dual 2-input OR gate
+F doc/logic/74AHC_AHCT2G32.pdf
+$ENDCMP
+#
+# 74AHC2G32GD
+#
+$CMP 74AHC2G32GD
+K dual, or, smd
+D Dual 2-input OR gate
+F doc/logic/74AHC_AHCT2G32.pdf
+$ENDCMP
+#
+# 74AHCT2G32GD
+#
+$CMP 74AHCT2G32GD
+K dual, or, smd
+D Dual 2-input OR gate
+F doc/logic/74AHC_AHCT2G32.pdf
+$ENDCMP
+#
+# 74AHC2G125DP
+#
+$CMP 74AHC2G125DP
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G125.pdf
+$ENDCMP
+#
+# 74AHCT2G125DP
+#
+$CMP 74AHCT2G125DP
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G125.pdf
+$ENDCMP
+#
+# 74AHC2G125DC
+#
+$CMP 74AHC2G125DC
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G125.pdf
+$ENDCMP
+#
+# 74AHCT2G125DC
+#
+$CMP 74AHCT2G125DC
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G125.pdf
+$ENDCMP
+#
+# 74AHC2G125GD
+#
+$CMP 74AHC2G125GD
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G125.pdf
+$ENDCMP
+#
+# 74AHCT2G125GD
+#
+$CMP 74AHCT2G125GD
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G125.pdf
+$ENDCMP
+#
+# 74AHC2G126DP
+#
+$CMP 74AHC2G126DP
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G126.pdf
+$ENDCMP
+#
+# 74AHCT2G126DP
+#
+$CMP 74AHCT2G126DP
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G126.pdf
+$ENDCMP
+#
+# 74AHC2G126DC
+#
+$CMP 74AHC2G126DC
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G126.pdf
+$ENDCMP
+#
+# 74AHCT2G126DC
+#
+$CMP 74AHCT2G126DC
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G126.pdf
+$ENDCMP
+#
+# 74AHC2G126GD
+#
+$CMP 74AHC2G126GD
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G126.pdf
+$ENDCMP
+#
+# 74AHCT2G126GD
+#
+$CMP 74AHCT2G126GD
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G126.pdf
+$ENDCMP
+#
+# 74AHC2G241DP
+#
+$CMP 74AHC2G241DP
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G241.pdf
+$ENDCMP
+#
+# 74AHCT2G241DP
+#
+$CMP 74AHCT2G241DP
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G241.pdf
+$ENDCMP
+#
+# 74AHC2G241DC
+#
+$CMP 74AHC2G241DC
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G241.pdf
+$ENDCMP
+#
+# 74AHCT2G241DC
+#
+$CMP 74AHCT2G241DC
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G241.pdf
+$ENDCMP
+#
+# 74AHC2G241GD
+#
+$CMP 74AHC2G241GD
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G241.pdf
+$ENDCMP
+#
+# 74AHCT2G241GD
+#
+$CMP 74AHCT2G241GD
+K dual, buffer, 3-state, smd
+D Dual bus buffer/line driver, 3-state
+F doc/logic/74AHC_AHCT2G241.pdf
+$ENDCMP
+#
+# 74AHC3G04DP
+#
+$CMP 74AHC3G04DP
+K triple, inverter, smd
+D Triple inverter
+F doc/logic/74AHC_AHCT3G04.pdf
+$ENDCMP
+#
+# 74AHCT3G04DP
+#
+$CMP 74AHCT3G04DP
+K triple, inverter, smd
+D Triple inverter
+F doc/logic/74AHC_AHCT3G04.pdf
+$ENDCMP
+#
+# 74AHC3G04DC
+#
+$CMP 74AHC3G04DC
+K triple, inverter, smd
+D Triple inverter
+F doc/logic/74AHC_AHCT3G04.pdf
+$ENDCMP
+#
+# 74AHCT3G04DC
+#
+$CMP 74AHCT3G04DC
+K triple, inverter, smd
+D Triple inverter
+F doc/logic/74AHC_AHCT3G04.pdf
+$ENDCMP
+#
+# 74AHC3G04GD
+#
+$CMP 74AHC3G04GD
+K triple, inverter, smd
+D Triple inverter
+F doc/logic/74AHC_AHCT3G04.pdf
+$ENDCMP
+#
+# 74AHCT3G04GD
+#
+$CMP 74AHCT3G04GD
+K triple, inverter, smd
+D Triple inverter
+F doc/logic/74AHC_AHCT3G04.pdf
+$ENDCMP
+#
+# 74AHC3G14DP
+#
+$CMP 74AHC3G14DP
+K triple, inverter, schmitt trigger, smd
+D Triple inverting Schmitt trigger
+F doc/logic/74AHC_AHCT3G14.pdf
+$ENDCMP
+#
+# 74AHCT3G14DP
+#
+$CMP 74AHCT3G14DP
+K triple, inverter, schmitt trigger, smd
+D Triple inverting Schmitt trigger
+F doc/logic/74AHC_AHCT3G14.pdf
+$ENDCMP
+#
+# 74AHC3G14DC
+#
+$CMP 74AHC3G14DC
+K triple, inverter, schmitt trigger, smd
+D Triple inverting Schmitt trigger
+F doc/logic/74AHC_AHCT3G14.pdf
+$ENDCMP
+#
+# 74AHCT3G14DC
+#
+$CMP 74AHCT3G14DC
+K triple, inverter, schmitt trigger, smd
+D Triple inverting Schmitt trigger
+F doc/logic/74AHC_AHCT3G14.pdf
+$ENDCMP
+#
+# 74AHC3G14GT
+#
+$CMP 74AHC3G14GT
+K triple, inverter, schmitt trigger, smd
+D Triple inverting Schmitt trigger
+F doc/logic/74AHC_AHCT3G14.pdf
+$ENDCMP
+#
+# 74AHCT3G14GT
+#
+$CMP 74AHCT3G14GT
+K triple, inverter, schmitt trigger, smd
+D Triple inverting Schmitt trigger
+F doc/logic/74AHC_AHCT3G14.pdf
+$ENDCMP
+#
+# 74AHC3G14GD
+#
+$CMP 74AHC3G14GD
+K triple, inverter, schmitt trigger, smd
+D Triple inverting Schmitt trigger
+F doc/logic/74AHC_AHCT3G14.pdf
+$ENDCMP
+#
+# 74AHCT3G14GD
+#
+$CMP 74AHCT3G14GD
+K triple, inverter, schmitt trigger, smd
+D Triple inverting Schmitt trigger
+F doc/logic/74AHC_AHCT3G14.pdf
+$ENDCMP
+#
+# 74AHC00N
+#
+$CMP 74AHC00N
+K quad, nand
+D Quad 2-input NAND gate
+F doc/logic/74AHC_AHCT00.pdf
+$ENDCMP
+#
+# 74AHCT00N
+#
+$CMP 74AHCT00N
+K quad, nand
+D Quad 2-input NAND gate
+F doc/logic/74AHC_AHCT00.pdf
+$ENDCMP
+#
+# 74AHC00D
+#
+$CMP 74AHC00D
+K quad, nand, smd
+D Quad 2-input NAND gate
+F doc/logic/74AHC_AHCT00.pdf
+$ENDCMP
+#
+# 74AHCT00D
+#
+$CMP 74AHCT00D
+K quad, nand, smd
+D Quad 2-input NAND gate
+F doc/logic/74AHC_AHCT00.pdf
+$ENDCMP
+#
+# 74AHC00PW
+#
+$CMP 74AHC00PW
+K quad, nand, smd
+D Quad 2-input NAND gate
+F doc/logic/74AHC_AHCT00.pdf
+$ENDCMP
+#
+# 74AHCT00PW
+#
+$CMP 74AHCT00PW
+K quad, nand, smd
+D Quad 2-input NAND gate
+F doc/logic/74AHC_AHCT00.pdf
+$ENDCMP
+#
+# 74AHC00BQ
+#
+$CMP 74AHC00BQ
+K quad, nand, smd
+D Quad 2-input NAND gate
+F doc/logic/74AHC_AHCT00.pdf
+$ENDCMP
+#
+# 74AHCT00BQ
+#
+$CMP 74AHCT00BQ
+K quad, nand, smd
+D Quad 2-input NAND gate
+F doc/logic/74AHC_AHCT00.pdf
+$ENDCMP
+#
+# 74AHC02N
+#
+$CMP 74AHC02N
+K quad, nor
+D Quad 2-input NOR gate
+F doc/logic/74AHC_AHCT02.pdf
+$ENDCMP
+#
+# 74AHCT02N
+#
+$CMP 74AHCT02N
+K quad, nor
+D Quad 2-input NOR gate
+F doc/logic/74AHC_AHCT02.pdf
+$ENDCMP
+#
+# 74AHC02D
+#
+$CMP 74AHC02D
+K quad, nor, smd
+D Quad 2-input NOR gate
+F doc/logic/74AHC_AHCT02.pdf
+$ENDCMP
+#
+# 74AHCT02D
+#
+$CMP 74AHCT02D
+K quad, nor, smd
+D Quad 2-input NOR gate
+F doc/logic/74AHC_AHCT02.pdf
+$ENDCMP
+#
+# 74AHC02PW
+#
+$CMP 74AHC02PW
+K quad, nor, smd
+D Quad 2-input NOR gate
+F doc/logic/74AHC_AHCT02.pdf
+$ENDCMP
+#
+# 74AHCT02PW
+#
+$CMP 74AHCT02PW
+K quad, nor, smd
+D Quad 2-input NOR gate
+F doc/logic/74AHC_AHCT02.pdf
+$ENDCMP
+#
+# 74AHC02BQ
+#
+$CMP 74AHC02BQ
+K quad, nor, smd
+D Quad 2-input NOR gate
+F doc/logic/74AHC_AHCT02.pdf
+$ENDCMP
+#
+# 74AHCT02BQ
+#
+$CMP 74AHCT02BQ
+K quad, nor, smd
+D Quad 2-input NOR gate
+F doc/logic/74AHC_AHCT02.pdf
+$ENDCMP
+#
+# 74AHC04N
+#
+$CMP 74AHC04N
+K hex, inverter
+D Hex inverter
+F doc/logic/74AHC_AHCT04.pdf
+$ENDCMP
+#
+# 74AHCT04N
+#
+$CMP 74AHCT04N
+K hex, inverter
+D Hex inverter
+F doc/logic/74AHC_AHCT04.pdf
+$ENDCMP
+#
+# 74AHC04D
+#
+$CMP 74AHC04D
+K hex, inverter, smd
+D Hex inverter
+F doc/logic/74AHC_AHCT04.pdf
+$ENDCMP
+#
+# 74AHCT04D
+#
+$CMP 74AHCT04D
+K hex, inverter, smd
+D Hex inverter
+F doc/logic/74AHC_AHCT04.pdf
+$ENDCMP
+#
+# 74AHC04PW
+#
+$CMP 74AHC04PW
+K hex, inverter, smd
+D Hex inverter
+F doc/logic/74AHC_AHCT04.pdf
+$ENDCMP
+#
+# 74AHCT04PW
+#
+$CMP 74AHCT04PW
+K hex, inverter, smd
+D Hex inverter
+F doc/logic/74AHC_AHCT04.pdf
+$ENDCMP
+#
+# 74AHC04BQ
+#
+$CMP 74AHC04BQ
+K hex, inverter, smd
+D Hex inverter
+F doc/logic/74AHC_AHCT04.pdf
+$ENDCMP
+#
+# 74AHCT04BQ
+#
+$CMP 74AHCT04BQ
+K hex, inverter, smd
+D Hex inverter
+F doc/logic/74AHC_AHCT04.pdf
+$ENDCMP
+#
+# 74AHC08N
+#
+$CMP 74AHC08N
+K quad, and
+D Quad 2-input AND gate
+F doc/logic/74AHC_AHCT08.pdf
+$ENDCMP
+#
+# 74AHCT08N
+#
+$CMP 74AHCT08N
+K quad, and
+D Quad 2-input AND gate
+F doc/logic/74AHC_AHCT08.pdf
+$ENDCMP
+#
+# 74AHC08D
+#
+$CMP 74AHC08D
+K quad, and, smd
+D Quad 2-input AND gate
+F doc/logic/74AHC_AHCT08.pdf
+$ENDCMP
+#
+# 74AHCT08D
+#
+$CMP 74AHCT08D
+K quad, and, smd
+D Quad 2-input AND gate
+F doc/logic/74AHC_AHCT08.pdf
+$ENDCMP
+#
+# 74AHC08PW
+#
+$CMP 74AHC08PW
+K quad, and, smd
+D Quad 2-input AND gate
+F doc/logic/74AHC_AHCT08.pdf
+$ENDCMP
+#
+# 74AHCT08PW
+#
+$CMP 74AHCT08PW
+K quad, and, smd
+D Quad 2-input AND gate
+F doc/logic/74AHC_AHCT08.pdf
+$ENDCMP
+#
+# 74AHC08BQ
+#
+$CMP 74AHC08BQ
+K quad, and, smd
+D Quad 2-input AND gate
+F doc/logic/74AHC_AHCT08.pdf
+$ENDCMP
+#
+# 74AHCT08BQ
+#
+$CMP 74AHCT08BQ
+K quad, and, smd
+D Quad 2-input AND gate
+F doc/logic/74AHC_AHCT08.pdf
+$ENDCMP
+#
+# 74AHC14N
+#
+$CMP 74AHC14N
 K hex, inverter, schmitt trigger
 D Hex inverting Schmitt trigger
-F doc/logic/74HC_HCT14.pdf
+F doc/logic/74AHC_AHCT14.pdf
+$ENDCMP
+#
+# 74AHCT14N
+#
+$CMP 74AHCT14N
+K hex, inverter, schmitt trigger
+D Hex inverting Schmitt trigger
+F doc/logic/74AHC_AHCT14.pdf
+$ENDCMP
+#
+# 74AHC14D
+#
+$CMP 74AHC14D
+K hex, inverter, schmitt trigger, smd
+D Hex inverting Schmitt trigger
+F doc/logic/74AHC_AHCT14.pdf
+$ENDCMP
+#
+# 74AHCT14D
+#
+$CMP 74AHCT14D
+K hex, inverter, schmitt trigger, smd
+D Hex inverting Schmitt trigger
+F doc/logic/74AHC_AHCT14.pdf
+$ENDCMP
+#
+# 74AHC14PW
+#
+$CMP 74AHC14PW
+K hex, inverter, schmitt trigger, smd
+D Hex inverting Schmitt trigger
+F doc/logic/74AHC_AHCT14.pdf
+$ENDCMP
+#
+# 74AHCT14PW
+#
+$CMP 74AHCT14PW
+K hex, inverter, schmitt trigger, smd
+D Hex inverting Schmitt trigger
+F doc/logic/74AHC_AHCT14.pdf
+$ENDCMP
+#
+# 74AHC14BQ
+#
+$CMP 74AHC14BQ
+K hex, inverter, schmitt trigger, smd
+D Hex inverting Schmitt trigger
+F doc/logic/74AHC_AHCT14.pdf
+$ENDCMP
+#
+# 74AHCT14BQ
+#
+$CMP 74AHCT14BQ
+K hex, inverter, schmitt trigger, smd
+D Hex inverting Schmitt trigger
+F doc/logic/74AHC_AHCT14.pdf
+$ENDCMP
+#
+# 74AHC30N
+#
+$CMP 74AHC30N
+K single, nand
+D Single 8-input NAND gate
+F doc/logic/74AHC_AHCT30.pdf
+$ENDCMP
+#
+# 74AHCT30N
+#
+$CMP 74AHCT30N
+K single, nand
+D Single 8-input NAND gate
+F doc/logic/74AHC_AHCT30.pdf
+$ENDCMP
+#
+# 74AHC30D
+#
+$CMP 74AHC30D
+K single, nand, smd
+D Single 8-input NAND gate
+F doc/logic/74AHC_AHCT30.pdf
+$ENDCMP
+#
+# 74AHCT30D
+#
+$CMP 74AHCT30D
+K single, nand, smd
+D Single 8-input NAND gate
+F doc/logic/74AHC_AHCT30.pdf
+$ENDCMP
+#
+# 74AHC30PW
+#
+$CMP 74AHC30PW
+K single, nand, smd
+D Single 8-input NAND gate
+F doc/logic/74AHC_AHCT30.pdf
+$ENDCMP
+#
+# 74AHCT30PW
+#
+$CMP 74AHCT30PW
+K single, nand, smd
+D Single 8-input NAND gate
+F doc/logic/74AHC_AHCT30.pdf
+$ENDCMP
+#
+# 74AHC30BQ
+#
+$CMP 74AHC30BQ
+K single, nand, smd
+D Single 8-input NAND gate
+F doc/logic/74AHC_AHCT30.pdf
+$ENDCMP
+#
+# 74AHCT30BQ
+#
+$CMP 74AHCT30BQ
+K single, nand, smd
+D Single 8-input NAND gate
+F doc/logic/74AHC_AHCT30.pdf
+$ENDCMP
+#
+# 74AHC32N
+#
+$CMP 74AHC32N
+K quad, or
+D Quad 2-input OR gate
+F doc/logic/74AHC_AHCT32.pdf
+$ENDCMP
+#
+# 74AHCT32N
+#
+$CMP 74AHCT32N
+K quad, or
+D Quad 2-input OR gate
+F doc/logic/74AHC_AHCT32.pdf
+$ENDCMP
+#
+# 74AHC32D
+#
+$CMP 74AHC32D
+K quad, or, smd
+D Quad 2-input OR gate
+F doc/logic/74AHC_AHCT32.pdf
+$ENDCMP
+#
+# 74AHCT32D
+#
+$CMP 74AHCT32D
+K quad, or, smd
+D Quad 2-input OR gate
+F doc/logic/74AHC_AHCT32.pdf
+$ENDCMP
+#
+# 74AHC32PW
+#
+$CMP 74AHC32PW
+K quad, or, smd
+D Quad 2-input OR gate
+F doc/logic/74AHC_AHCT32.pdf
+$ENDCMP
+#
+# 74AHCT32PW
+#
+$CMP 74AHCT32PW
+K quad, or, smd
+D Quad 2-input OR gate
+F doc/logic/74AHC_AHCT32.pdf
+$ENDCMP
+#
+# 74AHC32BQ
+#
+$CMP 74AHC32BQ
+K quad, or, smd
+D Quad 2-input OR gate
+F doc/logic/74AHC_AHCT32.pdf
+$ENDCMP
+#
+# 74AHCT32BQ
+#
+$CMP 74AHCT32BQ
+K quad, or, smd
+D Quad 2-input OR gate
+F doc/logic/74AHC_AHCT32.pdf
 $ENDCMP
 #
 # End Doc Library

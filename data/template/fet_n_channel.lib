@@ -1,13 +1,13 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# fet_n_channel
+# name
 #
-DEF fet_n_channel T 0 0 Y N 1 F N
-F0 "T" -100 200 60 H V C CNN
-F1 "fet_n_channel" -250 -200 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+DEF name ref 0 0 Y N 1 F N
+F0 "ref" -100 200 60 H V C CNN
+F1 "name" -250 -200 60 H V C CNN
+F2 "footprint" 0 0 60 H I C CNN
+F3 "document" 0 0 60 H I C CNN
 DRAW
 C 0 -75 5 0 1 0 N
 C 0 75 5 0 1 0 N
@@ -22,9 +22,9 @@ P 3 0 1 0  -20 0  0 0  0 -70 N
 P 4 0 1 0  -45 0  -15 20  -15 -20  -45 0 F
 P 4 0 1 0  20 25  30 15  70 15  80 5 N
 P 4 0 1 0  30 -20  70 -20  50 10  30 -20 F
-X D D 0 200 125 D 50 50 1 1 P
-X G G -200 -100 100 R 50 50 1 1 P
-X S S 0 -200 125 U 50 50 1 1 P
+X ~ $D 0 200 125 D 50 50 1 1 P
+X ~ $G -200 -100 100 R 50 50 1 1 P
+X ~ $S 0 -200 125 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

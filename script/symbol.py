@@ -370,7 +370,19 @@ class Pin_(Item):
             return self.unit * 65536 + self.prio * 256
 
     def render(self):
-        return (Pin_.Format%(self.name, self.number, self.x, self.y, self.length, self.orientation, self.numberSize, self.nameSize, self.unit, self.representation, self.type, self.shape)).rstrip()
+        print self
+        try:
+            return (Pin_.Format%(self.name, self.number, self.x, self.y, self.length, self.orientation, self.numberSize, self.nameSize, self.unit, self.representation, self.type, self.shape)).rstrip()
+        except:
+            print self.x
+            print self.y
+            print self.length
+            print self.orientation
+            print self.numberSize
+            print self.nameSize
+            print self.unit
+            print self.representation
+
 
 class Pin(object):
     """Represents a pin assigned to a schematic symbol."""
@@ -523,7 +535,7 @@ class Symbol(object):
                             data = dict(zip(['value', 'x', 'y', 'size', 'orientation', 'visibility', 'hjustify', 'vjustify'], row))
                             data['style'] = data['vjustify'][1:]
                             data['vjustify'] = data['vjustify'][0]
-                            data['number'] = int(m.group(1))
+                            data['id'] = int(m.group(1))
 
                             self.fields[int(m.group(1))] = Field(**data)
 

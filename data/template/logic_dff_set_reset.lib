@@ -6,8 +6,8 @@ EESchema-LIBRARY Version 2.3
 DEF name ref 0 50 Y Y 1 F N
 F0 "ref" 100 300 60 H V L CNN
 F1 "name" 100 -300 60 H V L CNN
-F2 "footprint" 0 -50 60 H I C CNN
-F3 "document" 0 -50 60 H I C CNN
+F2 "footprint" 100 -400 60 H I L CNN
+F3 "document" 100 -500 60 H I L CNN
 DRAW
 T 0 0 0 60 0 0 0 D  Normal 0 C C
 P 5 0 1 20  -150 250  150 250  150 -250  -150 -250  -150 250 f
