@@ -54,7 +54,7 @@ $(LIBRARY_ROOT)/capacitor.lib: $(CAPACITOR_SCRIPT) $(COMMON_SCRIPT_DEPS) $(CAPAC
 	$(CAPACITOR_SCRIPT) --data $(CAPACITOR) --output $@
 
 # Template based symbols
-$(LIBRARY_ROOT)/%.lib: $(CSV_ROOT)/%.csv
+$(LIBRARY_ROOT)/%.lib: $(CSV_ROOT)/%.csv $(DEVICE_SCRIPT) $(COMMON_SCRIPT_DEPS)
 	$(DEVICE_SCRIPT) --csv $< --symbol $@ --desc $(addsuffix .dcm, $(basename $@)) --template_path $(TEMPLATE_ROOT)/ --table_path $(TABLE_ROOT)/
 
 # Footprint generation

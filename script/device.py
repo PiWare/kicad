@@ -56,8 +56,6 @@ if __name__ == "__main__":
                 # As many symbols can contain field elements, we load them only from the first symbol
                 if not 'unit' in data:
                     data['unit'] = 0
-                #print data
-                print template_file
                 sym.load(template_file, int(data['unit']), symbol.representation.normal, data, firstElement)
                 if firstElement:
                     if not sym.setFields(data):

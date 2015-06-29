@@ -370,19 +370,7 @@ class Pin_(Item):
             return self.unit * 65536 + self.prio * 256
 
     def render(self):
-        print self
-        try:
-            return (Pin_.Format%(self.name, self.number, self.x, self.y, self.length, self.orientation, self.numberSize, self.nameSize, self.unit, self.representation, self.type, self.shape)).rstrip()
-        except:
-            print self.x
-            print self.y
-            print self.length
-            print self.orientation
-            print self.numberSize
-            print self.nameSize
-            print self.unit
-            print self.representation
-
+        return (Pin_.Format%(self.name, self.number, self.x, self.y, self.length, self.orientation, self.numberSize, self.nameSize, self.unit, self.representation, self.type, self.shape)).rstrip()
 
 class Pin(object):
     """Represents a pin assigned to a schematic symbol."""
