@@ -1,6 +1,7 @@
 name,number,type,shape,direction
 C1+,1,bidirectional,line,left
 C1-,3,bidirectional,line,left
+-,,space,line,left
 C2+,4,bidirectional,line,left
 C2-,5,bidirectional,line,left
 -,,space,line,left
@@ -9,6 +10,7 @@ T2IN,10,input,line,left
 R1OUT,12,output,inverted,left
 R2OUT,9,output,inverted,left
 V+,2,bidirectional,line,right
+-,,space,line,right
 -,,space,line,right
 V-,6,bidirectional,line,right
 -,,space,line,right

@@ -32,4 +32,44 @@ D +5V-Powered, Multichannel RS-232 Drivers/Receiver
 F doc/driver/maxim/MAX220_249.pdf
 $ENDCMP
 #
+# MAX222CPN+
+#
+$CMP MAX222CPN+
+K driver, rs232
+D +5V-Powered, Multichannel RS-232 Drivers/Receiver
+F doc/driver/maxim/MAX220_249.pdf
+$ENDCMP
+#
+# MAX222CWN+
+#
+$CMP MAX222CWN+
+K driver, rs232, smd
+D +5V-Powered, Multichannel RS-232 Drivers/Receiver
+F doc/driver/maxim/MAX220_249.pdf
+$ENDCMP
+#
+# MAX242CPN+
+#
+$CMP MAX242CPN+
+K driver, rs232
+D +5V-Powered, Multichannel RS-232 Drivers/Receiver
+F doc/driver/maxim/MAX220_249.pdf
+$ENDCMP
+#
+# MAX242CWN+
+#
+$CMP MAX242CWN+
+K driver, rs232, smd
+D +5V-Powered, Multichannel RS-232 Drivers/Receiver
+F doc/driver/maxim/MAX220_249.pdf
+$ENDCMP
+#
+# MAX242CAP+
+#
+$CMP MAX242CAP+
+K driver, rs232, smd
+D +5V-Powered, Multichannel RS-232 Drivers/Receiver
+F doc/driver/maxim/MAX220_249.pdf
+$ENDCMP
+#
 # End Doc Library
