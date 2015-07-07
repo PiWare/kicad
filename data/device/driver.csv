@@ -1,9 +1,5 @@
-symbol,name,footprint,description,keywords,document
-,MAX232,dil16,,,
-,MAX232,so16,,,
-,MAX3232,dil16,,,
-,MAX3232,so16,,,
-,MAX485,dil8,,,
-,MAX485,so8,,,
-,MAX3485,dil8,,,
-,MAX3485,so8,,,
+symbol,name,unit,reference,alias,document,footprint,description,keywords
+MAX220_232,MAX232CPE+,0,IC,MAX232EPE+ MAX232EJE+ MAX232MJE+ MAX232ACPE+ MAX232AEPE+ MAX232AEJE+ MAX232AMJE+ MAX220CPE+ MAX220EPE+ MAX220EJE+ MAX220MJE+,doc/driver/maxim/MAX220_249.pdf,dip_16,"+5V-Powered, Multichannel RS-232 Drivers/Receiver","driver, rs232"
+MAX220_232,MAX232CSE+,0,IC,MAX232ESE+ MAX232ACSE+ MAX232AESE+ MAX220CSE+ MAX220ESE+,doc/driver/maxim/MAX220_249.pdf,so_16,"+5V-Powered, Multichannel RS-232 Drivers/Receiver","driver, rs232, smd"
+MAX220_232,MAX232CWE+,0,IC,MAX232EWE+ MAX232ACWE+ MAXA232EWE+ MAX220CWE+ MAX220EWE+,doc/driver/maxim/MAX220_249.pdf,so_wide_16,"+5V-Powered, Multichannel RS-232 Drivers/Receiver","driver, rs232, smd"
+MAX220_232,MAX232MLP+,0,IC,MAX232AMLP+,doc/driver/maxim/MAX220_249.pdf,lcc_20,"+5V-Powered, Multichannel RS-232 Drivers/Receiver","driver, rs232"

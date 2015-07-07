@@ -703,11 +703,13 @@ class Symbol(object):
         if centered:
             self.addField(Field(cfg.REFERENCE_FIELD, self.reference, 0, cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
             self.addField(Field(cfg.NAME_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
-        #   self.addField(Field(cfg.FOOTPRINT_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
-        #   self.addField(Field(cfg.DOCUMENT_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
+            self.addField(Field(cfg.FOOTPRINT_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE * 2, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
+            self.addField(Field(cfg.DOCUMENT_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE * 3, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
         else:
             self.addField(Field(cfg.REFERENCE_FIELD, self.reference, -width / 2, height / 2 + cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
             self.addField(Field(cfg.NAME_FIELD, self.name, -width / 2, -height / 2 - cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
+            self.addField(Field(cfg.FOOTPRINT_FIELD, self.name, 0, cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
+            self.addField(Field(cfg.DOCUMENT_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
 
     def optimize(self):
         """Remove empty fields and detect duplicate graphical elements from symbol and merge them to unit = 0"""

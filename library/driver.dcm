@@ -1,0 +1,35 @@
+EESchema-DOCLIB Version 2.0
+#
+# MAX232CPE+
+#
+$CMP MAX232CPE+
+K driver, rs232
+D +5V-Powered, Multichannel RS-232 Drivers/Receiver
+F doc/driver/maxim/MAX220_249.pdf
+$ENDCMP
+#
+# MAX232CSE+
+#
+$CMP MAX232CSE+
+K driver, rs232, smd
+D +5V-Powered, Multichannel RS-232 Drivers/Receiver
+F doc/driver/maxim/MAX220_249.pdf
+$ENDCMP
+#
+# MAX232CWE+
+#
+$CMP MAX232CWE+
+K driver, rs232, smd
+D +5V-Powered, Multichannel RS-232 Drivers/Receiver
+F doc/driver/maxim/MAX220_249.pdf
+$ENDCMP
+#
+# MAX232MLP+
+#
+$CMP MAX232MLP+
+K driver, rs232
+D +5V-Powered, Multichannel RS-232 Drivers/Receiver
+F doc/driver/maxim/MAX220_249.pdf
+$ENDCMP
+#
+# End Doc Library

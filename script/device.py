@@ -36,11 +36,8 @@ if __name__ == "__main__":
             else:
                 data = dict(zip(header, row))
                 template_file = os.path.join(args.template_path, data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION)
+                table_file = os.path.join(args.table_path, data['symbol'] + cfg.SYMBOL_TABLE_EXTENSION)
                 del data['symbol']
-
-                if not os.path.isfile(template_file):
-                    print "Template file '%s' does not exist!"%(template_file)
-                    sys.exit(2)
 
                 if last_name != data['name']:
                     if 'sym' in locals():
@@ -56,10 +53,19 @@ if __name__ == "__main__":
                 # As many symbols can contain field elements, we load them only from the first symbol
                 if not 'unit' in data:
                     data['unit'] = 0
-                sym.load(template_file, int(data['unit']), symbol.representation.normal, data, firstElement)
+
+                if os.path.isfile(template_file):
+                    sym.load(template_file, int(data['unit']), symbol.representation.normal, data, firstElement)
+                elif os.path.isfile(table_file):
+                    sym.fromCSV(table_file, data['name'], data['reference'], cfg.SYMBOL_PIN_TEXT_OFFSET)
+                else:
+                    print "Template file '%s' nor table file '%s' does not exist!"%(template_file, table_file)
+                    sys.exit(2)
+
                 if firstElement:
                     if not sym.setFields(data):
-                        print "Error in ", template_file
+                    #   print "Error in ", template_file
+                        print "Error setting fields"
                         sys.exit(2)
                     sym.setDescriptions(data)
                     firstElement = False
