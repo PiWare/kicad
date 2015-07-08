@@ -1,0 +1,5 @@
+number,name,type,shape,direction
+52,TCK,input,clock,left
+51,TMS,input,line,left
+50,TDI,input,line,left
+49,TDO,output,line,left

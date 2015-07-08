@@ -1,0 +1,83 @@
+EESchema-DOCLIB Version 2.0
+#
+# CONNECTOR_1X1_MALE_THD
+#
+$CMP CONNECTOR_1X1_MALE_THD
+K connector, through hole, male
+D 1x1 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# CONNECTOR_1X2_MALE_THD
+#
+$CMP CONNECTOR_1X2_MALE_THD
+K connector, through hole, male
+D 1x2 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# CONNECTOR_1X3_MALE_THD
+#
+$CMP CONNECTOR_1X3_MALE_THD
+K connector, through hole, male
+D 1x3 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# CONNECTOR_1X4_MALE_THD
+#
+$CMP CONNECTOR_1X4_MALE_THD
+K connector, through hole, male
+D 1x4 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# CONNECTOR_1X5_MALE_THD
+#
+$CMP CONNECTOR_1X5_MALE_THD
+K connector, through hole, male
+D 1x5 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# CONNECTOR_1X6_MALE_THD
+#
+$CMP CONNECTOR_1X6_MALE_THD
+K connector, through hole, male
+D 1x6 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# CONNECTOR_1X7_MALE_THD
+#
+$CMP CONNECTOR_1X7_MALE_THD
+K connector, through hole, male
+D 1x7 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# CONNECTOR_1X8_MALE_THD
+#
+$CMP CONNECTOR_1X8_MALE_THD
+K connector, through hole, male
+D 1x8 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# CONNECTOR_1X9_MALE_THD
+#
+$CMP CONNECTOR_1X9_MALE_THD
+K connector, through hole, male
+D 1x9 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# CONNECTOR_1X10_MALE_THD
+#
+$CMP CONNECTOR_1X10_MALE_THD
+K connector, through hole, male
+D 1x10 male through hole pin connector, 2.54mm grid
+F 
+$ENDCMP
+#
+# End Doc Library

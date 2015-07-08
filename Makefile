@@ -25,7 +25,8 @@ TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/transistor.lib \
 	$(LIBRARY_ROOT)/logic.lib \
 	$(LIBRARY_ROOT)/diode.lib \
-	$(LIBRARY_ROOT)/driver.lib
+	$(LIBRARY_ROOT)/driver.lib \
+	$(LIBRARY_ROOT)/connector.lib
 
 TEMPLATE_LIBRARIES_CSV := $(patsubst $(LIBRARY_ROOT)/%.lib, $(CSV_ROOT)/%.csv, $(TEMPLATE_LIBRARIES))
 

@@ -1,0 +1,11 @@
+symbol,generator,name,unit,reference,alias,document,footprint,description,keywords
+connector_1x1,port,CONNECTOR_1X1_MALE_THD,0,CON,,,pin_connector_thd_male_1x1_2.54mm,"1x1 male through hole pin connector, 2.54mm grid","connector, through hole, male"
+connector_1x2,port,CONNECTOR_1X2_MALE_THD,0,CON,,,pin_connector_thd_male_1x2_2.54mm,"1x2 male through hole pin connector, 2.54mm grid","connector, through hole, male"
+connector_1x3,port,CONNECTOR_1X3_MALE_THD,0,CON,,,pin_connector_thd_male_1x3_2.54mm,"1x3 male through hole pin connector, 2.54mm grid","connector, through hole, male"
+connector_1x4,port,CONNECTOR_1X4_MALE_THD,0,CON,,,pin_connector_thd_male_1x4_2.54mm,"1x4 male through hole pin connector, 2.54mm grid","connector, through hole, male"
+connector_1x5,port,CONNECTOR_1X5_MALE_THD,0,CON,,,pin_connector_thd_male_1x5_2.54mm,"1x5 male through hole pin connector, 2.54mm grid","connector, through hole, male"
+connector_1x6,port,CONNECTOR_1X6_MALE_THD,0,CON,,,pin_connector_thd_male_1x6_2.54mm,"1x6 male through hole pin connector, 2.54mm grid","connector, through hole, male"
+connector_1x7,port,CONNECTOR_1X7_MALE_THD,0,CON,,,pin_connector_thd_male_1x7_2.54mm,"1x7 male through hole pin connector, 2.54mm grid","connector, through hole, male"
+connector_1x8,port,CONNECTOR_1X8_MALE_THD,0,CON,,,pin_connector_thd_male_1x8_2.54mm,"1x8 male through hole pin connector, 2.54mm grid","connector, through hole, male"
+connector_1x9,port,CONNECTOR_1X9_MALE_THD,0,CON,,,pin_connector_thd_male_1x9_2.54mm,"1x9 male through hole pin connector, 2.54mm grid","connector, through hole, male"
+connector_1x10,port,CONNECTOR_1X10_MALE_THD,0,CON,,,pin_connector_thd_male_1x10_2.54mm,"1x10 male through hole pin connector, 2.54mm grid","connector, through hole, male"
