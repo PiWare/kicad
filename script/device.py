@@ -36,8 +36,7 @@ if __name__ == "__main__":
             else:
                 data = dict(zip(header, row))
                 template_file = os.path.join(args.template_path, data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION)
-                chip_table_file = os.path.join(args.table_path, 'chip', data['symbol'] + cfg.SYMBOL_TABLE_EXTENSION)
-                port_table_file = os.path.join(args.table_path, 'port', data['symbol'] + cfg.SYMBOL_TABLE_EXTENSION)
+                table_file = os.path.join(args.table_path, data['symbol'] + cfg.SYMBOL_TABLE_EXTENSION)
                 del data['symbol']
 
                 if last_name != data['name']:
@@ -52,12 +51,13 @@ if __name__ == "__main__":
                     last_name = data['name']
 
                 print "If unit != 0, use center ref/name fields!!!"
+                unit = int(data['unit'])
                 if os.path.isfile(template_file):
-                    sym.load(template_file, int(data['unit']), symbol.representation.normal, data, firstElement)
-                elif os.path.isfile(chip_table_file):
-                    sym.fromCSV(chip_table_file, int(data['unit']), cfg.SYMBOL_PIN_TEXT_OFFSET, True)
-                elif os.path.isfile(port_table_file):
-                    sym.fromCSV(port_table_file, int(data['unit']), cfg.SYMBOL_PIN_TEXT_OFFSET, False)
+                    sym.load(template_file, unit, symbol.representation.normal, data, firstElement)
+                elif os.path.isfile(table_file):
+                    sym.fromCSV(table_file, unit, cfg.SYMBOL_PIN_TEXT_OFFSET, unit != 0)
+                #elif os.path.isfile(port_table_file):
+                #   sym.fromCSV(port_table_file, int(data['unit']), cfg.SYMBOL_PIN_TEXT_OFFSET, False)
                 else:
                     print "Template file '%s' nor table files '%s'/'%s' does not exist!"%(template_file, chip_table_file, port_table_file)
                     sys.exit(2)

@@ -5,5 +5,6 @@ number,name,type,shape,direction
 31,CAN0Tx,output,line,left
 57,CAN0Tx,output,line,left
 60,CAN0Tx,output,line,left
+,~,space,line,left
 17,CAN1Rx,input,line,left
 18,CAN1Tx,output,line,left

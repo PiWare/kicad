@@ -23,6 +23,7 @@ import re
 import csv
 import StringIO
 import itertools
+import math
 
 # Load the configuration file and provide it's values through the cfg object
 cfg = config.Config("config")
@@ -657,24 +658,83 @@ class Symbol(object):
         width = max(width, nameWidth)
         height = max(height, nameHeight)
 
+        width = math.ceil(float(width) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
+        height = math.ceil(float(height) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
+
         # FIXME: Align coordinates to grid!
         self.addModule(Rectangle(-width / 2, -height / 2, width / 2, height / 2, cfg.SYMBOL_LINE_WIDTH, fill.background, unit, representation.normal))
 
+        lineStart = 0
+        lineLength = 0
+        pinLastName = ''
         x = -width / 2 - cfg.SYMBOL_PIN_LENGTH
         y = height / 2 - cfg.SYMBOL_PIN_SPACE
         for data in pinsLeft:
             if data['type'] != 'space':
-                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
+                if data['name'] != '~' and data['name'] == pinLastName:
+                    pinName = '~'
+                    lineLength += cfg.SYMBOL_PIN_GRID
+                else:
+                    if lineLength != 0:
+                        lineLength += 0.5 * cfg.SYMBOL_PIN_GRID
+                        poly = Polygon(cfg.SYMBOL_SPACE_WIDTH, fill.none, unit)
+                        poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + offset / 2, lineStart - lineLength))
+                        poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + offset / 2, lineStart))
+                        self.addModule(poly)
+                        lineLength = 0
+                    lineStart = y + 0.25 * cfg.SYMBOL_PIN_GRID
+                    pinName = data['name']
+
+                self.addModule(Pin_(x, y, pinName, data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
                     getattr(Type, data['type']), getattr(shape, data['shape'])))
+
+                pinLastName = data['name']
+            else:
+                pinLastName = ''
             y -= cfg.SYMBOL_PIN_GRID
 
+        if lineLength != 0:
+            lineLength += 0.5 * cfg.SYMBOL_PIN_GRID
+            poly = Polygon(cfg.SYMBOL_SPACE_WIDTH, fill.none, unit)
+            poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + offset / 2, lineStart - lineLength))
+            poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + offset / 2, lineStart))
+            self.addModule(poly)
+
+        lineStart = 0
+        lineLength = 0
+        pinLastName = ''
         x = width / 2 + cfg.SYMBOL_PIN_LENGTH
         y = height / 2 - cfg.SYMBOL_PIN_SPACE
         for data in pinsRight:
             if data['type'] != 'space':
-                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
+                if data['name'] != '~' and data['name'] == pinLastName:
+                    pinName = '~'
+                    lineLength += cfg.SYMBOL_PIN_GRID
+                else:
+                    if lineLength != 0:
+                        lineLength += 0.5 * cfg.SYMBOL_PIN_GRID
+                        poly = Polygon(cfg.SYMBOL_SPACE_WIDTH, fill.none, unit)
+                        poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - offset / 2, lineStart - lineLength))
+                        poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - offset / 2, lineStart))
+                        self.addModule(poly)
+                        lineLength = 0
+                    lineStart = y + 0.25 * cfg.SYMBOL_PIN_GRID
+                    pinName = data['name']
+
+                self.addModule(Pin_(x, y, pinName, data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
                     getattr(Type, data['type']), getattr(shape, data['shape'])))
+
+                pinLastName = data['name']
+            else:
+                pinLastName = ''
             y -= cfg.SYMBOL_PIN_GRID
+
+        if lineLength != 0:
+            lineLength += 0.5 * cfg.SYMBOL_PIN_GRID
+            poly = Polygon(cfg.SYMBOL_SPACE_WIDTH, fill.none, unit)
+            poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - offset / 2, lineStart - lineLength))
+            poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - offset / 2, lineStart))
+            self.addModule(poly)
 
         x = cfg.SYMBOL_PIN_GRID * -((float(len(pinsUp)) / 2) - 0.5)
         y = height / 2 + cfg.SYMBOL_PIN_LENGTH
@@ -713,8 +773,8 @@ class Symbol(object):
         if centered:
             self.addField(Field(cfg.REFERENCE_FIELD, self.reference, 0, cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
             self.addField(Field(cfg.NAME_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE))
-            self.addField(Field(cfg.FOOTPRINT_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE * 2, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
-            self.addField(Field(cfg.DOCUMENT_FIELD, self.name, 0, -cfg.SYMBOL_TEXT_SIZE * 3, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
+            self.addField(Field(cfg.FOOTPRINT_FIELD, '', 0, -cfg.SYMBOL_TEXT_SIZE * 2, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
+            self.addField(Field(cfg.DOCUMENT_FIELD, '', 0, -cfg.SYMBOL_TEXT_SIZE * 3, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
         else:
             self.addField(Field(cfg.REFERENCE_FIELD, self.reference, -width / 2, height / 2 + cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
             self.addField(Field(cfg.NAME_FIELD, self.name, -width / 2, -height / 2 - cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
