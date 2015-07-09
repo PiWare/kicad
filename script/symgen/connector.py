@@ -7,7 +7,7 @@ import csv
 import argparse
 
 def PinTable(number, orientation, decoration = ''):
-    line = ['name', 'number', 'type', 'shape', 'direction', 'decoration']
+    line = ['number', 'name', 'type', 'shape', 'direction', 'decoration']
     result = ",".join(line)+"\n"
     if (orientation == 'both'):
         if number % 2:
@@ -15,14 +15,14 @@ def PinTable(number, orientation, decoration = ''):
 
         pin = 1
         for index in range(number / 2):
-            line = ['~', str(pin), 'passive', 'line', 'left', decoration]
+            line = [str(pin), '~', 'passive', 'line', 'left', decoration]
             result += ",".join(line)+"\n"
-            line = ['~', str(pin + 1), 'passive', 'line', 'right', decoration]
+            line = [str(pin + 1), '~', 'passive', 'line', 'right', decoration]
             result += ",".join(line)+"\n"
             pin += 2
     else:
         for pin in range(number):
-            line = ['~', str(pin + 1), 'passive', 'line', orientation, decoration]
+            line = [str(pin + 1), '~', 'passive', 'line', orientation, decoration]
             result += ",".join(line)+"\n"
     return result
 
@@ -51,9 +51,6 @@ if __name__ == "__main__":
                         pass
 
                 data = dict(zip(header, row))
-                if 'decoration' not in data:
-                    data['decoration'] = 'rectangle'
-
                 with open(os.path.join(args.output_path, data['name'] + '.csv'), 'w') as outfile:
                     outfile.write(PinTable(data['number'], data['orientation'], data['decoration']))
                     outfile.close()

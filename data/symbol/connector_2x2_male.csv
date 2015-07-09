@@ -1,0 +1,5 @@
+number,name,type,shape,direction,decoration
+1,~,passive,line,left,male
+2,~,passive,line,right,male
+3,~,passive,line,left,male
+4,~,passive,line,right,male
