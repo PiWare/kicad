@@ -1,0 +1,9 @@
+number,name,type,shape,direction
+47,I2C0SCL,openCollector,line,left
+48,I2C0SDA,openCollector,line,left
+23,I2C1SCL,openCollector,line,left
+24,I2C1SDA,openCollector,line,left
+59,I2C2SCL,openCollector,line,left
+60,I2C2SDA,openCollector,line,left
+61,I2C3SCL,openCollector,line,left
+62,I2C3SDA,openCollector,line,left

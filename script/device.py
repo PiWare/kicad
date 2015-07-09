@@ -36,7 +36,8 @@ if __name__ == "__main__":
             else:
                 data = dict(zip(header, row))
                 template_file = os.path.join(args.template_path, data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION)
-                table_file = os.path.join(args.table_path, data['symbol'] + cfg.SYMBOL_TABLE_EXTENSION)
+                chip_table_file = os.path.join(args.table_path, 'chip', data['symbol'] + cfg.SYMBOL_TABLE_EXTENSION)
+                port_table_file = os.path.join(args.table_path, 'port', data['symbol'] + cfg.SYMBOL_TABLE_EXTENSION)
                 del data['symbol']
 
                 if last_name != data['name']:
@@ -47,21 +48,21 @@ if __name__ == "__main__":
                         del sym
 
                     firstElement = True
-                    sym = symbol.Symbol()
+                    sym = symbol.Symbol(data['name'], data['reference'])
                     last_name = data['name']
 
-                # As many symbols can contain field elements, we load them only from the first symbol
-                if not 'unit' in data:
-                    data['unit'] = 0
-
+                print "If unit != 0, use center ref/name fields!!!"
                 if os.path.isfile(template_file):
                     sym.load(template_file, int(data['unit']), symbol.representation.normal, data, firstElement)
-                elif os.path.isfile(table_file):
-                    sym.fromCSV(table_file, data['name'], data['reference'], cfg.SYMBOL_PIN_TEXT_OFFSET)
+                elif os.path.isfile(chip_table_file):
+                    sym.fromCSV(chip_table_file, int(data['unit']), cfg.SYMBOL_PIN_TEXT_OFFSET, True)
+                elif os.path.isfile(port_table_file):
+                    sym.fromCSV(port_table_file, int(data['unit']), cfg.SYMBOL_PIN_TEXT_OFFSET, False)
                 else:
-                    print "Template file '%s' nor table file '%s' does not exist!"%(template_file, table_file)
+                    print "Template file '%s' nor table files '%s'/'%s' does not exist!"%(template_file, chip_table_file, port_table_file)
                     sys.exit(2)
 
+                # As many symbols can contain field elements, we load them only from the first symbol
                 if firstElement:
                     if not sym.setFields(data):
                     #   print "Error in ", template_file

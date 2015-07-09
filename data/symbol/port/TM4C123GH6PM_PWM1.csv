@@ -1,0 +1,12 @@
+number,name,type,shape,direction
+61,M1PWM0,output,line,left
+62,M1PWM1,output,line,left
+23,M1PWM2,output,line,left
+59,M1PWM2,output,line,left
+24,M1PWM3,output,line,left
+60,M1PWM3,output,line,left
+28,M1PWM4,output,line,left
+29,M1PWM5,output,line,left
+30,M1PWM6,output,line,left
+31,M1PWM7,output,line,left
+5,M1FAULT0,input,line,left

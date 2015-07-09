@@ -230,6 +230,8 @@ class Rectangle(Item):
         self.y2 = y2
         self.width = width
         self.fill = fill
+        print "Rectangle, unit = ", unit
+        print Rectangle.Format%(x1, y1, x2, y2, unit, representation, width, fill)
 
     def equal(self, rhs):
         """Compare only graphical elements"""
@@ -239,6 +241,7 @@ class Rectangle(Item):
         return self.x1 == rhs.x1 and self.y1 == rhs.y1 and self.x2 == rhs.x2 and self.y2 == rhs.y2
 
     def render(self):
+        print Rectangle.Format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.representation, self.width, self.fill)
         return Rectangle.Format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.representation, self.width, self.fill)
 
 class Circle(Item):
@@ -599,9 +602,7 @@ class Symbol(object):
             if 'alias' in map:
                 self.alias = map['alias'].split()
 
-    def fromCSV(self, filename, name, reference, offset, nameVisible = True, numberVisible = True, centered = True):
-        self.name = name
-        self.reference = reference
+    def fromCSV(self, filename, unit = 0, offset = 0, centered = True):
         self.offset = offset
 
         pinsLeft = []
@@ -656,13 +657,14 @@ class Symbol(object):
         width = max(width, nameWidth)
         height = max(height, nameHeight)
 
-        self.addModule(Rectangle(-width / 2, -height / 2, width / 2, height / 2, cfg.SYMBOL_LINE_WIDTH, fill.background, 0, representation.normal))
+        # FIXME: Align coordinates to grid!
+        self.addModule(Rectangle(-width / 2, -height / 2, width / 2, height / 2, cfg.SYMBOL_LINE_WIDTH, fill.background, unit, representation.normal))
 
         x = -width / 2 - cfg.SYMBOL_PIN_LENGTH
         y = height / 2 - cfg.SYMBOL_PIN_SPACE
         for data in pinsLeft:
             if data['type'] != 'space':
-                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, 0, representation.normal,
+                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
                     getattr(Type, data['type']), getattr(shape, data['shape'])))
             y -= cfg.SYMBOL_PIN_GRID
 
@@ -670,7 +672,7 @@ class Symbol(object):
         y = height / 2 - cfg.SYMBOL_PIN_SPACE
         for data in pinsRight:
             if data['type'] != 'space':
-                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, 0, representation.normal,
+                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
                     getattr(Type, data['type']), getattr(shape, data['shape'])))
             y -= cfg.SYMBOL_PIN_GRID
 
@@ -678,7 +680,7 @@ class Symbol(object):
         y = height / 2 + cfg.SYMBOL_PIN_LENGTH
         for data in pinsUp:
             if data['type'] != 'space':
-                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, 0, representation.normal,
+                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
                     getattr(Type, data['type']), getattr(shape, data['shape'])))
             x += cfg.SYMBOL_PIN_GRID
 
@@ -686,10 +688,11 @@ class Symbol(object):
         y = -height / 2 - cfg.SYMBOL_PIN_LENGTH
         for data in pinsDown:
             if data['type'] != 'space':
-                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, 0, representation.normal,
+                self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
                     getattr(Type, data['type']), getattr(shape, data['shape'])))
             x += cfg.SYMBOL_PIN_GRID
 
+        # Draw a line or switch between two space/switch entries
         y = height / 2 - cfg.SYMBOL_PIN_SPACE
         for l, r in zip(pinsLeft, pinsRight):
             if l['type'] == r['type'] and l['type'] == 'space':
@@ -697,7 +700,14 @@ class Symbol(object):
                 poly.add(Point(-width / 2, y))
                 poly.add(Point(width / 2, y))
                 self.addModule(poly)
+            elif l['type'] == r['type'] and l['type'] == 'switch':
+                print "TODO: Add switch line"
             y -= cfg.SYMBOL_PIN_GRID
+
+
+        # Add special pin decoration
+        if 'decoration' in data:
+            print "TODO: Add pin decoration"
 
         # Fields
         if centered:
@@ -713,6 +723,10 @@ class Symbol(object):
 
     def optimize(self):
         """Remove empty fields and detect duplicate graphical elements from symbol and merge them to unit = 0"""
+
+        print "Fix optimizer"
+        return
+
         list = []
         for key, field in self.fields.iteritems():
             if not len(field.value):

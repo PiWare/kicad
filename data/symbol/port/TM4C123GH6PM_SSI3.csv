@@ -1,0 +1,5 @@
+number,name,type,shape,direction
+61,SSI3Clk,bidirectional,clock,left
+62,SSI3Fss,bidirectional,line,left
+63,SSI3Rx,input,line,left
+64,SSI3Tx,output,line,left

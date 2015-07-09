@@ -1,0 +1,7 @@
+number,name,type,shape,direction
+5,IDX0,input,line,left
+64,IDX0,input,line,left
+28,PhA0,input,line,left
+53,PhA0,input,line,left
+10,PhB0,input,line,left
+29,PhB0,input,line,left

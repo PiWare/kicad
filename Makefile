@@ -15,9 +15,9 @@ README_SCRIPT = script/readme.py
 PROJECT_SCRIPT = script/project.py
 
 # Generator based symbols
-LIBRARIES = $(LIBRARY_ROOT)/mcu.lib \
-			$(LIBRARY_ROOT)/rf.lib \
-			$(LIBRARY_ROOT)/capacitor.lib
+LIBRARIES = $(LIBRARY_ROOT)/rf.lib \
+	$(LIBRARY_ROOT)/capacitor.lib
+#	$(LIBRARY_ROOT)/mcu.lib
 
 # Template/table based symbols
 TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
@@ -26,7 +26,8 @@ TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/logic.lib \
 	$(LIBRARY_ROOT)/diode.lib \
 	$(LIBRARY_ROOT)/driver.lib \
-	$(LIBRARY_ROOT)/connector.lib
+	$(LIBRARY_ROOT)/connector.lib \
+	$(LIBRARY_ROOT)/mcu.lib
 
 TEMPLATE_LIBRARIES_CSV := $(patsubst $(LIBRARY_ROOT)/%.lib, $(CSV_ROOT)/%.csv, $(TEMPLATE_LIBRARIES))
 
@@ -42,8 +43,8 @@ all: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES) summary.txt library.pro RE
 MCU_CLOCK = data/mcu/pin-table-TM4C123GH6PM.csv\
 			data/mcu/stm32F030C8T6RT.csv
 
-$(LIBRARY_ROOT)/mcu.lib: $(CPU_SCRIPT) $(COMMON_SCRIPT_DEPS) $(MCU_CLOCK)
-	$(CPU_SCRIPT) --clock $(MCU_CLOCK) --output $@
+#$(LIBRARY_ROOT)/mcu.lib: $(CPU_SCRIPT) $(COMMON_SCRIPT_DEPS) $(MCU_CLOCK)
+#	$(CPU_SCRIPT) --clock $(MCU_CLOCK) --output $@
 
 RF_CLOCK = data/rf/cc1121.csv data/rf/si4468.csv
 

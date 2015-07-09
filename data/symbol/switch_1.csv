@@ -1,0 +1,3 @@
+number,name,type,shape,direction,decoration
+1,~,passive,line,left,switch
+2,~,passive,line,right,switch
