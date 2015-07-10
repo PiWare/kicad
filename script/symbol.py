@@ -414,7 +414,8 @@ class Symbol(object):
     FootprintFieldFormat = "F%i"%(cfg.FOOTPRINT_FIELD) +' "%s" 0 0 30 H I C CCN'
     Format = "DEF %s %s 0 %i %s %s %i %s %s"
 
-    def __init__(self, name = "", reference = "", nameCentered = True, package = ""):
+#   def __init__(self, name, reference, footprint = "", nameCentered = True, package = ""):
+    def __init__(self, name, reference, footprint = "", alias = "", description = "", keywords = "", document = ""):
         """Creates a new symbol instance.
 
         name -- symbol name.
@@ -423,20 +424,18 @@ class Symbol(object):
         """
         self.name = name
         self.reference = reference
-        self.alias = []
-        self.fields = {}
-        self.modules = []
-        self.descriptions = {}
-        self.nameCentered = nameCentered
-        self.footprint = package
+        self.footprint = footprint
+        self.alias = alias.split()
+
+        self.description = description.translate(None, "\n\r")
+        self.keywords = keywords
+        self.document = document
+        self.offset = cfg.SYMBOL_PIN_TEXT_OFFSET
+
         self.units = 0
         self.files = []
-
-        # FIXME: Detect these automatically or set by ctor!
-        self.offset = 0
-        self.pinnumber = 'Y'
-        self.pinname = 'Y'
-        self.flag = 'N'
+        self.fields = {}
+        self.modules = []
 
     def addField(self, field):
         """Insert field to the symbol. Returns added field"""
@@ -512,8 +511,8 @@ class Symbol(object):
                 if header:
                     if row[0] == 'DEF':
                         row.pop(0)
-                        self.name = row[0]
-                        self.reference = row[1]
+                    #   self.name = row[0]
+                    #   self.reference = row[1]
                         self.offset = row[3]
                         self.pinnumber = row[4]
                         self.pinname = row[5]
@@ -594,17 +593,9 @@ class Symbol(object):
 
                     self.addModule(Pin_(**data))
 
-        # Overwrite properties, if defined in map
-        if header:
-            if 'name' in map:
-                self.name = map['name']
-            if 'reference' in map:
-                self.reference = map['reference']
-            if 'alias' in map:
-                self.alias = map['alias'].split()
-
-    def fromCSV(self, filename, unit = 0, offset = 0, centered = True):
-        self.offset = offset
+    def fromCSV(self, filename, unit = 0, section = '', centered = True):
+        if filename not in self.files:
+            self.files.append(filename)
 
         pinsLeft = []
         pinsRight = []
@@ -649,7 +640,7 @@ class Symbol(object):
         for data in pinsDown:
             nameHeightDown = max(nameHeightDown, len(data['name'].translate(None, "~")) * cfg.SYMBOL_PIN_NAME_SIZE)
 
-        nameWidth = nameWidthLeft + cfg.SYMBOL_TEXT_SPACE + nameWidthRight
+        nameWidth = nameWidthLeft + cfg.SYMBOL_MIN_WIDTH + nameWidthRight
         nameHeight = nameHeightUp + nameHeightDown
 
         width = (max(len(pinsUp), len(pinsDown)) - 1) * cfg.SYMBOL_PIN_GRID + 2 * cfg.SYMBOL_PIN_SPACE
@@ -658,6 +649,7 @@ class Symbol(object):
         width = max(width, nameWidth)
         height = max(height, nameHeight)
 
+        # Align dimensions to grid
         width = math.ceil(float(width) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
         height = math.ceil(float(height) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
 
@@ -678,8 +670,8 @@ class Symbol(object):
                     if lineLength != 0:
                         lineLength += 0.5 * cfg.SYMBOL_PIN_GRID
                         poly = Polygon(cfg.SYMBOL_SPACE_WIDTH, fill.none, unit)
-                        poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + offset / 2, lineStart - lineLength))
-                        poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + offset / 2, lineStart))
+                        poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + self.offset / 2, lineStart - lineLength))
+                        poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + self.offset / 2, lineStart))
                         self.addModule(poly)
                         lineLength = 0
                     lineStart = y + 0.25 * cfg.SYMBOL_PIN_GRID
@@ -696,8 +688,8 @@ class Symbol(object):
         if lineLength != 0:
             lineLength += 0.5 * cfg.SYMBOL_PIN_GRID
             poly = Polygon(cfg.SYMBOL_SPACE_WIDTH, fill.none, unit)
-            poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + offset / 2, lineStart - lineLength))
-            poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + offset / 2, lineStart))
+            poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + self.offset / 2, lineStart - lineLength))
+            poly.add(Point(x + cfg.SYMBOL_PIN_LENGTH + self.offset / 2, lineStart))
             self.addModule(poly)
 
         lineStart = 0
@@ -714,8 +706,8 @@ class Symbol(object):
                     if lineLength != 0:
                         lineLength += 0.5 * cfg.SYMBOL_PIN_GRID
                         poly = Polygon(cfg.SYMBOL_SPACE_WIDTH, fill.none, unit)
-                        poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - offset / 2, lineStart - lineLength))
-                        poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - offset / 2, lineStart))
+                        poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - self.offset / 2, lineStart - lineLength))
+                        poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - self.offset / 2, lineStart))
                         self.addModule(poly)
                         lineLength = 0
                     lineStart = y + 0.25 * cfg.SYMBOL_PIN_GRID
@@ -732,8 +724,8 @@ class Symbol(object):
         if lineLength != 0:
             lineLength += 0.5 * cfg.SYMBOL_PIN_GRID
             poly = Polygon(cfg.SYMBOL_SPACE_WIDTH, fill.none, unit)
-            poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - offset / 2, lineStart - lineLength))
-            poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - offset / 2, lineStart))
+            poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - self.offset / 2, lineStart - lineLength))
+            poly.add(Point(x - cfg.SYMBOL_PIN_LENGTH - self.offset / 2, lineStart))
             self.addModule(poly)
 
         x = cfg.SYMBOL_PIN_GRID * -((float(len(pinsUp)) / 2) - 0.5)
@@ -766,8 +758,49 @@ class Symbol(object):
 
 
         # Add special pin decoration
-        if 'decoration' in data:
-            print "TODO: Add pin decoration"
+        x = -width / 2
+        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        for data in pinsLeft:
+            if 'decoration' in data and data['type'] != 'space':
+                if data['decoration'] == 'male':
+                    poly = Polygon(cfg.SYMBOL_SPACE_WIDTH)
+                    poly.add(Point(x, y))
+                    poly.add(Point(x + self.offset, y))
+                    self.addModule(poly)
+                    h = cfg.SYMBOL_PIN_GRID * 0.2
+                    self.addModule(Rectangle(x + self.offset, y - h, x + self.offset + cfg.SYMBOL_PIN_GRID * 1.0, y + h, cfg.SYMBOL_SPACE_WIDTH, fill.foreground, unit))
+                elif data['decoration'] == 'female':
+                    poly = Polygon(cfg.SYMBOL_SPACE_WIDTH)
+                    poly.add(Point(x, y))
+                    poly.add(Point(x + self.offset, y))
+                    self.addModule(poly)
+                    radius = cfg.SYMBOL_PIN_GRID * 0.4
+                    self.addModule(Arc(x + self.offset + radius, y, x + self.offset + radius, y - radius, x + self.offset + radius, y + radius, 1800, 0, radius, cfg.SYMBOL_SPACE_WIDTH, fill.none, unit))
+            y -= cfg.SYMBOL_PIN_GRID
+
+        x = width / 2
+        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        for data in pinsRight:
+            if 'decoration' in data and data['type'] != 'space':
+                if data['decoration'] == 'male':
+                    poly = Polygon(cfg.SYMBOL_SPACE_WIDTH)
+                    poly.add(Point(x, y))
+                    poly.add(Point(x - self.offset, y))
+                    self.addModule(poly)
+                    h = cfg.SYMBOL_PIN_GRID * 0.2
+                    self.addModule(Rectangle(x - self.offset, y - h, x - self.offset - cfg.SYMBOL_PIN_GRID * 1.0, y + h, cfg.SYMBOL_SPACE_WIDTH, fill.foreground, unit))
+                elif data['decoration'] == 'female':
+                    poly = Polygon(cfg.SYMBOL_SPACE_WIDTH)
+                    poly.add(Point(x, y))
+                    poly.add(Point(x - self.offset, y))
+                    self.addModule(poly)
+                    radius = cfg.SYMBOL_PIN_GRID * 0.4
+                    self.addModule(Arc(x - self.offset - radius, y, x - self.offset - radius, y + radius, x - self.offset - radius, y - radius, 0, 1800, radius, cfg.SYMBOL_SPACE_WIDTH, fill.none, unit))
+            y -= cfg.SYMBOL_PIN_GRID
+
+        # Section text
+        if len(section):
+            self.addModule(Text(width / 2 - self.offset, height / 2 - self.offset, section, cfg.SYMBOL_TEXT_SIZE, 0, unit, representation.normal, italic.off, bold.off, hjustify.right, vjustify.top))
 
         # Fields
         if centered:
@@ -813,18 +846,22 @@ class Symbol(object):
                     return False
         return True
 
-    def setDescriptions(self, map):
-        if 'description' in map:
-            self.descriptions['D'] = map['description'].translate(None, "\n\r")
-        if 'keywords' in map:
-            self.descriptions['K'] = map['keywords'].translate(None, "\n\r")
-        if 'document' in map:
-            self.descriptions['F'] = map['document'].translate(None, "\n\r")
-
     def renderSymbol(self):
         """Render symbol"""
-        locked = "L"
+
+        # FIXME: Detect these automatically or set by ctor!
+        #self.offset = 0
+        self.pinnumber = 'Y'
+        self.pinname = 'Y'
+
+        # Only a power symbol, if reference is equal #PWR
+        if self.reference == '#PWR':
+            self.flag = 'P'
+        else:
+            self.flag = 'N'
+
         count = 1
+        locked = "L"
         if self.units != 0:
             count = self.units
             # If all parts are loaded from the same file, we should have a swapable device!
@@ -847,11 +884,26 @@ class Symbol(object):
 
     def renderDescription(self):
         """Render description for symbol and all aliases"""
+
+        data = {}
+        if len(self.description):
+            data['D'] = self.description
+
+        if len(self.keywords):
+            data['K'] = self.keywords
+
+        if len(self.document):
+            data['F'] = self.document
+
         base = []
-        for key, description in self.descriptions.iteritems():
-            base.append(key+" "+description)
+        for key, value in data.iteritems():
+            base.append(key+" "+value)
+        if not len(base):
+            return []
+
         base.append("$ENDCMP")
         result = [ "#", "# "+self.name, "#", "$CMP "+self.name] + base
+
         for alias in self.alias:
             result += [ "#", "# "+alias, "#", "$CMP "+alias] + base
         result.append("")

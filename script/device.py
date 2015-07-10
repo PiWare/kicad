@@ -35,10 +35,16 @@ if __name__ == "__main__":
                 first_row = 0
             else:
                 data = dict(zip(header, row))
+                # Check data for every line
+                if 'symbol' not in data or 'name' not in data or 'unit' not in data:
+                    print "Missing one or more of the required fields 'symbol', 'name' or 'unit' in CSV data"
+                    sys.exit(2)
+
+                # Create file strings
                 template_file = os.path.join(args.template_path, data['symbol'] + cfg.SYMBOL_TEMPLATE_EXTENSION)
                 table_file = os.path.join(args.table_path, data['symbol'] + cfg.SYMBOL_TABLE_EXTENSION)
-                del data['symbol']
 
+                # Name changed, we have to save symbol and create a new one
                 if last_name != data['name']:
                     if 'sym' in locals():
                         sym.optimize()
@@ -46,8 +52,32 @@ if __name__ == "__main__":
                         desc_output.write("\n".join(sym.renderDescription()))
                         del sym
 
+                    # Simple error checking
+                    if 'reference' not in data:
+                        print "Missing the required field 'reference' in CSV data"
+                        sys.exit(2)
+
+                    # Check optional fields
+                    if 'footprint' not in data:
+                        data['footprint'] = ''
+
+                    if 'alias' not in data:
+                        data['alias'] = ''
+
+                    if 'description' not in data:
+                        data['description'] = ''
+
+                    if 'keywords' not in data:
+                        data['keywords'] = ''
+
+                    if 'document' not in data:
+                        data['document'] = ''
+
+                    if 'section' not in data:
+                        data['section'] = ''
+
                     firstElement = True
-                    sym = symbol.Symbol(data['name'], data['reference'])
+                    sym = symbol.Symbol(data['name'], data['reference'], data['footprint'], data['alias'], data['description'], data['keywords'], data['document'])
                     last_name = data['name']
 
                 print "If unit != 0, use center ref/name fields!!!"
@@ -55,7 +85,7 @@ if __name__ == "__main__":
                 if os.path.isfile(template_file):
                     sym.load(template_file, unit, symbol.representation.normal, data, firstElement)
                 elif os.path.isfile(table_file):
-                    sym.fromCSV(table_file, unit, cfg.SYMBOL_PIN_TEXT_OFFSET, unit != 0)
+                    sym.fromCSV(table_file, unit, data['section'], unit != 0)
                 #elif os.path.isfile(port_table_file):
                 #   sym.fromCSV(port_table_file, int(data['unit']), cfg.SYMBOL_PIN_TEXT_OFFSET, False)
                 else:
@@ -68,7 +98,7 @@ if __name__ == "__main__":
                     #   print "Error in ", template_file
                         print "Error setting fields"
                         sys.exit(2)
-                    sym.setDescriptions(data)
+                    #sym.setDescriptions(data)
                     firstElement = False
 
     if 'sym' in locals():
