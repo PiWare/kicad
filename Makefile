@@ -14,6 +14,8 @@ SUMMARY_SCRIPT = script/summary.py
 README_SCRIPT = script/readme.py
 PROJECT_SCRIPT = script/project.py
 
+RESISTOR_SCRIPT := script/devgen/resistor.py
+
 # Generator based symbols
 LIBRARIES = $(LIBRARY_ROOT)/rf.lib \
 	$(LIBRARY_ROOT)/capacitor.lib
@@ -27,7 +29,8 @@ TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/diode.lib \
 	$(LIBRARY_ROOT)/driver.lib \
 	$(LIBRARY_ROOT)/connector.lib \
-	$(LIBRARY_ROOT)/mcu.lib
+	$(LIBRARY_ROOT)/mcu.lib \
+	$(LIBRARY_ROOT)/resistor.lib
 
 TEMPLATE_LIBRARIES_CSV := $(patsubst $(LIBRARY_ROOT)/%.lib, $(CSV_ROOT)/%.csv, $(TEMPLATE_LIBRARIES))
 
@@ -55,6 +58,11 @@ CAPACITOR = data/avx_condensator.csv
 
 $(LIBRARY_ROOT)/capacitor.lib: $(CAPACITOR_SCRIPT) $(COMMON_SCRIPT_DEPS) $(CAPACITOR)
 	$(CAPACITOR_SCRIPT) --data $(CAPACITOR) --output $@
+
+# Resistor
+RESISTOR_TABLE := data/device/resistor.csv
+$(RESISTOR_TABLE): $(RESISTOR_SCRIPT)
+	$(RESISTOR_SCRIPT) --erow 24 96 --footprint chip_resistor_0201 chip_resistor_0402 chip_resistor_0603 chip_resistor_0805 chip_resistor_1206 chip_resistor_1210 wire_10mm melf melf_mini melf_micro --output_file $@
 
 # Template based symbols
 $(LIBRARY_ROOT)/%.lib: $(CSV_ROOT)/%.csv $(DEVICE_SCRIPT) $(COMMON_SCRIPT_DEPS)

@@ -18,16 +18,17 @@ erow_data = {   3: { 'tolerance':  20, 'precision': 1 },
 
 char = ['R', 'R', 'R', 'k', 'k', 'k', 'M', 'M', 'M']
 
-footprint_data = {'chip_resistor_0201': { 'power': 0.05  },
-             'chip_resistor_0402': { 'power': 0.063 },
-             'chip_resistor_0603': { 'power': 0.1   },
-             'chip_resistor_0805': { 'power': 0.125 },
-             'chip_resistor_1206': { 'power': 0.25  },
-             'chip_resistor_1210': { 'power': 0.5   },
-             'wire_10mm':          { 'power': 0.25  },
-             'melf':               { 'power': 1     },
-             'melf_mini':          { 'power': 0.4   },
-             'melf_micro':         { 'power': 0.3   }}
+footprint_data = {
+    'chip_resistor_0201': { 'power': 0.05,  'type': 'smd' },
+    'chip_resistor_0402': { 'power': 0.063, 'type': 'smd' },
+    'chip_resistor_0603': { 'power': 0.1,   'type': 'smd' },
+    'chip_resistor_0805': { 'power': 0.125, 'type': 'smd' },
+    'chip_resistor_1206': { 'power': 0.25,  'type': 'smd' },
+    'chip_resistor_1210': { 'power': 0.5,   'type': 'smd' },
+    'wire_10mm':          { 'power': 0.25,  'type': None },
+    'melf':               { 'power': 1,     'type': None },
+    'melf_mini':          { 'power': 0.4,   'type': None },
+    'melf_micro':         { 'power': 0.3,   'type': None }}
 
 def resistor(erow, index, decade):
     precision = erow_data[erow]['precision']
@@ -62,7 +63,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     with open(args.output_file, 'w') as outfile:
-        line = ["symbol", "name", "reference", "footprint", "keywords", "description", "value", "tolerance", "power"]
+        line = ["symbol", "name", "unit", "reference", "footprint", "description", "keywords", "value", "tolerance", "power"]
         outfile.write(','.join(line)+'\n')
 
         for footprint in args.footprint:
@@ -75,14 +76,17 @@ if __name__ == "__main__":
                     print "EROW value '%s' is invalid!"%(erow)
                     sys.exit(2)
 
-                #E24 and E96
                 for decade in range(DECADE_START, DECADE_END):
                     for index in range(0, erow):
                         value = resistor(erow, index, decade)
                         tolerance = str(erow_data[erow]['tolerance'])+"%"
                         power = str(footprint_data[footprint]['power'])+"W"
-                        name = "res_"+value+"_"+tolerance+"_"+power
-                        line = ["resistor", name, "R", footprint, "resistor", "Resistor", value, tolerance, power]
+                        name = "resistor_"+value+"_"+tolerance+"_"+power+"_"+footprint
+                        description = "Resistor %s %s %s"%(value, tolerance, power)
+                        keywords = 'resistor'
+                        if footprint_data[footprint]['type']:
+                            keywords += ', '+footprint_data[footprint]['type']
+                        line = ["resistor", name, "0", "R", footprint, description, '"'+keywords+'"', value, tolerance, power]
                         outfile.write(','.join(line)+'\n')
 
                         if index == 0 and decade == DECADE_END - 1:
