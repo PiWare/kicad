@@ -32,12 +32,16 @@ if __name__ == "__main__":
     parser.add_argument('--footprint_path', metavar = 'footprint_path', type = str, help = 'Footprint path', required = True)
     args = parser.parse_args()
 
+    kicad_user = os.path.join(os.path.expanduser("~"), 'kicad')
+    if kicad_user != os.getcwd():
+        print "WARNING: Library is not in searchpath of KiCAD '%s'. Templates do not work!"%(kicad_user)
+
     file = open(args.template, "r")
-    data  = file.read()
+    data = file.read()
     file.close()
 
-    args.symbol_path = os.path.normpath(args.symbol_path)
-    args.footprint_path = os.path.normpath(args.footprint_path)
+    args.symbol_path = os.path.abspath(args.symbol_path)
+    args.footprint_path = os.path.abspath(args.footprint_path)
 
     # KiCAD project file is in INI format, but the first section is missing!
     data = '[hidden]\n' + data

@@ -36,8 +36,8 @@ if __name__ == "__main__":
             else:
                 data = dict(zip(header, row))
                 # Check data for every line
-                if 'symbol' not in data or 'name' not in data or 'unit' not in data:
-                    print "Missing one or more of the required fields 'symbol', 'name' or 'unit' in CSV data"
+                if 'symbol' not in data or 'name' not in data:
+                    print "Missing one or more of the required fields 'symbol' and 'name' in CSV data"
                     sys.exit(2)
 
                 # Create file strings
@@ -81,6 +81,8 @@ if __name__ == "__main__":
                     last_name = data['name']
 
                 print "If unit != 0, use center ref/name fields!!!"
+                if 'unit' not in data:
+                    data['unit'] = "0"
                 unit = int(data['unit'])
                 if os.path.isfile(template_file):
                     sym.load(template_file, unit, symbol.representation.normal, data, firstElement)

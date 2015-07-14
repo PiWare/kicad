@@ -63,7 +63,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     with open(args.output_file, 'w') as outfile:
-        line = ["symbol", "name", "unit", "reference", "footprint", "description", "keywords", "value", "tolerance", "power"]
+        line = ["symbol", "name", "reference", "footprint", "description", "keywords", "value", "tolerance", "power"]
         outfile.write(','.join(line)+'\n')
 
         for footprint in args.footprint:
@@ -86,7 +86,7 @@ if __name__ == "__main__":
                         keywords = 'resistor'
                         if footprint_data[footprint]['type']:
                             keywords += ', '+footprint_data[footprint]['type']
-                        line = ["resistor", name, "0", "R", footprint, description, '"'+keywords+'"', value, tolerance, power]
+                        line = ["resistor", name, "R", footprint, description, '"'+keywords+'"', value, tolerance, power]
                         outfile.write(','.join(line)+'\n')
 
                         if index == 0 and decade == DECADE_END - 1:

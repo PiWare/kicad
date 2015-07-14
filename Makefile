@@ -41,6 +41,12 @@ FOOTPRINTS = dip \
 	pqfp \
 	sqfp
 
+# Project files/templates
+PROJECTS = library.pro \
+	template/kicad.pro \
+	template/basic/basic.pro \
+	template/phoenix_me_tbus/phoenix_me_tbus.pro
+
 all: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES) summary.txt library.pro README.md
 
 MCU_CLOCK = data/mcu/pin-table-TM4C123GH6PM.csv\
@@ -78,7 +84,7 @@ summary.txt: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES)
 
 # Uncomment dependency on $(FOOTPRINTS), when it works!
 #library.pro: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES)
-library.pro: $(LIBRARIES) $(TEMPLATE_LIBRARIES)
+$(PROJECTS): $(LIBRARIES) $(TEMPLATE_LIBRARIES)
 	$(PROJECT_SCRIPT) --template data/project.pro --symbol_path $(LIBRARY_ROOT) --footprint_path $(FOOTPRINT_ROOT) --project $@
 
 README.md: config
