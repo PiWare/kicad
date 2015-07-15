@@ -644,7 +644,7 @@ class Symbol(object):
         for data in pinsDown:
             nameHeightDown = max(nameHeightDown, len(data['name'].translate(None, "~")) * cfg.SYMBOL_PIN_NAME_SIZE)
 
-        nameWidth = nameWidthLeft + cfg.SYMBOL_MIN_WIDTH + nameWidthRight
+        nameWidth = nameWidthLeft + cfg.SYMBOL_MIN_WIDTH + nameWidthRight + max(len(self.reference),len(self.name)) * cfg.SYMBOL_NAME_SIZE
         nameHeight = nameHeightUp + nameHeightDown
 
         width = (max(len(pinsUp), len(pinsDown)) - 1) * cfg.SYMBOL_PIN_GRID + 2 * cfg.SYMBOL_PIN_SPACE
@@ -654,17 +654,17 @@ class Symbol(object):
         height = max(height, nameHeight)
 
         # Align dimensions to grid
-        width = math.ceil(float(width) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
-        height = math.ceil(float(height) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
+        width = math.ceil(float(width / 2) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
+        height = math.ceil(float(height / 2) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
 
         # FIXME: Align coordinates to grid!
-        self.addModule(Rectangle(-width / 2, -height / 2, width / 2, height / 2, cfg.SYMBOL_LINE_WIDTH, fill.background, unit, representation.normal))
+        self.addModule(Rectangle(-width, -height, width, height, cfg.SYMBOL_LINE_WIDTH, fill.background, unit, representation.normal))
 
         lineStart = 0
         lineLength = 0
         pinLastName = ''
-        x = -width / 2 - cfg.SYMBOL_PIN_LENGTH
-        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        x = -width - cfg.SYMBOL_PIN_LENGTH
+        y = height - cfg.SYMBOL_PIN_SPACE
         for data in pinsLeft:
             if data['type'] != 'space':
                 if data['name'] != '~' and data['name'] == pinLastName:
@@ -699,8 +699,8 @@ class Symbol(object):
         lineStart = 0
         lineLength = 0
         pinLastName = ''
-        x = width / 2 + cfg.SYMBOL_PIN_LENGTH
-        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        x = width + cfg.SYMBOL_PIN_LENGTH
+        y = height - cfg.SYMBOL_PIN_SPACE
         for data in pinsRight:
             if data['type'] != 'space':
                 if data['name'] != '~' and data['name'] == pinLastName:
@@ -733,7 +733,7 @@ class Symbol(object):
             self.addModule(poly)
 
         x = cfg.SYMBOL_PIN_GRID * -((float(len(pinsUp)) / 2) - 0.5)
-        y = height / 2 + cfg.SYMBOL_PIN_LENGTH
+        y = height + cfg.SYMBOL_PIN_LENGTH
         for data in pinsUp:
             if data['type'] != 'space':
                 self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
@@ -741,7 +741,7 @@ class Symbol(object):
             x += cfg.SYMBOL_PIN_GRID
 
         x = cfg.SYMBOL_PIN_GRID * -((float(len(pinsDown)) / 2) - 0.5)
-        y = -height / 2 - cfg.SYMBOL_PIN_LENGTH
+        y = -height - cfg.SYMBOL_PIN_LENGTH
         for data in pinsDown:
             if data['type'] != 'space':
                 self.addModule(Pin_(x, y, data['name'], data['number'], cfg.SYMBOL_PIN_LENGTH, getattr(directionFlipped, data['direction']), cfg.SYMBOL_PIN_NAME_SIZE, cfg.SYMBOL_PIN_NUMBER_SIZE, unit, representation.normal,
@@ -749,12 +749,12 @@ class Symbol(object):
             x += cfg.SYMBOL_PIN_GRID
 
         # Draw a line or switch between two space/switch entries
-        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        y = height - cfg.SYMBOL_PIN_SPACE
         for l, r in zip(pinsLeft, pinsRight):
             if l['type'] == r['type'] and l['type'] == 'space':
                 poly = Polygon(cfg.SYMBOL_SPACE_WIDTH)
-                poly.add(Point(-width / 2, y))
-                poly.add(Point(width / 2, y))
+                poly.add(Point(-width, y))
+                poly.add(Point(width, y))
                 self.addModule(poly)
             elif l['type'] == r['type'] and l['type'] == 'switch':
                 print "TODO: Add switch line"
@@ -762,8 +762,8 @@ class Symbol(object):
 
 
         # Add special pin decoration
-        x = -width / 2
-        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        x = -width
+        y = height - cfg.SYMBOL_PIN_SPACE
         for data in pinsLeft:
             if 'decoration' in data and data['type'] != 'space':
                 if data['decoration'] == 'male':
@@ -782,8 +782,8 @@ class Symbol(object):
                     self.addModule(Arc(x + self.offset + radius, y, x + self.offset + radius, y + radius, x + self.offset + radius, y - radius, 901, -901, radius, cfg.SYMBOL_SPACE_WIDTH, fill.none, unit))
             y -= cfg.SYMBOL_PIN_GRID
 
-        x = width / 2
-        y = height / 2 - cfg.SYMBOL_PIN_SPACE
+        x = width
+        y = height - cfg.SYMBOL_PIN_SPACE
         for data in pinsRight:
             if 'decoration' in data and data['type'] != 'space':
                 if data['decoration'] == 'male':
@@ -804,7 +804,7 @@ class Symbol(object):
 
         # Section text
         if len(section):
-            self.addModule(Text(width / 2 - self.offset, height / 2 - self.offset, section, cfg.SYMBOL_TEXT_SIZE, 0, unit, representation.normal, italic.off, bold.off, hjustify.right, vjustify.top))
+            self.addModule(Text(width - self.offset, height - self.offset, section, cfg.SYMBOL_TEXT_SIZE, 0, unit, representation.normal, italic.off, bold.off, hjustify.right, vjustify.top))
 
         # Fields
         if centered:
@@ -815,8 +815,8 @@ class Symbol(object):
             self.addField(Field(cfg.MANUFACTURER_FIELD, '', 0, -cfg.SYMBOL_TEXT_SIZE * 4, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
             self.addField(Field(cfg.VALUE_FIELD, '', 0, -cfg.SYMBOL_TEXT_SIZE * 5, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
         else:
-            self.addField(Field(cfg.REFERENCE_FIELD, self.reference, -width / 2, height / 2 + cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
-            self.addField(Field(cfg.NAME_FIELD, self.name, -width / 2, -height / 2 - cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
+            self.addField(Field(cfg.REFERENCE_FIELD, self.reference, -width, height + cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
+            self.addField(Field(cfg.NAME_FIELD, self.name, -width, -height - cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation = orientation.horizontal, visibility = visibility.visible, hjustify = hjustify.left))
             self.addField(Field(cfg.FOOTPRINT_FIELD, '', 0, cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
             self.addField(Field(cfg.DOCUMENT_FIELD, '', 0, -cfg.SYMBOL_TEXT_SIZE, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
             self.addField(Field(cfg.MANUFACTURER_FIELD, '', 0, -cfg.SYMBOL_TEXT_SIZE * 2, cfg.SYMBOL_TEXT_SIZE, orientation.horizontal, visibility.invisible))
