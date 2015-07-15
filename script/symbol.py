@@ -657,7 +657,6 @@ class Symbol(object):
         width = math.ceil(float(width / 2) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
         height = math.ceil(float(height / 2) / cfg.SYMBOL_PIN_GRID) * cfg.SYMBOL_PIN_GRID
 
-        # FIXME: Align coordinates to grid!
         self.addModule(Rectangle(-width, -height, width, height, cfg.SYMBOL_LINE_WIDTH, fill.background, unit, representation.normal))
 
         lineStart = 0
