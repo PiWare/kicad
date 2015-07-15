@@ -231,8 +231,6 @@ class Rectangle(Item):
         self.y2 = y2
         self.width = width
         self.fill = fill
-        print "Rectangle, unit = ", unit
-        print Rectangle.Format%(x1, y1, x2, y2, unit, representation, width, fill)
 
     def equal(self, rhs):
         """Compare only graphical elements"""
@@ -242,7 +240,6 @@ class Rectangle(Item):
         return self.x1 == rhs.x1 and self.y1 == rhs.y1 and self.x2 == rhs.x2 and self.y2 == rhs.y2
 
     def render(self):
-        print Rectangle.Format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.representation, self.width, self.fill)
         return Rectangle.Format%(self.x1, self.y1, self.x2, self.y2, self.unit, self.representation, self.width, self.fill)
 
 class Circle(Item):
@@ -431,6 +428,8 @@ class Symbol(object):
         self.keywords = keywords
         self.document = document
         self.offset = cfg.SYMBOL_PIN_TEXT_OFFSET
+        self.pinnumber = 'Y'
+        self.pinname = 'N'
 
         self.units = 0
         self.files = []
@@ -511,11 +510,9 @@ class Symbol(object):
                 if header:
                     if row[0] == 'DEF':
                         row.pop(0)
-                    #   self.name = row[0]
-                    #   self.reference = row[1]
                         self.offset = row[3]
+                        # Take pin number visibility from symbol. Names are checked automatically.
                         self.pinnumber = row[4]
-                        self.pinname = row[5]
                         self.count = 0 # = highest unit if != 0
                         self.locked = False # False, if no component part in unit = 0
                         self.flag = row[8]
@@ -593,9 +590,16 @@ class Symbol(object):
 
                     self.addModule(Pin_(**data))
 
+        # If more than one unit is loaded, we make pin numbers visible!
+        if unit:
+            self.pinnumber = 'Y'
+
     def fromCSV(self, filename, unit = 0, section = '', centered = True):
         if filename not in self.files:
             self.files.append(filename)
+
+        # In table based symbols pin numbers are always visible!
+        self.pinnumber = 'Y'
 
         pinsLeft = []
         pinsRight = []
@@ -775,7 +779,7 @@ class Symbol(object):
                     poly.add(Point(x + self.offset, y))
                     self.addModule(poly)
                     radius = cfg.SYMBOL_PIN_GRID * 0.4
-                    self.addModule(Arc(x + self.offset + radius, y, x + self.offset + radius, y - radius, x + self.offset + radius, y + radius, 1800, 0, radius, cfg.SYMBOL_SPACE_WIDTH, fill.none, unit))
+                    self.addModule(Arc(x + self.offset + radius, y, x + self.offset + radius, y + radius, x + self.offset + radius, y - radius, 901, -901, radius, cfg.SYMBOL_SPACE_WIDTH, fill.none, unit))
             y -= cfg.SYMBOL_PIN_GRID
 
         x = width / 2
@@ -795,7 +799,7 @@ class Symbol(object):
                     poly.add(Point(x - self.offset, y))
                     self.addModule(poly)
                     radius = cfg.SYMBOL_PIN_GRID * 0.4
-                    self.addModule(Arc(x - self.offset - radius, y, x - self.offset - radius, y + radius, x - self.offset - radius, y - radius, 0, 1800, radius, cfg.SYMBOL_SPACE_WIDTH, fill.none, unit))
+                    self.addModule(Arc(x - self.offset - radius, y, x - self.offset - radius, y - radius, x - self.offset - radius, y + radius, -899, 899, radius, cfg.SYMBOL_SPACE_WIDTH, fill.none, unit))
             y -= cfg.SYMBOL_PIN_GRID
 
         # Section text
@@ -817,22 +821,42 @@ class Symbol(object):
     def optimize(self):
         """Remove empty fields and detect duplicate graphical elements from symbol and merge them to unit = 0"""
 
-        print "Fix optimizer"
-        return
-
         list = []
         for key, field in self.fields.iteritems():
             if not len(field.value):
                 list.append(key)
         self.fields = { key: self.fields[key] for key in self.fields if key not in list }
 
-        list = []
-        for a, b in itertools.combinations(self.modules, 2):
-            if a.equal(b):
-                a.unit = 0
-                list.append(b)
+        start = 0
+        while start < len(self.modules) - 1:
+            base = self.modules[start]
+            start += 1
+            if base.unit < 0:
+                continue
 
-        self.modules = [item for item in self.modules if item not in list]
+            list = []
+            count = 0
+            for module in itertools.islice(self.modules, start, None):
+                if module.unit < 0:
+                    continue
+
+                if base.equal(module):
+                    # Same element already symbol wide defined
+                    if base.unit == 0:
+                        module.unit = -1
+                    elif module.unit == 0:
+                        base.unit = -1
+                    # Same element, but none of it is in unit == 0
+                    else:
+                        list.append(module)
+                        count += 1
+
+            if self.units > 1 and count == self.units - 1:
+                base.unit = 0
+                for module in list:
+                    module.unit = -1
+
+        self.modules = [item for item in self.modules if item.unit != -1]
 
     def setFields(self, map):
         for key, value in map.iteritems():
@@ -849,10 +873,18 @@ class Symbol(object):
     def renderSymbol(self):
         """Render symbol"""
 
-        # FIXME: Detect these automatically or set by ctor!
-        #self.offset = 0
-        self.pinnumber = 'Y'
-        self.pinname = 'Y'
+        # Check, if pin name is global visible
+        self.pinname = 'N'
+        for module in self.modules:
+            if not isinstance(module, Pin_):
+                continue
+
+            if module.name != '~':
+                self.pinname = 'Y'
+
+        # If pin names not visible, clear offset
+        if self.pinname != 'Y':
+            self.offset = 0
 
         # Only a power symbol, if reference is equal #PWR
         if self.reference == '#PWR':
@@ -917,7 +949,7 @@ class Symbol(object):
         valueFieldPos = self.valueFieldPos()
         refFieldPos = self.refFieldPos()
 
-        moduleList = map(lambda x : x.render(self.name, valueFieldPos[0], self.nameCentered), self.modules)
+        moduleList = map(lambda x : x.render(self.name, valueFieldPos[0]), self.modules)
         result = [ Symbol.DefFormat%(self.name, self.reference, len(self.modules)),
                 Symbol.RefFieldFormat%(self.reference, refFieldPos[0], refFieldPos[1]),
                 Symbol.ValueFieldFormat%(self.name, valueFieldPos[0], valueFieldPos[1])]

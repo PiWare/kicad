@@ -18,7 +18,7 @@ ENDDEF
 #
 # BAS40-04
 #
-DEF BAS40-04 D 0 0 N N 2 F N
+DEF BAS40-04 D 0 0 Y N 2 F N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "BAS40-04" 0 -100 60 H V C CNN "Name"
 F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
@@ -35,7 +35,7 @@ ENDDEF
 #
 # BAS40-05
 #
-DEF BAS40-05 D 0 0 N N 2 F N
+DEF BAS40-05 D 0 0 Y N 2 F N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "BAS40-05" 0 -100 60 H V C CNN "Name"
 F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
@@ -52,7 +52,7 @@ ENDDEF
 #
 # BAS40-06
 #
-DEF BAS40-06 D 0 0 N N 2 F N
+DEF BAS40-06 D 0 0 Y N 2 F N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "BAS40-06" 0 -100 60 H V C CNN "Name"
 F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
@@ -69,7 +69,7 @@ ENDDEF
 #
 # BAS40-07
 #
-DEF BAS40-07 D 0 0 N N 2 F N
+DEF BAS40-07 D 0 0 Y N 2 F N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "BAS40-07" 0 -100 60 H V C CNN "Name"
 F2 "sot_143b" 0 -200 60 H I C CNN "Footprint"
@@ -86,7 +86,7 @@ ENDDEF
 #
 # 1N4148
 #
-DEF 1N4148 D 0 0 Y N 1 L N
+DEF 1N4148 D 0 0 N N 1 L N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "1N4148" 0 -100 60 H V C CNN "Name"
 F2 "do_35" 0 -200 60 H I C CNN "Footprint"
@@ -102,7 +102,7 @@ ENDDEF
 #
 # FDLL4148
 #
-DEF FDLL4148 D 0 0 Y N 1 L N
+DEF FDLL4148 D 0 0 N N 1 L N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "FDLL4148" 0 -100 60 H V C CNN "Name"
 F2 "sod_80" 0 -200 60 H I C CNN "Footprint"

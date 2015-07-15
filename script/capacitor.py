@@ -39,7 +39,7 @@ class LocalModule(object):
         self.polarized = polarized
         self.unit = 0
 
-    def render(self, name, valueFieldXPos, nameCentered ):
+    def render(self, name, valueFieldXPos):
        if self.polarized:
            secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
        else:
@@ -55,9 +55,9 @@ class Capacitor(Symbol):
 
     def __init__(self, value, voltage, polarized):
         if polarized:
-            super(Capacitor,self).__init__( "CP_%s_%sV"%(value, voltage), "CP", False, None)
+            super(Capacitor,self).__init__( "CP_%s_%sV"%(value, voltage), "CP")
         else:
-            super(Capacitor,self).__init__( "C_%s_%sV"%(value, voltage), "C", False, None )
+            super(Capacitor,self).__init__( "C_%s_%sV"%(value, voltage), "C")
         self.addModule( LocalModule(polarized) )
 
     def __str__(self):

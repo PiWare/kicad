@@ -1,0 +1,35 @@
+EESchema-DOCLIB Version 2.0
+#
+# TM4C123GH6PMI7
+#
+$CMP TM4C123GH6PMI7
+K mcu, cortex-m4
+D Tiva C Series TM4C123GH6PM Microcontroller Industrial Temperature
+F doc/mcu/texas/TM4C123GH6PM.pdf
+$ENDCMP
+#
+# TM4C123GH6PMI7R
+#
+$CMP TM4C123GH6PMI7R
+K mcu, cortex-m4
+D Tiva C Series TM4C123GH6PM Microcontroller Industrial Temperature
+F doc/mcu/texas/TM4C123GH6PM.pdf
+$ENDCMP
+#
+# TM4C123GH6PMT7
+#
+$CMP TM4C123GH6PMT7
+K mcu, cortex-m4
+D Tiva C Series TM4C123GH6PM Microcontroller Extended Temperature
+F doc/mcu/texas/TM4C123GH6PM.pdf
+$ENDCMP
+#
+# TM4C123GH6PMT7R
+#
+$CMP TM4C123GH6PMT7R
+K mcu, cortex-m4
+D Tiva C Series TM4C123GH6PM Microcontroller Extended Temperature
+F doc/mcu/texas/TM4C123GH6PM.pdf
+$ENDCMP
+#
+# End Doc Library

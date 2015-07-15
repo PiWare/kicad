@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.3
 #
 # BC237
 #
-DEF BC237 T 0 0 Y Y 1 L N
+DEF BC237 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC237" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -23,7 +23,7 @@ ENDDEF
 #
 # BC238
 #
-DEF BC238 T 0 0 Y Y 1 L N
+DEF BC238 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC238" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -43,7 +43,7 @@ ENDDEF
 #
 # BC239
 #
-DEF BC239 T 0 0 Y Y 1 L N
+DEF BC239 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC239" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -163,7 +163,7 @@ ENDDEF
 #
 # BC337
 #
-DEF BC337 T 0 0 Y Y 1 L N
+DEF BC337 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC337" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -183,7 +183,7 @@ ENDDEF
 #
 # BC338
 #
-DEF BC338 T 0 0 Y Y 1 L N
+DEF BC338 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC338" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -203,7 +203,7 @@ ENDDEF
 #
 # BC546
 #
-DEF BC546 T 0 0 Y Y 1 L N
+DEF BC546 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC546" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -223,7 +223,7 @@ ENDDEF
 #
 # BC547
 #
-DEF BC547 T 0 0 Y Y 1 L N
+DEF BC547 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC547" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -243,7 +243,7 @@ ENDDEF
 #
 # BC548
 #
-DEF BC548 T 0 0 Y Y 1 L N
+DEF BC548 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC548" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -263,7 +263,7 @@ ENDDEF
 #
 # BC549
 #
-DEF BC549 T 0 0 Y Y 1 L N
+DEF BC549 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC549" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -283,7 +283,7 @@ ENDDEF
 #
 # BC550
 #
-DEF BC550 T 0 0 Y Y 1 L N
+DEF BC550 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC550" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -403,7 +403,7 @@ ENDDEF
 #
 # BC635
 #
-DEF BC635 T 0 0 Y Y 1 L N
+DEF BC635 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC635" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -423,7 +423,7 @@ ENDDEF
 #
 # BC637
 #
-DEF BC637 T 0 0 Y Y 1 L N
+DEF BC637 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC637" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -443,7 +443,7 @@ ENDDEF
 #
 # BC639
 #
-DEF BC639 T 0 0 Y Y 1 L N
+DEF BC639 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC639" -200 -150 60 H V L CNN "Name"
 F2 "to_92" -100 -250 60 H I C CNN "Footprint"
@@ -563,7 +563,7 @@ ENDDEF
 #
 # BC817
 #
-DEF BC817 T 0 0 Y Y 1 L N
+DEF BC817 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC817" -200 -150 60 H V L CNN "Name"
 F2 "sot_23" -100 -250 60 H I C CNN "Footprint"
@@ -583,7 +583,7 @@ ENDDEF
 #
 # BC818
 #
-DEF BC818 T 0 0 Y Y 1 L N
+DEF BC818 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC818" -200 -150 60 H V L CNN "Name"
 F2 "sot_23" -100 -250 60 H I C CNN "Footprint"
@@ -603,7 +603,7 @@ ENDDEF
 #
 # BC846
 #
-DEF BC846 T 0 0 Y Y 1 L N
+DEF BC846 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC846" -200 -150 60 H V L CNN "Name"
 F2 "sot_23" -100 -250 60 H I C CNN "Footprint"
@@ -623,7 +623,7 @@ ENDDEF
 #
 # BC847
 #
-DEF BC847 T 0 0 Y Y 1 L N
+DEF BC847 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC847" -200 -150 60 H V L CNN "Name"
 F2 "sot_23" -100 -250 60 H I C CNN "Footprint"
@@ -643,7 +643,7 @@ ENDDEF
 #
 # BC848
 #
-DEF BC848 T 0 0 Y Y 1 L N
+DEF BC848 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC848" -200 -150 60 H V L CNN "Name"
 F2 "sot_23" -100 -250 60 H I C CNN "Footprint"
@@ -663,7 +663,7 @@ ENDDEF
 #
 # BC849
 #
-DEF BC849 T 0 0 Y Y 1 L N
+DEF BC849 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC849" -200 -150 60 H V L CNN "Name"
 F2 "sot_23" -100 -250 60 H I C CNN "Footprint"
@@ -683,7 +683,7 @@ ENDDEF
 #
 # BC850
 #
-DEF BC850 T 0 0 Y Y 1 L N
+DEF BC850 T 0 0 Y N 1 L N
 F0 "T" -200 150 60 H V L CNN "Reference"
 F1 "BC850" -200 -150 60 H V L CNN "Name"
 F2 "sot_23" -100 -250 60 H I C CNN "Footprint"

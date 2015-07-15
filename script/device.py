@@ -80,9 +80,9 @@ if __name__ == "__main__":
                     sym = symbol.Symbol(data['name'], data['reference'], data['footprint'], data['alias'], data['description'], data['keywords'], data['document'])
                     last_name = data['name']
 
-                print "If unit != 0, use center ref/name fields!!!"
                 if 'unit' not in data:
                     data['unit'] = "0"
+
                 unit = int(data['unit'])
                 if os.path.isfile(template_file):
                     sym.load(template_file, unit, symbol.representation.normal, data, firstElement)
