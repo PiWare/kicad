@@ -30,7 +30,8 @@ TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/driver.lib \
 	$(LIBRARY_ROOT)/connector.lib \
 	$(LIBRARY_ROOT)/mcu.lib \
-	$(LIBRARY_ROOT)/resistor.lib
+	$(LIBRARY_ROOT)/resistor.lib \
+	$(LIBRARY_ROOT)/inductor.lib
 
 TEMPLATE_LIBRARIES_CSV := $(patsubst $(LIBRARY_ROOT)/%.lib, $(CSV_ROOT)/%.csv, $(TEMPLATE_LIBRARIES))
 
