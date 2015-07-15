@@ -1,0 +1,235 @@
+EESchema-DOCLIB Version 2.0
+#
+# 12.90310
+#
+$CMP 12.90310
+K oscillator
+D Oscillator 1.8432 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V94_05.pdf
+$ENDCMP
+#
+# 12.90308
+#
+$CMP 12.90308
+K oscillator
+D Oscillator 3.6864 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V94_05.pdf
+$ENDCMP
+#
+# 12.90305
+#
+$CMP 12.90305
+K oscillator
+D Oscillator 20 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V94_05.pdf
+$ENDCMP
+#
+# 12.90309
+#
+$CMP 12.90309
+K oscillator
+D Oscillator 25 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V94_05.pdf
+$ENDCMP
+#
+# 12.95513
+#
+$CMP 12.95513
+K oscillator
+D Oscillator 6 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95523
+#
+$CMP 12.95523
+K oscillator
+D Oscillator 8 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95507
+#
+$CMP 12.95507
+K oscillator
+D Oscillator 11.0592 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95506
+#
+$CMP 12.95506
+K oscillator
+D Oscillator 12 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95508
+#
+$CMP 12.95508
+K oscillator
+D Oscillator 14.31818 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95505
+#
+$CMP 12.95505
+K oscillator
+D Oscillator 16 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95509
+#
+$CMP 12.95509
+K oscillator
+D Oscillator 20 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95510
+#
+$CMP 12.95510
+K oscillator
+D Oscillator 24 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95503
+#
+$CMP 12.95503
+K oscillator
+D Oscillator 25 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95511
+#
+$CMP 12.95511
+K oscillator
+D Oscillator 32 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95512
+#
+$CMP 12.95512
+K oscillator
+D Oscillator 40 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95500
+#
+$CMP 12.95500
+K oscillator
+D Oscillator 48 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V95_06.pdf
+$ENDCMP
+#
+# 12.95016
+#
+$CMP 12.95016
+K oscillator
+D Oscillator 8 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95023
+#
+$CMP 12.95023
+K oscillator
+D Oscillator 10 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95006
+#
+$CMP 12.95006
+K oscillator
+D Oscillator 16 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95007
+#
+$CMP 12.95007
+K oscillator
+D Oscillator 20 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95008
+#
+$CMP 12.95008
+K oscillator
+D Oscillator 24 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95000
+#
+$CMP 12.95000
+K oscillator
+D Oscillator 25 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95004
+#
+$CMP 12.95004
+K oscillator
+D Oscillator 27 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95009
+#
+$CMP 12.95009
+K oscillator
+D Oscillator 32 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95010
+#
+$CMP 12.95010
+K oscillator
+D Oscillator 40 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95011
+#
+$CMP 12.95011
+K oscillator
+D Oscillator 48 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95035
+#
+$CMP 12.95035
+K oscillator
+D Oscillator 50 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95014
+#
+$CMP 12.95014
+K oscillator
+D Oscillator 80 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# 12.95025
+#
+$CMP 12.95025
+K oscillator
+D Oscillator 100 MHz, 3.3V
+F doc/oscillator/geyer/KXO-V96_07.pdf
+$ENDCMP
+#
+# End Doc Library

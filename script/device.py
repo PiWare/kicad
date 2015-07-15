@@ -88,10 +88,13 @@ if __name__ == "__main__":
                     sym.load(template_file, unit, symbol.representation.normal, data, firstElement)
                 elif os.path.isfile(table_file):
                     sym.fromCSV(table_file, unit, data['section'], unit != 0)
+                    #if not unit and 'value' in data:
+                    #   sym.addModule(symbol.Text(0, 0, data['value'], cfg.SYMBOL_TEXT_SIZE))
+
                 #elif os.path.isfile(port_table_file):
                 #   sym.fromCSV(port_table_file, int(data['unit']), cfg.SYMBOL_PIN_TEXT_OFFSET, False)
                 else:
-                    print "Template file '%s' nor table files '%s'/'%s' does not exist!"%(template_file, chip_table_file, port_table_file)
+                    print "Template file '%s' or table file '%s' does not exist!"%(template_file, table_file)
                     sys.exit(2)
 
                 # As many symbols can contain field elements, we load them only from the first symbol

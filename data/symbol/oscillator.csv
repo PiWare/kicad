@@ -1,0 +1,5 @@
+number,name,type,shape,direction
+1,ENA,input,line,left
+2,GND,powerInput,line,down
+3,OUT,output,line,right
+4,VCC,powerInput,line,up

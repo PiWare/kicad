@@ -1,0 +1,526 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 12.90310
+#
+DEF 12.90310 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.90310" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v94" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V94_05.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "1.8432 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.90308
+#
+DEF 12.90308 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.90308" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v94" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V94_05.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "3.6864 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.90305
+#
+DEF 12.90305 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.90305" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v94" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V94_05.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "20 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.90309
+#
+DEF 12.90309 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.90309" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v94" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V94_05.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "25 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95513
+#
+DEF 12.95513 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95513" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "6 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95523
+#
+DEF 12.95523 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95523" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "8 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95507
+#
+DEF 12.95507 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95507" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "11.0592 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95506
+#
+DEF 12.95506 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95506" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "12 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95508
+#
+DEF 12.95508 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95508" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "14.31818 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95505
+#
+DEF 12.95505 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95505" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "16 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95509
+#
+DEF 12.95509 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95509" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "20 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95510
+#
+DEF 12.95510 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95510" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "24 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95503
+#
+DEF 12.95503 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95503" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "25 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95511
+#
+DEF 12.95511 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95511" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "32 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95512
+#
+DEF 12.95512 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95512" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "40 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95500
+#
+DEF 12.95500 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95500" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v95" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V95_06.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "48 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95016
+#
+DEF 12.95016 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95016" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "8 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95023
+#
+DEF 12.95023 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95023" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "10 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95006
+#
+DEF 12.95006 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95006" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "16 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95007
+#
+DEF 12.95007 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95007" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "20 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95008
+#
+DEF 12.95008 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95008" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "24 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95000
+#
+DEF 12.95000 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95000" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "25 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95004
+#
+DEF 12.95004 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95004" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "27 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95009
+#
+DEF 12.95009 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95009" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "32 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95010
+#
+DEF 12.95010 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95010" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "40 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95011
+#
+DEF 12.95011 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95011" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "48 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95035
+#
+DEF 12.95035 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95035" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "50 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95014
+#
+DEF 12.95014 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95014" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "80 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# 12.95025
+#
+DEF 12.95025 OSC 0 50 Y Y 1 L N
+F0 "OSC" -250 210 60 H V L CNN "Reference"
+F1 "12.95025" -250 -210 60 H V L CNN "Name"
+F2 "kxo_v96" 0 60 60 H I C CNN "Footprint"
+F3 "doc/oscillator/geyer/KXO-V96_07.pdf" 0 -60 60 H I C CNN "Document"
+F4 "Geyer" 0 -120 60 H I C CNN "Manufacturer"
+F5 "100 MHz" 0 -180 60 H I C CNN "Value"
+DRAW
+S -250 -150 250 150 0 1 20 f
+X ENA 1 -350 50 100 R 40 40 0 1 I
+X GND 2 0 -250 100 U 40 40 0 1 W
+X OUT 3 350 50 100 L 40 40 0 1 O
+X VCC 4 0 250 100 D 40 40 0 1 W
+ENDDRAW
+ENDDEF
+#
+# End Library
