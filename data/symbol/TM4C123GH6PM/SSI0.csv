@@ -1,5 +1,0 @@
-number,name,type,shape,direction
-19,SSI0Clk,bidirectional,clock,left
-20,SSI0Fss,bidirectional,line,left
-21,SSI0Rx,input,line,left
-22,SSI0Tx,output,line,left

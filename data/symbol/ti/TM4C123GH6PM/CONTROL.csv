@@ -1,0 +1,13 @@
+number,name,type,shape,direction
+40,OSC0,input,line,left
+41,OSC1,output,line,left
+,~,space,line,left
+34,XOSC0,input,line,left
+36,XOSC1,output,line,left
+,~,space,line,left
+38,RST,input,line,left
+33,HIB,output,line,left
+32,WAKE,input,line,left
+,~,space,line,left
+10,NMI,input,line,left
+28,NMI,input,line,left

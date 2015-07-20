@@ -1,7 +1,0 @@
-number,name,type,shape,direction
-9,PE0,bidirectional,line,left
-8,PE1,bidirectional,line,left
-7,PE2,bidirectional,line,left
-6,PE3,bidirectional,line,left
-59,PE4,bidirectional,line,left
-60,PE5,bidirectional,line,left

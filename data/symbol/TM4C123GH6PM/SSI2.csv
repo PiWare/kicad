@@ -1,5 +1,0 @@
-number,name,type,shape,direction
-58,SSI2Clk,bidirectional,clock,left
-57,SSI2Fss,bidirectional,line,left
-1,SSI2Rx,input,line,left
-4,SSI2Tx,output,line,left

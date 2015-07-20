@@ -1,7 +1,0 @@
-number,name,type,shape,direction
-13,C0-,input,line,left
-14,C0+,input,line,left
-28,C0o,output,line,left
-16,C1-,input,line,left
-15,C1+,input,line,left
-29,C1o,output,line,left

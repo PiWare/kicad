@@ -1,9 +1,0 @@
-number,name,type,shape,direction
-17,PA0,bidirectional,line,left
-18,PA1,bidirectional,line,left
-19,PA2,bidirectional,line,left
-20,PA3,bidirectional,line,left
-21,PA4,bidirectional,line,left
-22,PA5,bidirectional,line,left
-23,PA6,bidirectional,line,left
-24,PA7,bidirectional,line,left

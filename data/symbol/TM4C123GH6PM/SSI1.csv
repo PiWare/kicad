@@ -1,9 +1,0 @@
-number,name,type,shape,direction
-30,SSI1Clk,bidirectional,clock,left
-61,SSI1Clk,bidirectional,clock,left
-31,SSI1Fss,bidirectional,line,left
-62,SSI1Fss,bidirectional,line,left
-28,SSI1Rx,input,line,left
-63,SSI1Rx,input,line,left
-29,SSI1Tx,output,line,left
-64,SSI1Tx,output,line,left

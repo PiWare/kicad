@@ -1,9 +1,0 @@
-number,name,type,shape,direction
-61,PD0,bidirectional,line,left
-62,PD1,bidirectional,line,left
-63,PD2,bidirectional,line,left
-64,PD3,bidirectional,line,left
-43,PD4,bidirectional,line,left
-44,PD5,bidirectional,line,left
-53,PD6,bidirectional,line,left
-10,PD7,bidirectional,line,left
