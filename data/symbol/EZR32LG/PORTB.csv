@@ -1,0 +1,10 @@
+number,name,type,shape,direction
+23,PB11,bidirectional,line,left
+25,PB13,bidirectional,line,left
+26,PB14,bidirectional,line,left
+13,PB3,bidirectional,line,left
+14,PB4,bidirectional,line,left
+15,PB5,bidirectional,line,left
+16,PB6,bidirectional,line,left
+17,PB7,bidirectional,line,left
+18,PB8,bidirectional,line,left

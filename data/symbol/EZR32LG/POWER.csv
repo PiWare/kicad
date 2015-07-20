@@ -1,0 +1,14 @@
+number,name,type,shape,direction
+22,Reset,input,line,left
+28,AVDD_0,powerInput,line,up
+24,AVDD_1,powerInput,line,up
+41,DEC_0,powerOutput,line,up
+12,IOVDD_0,powerInput,line,up
+27,IOVDD_3,powerInput,line,up
+57,IOVDD_5,powerInput,line,up
+1,NC,notConnected,line,right
+6,NC,notConnected,line,right
+9,RFVDD_1,powerInput,line,up
+7,RFVDD_2,powerInput,line,up
+40,VDD_DREG,powerInput,line,up
+0,VSS,powerInput,line,down

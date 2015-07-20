@@ -1,0 +1,8 @@
+number,name,type,shape,direction
+3,RXN,input,line,left
+2,RXP,input,line,left
+4,TX_13/16,output,line,right
+5,TX_20,output,line,right
+8,TXRAMP,output,line,right
+62,XIN,input,line,left
+61,XOUT,output,line,left

@@ -1,0 +1,6 @@
+number,name,type,shape,direction
+10,PA0/GPIO01,bidirectional,line,left
+11,PA1/GPIO11,bidirectional,line,left
+19,PA12,bidirectional,line,left
+20,PA13,bidirectional,line,left
+21,PA14,bidirectional,line,left

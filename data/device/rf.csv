@@ -1,0 +1,10 @@
+symbol,name,section,unit,reference,footprint,alias,description,keywords,document
+EZR32LG/PORTA,EZR32LG230FE55G,Port A,1,IC,qfn_64,,"EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU
+and sub-GHz Radio","rf, mcu, cortex-m3",doc/rf/EZR32LG/EZR230LG.pdf
+EZR32LG/PORTB,EZR32LG230FE55G,Port B,2,,,,,,
+EZR32LG/PORTC,EZR32LG230FE55G,Port C,3,,,,,,
+EZR32LG/PORTD,EZR32LG230FE55G,Port D,4,,,,,,
+EZR32LG/PORTE,EZR32LG230FE55G,Port E,5,,,,,,
+EZR32LG/PORTF,EZR32LG230FE55G,Port F,6,,,,,,
+EZR32LG/RF,EZR32LG230FE55G,Radio,7,,,,,,
+EZR32LG/POWER,EZR32LG230FE55G,Power,8,,,,,,

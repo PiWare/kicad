@@ -1,0 +1,7 @@
+number,name,type,shape,direction
+38,PC6,bidirectional,line,left
+39,PC7,bidirectional,line,left
+46,PC12,bidirectional,line,left
+47,PC13,bidirectional,line,left
+48,PC14,bidirectional,line,left
+49,PC15,bidirectional,line,left
