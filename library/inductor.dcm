@@ -1,0 +1,523 @@
+EESchema-DOCLIB Version 2.0
+#
+# 7445101
+#
+$CMP 7445101
+K inductor
+D Inductor 1 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451015
+#
+$CMP 74451015
+K inductor
+D Inductor 1.5 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451022
+#
+$CMP 74451022
+K inductor
+D Inductor 2.2 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451033
+#
+$CMP 74451033
+K inductor
+D Inductor 3.3 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451039
+#
+$CMP 74451039
+K inductor
+D Inductor 3.9 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451047
+#
+$CMP 74451047
+K inductor
+D Inductor 4.7 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451068
+#
+$CMP 74451068
+K inductor
+D Inductor 6.8 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 7445110
+#
+$CMP 7445110
+K inductor
+D Inductor 10 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451115
+#
+$CMP 74451115
+K inductor
+D Inductor 15 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451122
+#
+$CMP 74451122
+K inductor
+D Inductor 22 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451133
+#
+$CMP 74451133
+K inductor
+D Inductor 33 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451147
+#
+$CMP 74451147
+K inductor
+D Inductor 47 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451168
+#
+$CMP 74451168
+K inductor
+D Inductor 68 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 7445120
+#
+$CMP 7445120
+K inductor
+D Inductor 100 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451215
+#
+$CMP 74451215
+K inductor
+D Inductor 150 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451222
+#
+$CMP 74451222
+K inductor
+D Inductor 220 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451233
+#
+$CMP 74451233
+K inductor
+D Inductor 330 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 74451247
+#
+$CMP 74451247
+K inductor
+D Inductor 470 uH, WE-PD3, Type S
+F doc/inductor/Würth/WE-PD3-TypeS.pdf
+$ENDCMP
+#
+# 7445301
+#
+$CMP 7445301
+K inductor
+D Inductor 1.5 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 7445302
+#
+$CMP 7445302
+K inductor
+D Inductor 2.2 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453031
+#
+$CMP 74453031
+K inductor
+D Inductor 3.3 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 7445303
+#
+$CMP 7445303
+K inductor
+D Inductor 3.9 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 7445304
+#
+$CMP 7445304
+K inductor
+D Inductor 4.7 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 7445306
+#
+$CMP 7445306
+K inductor
+D Inductor 6.8 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453010
+#
+$CMP 74453010
+K inductor
+D Inductor 10 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453112
+#
+$CMP 74453112
+K inductor
+D Inductor 12 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453115
+#
+$CMP 74453115
+K inductor
+D Inductor 15 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453122
+#
+$CMP 74453122
+K inductor
+D Inductor 22 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453133
+#
+$CMP 74453133
+K inductor
+D Inductor 33 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453147
+#
+$CMP 74453147
+K inductor
+D Inductor 47 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453156
+#
+$CMP 74453156
+K inductor
+D Inductor 56 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453168
+#
+$CMP 74453168
+K inductor
+D Inductor 68 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 74453182
+#
+$CMP 74453182
+K inductor
+D Inductor 82 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 7445320
+#
+$CMP 7445320
+K inductor
+D Inductor 100 uH, WE-PD3, Type M
+F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+$ENDCMP
+#
+# 7445402
+#
+$CMP 7445402
+K inductor
+D Inductor 2.2 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 7445403
+#
+$CMP 7445403
+K inductor
+D Inductor 3 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 7445404
+#
+$CMP 7445404
+K inductor
+D Inductor 4.7 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454068
+#
+$CMP 74454068
+K inductor
+D Inductor 7 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454010
+#
+$CMP 74454010
+K inductor
+D Inductor 10 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454115
+#
+$CMP 74454115
+K inductor
+D Inductor 15 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454122
+#
+$CMP 74454122
+K inductor
+D Inductor 22 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454133
+#
+$CMP 74454133
+K inductor
+D Inductor 33 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454147
+#
+$CMP 74454147
+K inductor
+D Inductor 47 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454168
+#
+$CMP 74454168
+K inductor
+D Inductor 68 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 7445420
+#
+$CMP 7445420
+K inductor
+D Inductor 100 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454215
+#
+$CMP 74454215
+K inductor
+D Inductor 150 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454220
+#
+$CMP 74454220
+K inductor
+D Inductor 220 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454233
+#
+$CMP 74454233
+K inductor
+D Inductor 330 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454239
+#
+$CMP 74454239
+K inductor
+D Inductor 390 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454247
+#
+$CMP 74454247
+K inductor
+D Inductor 470 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74454268
+#
+$CMP 74454268
+K inductor
+D Inductor 680 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 7445430
+#
+$CMP 7445430
+K inductor
+D Inductor 1000 uH, WE-PD3, Type L
+F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+$ENDCMP
+#
+# 74459010
+#
+$CMP 74459010
+K inductor
+D Inductor 10 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459115
+#
+$CMP 74459115
+K inductor
+D Inductor 15 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459122
+#
+$CMP 74459122
+K inductor
+D Inductor 22 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459133
+#
+$CMP 74459133
+K inductor
+D Inductor 33 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459147
+#
+$CMP 74459147
+K inductor
+D Inductor 47 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459168
+#
+$CMP 74459168
+K inductor
+D Inductor 68 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 7445920
+#
+$CMP 7445920
+K inductor
+D Inductor 100 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459215
+#
+$CMP 74459215
+K inductor
+D Inductor 150 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459222
+#
+$CMP 74459222
+K inductor
+D Inductor 220 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459233
+#
+$CMP 74459233
+K inductor
+D Inductor 330 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459247
+#
+$CMP 74459247
+K inductor
+D Inductor 470 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 74459268
+#
+$CMP 74459268
+K inductor
+D Inductor 680 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# 7445930
+#
+$CMP 7445930
+K inductor
+D Inductor 1000 uH, WE-PD3, Type X
+F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+$ENDCMP
+#
+# End Doc Library

@@ -61,13 +61,13 @@ if __name__ == "__main__":
             output.write("Footprint section '%s'\n"%(src))
             output.write("---------------------------------\n")
 
-            list = os.listdir("modules/"+src)
+            list = os.listdir(src)
             list = natural_sort(list)
             for file in list:
                 if file.endswith(cfg.FOOTPRINT_EXTENSION):
                     print(file)
 
-                    ifile = open("modules/"+src+'/'+file, "r")
+                    ifile = open(src+'/'+file, "r")
                     data = ifile.read()
                     ifile.close()
                     for match in packageNameRe.finditer(data):

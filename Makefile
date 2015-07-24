@@ -25,17 +25,16 @@ TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/resistor.lib \
 	$(LIBRARY_ROOT)/inductor.lib \
 	$(LIBRARY_ROOT)/capacitor.lib \
-	$(LIBRARY_ROOT)/rf.lib 
-
+	$(LIBRARY_ROOT)/rf.lib
 
 TEMPLATE_LIBRARIES_CSV := $(patsubst $(LIBRARY_ROOT)/%.lib, $(CSV_ROOT)/%.csv, $(TEMPLATE_LIBRARIES))
 
 # Footprints
-FOOTPRINTS = dip \
-	soic \
-	plcc \
-	pqfp \
-	sqfp
+FOOTPRINTS = $(FOOTPRINT_ROOT)/dip \
+	$(FOOTPRINT_ROOT)/soic \
+	$(FOOTPRINT_ROOT)/plcc \
+	$(FOOTPRINT_ROOT)/pqfp \
+	$(FOOTPRINT_ROOT)/sqfp
 
 # Project files/templates
 PROJECTS = library.pro \
@@ -55,9 +54,9 @@ $(LIBRARY_ROOT)/%.lib: $(CSV_ROOT)/%.csv $(DEVICE_SCRIPT) $(COMMON_SCRIPT_DEPS)
 	$(DEVICE_SCRIPT) --csv $< --symbol $@ --desc $(addsuffix .dcm, $(basename $@)) --template_path $(TEMPLATE_ROOT)/ --table_path $(TABLE_ROOT)/
 
 # Footprint generation
-$(FOOTPRINTS): %: data/footprint/%.csv
-	mkdir -p $(FOOTPRINT_ROOT)/$@
-	$(FOOTPRINT_SCRIPT) --csv $< --output_path $(FOOTPRINT_ROOT)/$@
+$(FOOTPRINTS): $(FOOTPRINT_ROOT)/%: data/footprint/%.csv
+	mkdir -p $@
+	$(FOOTPRINT_SCRIPT) --csv $< --output_path $@
 
 summary.txt: $(FOOTPRINTS) $(TEMPLATE_LIBRARIES)
 	$(SUMMARY_SCRIPT) --libs $(TEMPLATE_LIBRARIES) --footprints $(FOOTPRINTS) --output $@
