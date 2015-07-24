@@ -61,7 +61,7 @@ class Square(object):
         self.x = x
         self.y = y
 
-    def render(self, pins, symbolNameWidth, grp, nameCentered):
+    def render(self, pins, symbolNameWidth, grp):
         """Build a graphical representation able to contain all the pin names provided in the pins list.
         Returns a tuple containing the representation of the square symbol followed by the computed bounderies.
         """
@@ -82,24 +82,36 @@ class Square(object):
         maxPinsHoriz = max(len(pins["U"]), len(pins["D"]))
         maxPinsVert = max(len(pins["R"]), len(pins["L"]))
 
-        width = max([symbolNameWidth, maxPinNameWidth, maxPinsHoriz*cfg.SYMBOL_GRID*3])
-        height = max(maxPinNameHeight, maxPinsVert*cfg.SYMBOL_GRID*3)+cfg.SYMBOL_TEXT_MARGIN
+        width = max([symbolNameWidth, maxPinNameWidth, maxPinsHoriz*cfg.SYMBOL_PIN_GRID*3])
+        height = max(maxPinNameHeight, maxPinsVert*cfg.SYMBOL_PIN_GRID*3)+cfg.SYMBOL_PIN_TEXT_OFFSET
 
         # Add a bit of space between the pins and the border of the outline
         if len(pins["U"]) > 0 and len(pins["D"])>0:
-            height = height + cfg.SYMBOL_TEXT_MARGIN
+            height = height + cfg.SYMBOL_PIN_TEXT_OFFSET
 
         if len(pins["R"]) > 0 and len(pins["L"])>0:
-            width = width + cfg.SYMBOL_TEXT_MARGIN
+            width = width + cfg.SYMBOL_PIN_TEXT_OFFSET
 
-        if nameCentered == True:
-            x = self.x-width/2
-            y = self.y-height/2
-        else:
-            x = self.x
-            y = self.y
+        #if nameCentered == True:
+        x = self.x-width/2
+        y = self.y-height/2
+        #else:
+        #   x = self.x
+        #   y = self.y
 
         return "S %i %i %i %i %i 1 %i N"%(x, y, x+width, y+height, grp, cfg.SYMBOL_LINE_WIDTH), [x,y,x+width,y+height]
+
+class Pin(object):
+    FormatString = "X %s %i %i %i " + str(cfg.SYMBOL_PIN_LENGTH) + " %s " + str(cfg.SYMBOL_PIN_NUMBER_SIZE) + " " + str(cfg.SYMBOL_PIN_NAME_SIZE) + " %i %i %s"
+
+    def __init__(self, name, number, type):
+        self.name = name
+        self.length = len(name)*cfg.SYMBOL_PIN_NAME_SIZE
+        self.type = type
+        self.number = number
+    
+    def getRep(self,x,y,orientation,group,convert):
+        return Pin.FormatString %(self.name, self.number, x, y, orientation, group, convert, self.type)
 
 class Module(object):
     """Represents a kicad schematic module instance."""
@@ -110,17 +122,17 @@ class Module(object):
             "R" : (-cfg.SYMBOL_PIN_LENGTH,0)
             }
     PinStep = {
-            "U" : (cfg.SYMBOL_GRID*3,0),
-            "D" : (cfg.SYMBOL_GRID*3,0),
-            "L" : (0,cfg.SYMBOL_GRID*3),
-            "R" : (0,cfg.SYMBOL_GRID*3)
+            "U" : (cfg.SYMBOL_PIN_GRID*3,0),
+            "D" : (cfg.SYMBOL_PIN_GRID*3,0),
+            "L" : (0,cfg.SYMBOL_PIN_GRID*3),
+            "R" : (0,cfg.SYMBOL_PIN_GRID*3)
             }
 
     PinStartOffset = {
-            "U" : (cfg.SYMBOL_GRID*3,0),
-            "D" : (cfg.SYMBOL_GRID*3,0),
-            "L" : (0,cfg.SYMBOL_GRID),
-            "R" : (0,cfg.SYMBOL_GRID)
+            "U" : (cfg.SYMBOL_PIN_GRID*3,0),
+            "D" : (cfg.SYMBOL_PIN_GRID*3,0),
+            "L" : (0,cfg.SYMBOL_PIN_GRID),
+            "R" : (0,cfg.SYMBOL_PIN_GRID)
             }
 
 
@@ -134,6 +146,7 @@ class Module(object):
         self.representation = representation
         self.number = number
         self.pins = { "U" : [], "L" : [], "R" : [], "D" : [] }
+        self.unit = 0
 
     def addPin(self, pin, orientation):
         """Add a pin to the module with the given orientation."""
@@ -151,15 +164,21 @@ class Module(object):
         pinRange = range(0,len(self.pins[orientation]))
         return [self.pins[orientation][x].render(xStart+startOffset[0]+x*pinStep[0]+pinOffset[0], yStart+startOffset[1]+x*pinStep[1]+pinOffset[1], orientation, self.number, convert) for x in pinRange]
 
-    def render(self, symbolName, symbolNameXPos, nameCentered):
+    def render(self, symbolName, symbolNameXPos):
         """Build the module representation including all the pins the name and the symbol reference."""
-        symbolRep, symbolOutline = self.representation.render(self.pins, symbolNameXPos+len(symbolName)*cfg.SYMBOL_NAME_SIZE/2, self.number, nameCentered)
+        symbolRep, symbolOutline = self.representation.render(self.pins, symbolNameXPos+len(symbolName)*cfg.SYMBOL_NAME_SIZE/2, self.number)
         return ([symbolRep]
                 + self.getPinRepList("U",symbolOutline[0],symbolOutline[1])
                 + self.getPinRepList("D",symbolOutline[0],symbolOutline[3])
                 + self.getPinRepList("L",symbolOutline[2],symbolOutline[1])
                 + self.getPinRepList("R",symbolOutline[0],symbolOutline[1]))
 
+class Symbol(object):
+    DefFormat="DEF %s %s 0 "+str(cfg.SYMBOL_PIN_TEXT_OFFSET)+" Y Y %i L N"
+    RefFieldFormat = ( "F%i"%(cfg.REFERENCE_FIELD)
+            + ' "%s" %i %i'
+            + " " + str(cfg.SYMBOL_NAME_SIZE)
+            + " H V C CNN")
 
 class Cpu(Symbol):
     def __init__(self, name, ref, nameCentered, package = ""):
@@ -168,17 +187,17 @@ class Cpu(Symbol):
 
     def refFieldPos(self):
         if self.nameCentered:
-            return ( -(len(self.ref)+4)/4*cfg.SYMBOL_NAME_SIZE
-                    , -cfg.SYMBOL_TEXT_MARGIN )
+            return ( -(len(self.reference)+4)/4*cfg.SYMBOL_NAME_SIZE
+                    , -cfg.SYMBOL_PIN_TEXT_OFFSET )
         else:
-            return ( cfg.SYMBOL_TEXT_MARGIN, cfg.SYMBOL_NAME_SIZE )
+            return ( cfg.SYMBOL_PIN_TEXT_OFFSET, cfg.SYMBOL_NAME_SIZE )
 
     def valueFieldPos(self):
         if self.nameCentered:
             return ( -(len(self.name))/4*cfg.SYMBOL_NAME_SIZE
-                    , cfg.SYMBOL_TEXT_MARGIN )
+                    , cfg.SYMBOL_PIN_TEXT_OFFSET )
         else:
-            return ( (len(self.name)/2 + len(self.ref)+4)*cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_TEXT_MARGIN,
+            return ( (len(self.name)/2 + len(self.reference)+4)*cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_PIN_TEXT_OFFSET,
                 cfg.SYMBOL_NAME_SIZE
             )
 
@@ -315,7 +334,20 @@ def MakeSingleSymbol(inFile, outFile):
     del pinGrps["VDD"]
     # Make the input group
     inGrp = pinGrps["I"] + pinGrps["B"]
+    inPinNames = [string.join(pins[x][1],'/') for x in inGrp]
+    inGrpTextLength = max([len(x) for x in inPinNames]+[1])*40
     outGrp = pinGrps["O"]
+    outPinNames = [string.join(pins[x][1],'/') for x in outGrp]
+    outGrpTextLength = max([len(x) for x in outPinNames]+[1])*40
+    minWidth = len(partName)*60+250+40
+    # Evaluate the size of the symbol
+    height = max(len(inGrp),len(outGrp))*120+350+40+240 # +240 for the supply pins 
+    width = max(minWidth,max([len(gndGrp)*120, len(vddGrp)*120, outGrpTextLength, inGrpTextLength])+200)
+    # Output the part header
+    outFile.write( "DEF %s IC 0 40 Y Y 1 L N\n"%(partName) )
+    outFile.write( 'F0 "IC" 150 270 60 H V C CNN\n')
+    outFile.write( 'F1 "%s" %i %i 60 H V C CNN\n'%(partName, len(partName)*60/2+250,270) )
+    outFile.write( "DRAW\n" )
 
     symbol = Cpu(header["Part"],"IC",False,header["Package"])
     # First take care of the power module

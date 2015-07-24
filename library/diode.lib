@@ -1,0 +1,119 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BAS40
+#
+DEF BAS40 D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "BAS40" 0 -100 60 H V C CNN "Name"
+F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
+F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 3 0 1 10 50 50 50 -50 25 -50 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+X ~ 1 -200 0 150 R 50 50 0 1 P
+X ~ 3 200 0 150 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# BAS40-04
+#
+DEF BAS40-04 D 0 0 Y N 2 F N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "BAS40-04" 0 -100 60 H V C CNN "Name"
+F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
+F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 3 0 1 10 50 50 50 -50 25 -50 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+X ~ 1 -200 0 150 R 50 50 1 1 P
+X ~ 3 200 0 150 L 50 50 1 1 P
+X ~ 2 200 0 150 L 50 50 2 1 P
+X ~ 3 -200 0 150 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# BAS40-05
+#
+DEF BAS40-05 D 0 0 Y N 2 F N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "BAS40-05" 0 -100 60 H V C CNN "Name"
+F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
+F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 3 0 1 10 50 50 50 -50 25 -50 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+X ~ 1 -200 0 150 R 50 50 1 1 P
+X ~ 3 200 0 150 L 50 50 1 1 P
+X ~ 2 -200 0 150 R 50 50 2 1 P
+X ~ 3 200 0 150 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# BAS40-06
+#
+DEF BAS40-06 D 0 0 Y N 2 F N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "BAS40-06" 0 -100 60 H V C CNN "Name"
+F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
+F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 3 0 1 10 50 50 50 -50 25 -50 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+X ~ 1 200 0 150 L 50 50 1 1 P
+X ~ 3 -200 0 150 R 50 50 1 1 P
+X ~ 2 200 0 150 L 50 50 2 1 P
+X ~ 3 -200 0 150 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# BAS40-07
+#
+DEF BAS40-07 D 0 0 Y N 2 F N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "BAS40-07" 0 -100 60 H V C CNN "Name"
+F2 "sot_143b" 0 -200 60 H I C CNN "Footprint"
+F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 3 0 1 10 50 50 50 -50 25 -50 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+X ~ 1 200 0 150 L 50 50 1 1 P
+X ~ 4 -200 0 150 R 50 50 1 1 P
+X ~ 2 200 0 150 L 50 50 2 1 P
+X ~ 3 -200 0 150 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# 1N4148
+#
+DEF 1N4148 D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "1N4148" 0 -100 60 H V C CNN "Name"
+F2 "do_35" 0 -200 60 H I C CNN "Footprint"
+F3 "doc/diode/1N4148.pdf" 0 -300 60 H I C CNN "Document"
+ALIAS 1N914 1N916 1N916A 1N916B 1N4448
+DRAW
+P 2 0 1 10 50 50 50 -50 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+X ~ 1 200 0 150 L 50 50 0 1 P
+X ~ 2 -200 0 150 R 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# FDLL4148
+#
+DEF FDLL4148 D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "FDLL4148" 0 -100 60 H V C CNN "Name"
+F2 "sod_80" 0 -200 60 H I C CNN "Footprint"
+F3 "doc/diode/1N4148.pdf" 0 -300 60 H I C CNN "Document"
+ALIAS FDLL914 FDLL914A FDLL914B FDLL4448
+DRAW
+P 2 0 1 10 50 50 50 -50 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+X ~ 1 200 0 150 L 50 50 0 1 P
+X ~ 2 -200 0 150 R 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# End Library

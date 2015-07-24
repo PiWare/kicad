@@ -1,0 +1,283 @@
+EESchema-DOCLIB Version 2.0
+#
+# CONNECTOR_1X1_MALE_THD
+#
+$CMP CONNECTOR_1X1_MALE_THD
+K connector, through hole, male
+D 1x1 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X2_MALE_THD
+#
+$CMP CONNECTOR_1X2_MALE_THD
+K connector, through hole, male
+D 1x2 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X3_MALE_THD
+#
+$CMP CONNECTOR_1X3_MALE_THD
+K connector, through hole, male
+D 1x3 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X4_MALE_THD
+#
+$CMP CONNECTOR_1X4_MALE_THD
+K connector, through hole, male
+D 1x4 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X5_MALE_THD
+#
+$CMP CONNECTOR_1X5_MALE_THD
+K connector, through hole, male
+D 1x5 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X6_MALE_THD
+#
+$CMP CONNECTOR_1X6_MALE_THD
+K connector, through hole, male
+D 1x6 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X7_MALE_THD
+#
+$CMP CONNECTOR_1X7_MALE_THD
+K connector, through hole, male
+D 1x7 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X8_MALE_THD
+#
+$CMP CONNECTOR_1X8_MALE_THD
+K connector, through hole, male
+D 1x8 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X9_MALE_THD
+#
+$CMP CONNECTOR_1X9_MALE_THD
+K connector, through hole, male
+D 1x9 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X10_MALE_THD
+#
+$CMP CONNECTOR_1X10_MALE_THD
+K connector, through hole, male
+D 1x10 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x1_MALE_THD
+#
+$CMP CONNECTOR_2x1_MALE_THD
+K connector, through hole, male
+D 2x1 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x2_MALE_THD
+#
+$CMP CONNECTOR_2x2_MALE_THD
+K connector, through hole, male
+D 2x2 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x3_MALE_THD
+#
+$CMP CONNECTOR_2x3_MALE_THD
+K connector, through hole, male
+D 2x3 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x4_MALE_THD
+#
+$CMP CONNECTOR_2x4_MALE_THD
+K connector, through hole, male
+D 2x4 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x5_MALE_THD
+#
+$CMP CONNECTOR_2x5_MALE_THD
+K connector, through hole, male
+D 2x5 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x6_MALE_THD
+#
+$CMP CONNECTOR_2x6_MALE_THD
+K connector, through hole, male
+D 2x6 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x7_MALE_THD
+#
+$CMP CONNECTOR_2x7_MALE_THD
+K connector, through hole, male
+D 2x7 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x8_MALE_THD
+#
+$CMP CONNECTOR_2x8_MALE_THD
+K connector, through hole, male
+D 2x8 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x9_MALE_THD
+#
+$CMP CONNECTOR_2x9_MALE_THD
+K connector, through hole, male
+D 2x9 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x10_MALE_THD
+#
+$CMP CONNECTOR_2x10_MALE_THD
+K connector, through hole, male
+D 2x10 male through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X1_FEMALE_THD
+#
+$CMP CONNECTOR_1X1_FEMALE_THD
+K connector, through hole, female
+D 1x1 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X2_FEMALE_THD
+#
+$CMP CONNECTOR_1X2_FEMALE_THD
+K connector, through hole, female
+D 1x2 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X3_FEMALE_THD
+#
+$CMP CONNECTOR_1X3_FEMALE_THD
+K connector, through hole, female
+D 1x3 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X4_FEMALE_THD
+#
+$CMP CONNECTOR_1X4_FEMALE_THD
+K connector, through hole, female
+D 1x4 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X5_FEMALE_THD
+#
+$CMP CONNECTOR_1X5_FEMALE_THD
+K connector, through hole, female
+D 1x5 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X6_FEMALE_THD
+#
+$CMP CONNECTOR_1X6_FEMALE_THD
+K connector, through hole, female
+D 1x6 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X7_FEMALE_THD
+#
+$CMP CONNECTOR_1X7_FEMALE_THD
+K connector, through hole, female
+D 1x7 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X8_FEMALE_THD
+#
+$CMP CONNECTOR_1X8_FEMALE_THD
+K connector, through hole, female
+D 1x8 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X9_FEMALE_THD
+#
+$CMP CONNECTOR_1X9_FEMALE_THD
+K connector, through hole, female
+D 1x9 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_1X10_FEMALE_THD
+#
+$CMP CONNECTOR_1X10_FEMALE_THD
+K connector, through hole, female
+D 1x10 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x1_FEMALE_THD
+#
+$CMP CONNECTOR_2x1_FEMALE_THD
+K connector, through hole, female
+D 2x1 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x2_FEMALE_THD
+#
+$CMP CONNECTOR_2x2_FEMALE_THD
+K connector, through hole, female
+D 2x2 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x3_FEMALE_THD
+#
+$CMP CONNECTOR_2x3_FEMALE_THD
+K connector, through hole, female
+D 2x3 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x4_FEMALE_THD
+#
+$CMP CONNECTOR_2x4_FEMALE_THD
+K connector, through hole, female
+D 2x4 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x5_FEMALE_THD
+#
+$CMP CONNECTOR_2x5_FEMALE_THD
+K connector, through hole, female
+D 2x5 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x6_FEMALE_THD
+#
+$CMP CONNECTOR_2x6_FEMALE_THD
+K connector, through hole, female
+D 2x6 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x7_FEMALE_THD
+#
+$CMP CONNECTOR_2x7_FEMALE_THD
+K connector, through hole, female
+D 2x7 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x8_FEMALE_THD
+#
+$CMP CONNECTOR_2x8_FEMALE_THD
+K connector, through hole, female
+D 2x8 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x9_FEMALE_THD
+#
+$CMP CONNECTOR_2x9_FEMALE_THD
+K connector, through hole, female
+D 2x9 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# CONNECTOR_2x10_FEMALE_THD
+#
+$CMP CONNECTOR_2x10_FEMALE_THD
+K connector, through hole, female
+D 2x10 female through hole pin connector, 2.54mm grid
+$ENDCMP
+#
+# End Doc Library

@@ -1,3 +1,1109 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
-#End Library
+#
+# 7445101
+#
+DEF 7445101 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445101" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "1 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451015
+#
+DEF 74451015 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451015" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "1.5 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451022
+#
+DEF 74451022 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451022" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "2.2 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451033
+#
+DEF 74451033 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451033" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "3.3 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451039
+#
+DEF 74451039 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451039" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "3.9 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451047
+#
+DEF 74451047 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451047" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "4.7 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451068
+#
+DEF 74451068 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451068" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "6.8 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445110
+#
+DEF 7445110 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445110" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "10 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451115
+#
+DEF 74451115 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451115" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "15 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451122
+#
+DEF 74451122 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451122" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "22 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451133
+#
+DEF 74451133 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451133" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "33 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451147
+#
+DEF 74451147 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451147" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "47 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451168
+#
+DEF 74451168 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451168" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "68 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445120
+#
+DEF 7445120 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445120" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "100 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451215
+#
+DEF 74451215 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451215" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "150 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451222
+#
+DEF 74451222 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451222" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "220 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451233
+#
+DEF 74451233 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451233" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "330 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74451247
+#
+DEF 74451247 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74451247" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
+F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "470 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445301
+#
+DEF 7445301 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445301" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "1.5 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445302
+#
+DEF 7445302 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445302" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "2.2 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453031
+#
+DEF 74453031 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453031" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "3.3 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445303
+#
+DEF 7445303 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445303" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "3.9 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445304
+#
+DEF 7445304 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445304" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "4.7 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445306
+#
+DEF 7445306 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445306" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "6.8 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453010
+#
+DEF 74453010 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453010" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "10 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453112
+#
+DEF 74453112 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453112" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "12 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453115
+#
+DEF 74453115 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453115" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "15 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453122
+#
+DEF 74453122 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453122" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "22 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453133
+#
+DEF 74453133 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453133" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "33 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453147
+#
+DEF 74453147 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453147" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "47 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453156
+#
+DEF 74453156 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453156" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "56 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453168
+#
+DEF 74453168 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453168" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "68 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74453182
+#
+DEF 74453182 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74453182" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "82 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445320
+#
+DEF 7445320 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445320" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "100 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445402
+#
+DEF 7445402 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445402" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "2.2 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445403
+#
+DEF 7445403 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445403" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "3 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445404
+#
+DEF 7445404 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445404" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "4.7 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454068
+#
+DEF 74454068 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454068" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "7 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454010
+#
+DEF 74454010 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454010" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "10 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454115
+#
+DEF 74454115 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454115" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "15 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454122
+#
+DEF 74454122 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454122" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "22 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454133
+#
+DEF 74454133 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454133" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "33 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454147
+#
+DEF 74454147 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454147" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "47 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454168
+#
+DEF 74454168 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454168" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "68 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445420
+#
+DEF 7445420 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445420" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "100 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454215
+#
+DEF 74454215 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454215" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "150 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454220
+#
+DEF 74454220 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454220" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "220 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454233
+#
+DEF 74454233 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454233" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "330 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454239
+#
+DEF 74454239 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454239" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "390 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454247
+#
+DEF 74454247 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454247" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "470 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74454268
+#
+DEF 74454268 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74454268" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "680 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445430
+#
+DEF 7445430 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445430" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "1000 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459010
+#
+DEF 74459010 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459010" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "10 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459115
+#
+DEF 74459115 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459115" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "15 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459122
+#
+DEF 74459122 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459122" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "22 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459133
+#
+DEF 74459133 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459133" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "33 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459147
+#
+DEF 74459147 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459147" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "47 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459168
+#
+DEF 74459168 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459168" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "68 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445920
+#
+DEF 7445920 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445920" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "100 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459215
+#
+DEF 74459215 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459215" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "150 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459222
+#
+DEF 74459222 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459222" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "220 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459233
+#
+DEF 74459233 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459233" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "330 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459247
+#
+DEF 74459247 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459247" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "470 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 74459268
+#
+DEF 74459268 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "74459268" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "680 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 7445930
+#
+DEF 7445930 L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "7445930" 0 200 60 H I C CNN "Name"
+F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F5 "1000 uH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# End Library

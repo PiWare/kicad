@@ -1,0 +1,10 @@
+number,name,type,shape,direction
+29,PD0,bidirectional,line,left
+30,PD1,bidirectional,line,left
+31,PD2,bidirectional,line,left
+32,PD3,bidirectional,line,left
+33,PD4,bidirectional,line,left
+34,PD5,bidirectional,line,left
+35,PD6,bidirectional,line,left
+36,PD7,bidirectional,line,left
+37,PD8,bidirectional,line,left

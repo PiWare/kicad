@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# name
+#
+DEF ~name ref 0 0 N N 1 F N
+F0 "ref" 0 0 60 H V C CNN
+F1 "name" 0 200 60 H I C CNN
+F2 "footprint" 0 300 60 H I C CNN
+F3 "document" 0 -100 60 H I C CNN
+F4 "manufacturer" 0 200 60 H V C CNN "Manufacturer"
+F5 "value" 0 100 60 H V C CNN "Value"
+DRAW
+C -140 90 10 0 1 20 N
+S -150 50 150 -50 0 1 20 F
+X ~ $1 -250 0 100 R 50 50 1 1 P
+X ~ $2 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

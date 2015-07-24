@@ -1,0 +1,5 @@
+number,name,type,shape,direction
+42,PE0,bidirectional,line,left
+43,PE1,bidirectional,line,left
+44,PE2,bidirectional,line,left
+45,PE3,bidirectional,line,left

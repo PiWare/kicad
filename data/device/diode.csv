@@ -1,0 +1,12 @@
+symbol,name,unit,a,c,reference,alias,document,footprint,description,keywords
+diode_schottky,BAS40,0,1,3,D,,doc/diode/BAS40.pdf,sot_23,Schottky barrier (double) diodes,"diode, schottky"
+diode_schottky,BAS40-04,1,1,3,D,,doc/diode/BAS40.pdf,sot_23,Schottky barrier (double) diodes,"diode, schottky"
+diode_schottky,BAS40-04,2,3,2,,,,,,
+diode_schottky,BAS40-05,1,1,3,D,,doc/diode/BAS40.pdf,sot_23,Schottky barrier (double) diodes,"diode, schottky"
+diode_schottky,BAS40-05,2,2,3,,,,,,
+diode_schottky,BAS40-06,1,3,1,D,,doc/diode/BAS40.pdf,sot_23,Schottky barrier (double) diodes,"diode, schottky"
+diode_schottky,BAS40-06,2,3,2,,,,,,
+diode_schottky,BAS40-07,1,4,1,D,,doc/diode/BAS40.pdf,sot_143b,Schottky barrier (double) diodes,"diode, schottky"
+diode_schottky,BAS40-07,2,3,2,,,,,,
+diode,1N4148,0,2,1,D,1N914 1N916 1N916A 1N916B 1N4448,doc/diode/1N4148.pdf,do_35,Small signal diode,diode
+diode,FDLL4148,0,2,1,D,FDLL914 FDLL914A FDLL914B FDLL4448,doc/diode/1N4148.pdf,sod_80,Small signal diode,diode

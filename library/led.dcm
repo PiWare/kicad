@@ -1,0 +1,87 @@
+EESchema-DOCLIB Version 2.0
+#
+# L-59EGW
+#
+$CMP L-59EGW
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59EGW-CA
+#
+$CMP L-59EGW-CA
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59EYW
+#
+$CMP L-59EYW
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59GYW
+#
+$CMP L-59GYW
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59SRSGW-CC
+#
+$CMP L-59SRSGW-CC
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59SURKSGW
+#
+$CMP L-59SURKSGW
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59EGC
+#
+$CMP L-59EGC
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59EYC
+#
+$CMP L-59EYC
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59YEC
+#
+$CMP L-59YEC
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59GYC
+#
+$CMP L-59GYC
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59SRSGC-CC
+#
+$CMP L-59SRSGC-CC
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# L-59SURKSGC
+#
+$CMP L-59SURKSGC
+D The High Efficiency Red source color devices are made withGallium Arsenide Phosphide on Gallium Phosphide OrangeLight Emitting Diode.The Green source color devices are made with GalliumPhosphide Green Light Emitting Diode.The Yellow source color devices are made with GalliumArsenide Phosphide on Gallium Phosphide Yellow LightEmitting Diode.The Super Bright Red source color devices are made withGallium Aluminum Arsenide Red Light Emitting Diode.The Hyper Red (SURK) source color devices are madewith DH InGaAlP on GaAs substrate Light Emitting Diode.
+F doc/led/L-59.pdf
+$ENDCMP
+#
+# End Doc Library

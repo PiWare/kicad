@@ -1,0 +1,41 @@
+symbol,name,alias,reference,description,keywords,document,footprint,c,b,e
+transistor_npn,BC237,BC237A BC237B BC237C,T,NPN Epitaxial Silicon Transistor,"transistor, npn",doc/transistor/BC237_239.pdf,to_92,1,2,3
+transistor_npn,BC238,BC238A BC238B BC238C,T,NPN Epitaxial Silicon Transistor,"transistor, npn",doc/transistor/BC237_239.pdf,to_92,1,2,3
+transistor_npn,BC239,BC239A BC239B BC239C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, low noise",doc/transistor/BC237_239.pdf,to_92,1,2,3
+transistor_pnp,BC307,BC307A BC307B BC307C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC307_309.pdf,to_92,1,2,3
+transistor_pnp,BC308,BC308A BC308B BC308C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC307_309.pdf,to_92,1,2,3
+transistor_pnp,BC309,BC309A BC309B BC309C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC307_309.pdf,to_92,1,2,3
+transistor_pnp,BC327,BC327A BC327B BC327C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC327_328.pdf,to_92,1,2,3
+transistor_pnp,BC328,BC328A BC328B BC328C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC327_328.pdf,to_92,1,2,3
+transistor_npn,BC337,BC337A BC337B BC337C,T,NPN Epitaxial Silicon Transistor,"transistor, npn",doc/transistor/BC337_338.pdf,to_92,1,2,3
+transistor_npn,BC338,BC338A BC338B BC338C,T,NPN Epitaxial Silicon Transistor,"transistor, npn",doc/transistor/BC337_338.pdf,to_92,1,2,3
+transistor_npn,BC546,BC546A BC546B BC546C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, high voltage",doc/transistor/BC546_550.pdf,to_92,1,2,3
+transistor_npn,BC547,BC547A BC547B BC547C,T,NPN Epitaxial Silicon Transistor,"transistor, npn",doc/transistor/BC546_550.pdf,to_92,1,2,3
+transistor_npn,BC548,BC548A BC548B BC548C,T,NPN Epitaxial Silicon Transistor,"transistor, npn",doc/transistor/BC546_550.pdf,to_92,1,2,3
+transistor_npn,BC549,BC549A BC549B BC549C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, low noise",doc/transistor/BC546_550.pdf,to_92,1,2,3
+transistor_npn,BC550,BC550A BC550B BC550C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, low noise",doc/transistor/BC546_550.pdf,to_92,1,2,3
+transistor_pnp,BC556,BC556A BC556B BC556C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, high voltage",doc/transistor/BC556_560.pdf,to_92,1,2,3
+transistor_pnp,BC557,BC557A BC557B BC557C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC556_560.pdf,to_92,1,2,3
+transistor_pnp,BC558,BC558A BC558B BC558C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC556_560.pdf,to_92,1,2,3
+transistor_pnp,BC559,BC559A BC559B BC559C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, low noise",doc/transistor/BC556_560.pdf,to_92,1,2,3
+transistor_pnp,BC560,BC560A BC560B BC560C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, low noise",doc/transistor/BC556_560.pdf,to_92,1,2,3
+transistor_npn,BC635,BC635A BC635B BC635C,T,NPN Epitaxial Silicon Transistor,"transistor, npn",doc/transistor/BC635_BC637_BC639.pdf,to_92,2,3,1
+transistor_npn,BC637,BC637A BC637B BC637C,T,NPN Epitaxial Silicon Transistor,"transistor, npn",doc/transistor/BC635_BC637_BC639.pdf,to_92,2,3,1
+transistor_npn,BC639,BC639A BC639B BC639C,T,NPN Epitaxial Silicon Transistor,"transistor, npn",doc/transistor/BC635_BC637_BC639.pdf,to_92,2,3,1
+transistor_pnp,BC636,BC636A BC636B BC636C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC636_BC638_BC640.pdf,to_92,2,3,1
+transistor_pnp,BC638,BC638A BC638B BC638C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC636_BC638_BC640.pdf,to_92,2,3,1
+transistor_pnp,BC640,BC640A BC640B BC640C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp",doc/transistor/BC636_BC638_BC640.pdf,to_92,2,3,1
+transistor_pnp,BC807,BC807A BC807B BC807C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, smd",doc/transistor/BC807_808.pdf,sot_23,3,1,2
+transistor_pnp,BC808,BC808A BC808B BC808C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, smd",doc/transistor/BC807_808.pdf,sot_23,3,1,2
+transistor_npn,BC817,BC817A BC817B BC817C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, smd",doc/transistor/BC817_818.pdf,sot_23,3,1,2
+transistor_npn,BC818,BC818A BC818B BC818C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, smd",doc/transistor/BC817_818.pdf,sot_23,3,1,2
+transistor_npn,BC846,BC846A BC846B BC846C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, smd",doc/transistor/BC846_850.pdf,sot_23,3,1,2
+transistor_npn,BC847,BC847A BC847B BC847C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, smd",doc/transistor/BC846_850.pdf,sot_23,3,1,2
+transistor_npn,BC848,BC848A BC848B BC848C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, smd",doc/transistor/BC846_850.pdf,sot_23,3,1,2
+transistor_npn,BC849,BC849A BC849B BC849C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, low noise, smd",doc/transistor/BC846_850.pdf,sot_23,3,1,2
+transistor_npn,BC850,BC850A BC850B BC850C,T,NPN Epitaxial Silicon Transistor,"transistor, npn, low noise, smd",doc/transistor/BC846_850.pdf,sot_23,3,1,2
+transistor_pnp,BC856,BC856A BC856B BC856C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, smd",doc/transistor/BC856_860.pdf,sot_23,3,1,2
+transistor_pnp,BC857,BC857A BC857B BC857C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, smd",doc/transistor/BC856_860.pdf,sot_23,3,1,2
+transistor_pnp,BC858,BC858A BC858B BC858C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, smd",doc/transistor/BC856_860.pdf,sot_23,3,1,2
+transistor_pnp,BC859,BC859A BC859B BC859C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, low noise, smd",doc/transistor/BC856_860.pdf,sot_23,3,1,2
+transistor_pnp,BC860,BC860A BC860B BC860C,T,PNP Epitaxial Silicon Transistor,"transistor, pnp, low noise, smd",doc/transistor/BC856_860.pdf,sot_23,3,1,2

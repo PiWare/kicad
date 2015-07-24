@@ -1,0 +1,11 @@
+EESchema-DOCLIB Version 2.0
+#
+# EZR32LG230FE55G
+#
+$CMP EZR32LG230FE55G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# End Doc Library

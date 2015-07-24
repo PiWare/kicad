@@ -1,0 +1,9 @@
+number,name,type,shape,direction
+45,PB0,bidirectional,line,left
+46,PB1,bidirectional,line,left
+47,PB2,bidirectional,line,left
+48,PB3,bidirectional,line,left
+58,PB4,bidirectional,line,left
+57,PB5,bidirectional,line,left
+1,PB6,bidirectional,line,left
+4,PB7,bidirectional,line,left

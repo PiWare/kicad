@@ -1,0 +1,30 @@
+symbol,name,unit,reference,alias,document,footprint,description,keywords,manufacturer,value
+oscillator,12.90310,0,OSC,,doc/oscillator/geyer/KXO-V94_05.pdf,kxo_v94,"Oscillator 1.8432 MHz, 3.3V",oscillator,Geyer,1.8432 MHz
+oscillator,12.90308,0,OSC,,doc/oscillator/geyer/KXO-V94_05.pdf,kxo_v94,"Oscillator 3.6864 MHz, 3.3V",oscillator,Geyer,3.6864 MHz
+oscillator,12.90305,0,OSC,,doc/oscillator/geyer/KXO-V94_05.pdf,kxo_v94,"Oscillator 20 MHz, 3.3V",oscillator,Geyer,20 MHz
+oscillator,12.90309,0,OSC,,doc/oscillator/geyer/KXO-V94_05.pdf,kxo_v94,"Oscillator 25 MHz, 3.3V",oscillator,Geyer,25 MHz
+oscillator,12.95513,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 6 MHz, 3.3V",oscillator,Geyer,6 MHz
+oscillator,12.95523,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 8 MHz, 3.3V",oscillator,Geyer,8 MHz
+oscillator,12.95507,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 11.0592 MHz, 3.3V",oscillator,Geyer,11.0592 MHz
+oscillator,12.95506,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 12 MHz, 3.3V",oscillator,Geyer,12 MHz
+oscillator,12.95508,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 14.31818 MHz, 3.3V",oscillator,Geyer,14.31818 MHz
+oscillator,12.95505,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 16 MHz, 3.3V",oscillator,Geyer,16 MHz
+oscillator,12.95509,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 20 MHz, 3.3V",oscillator,Geyer,20 MHz
+oscillator,12.95510,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 24 MHz, 3.3V",oscillator,Geyer,24 MHz
+oscillator,12.95503,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 25 MHz, 3.3V",oscillator,Geyer,25 MHz
+oscillator,12.95511,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 32 MHz, 3.3V",oscillator,Geyer,32 MHz
+oscillator,12.95512,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 40 MHz, 3.3V",oscillator,Geyer,40 MHz
+oscillator,12.95500,0,OSC, ,doc/oscillator/geyer/KXO-V95_06.pdf,kxo_v95,"Oscillator 48 MHz, 3.3V",oscillator,Geyer,48 MHz
+oscillator,12.95016,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 8 MHz, 3.3V",oscillator,Geyer,8 MHz
+oscillator,12.95023,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 10 MHz, 3.3V",oscillator,Geyer,10 MHz
+oscillator,12.95006,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 16 MHz, 3.3V",oscillator,Geyer,16 MHz
+oscillator,12.95007,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 20 MHz, 3.3V",oscillator,Geyer,20 MHz
+oscillator,12.95008,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 24 MHz, 3.3V",oscillator,Geyer,24 MHz
+oscillator,12.95000,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 25 MHz, 3.3V",oscillator,Geyer,25 MHz
+oscillator,12.95004,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 27 MHz, 3.3V",oscillator,Geyer,27 MHz
+oscillator,12.95009,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 32 MHz, 3.3V",oscillator,Geyer,32 MHz
+oscillator,12.95010,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 40 MHz, 3.3V",oscillator,Geyer,40 MHz
+oscillator,12.95011,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 48 MHz, 3.3V",oscillator,Geyer,48 MHz
+oscillator,12.95035,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 50 MHz, 3.3V",oscillator,Geyer,50 MHz
+oscillator,12.95014,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 80 MHz, 3.3V",oscillator,Geyer,80 MHz
+oscillator,12.95025,0,OSC, ,doc/oscillator/geyer/KXO-V96_07.pdf,kxo_v96,"Oscillator 100 MHz, 3.3V",oscillator,Geyer,100 MHz

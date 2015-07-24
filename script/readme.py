@@ -22,58 +22,73 @@ import config
 cfg = config.Config("config")
 
 if __name__ == "__main__":
-	import argparse
-	parser = argparse.ArgumentParser(description='Generate a readme file in markdown syntac containing library configuration.')
-	parser.add_argument('--output', metavar = 'out', type = str, help = 'Output file', required = True)
-	args = parser.parse_args()
+    import argparse
+    parser = argparse.ArgumentParser(description='Generate a readme file in markdown syntac containing library configuration.')
+    parser.add_argument('--output', metavar = 'out', type = str, help = 'Output file', required = True)
+    args = parser.parse_args()
 
-	output = open(args.output, "w")
-	output.write("""# kicad
+    output = open(args.output, "w")
+    output.write("""# kicad
 KiCad library used in our projects. Main parts are generated using python scripts and input data from csv tables. This should give a very flexible base to add new symbols, footprings and parts.
 
 All dimension are in millimeters/degree, if not otherwise noted.
 
+## Naming conventions
+
+- Filenames are lowercase and separated with underscore (e.g. resistor_1k5_chip_0805, dip_8_narrow)
+- Devicesnames are uppercase and separated with underscore (e.g. SOIC_8_WIDE, 74HC595)
+
+### Datasheets
+
+- For one time:
+    BC557.pdf
+
+For multiple devices not following numbers:
+    BC557_BC560.pdf
+
+For multiple devices with following numbers (BC546, BC547, BC548, BC549, BC550):
+    BC546_550.pdf
 """)
 
-	output.write("## Symbol\n")
+    output.write("## Symbol\n")
 
-	output.write("\n### Configuration\n\n")
+    output.write("\n### Configuration\n\n")
 
-	output.write("F#-Field usage:\n")
-	# This entries are reverse, so we make a little map
-	map = {}
-	for value in cfg.dict():
-		part = value.split("_", 1)
-		if len(part) == 2 and part[1] == 'FIELD':
-			map[int(getattr(cfg, value))] = getattr(cfg, part[0]+"_NAME")
+    output.write("F#-Field usage:\n")
+    # This entries are reverse, so we make a little map
+    map = {}
+    for value in cfg.dict():
+        part = value.split("_", 1)
+        if len(part) == 2 and part[1] == 'FIELD':
+            map[int(getattr(cfg, value))] = getattr(cfg, part[0]+"_NAME")
 
-	for key in sorted(map):
-		output.write("* **F%d**: %s\n"%(key, map[key]))
+    for key in sorted(map):
+        output.write("* **F%d**: %s\n"%(key, map[key]))
 
-	map = {}
-	for value in cfg.dict():
-		part = value.split("_", 1)
-		if len(part) == 2 and part[0] == 'SYMBOL':
-			map[value] = getattr(cfg, value)
+    map = {}
+    for value in cfg.dict():
+        part = value.split("_", 1)
+        if len(part) == 2 and part[0] == 'SYMBOL':
+            map[value] = getattr(cfg, value)
 
-	for key in sorted(map):
-		output.write("* **%s**: %s\n"%(key, map[key]))
+    for key in sorted(map):
+        output.write("* **%s**: %s\n"%(key, map[key]))
 
-	output.write("\n### Generators\n\n")
+    output.write("\n### Generators\n\n")
 
-	output.write("\n## Footprint\n\n")
+    output.write("\n## Footprint\n\n")
 
-	output.write("\n### Configuration\n\n")
+    output.write("\n### Configuration\n\n")
 
-	map = {}
-	for value in cfg.dict():
-		part = value.split("_", 1)
-		if len(part) == 2 and part[0] == 'FOOTPRINT':
-			map[value] = getattr(cfg, value)
+    map = {}
+    for value in cfg.dict():
+        part = value.split("_", 1)
+        if len(part) == 2 and part[0] == 'FOOTPRINT':
+            map[value] = getattr(cfg, value)
 
-	for key in sorted(map):
-		output.write("* **%s**: %s\n"%(key, map[key]))
+    for key in sorted(map):
+        output.write("* **%s**: %s\n"%(key, map[key]))
 
-	output.write("\n### Generators\n\n")
+    output.write("\n### Generators\n\n")
 
-	output.close()
+    output.close()

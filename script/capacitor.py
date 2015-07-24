@@ -15,8 +15,9 @@
 #     You should have received a copy of the GNU General Public License
 #     along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-#     This script is used to generate a kicad symbols for a matrix of capacitors.
-#     The script expect a csv with the following format
+#     This script is used to flatten an avx style capacitor table which can
+#     be used by the kicad template scripts
+#     The script expects a csv with the following format
 #       Thickness, A, B, etc...
 #                , 0.33, 0.44, etc...
 #       Package, 0101, 0201...
@@ -25,79 +26,33 @@
 #       ...
 #
 #     The capacitor values are provided in the first column. Each cell which
-#     references a package thickness value is considered a valid combination and a symbol will be generated
+#     references a package thickness value is considered a valid combination.
 
 
 
 import csv
 #import itertools
-import string
-from symbol import Symbol, Pin, cfg
-
-class LocalModule(object):
-    def __init__(self,polarized):
-        self.polarized = polarized
-
-    def render(self, name, valueFieldXPos, nameCentered ):
-       if self.polarized:
-           secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
-       else:
-           secondSide = "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,-cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,-cfg.SYMBOL_NAME_SIZE/2)
-       return [ secondSide,
-               "P 2 0 1 %i %i %i %i %i N"%(cfg.SYMBOL_LINE_WIDTH,cfg.SYMBOL_NAME_SIZE*-1.2,cfg.SYMBOL_NAME_SIZE/2,cfg.SYMBOL_NAME_SIZE*1.2,cfg.SYMBOL_NAME_SIZE/2),
-               Pin("~",1, "P" ).render(0,-cfg.SYMBOL_NAME_SIZE/2 -cfg.SYMBOL_PIN_LENGTH,"U",1,1),
-               Pin("~",2, "P" ).render(0,cfg.SYMBOL_NAME_SIZE/2 + cfg.SYMBOL_PIN_LENGTH,"D",1,1),
-               ]
-
-
-class Capacitor(Symbol):
-
-    def __init__(self, value, voltage, polarized):
-        if polarized:
-            super(Capacitor,self).__init__( "CP_%s_%sV"%(value, voltage), "CP", False, None)
-        else:
-            super(Capacitor,self).__init__( "C_%s_%sV"%(value, voltage), "C", False, None )
-        self.addModule( LocalModule(polarized) )
-
-    def __str__(self):
-        return self.name
-
-    def __hash__(self):
-        return hash(self.name)
-
-    def __eq__(self, other):
-        return self.name == other.name
-
-    def getBounds(self):
-        return (cfg.SYMBOL_TEXT_SIZE*-1.2,-cfg.SYMBOL_PIN_LENGTH, cfg.SYMBOL_NAME_SIZE*2.4, cfg.SYMBOL_NAME_SIZE+cfg.SYMBOL_PIN_LENGTH*2)
-
-    def render(self, packageList):
-        return super(Capacitor,self).render( map(lambda x : "SMDC"+x[0], packageList))
 
 def MakeCondensatorSet(inFile, outFile):
-    """ Output a new capacitor set in the outFile library.
+    """ Output a new capacitor set in the outFile.
     """
-    #thickness = {}
     parts = {}
     with open(inFile, 'rb') as csvfile:
         reader = csv.reader(csvfile)
-     #   thicknessNames = reader.next()
-     #   thicknessValues = reader.next()
-        #thickness = dict(zip(thicknessNames[1:],thicknessValues[1:]))
+        thicknessNames = reader.next()
+        thicknessValues = reader.next()
+        thickness = dict(zip(thicknessNames[1:],thicknessValues[1:]))
         packageList = reader.next()[1:]
         voltage = reader.next()[1:]
         for row in reader:
             value = row[0]
             for thick,WVDC,pkg in zip(row[1:],voltage,packageList):
-                if thick!="":
-                    part = Capacitor(value,WVDC,False)
-                    if part in parts:
-                        parts[part].append((pkg,thick))
-                    else:
-                        parts[part] = [(pkg,thick)]
-        for part,pkgList in parts.items():
-            outFile.write( string.join(part.render(pkgList),"\n" ) )
-            outFile.write( "\n" )
+                if thick != "":
+                    partId = "%s%s%s"%(value,WVDC,pkg)
+                    if not partId in parts:
+                        outFile.write("capacitor,capacitor_%s_%s_chip_capacitor_%sV,C,chip_capacitor_%s,Capacitor %s 5%% %sV,\"capacitor,smd\",1,2,%s,5%%,%sV"%(value,WVDC,pkg,pkg,value,WVDC,value,WVDC))
+                        outFile.write( "\n" )
+                        parts[partId] = True
 
 
 
@@ -109,11 +64,11 @@ if __name__ == "__main__":
     parser.add_argument('--data', nargs='+', metavar='data', type=str,
             help='list of csv files containing pin lists producing capacitor symbols')
     parser.add_argument('--output', metavar='out', type=str,
-            help='the kicad library output file', required=True)
+            help='the flat condensator table file', required=True)
     args = parser.parse_args()
     output = open(args.output, "w")
-    output.write("EESchema-LIBRARY Version 2.3\n")
-
+    # write the header
+    output.write("symbol,name,reference,footprint,description,keywords,1,2,value,tolerance,voltage\n")
 
     if args.data != None:
         for src in args.data:

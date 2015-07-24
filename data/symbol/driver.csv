@@ -1,9 +1,0 @@
-symbol,name,footprint,description,keywords,document
-,MAX232,dil16,,,
-,MAX232,so16,,,
-,MAX3232,dil16,,,
-,MAX3232,so16,,,
-,MAX485,dil8,,,
-,MAX485,so8,,,
-,MAX3485,dil8,,,
-,MAX3485,so8,,,

@@ -1,0 +1,11 @@
+number,name,type,shape,direction
+50,PF0,bidirectional,line,left
+51,PF1,bidirectional,line,left
+52,PF2,bidirectional,line,left
+53,PF3,bidirectional,line,left
+54,PF4,bidirectional,line,left
+56,PF5,bidirectional,line,left
+58,PF6,bidirectional,line,left
+59,PF7,bidirectional,line,left
+60,PF8,bidirectional,line,left
+55,PF12,bidirectional,line,left

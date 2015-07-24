@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# name
+#
+DEF name ref 0 0 Y Y 1 F N
+F0 "ref" 100 300 60 H V L CNN
+F1 "name" 100 -300 60 H V L CNN
+F2 "footprint" 100 -400 60 H I L CNN
+F3 "document" 100 -500 60 H I L CNN
+DRAW
+T 0 0 0 60 0 0 0 D  Normal 0 C C
+P 5 0 1 20  -150 250  150 250  150 -250  -150 -250  -150 250 f
+X D $D -250 50 100 R 40 40 1 1 I
+X Q $Q 250 50 100 L 40 40 1 1 O
+X ~R $R -250 -150 100 R 40 40 1 1 I I
+X ~S $S -250 150 100 R 40 40 1 1 I I
+X CP $CP -250 -50 100 R 40 40 1 1 I C
+X ~Q $NQ 250 -50 100 L 40 40 1 1 O I
+X VCC $VCC 0 350 100 D 40 40 1 1 W
+X GND $GND 0 -350 100 U 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
