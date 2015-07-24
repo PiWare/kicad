@@ -32,9 +32,10 @@ if __name__ == "__main__":
     parser.add_argument('--footprint_path', metavar = 'footprint_path', type = str, help = 'Footprint path', required = True)
     args = parser.parse_args()
 
-    kicad_user = os.path.join(os.path.expanduser("~"), 'kicad')
-    if kicad_user != os.getcwd():
-        print "WARNING: Library is not in searchpath of KiCAD '%s'. Templates do not work!"%(kicad_user)
+    home_path = os.path.expanduser("~")
+    kicad_path = os.path.join(home_path, 'kicad')
+    if kicad_path != os.getcwd():
+        print "WARNING: Library is not in searchpath of KiCAD '%s'. Templates do not work!"%(kicad_path)
 
     file = open(args.template, "r")
     data = file.read()
@@ -59,7 +60,7 @@ if __name__ == "__main__":
     # Symbol libs
     project.remove_section('eeschema/libraries')
     project.add_section('eeschema/libraries')
-    project.set('eeschema', 'libdir', args.symbol_path)
+    project.set('eeschema', 'libdir', args.symbol_path.replace(home_path, '~'))
 
     libs = []
     for file in os.listdir(args.symbol_path):
@@ -75,7 +76,7 @@ if __name__ == "__main__":
     # Footprint libs
     project.remove_section('pcbnew/libraries')
     project.add_section('pcbnew/libraries')
-    project.set('pcbnew/libraries', 'libdir', args.footprint_path)
+    project.set('pcbnew/libraries', 'libdir', args.footprint_path.replace(home_path, '~'))
 
     libs = []
     for file in os.listdir(args.footprint_path):
