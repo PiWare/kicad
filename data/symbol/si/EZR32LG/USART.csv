@@ -1,0 +1,15 @@
+number,name,type,shape,direction
+31,US1_CLK,input,clock,left
+50,US1_CLK,input,clock,left
+32,US1_CS,input,line,left
+51,US1_CS,input,line,left
+30,US1_RX,input,line,left
+35,US1_RX,input,line,left
+29,US1_TX,output,line,left
+36,US1_TX,output,line,left
+15,US2_CLK,input,clock,left
+16,US2_CS,input,line,left
+14,US2_RX,input,line,left
+13,US2_TX,output,line,left
+18,USRF0_RX,input,line,left
+17,USRF0_TX,output,line,left

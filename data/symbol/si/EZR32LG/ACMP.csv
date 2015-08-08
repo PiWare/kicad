@@ -1,0 +1,11 @@
+number,name,type,shape,direction
+38,ACMP0_CH6,input,line,left
+39,ACMP0_CH7,input,line,left
+35,ACMP0_O,output,line,right
+44,ACMP0_O,output,line,right
+46,ACMP1_CH4,input,line,left
+47,ACMP1_CH5,input,line,left
+48,ACMP1_CH6,input,line,left
+49,ACMP1_CH7,input,line,left
+36,ACMP1_O,output,line,right
+45,ACMP1_O,output,line,right

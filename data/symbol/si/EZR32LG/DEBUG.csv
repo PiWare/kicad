@@ -1,0 +1,16 @@
+number,name,type,shape,direction
+35,BOOT_RX,input,line,left
+36,BOOT_TX,input,line,left
+50,DBG_SWCLK,input,line,left
+51,DBG_SWDIO,input,line,left
+52,DBG_SWO,input,line,left
+49,DBG_SWO,input,line,left
+30,DBG_SWO,input,line,left
+31,DBG_SWO,input,line,left
+36,ETM_TCLK,input,line,left
+38,ETM_TCLK,input,line,left
+35,ETM_TD0,input,line,left
+39,ETM_TD0,input,line,left
+32,ETM_TD1,input,line,left
+33,ETM_TD2,input,line,left
+34,ETM_TD3,input,line,left

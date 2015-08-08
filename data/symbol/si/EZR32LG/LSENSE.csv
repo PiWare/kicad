@@ -1,0 +1,9 @@
+number,name,type,shape,direction
+35,LES_ATLEX0,input,line,left
+36,LES_ATLEX1,input,line,left
+38,LES_CH6,input,line,left
+39,LES_CH7,input,line,left
+46,LES_CH12,input,line,left
+47,LES_CH13,input,line,left
+48,LES_CH14,input,line,left
+49,LES_CH15,input,line,left

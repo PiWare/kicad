@@ -1,0 +1,7 @@
+number,name,type,shape,direction
+46,CMU_CLK0,input,clock,left
+36,CMU_CLK0,input,clock,left
+11,CMU_CLK1,input,clock,left
+37,CMU_CLK1,input,clock,left
+21,HFTAL_N,input,clock,left
+20,HFTAL_P,input,clock,left

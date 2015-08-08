@@ -1,0 +1,12 @@
+number,name,type,shape,direction
+36,OPAMP_N1,input,line,left
+32,OPAMP_N2,input,line,left
+46,OPAMP_OUT1ALT,output,line,right
+47,OPAMP_OUT1ALT,output,line,right
+48,OPAMP_OUT1ALT,output,line,right
+49,OPAMP_OUT1ALT,output,line,right
+30,OPAMP_OUT1ALT,output,line,right
+34,OPAMP_OUT2,output,line,right
+29,OPAMP_OUT2,output,line,right
+34,OPAMP_P1,input,line,left
+33,OPAMP_P2,input,line,left

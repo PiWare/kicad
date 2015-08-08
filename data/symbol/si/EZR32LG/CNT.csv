@@ -1,0 +1,11 @@
+number,name,type,shape,direction
+47,PCNT0_S0IN,input,line,left
+42,PCNT0_S0IN,input,line,left
+35,PCNT0_S0IN,input,line,left
+48,PCNT0_S1IN,input,line,left
+43,PCNT0_S1IN,input,line,left
+36,PCNT0_S1IN,input,line,left
+13,PCNT1_S0IN,input,line,left
+14,PCNT1_S1IN,input,line,left
+29,PCNT2_S0IN,input,line,left
+30,PCNT2_S1IN,input,line,left

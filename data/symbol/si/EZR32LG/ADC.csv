@@ -1,0 +1,9 @@
+number,name,type,shape,direction
+29,ADC_CH0,input,line,left
+30,ADC_CH1,input,line,left
+31,ADC_CH2,input,line,left
+32,ADC_CH3,input,line,left
+33,ADC_CH4,input,line,left
+34,ADC_CH5,input,line,left
+35,ADC_CH6,input,line,left
+36,ADC_CH7,input,line,left
