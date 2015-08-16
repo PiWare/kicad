@@ -14,7 +14,7 @@ PROJECT_SCRIPT = script/project.py
 RESISTOR_SCRIPT := script/devgen/resistor.py
 
 # Template/table based symbols
-TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
+SYMBOL_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/led.lib \
 	$(LIBRARY_ROOT)/transistor.lib \
 	$(LIBRARY_ROOT)/logic.lib \
@@ -26,8 +26,6 @@ TEMPLATE_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/inductor.lib \
 	$(LIBRARY_ROOT)/capacitor.lib \
 	$(LIBRARY_ROOT)/rf.lib
-
-TEMPLATE_LIBRARIES_CSV := $(patsubst $(LIBRARY_ROOT)/%.lib, $(CSV_ROOT)/%.csv, $(TEMPLATE_LIBRARIES))
 
 # Footprints
 FOOTPRINTS = $(FOOTPRINT_ROOT)/dip \
@@ -42,7 +40,7 @@ PROJECTS = library.pro \
 	template/basic/basic.pro \
 	template/phoenix_me_tbus/phoenix_me_tbus.pro
 
-all: $(FOOTPRINTS) $(LIBRARIES) $(TEMPLATE_LIBRARIES) $(PROJECTS) summary.txt README.md
+all: $(FOOTPRINTS) $(LIBRARIES) $(SYMBOL_LIBRARIES) $(PROJECTS) summary.txt README.md
 
 # Resistor
 RESISTOR_TABLE := data/device/resistor.csv
@@ -58,12 +56,12 @@ $(FOOTPRINTS): $(FOOTPRINT_ROOT)/%: data/footprint/%.csv
 	mkdir -p $@
 	$(FOOTPRINT_SCRIPT) --csv $< --output_path $@
 
-summary.txt: $(FOOTPRINTS) $(TEMPLATE_LIBRARIES)
-	$(SUMMARY_SCRIPT) --libs $(TEMPLATE_LIBRARIES) --footprints $(FOOTPRINTS) --output $@
+summary.txt: $(FOOTPRINTS) $(SYMBOL_LIBRARIES)
+	$(SUMMARY_SCRIPT) --libs $(SYMBOL_LIBRARIES) --footprints $(FOOTPRINTS) --output $@
 
 # Uncomment dependency on $(FOOTPRINTS), when it works!
-#library.pro: $(FOOTPRINTS) $(TEMPLATE_LIBRARIES)
-$(PROJECTS): $(TEMPLATE_LIBRARIES)
+#library.pro: $(FOOTPRINTS) $(SYMBOL_LIBRARIES)
+$(PROJECTS): $(SYMBOL_LIBRARIES)
 	$(PROJECT_SCRIPT) --template data/project.pro --symbol_path $(LIBRARY_ROOT) --footprint_path $(FOOTPRINT_ROOT) --project $@
 
 README.md: config
