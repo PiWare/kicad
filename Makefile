@@ -66,3 +66,8 @@ $(PROJECTS): $(SYMBOL_LIBRARIES)
 
 README.md: config
 	$(README_SCRIPT) --output $@
+
+.PHONY: clean
+	
+clean:
+	rm ${SYMBOL_LIBRARIES}
