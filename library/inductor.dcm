@@ -520,4 +520,436 @@ D Inductor 1000 uH, WE-PD3, Type X
 F /doc/inductor/Würth/WE-PD3-TypeX.pdf
 $ENDCMP
 #
+# 0402HP-1N0XJL_
+#
+$CMP 0402HP-1N0XJL_
+K inductor
+D 16.0
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-2N0XJL_
+#
+$CMP 0402HP-2N0XJL_
+K inductor
+D 15.2
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-2N2XJL_
+#
+$CMP 0402HP-2N2XJL_
+K inductor
+D 15.1
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-2N4X_L_
+#
+$CMP 0402HP-2N4X_L_
+K inductor
+D 14.0
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-2N7X_L_
+#
+$CMP 0402HP-2N7X_L_
+K inductor
+D 13.0
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-3N3X_L_
+#
+$CMP 0402HP-3N3X_L_
+K inductor
+D 12.8
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-3N6X_L_
+#
+$CMP 0402HP-3N6X_L_
+K inductor
+D 11.7
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-3N9X_L_
+#
+$CMP 0402HP-3N9X_L_
+K inductor
+D 9.50
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-4N3X_L_
+#
+$CMP 0402HP-4N3X_L_
+K inductor
+D 7.15
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-4N7X_L_
+#
+$CMP 0402HP-4N7X_L_
+K inductor
+D 6.85
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-5N1X_L_
+#
+$CMP 0402HP-5N1X_L_
+K inductor
+D 6.80
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-5N6X_L_
+#
+$CMP 0402HP-5N6X_L_
+K inductor
+D 6.50
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-6N2X_L_
+#
+$CMP 0402HP-6N2X_L_
+K inductor
+D 5.80
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-6N8X_L_
+#
+$CMP 0402HP-6N8X_L_
+K inductor
+D 5.80
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-7N5X_L_
+#
+$CMP 0402HP-7N5X_L_
+K inductor
+D 5.40
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-8N2X_L_
+#
+$CMP 0402HP-8N2X_L_
+K inductor
+D 5.40
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-8N7X_L_
+#
+$CMP 0402HP-8N7X_L_
+K inductor
+D 5.00
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-9N0X_L_
+#
+$CMP 0402HP-9N0X_L_
+K inductor
+D 5.00
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-9N5X_L_
+#
+$CMP 0402HP-9N5X_L_
+K inductor
+D 4.70
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-10NX_L_
+#
+$CMP 0402HP-10NX_L_
+K inductor
+D 4.70
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-11NX_L_
+#
+$CMP 0402HP-11NX_L_
+K inductor
+D 4.70
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-12NX_L_
+#
+$CMP 0402HP-12NX_L_
+K inductor
+D 4.40
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-13NX_L_
+#
+$CMP 0402HP-13NX_L_
+K inductor
+D 4.20
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-15NX_L_
+#
+$CMP 0402HP-15NX_L_
+K inductor
+D 3.90
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-16NX_L_
+#
+$CMP 0402HP-16NX_L_
+K inductor
+D 3.70
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-17NX_L_
+#
+$CMP 0402HP-17NX_L_
+K inductor
+D 3.70
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-18NX_L_
+#
+$CMP 0402HP-18NX_L_
+K inductor
+D 3.55
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-19NX_L_
+#
+$CMP 0402HP-19NX_L_
+K inductor
+D 3.50
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-20NX_L_
+#
+$CMP 0402HP-20NX_L_
+K inductor
+D 3.50
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-21NX_L_
+#
+$CMP 0402HP-21NX_L_
+K inductor
+D 1.70
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-22NX_L_
+#
+$CMP 0402HP-22NX_L_
+K inductor
+D 3.30
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-23NX_L_
+#
+$CMP 0402HP-23NX_L_
+K inductor
+D 3.30
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-24NX_L_
+#
+$CMP 0402HP-24NX_L_
+K inductor
+D 3.15
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-25NX_L_
+#
+$CMP 0402HP-25NX_L_
+K inductor
+D 3.15
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-26NX_L_
+#
+$CMP 0402HP-26NX_L_
+K inductor
+D 3.15
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-27NX_L_
+#
+$CMP 0402HP-27NX_L_
+K inductor
+D 3.20
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-30NX_L_
+#
+$CMP 0402HP-30NX_L_
+K inductor
+D 2.90
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-33NX_L_
+#
+$CMP 0402HP-33NX_L_
+K inductor
+D 2.80
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-36NX_L_
+#
+$CMP 0402HP-36NX_L_
+K inductor
+D 2.80
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-37NX_L_
+#
+$CMP 0402HP-37NX_L_
+K inductor
+D 2.70
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-39NX_L_
+#
+$CMP 0402HP-39NX_L_
+K inductor
+D 2.60
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-40NX_L_
+#
+$CMP 0402HP-40NX_L_
+K inductor
+D 2.60
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-43NX_L_
+#
+$CMP 0402HP-43NX_L_
+K inductor
+D 2.50
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-47NX_L_
+#
+$CMP 0402HP-47NX_L_
+K inductor
+D 2.40
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HP-51NX_L_
+#
+$CMP 0402HP-51NX_L_
+K inductor
+D 2.30
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HPH-56NX_L_
+#
+$CMP 0402HPH-56NX_L_
+K inductor
+D 2.07
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HPH-68NX_L_
+#
+$CMP 0402HPH-68NX_L_
+K inductor
+D 1.84
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HPH-82NX_L_
+#
+$CMP 0402HPH-82NX_L_
+K inductor
+D 1.75
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HPH-R10X_L_
+#
+$CMP 0402HPH-R10X_L_
+K inductor
+D 1.58
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HPH-R12X_L_
+#
+$CMP 0402HPH-R12X_L_
+K inductor
+D 1.25
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HPH-R15X_L_
+#
+$CMP 0402HPH-R15X_L_
+K inductor
+D 1.14
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HPH-R16X_L_
+#
+$CMP 0402HPH-R16X_L_
+K inductor
+D 1.65
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HPH-R18X_L_
+#
+$CMP 0402HPH-R18X_L_
+K inductor
+D 1.08
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
+# 0402HPH-R22X_L_
+#
+$CMP 0402HPH-R22X_L_
+K inductor
+D 0.96
+F /doc/inductor/CoilCraft/0402hp.pdf
+$ENDCMP
+#
 # End Doc Library

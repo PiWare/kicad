@@ -8,4 +8,164 @@ D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
 F doc/rf/EZR32LG/EZR230LG.pdf
 $ENDCMP
 #
+# EZR32LG230FF55G
+#
+$CMP EZR32LG230FF55G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG55G
+#
+$CMP EZR32LG230FG55G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE60G
+#
+$CMP EZR32LG230FE60G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF60G
+#
+$CMP EZR32LG230FF60G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG60G
+#
+$CMP EZR32LG230FG60G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE61G
+#
+$CMP EZR32LG230FE61G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF61G
+#
+$CMP EZR32LG230FF61G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG61G
+#
+$CMP EZR32LG230FG61G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE63G
+#
+$CMP EZR32LG230FE63G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF63G
+#
+$CMP EZR32LG230FF63G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG63G
+#
+$CMP EZR32LG230FG63G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE67G
+#
+$CMP EZR32LG230FE67G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF67G
+#
+$CMP EZR32LG230FF67G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG67G
+#
+$CMP EZR32LG230FG67G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE68G
+#
+$CMP EZR32LG230FE68G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF68G
+#
+$CMP EZR32LG230FF68G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG68G
+#
+$CMP EZR32LG230FG68G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE69G
+#
+$CMP EZR32LG230FE69G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF69G
+#
+$CMP EZR32LG230FF69G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG69G
+#
+$CMP EZR32LG230FG69G
+K rf, mcu, cortex-m3
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F doc/rf/EZR32LG/EZR230LG.pdf
+$ENDCMP
+#
 # End Doc Library

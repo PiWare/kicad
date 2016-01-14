@@ -100,7 +100,7 @@ if __name__ == "__main__":
                     if firstElement:
                         if not sym.setFields(data):
                         #   print "Error in ", template_file
-                            raise Exception("Error setting fields")
+                            raise Exception("Error setting fields %s"%(template_file))
                         #sym.setDescriptions(data)
                         firstElement = False
 

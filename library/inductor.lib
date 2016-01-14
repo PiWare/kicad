@@ -1106,4 +1106,922 @@ X ~ 2 250 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# 0402HP-1N0XJL_
+#
+DEF 0402HP-1N0XJL_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-1N0XJL_" 0 200 60 H I C CNN "Name"
+F2 "72" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "1.0 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-2N0XJL_
+#
+DEF 0402HP-2N0XJL_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-2N0XJL_" 0 200 60 H I C CNN "Name"
+F2 "85" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "2.0 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-2N2XJL_
+#
+DEF 0402HP-2N2XJL_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-2N2XJL_" 0 200 60 H I C CNN "Name"
+F2 "86" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "2.2 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-2N4X_L_
+#
+DEF 0402HP-2N4X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-2N4X_L_" 0 200 60 H I C CNN "Name"
+F2 "83" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "2.4 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-2N7X_L_
+#
+DEF 0402HP-2N7X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-2N7X_L_" 0 200 60 H I C CNN "Name"
+F2 "85" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "2.7 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-3N3X_L_
+#
+DEF 0402HP-3N3X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-3N3X_L_" 0 200 60 H I C CNN "Name"
+F2 "95" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "3.3 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-3N6X_L_
+#
+DEF 0402HP-3N6X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-3N6X_L_" 0 200 60 H I C CNN "Name"
+F2 "94" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "3.6 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-3N9X_L_
+#
+DEF 0402HP-3N9X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-3N9X_L_" 0 200 60 H I C CNN "Name"
+F2 "98" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "3.9 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-4N3X_L_
+#
+DEF 0402HP-4N3X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-4N3X_L_" 0 200 60 H I C CNN "Name"
+F2 "90" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "4.3 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-4N7X_L_
+#
+DEF 0402HP-4N7X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-4N7X_L_" 0 200 60 H I C CNN "Name"
+F2 "83" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "4.7 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-5N1X_L_
+#
+DEF 0402HP-5N1X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-5N1X_L_" 0 200 60 H I C CNN "Name"
+F2 "76" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "5.1 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-5N6X_L_
+#
+DEF 0402HP-5N6X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-5N6X_L_" 0 200 60 H I C CNN "Name"
+F2 "105" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "5.6 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-6N2X_L_
+#
+DEF 0402HP-6N2X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-6N2X_L_" 0 200 60 H I C CNN "Name"
+F2 "100" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "6.2 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-6N8X_L_
+#
+DEF 0402HP-6N8X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-6N8X_L_" 0 200 60 H I C CNN "Name"
+F2 "94" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "6.8 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-7N5X_L_
+#
+DEF 0402HP-7N5X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-7N5X_L_" 0 200 60 H I C CNN "Name"
+F2 "82" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "7.5 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-8N2X_L_
+#
+DEF 0402HP-8N2X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-8N2X_L_" 0 200 60 H I C CNN "Name"
+F2 "95" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "8.2 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-8N7X_L_
+#
+DEF 0402HP-8N7X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-8N7X_L_" 0 200 60 H I C CNN "Name"
+F2 "95" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "8.7 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-9N0X_L_
+#
+DEF 0402HP-9N0X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-9N0X_L_" 0 200 60 H I C CNN "Name"
+F2 "92" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "9.0 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-9N5X_L_
+#
+DEF 0402HP-9N5X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-9N5X_L_" 0 200 60 H I C CNN "Name"
+F2 "90" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "9.5 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-10NX_L_
+#
+DEF 0402HP-10NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-10NX_L_" 0 200 60 H I C CNN "Name"
+F2 "90" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "10 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-11NX_L_
+#
+DEF 0402HP-11NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-11NX_L_" 0 200 60 H I C CNN "Name"
+F2 "98" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "11 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-12NX_L_
+#
+DEF 0402HP-12NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-12NX_L_" 0 200 60 H I C CNN "Name"
+F2 "100" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "12 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-13NX_L_
+#
+DEF 0402HP-13NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-13NX_L_" 0 200 60 H I C CNN "Name"
+F2 "82" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "13 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-15NX_L_
+#
+DEF 0402HP-15NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-15NX_L_" 0 200 60 H I C CNN "Name"
+F2 "85" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "15 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-16NX_L_
+#
+DEF 0402HP-16NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-16NX_L_" 0 200 60 H I C CNN "Name"
+F2 "77" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "16 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-17NX_L_
+#
+DEF 0402HP-17NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-17NX_L_" 0 200 60 H I C CNN "Name"
+F2 "64" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "17 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-18NX_L_
+#
+DEF 0402HP-18NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-18NX_L_" 0 200 60 H I C CNN "Name"
+F2 "74" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "18 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-19NX_L_
+#
+DEF 0402HP-19NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-19NX_L_" 0 200 60 H I C CNN "Name"
+F2 "88" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "19 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-20NX_L_
+#
+DEF 0402HP-20NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-20NX_L_" 0 200 60 H I C CNN "Name"
+F2 "76" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "20 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-21NX_L_
+#
+DEF 0402HP-21NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-21NX_L_" 0 200 60 H I C CNN "Name"
+F2 "62" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "21 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-22NX_L_
+#
+DEF 0402HP-22NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-22NX_L_" 0 200 60 H I C CNN "Name"
+F2 "74" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "22 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-23NX_L_
+#
+DEF 0402HP-23NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-23NX_L_" 0 200 60 H I C CNN "Name"
+F2 "77" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "23 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-24NX_L_
+#
+DEF 0402HP-24NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-24NX_L_" 0 200 60 H I C CNN "Name"
+F2 "71" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "24 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-25NX_L_
+#
+DEF 0402HP-25NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-25NX_L_" 0 200 60 H I C CNN "Name"
+F2 "73" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "25 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-26NX_L_
+#
+DEF 0402HP-26NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-26NX_L_" 0 200 60 H I C CNN "Name"
+F2 "74" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "26 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-27NX_L_
+#
+DEF 0402HP-27NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-27NX_L_" 0 200 60 H I C CNN "Name"
+F2 "86" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "27 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-30NX_L_
+#
+DEF 0402HP-30NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-30NX_L_" 0 200 60 H I C CNN "Name"
+F2 "87" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "30 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-33NX_L_
+#
+DEF 0402HP-33NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-33NX_L_" 0 200 60 H I C CNN "Name"
+F2 "80" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "33 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-36NX_L_
+#
+DEF 0402HP-36NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-36NX_L_" 0 200 60 H I C CNN "Name"
+F2 "76" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "36 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-37NX_L_
+#
+DEF 0402HP-37NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-37NX_L_" 0 200 60 H I C CNN "Name"
+F2 "72" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "37 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-39NX_L_
+#
+DEF 0402HP-39NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-39NX_L_" 0 200 60 H I C CNN "Name"
+F2 "84" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "39 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-40NX_L_
+#
+DEF 0402HP-40NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-40NX_L_" 0 200 60 H I C CNN "Name"
+F2 "75" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "40 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-43NX_L_
+#
+DEF 0402HP-43NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-43NX_L_" 0 200 60 H I C CNN "Name"
+F2 "68" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "43 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-47NX_L_
+#
+DEF 0402HP-47NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-47NX_L_" 0 200 60 H I C CNN "Name"
+F2 "62" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "47 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HP-51NX_L_
+#
+DEF 0402HP-51NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HP-51NX_L_" 0 200 60 H I C CNN "Name"
+F2 "59" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "51 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HPH-56NX_L_
+#
+DEF 0402HPH-56NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HPH-56NX_L_" 0 200 60 H I C CNN "Name"
+F2 "64" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "56 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HPH-68NX_L_
+#
+DEF 0402HPH-68NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HPH-68NX_L_" 0 200 60 H I C CNN "Name"
+F2 "64" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "68 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HPH-82NX_L_
+#
+DEF 0402HPH-82NX_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HPH-82NX_L_" 0 200 60 H I C CNN "Name"
+F2 "—" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "82 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HPH-R10X_L_
+#
+DEF 0402HPH-R10X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HPH-R10X_L_" 0 200 60 H I C CNN "Name"
+F2 "—" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "100 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HPH-R12X_L_
+#
+DEF 0402HPH-R12X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HPH-R12X_L_" 0 200 60 H I C CNN "Name"
+F2 "—" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "120 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HPH-R15X_L_
+#
+DEF 0402HPH-R15X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HPH-R15X_L_" 0 200 60 H I C CNN "Name"
+F2 "—" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "150 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HPH-R16X_L_
+#
+DEF 0402HPH-R16X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HPH-R16X_L_" 0 200 60 H I C CNN "Name"
+F2 "—" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "160 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HPH-R18X_L_
+#
+DEF 0402HPH-R18X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HPH-R18X_L_" 0 200 60 H I C CNN "Name"
+F2 "—" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "180 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 0402HPH-R22X_L_
+#
+DEF 0402HPH-R22X_L_ L 0 0 N N 1 L N
+F0 "L" 0 0 60 H V C CNN "Reference"
+F1 "0402HPH-R22X_L_" 0 200 60 H I C CNN "Name"
+F2 "—" 0 300 60 H I C CNN "Footprint"
+F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
+F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F5 "220 nH" 0 100 60 H V C CNN "Value"
+DRAW
+S -150 50 150 -50 0 1 20 F
+C -140 90 10 0 1 20 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # End Library
