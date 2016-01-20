@@ -1,0 +1,7 @@
+name,number,type,shape,direction
+VIN,5,input,line,left
+#SHDN,4,input,inverted,left
+CB,1,output,line,right
+SW,6,output,line,right
+FB,3,input,line,right
+GND,2,powerInput,line,down

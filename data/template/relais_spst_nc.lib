@@ -3,11 +3,12 @@ EESchema-LIBRARY Version 2.3
 #
 # name
 #
-DEF ~name ref 0 0 Y N 1 F N
+DEF name ref 0 0 Y N 1 F N
 F0 "ref" -100 0 60 V V C CNN
-F1 "name" 100 0 60 V I C CNN
-F2 "footprint" 200 0 60 V I C CNN
-F3 "document" 300 0 60 V I C CNN
+F1 "name" 100 0 60 V V C CNN
+F2 "footprint" 300 0 60 V I C CNN
+F3 "document" 400 0 60 V I C CNN
+F4 "manufacturer" 200 0 60 V V C CNN "Manufacturer"
 DRAW
 P 2 0 1 0  0 -100  -25 100 N
 P 2 0 1 0  0 100  -25 100 N

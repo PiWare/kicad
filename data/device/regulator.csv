@@ -1,0 +1,2 @@
+symbol,generator,name,unit,reference,alias,document,footprint,description,keywords
+ti/LM284x,chip,LM2840,0,IC,LM2841 LM2842 LM2840-Q1 LM2841-Q1 LM2842-Q1,doc/regulator/ti/LM284x.pdf,sot23_6,100/300/600 mA 42V Input Step-Down DC/DC Regulator in Thin SOT,"regulator, step-down"

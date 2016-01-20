@@ -25,7 +25,9 @@ SYMBOL_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/resistor.lib \
 	$(LIBRARY_ROOT)/inductor.lib \
 	$(LIBRARY_ROOT)/capacitor.lib \
-	$(LIBRARY_ROOT)/rf.lib
+	$(LIBRARY_ROOT)/rf.lib \
+	$(LIBRARY_ROOT)/regulator.lib \
+	$(LIBRARY_ROOT)/relais.lib
 
 # Footprints
 FOOTPRINTS = $(FOOTPRINT_ROOT)/dip \

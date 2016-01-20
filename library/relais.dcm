@@ -1,0 +1,305 @@
+EESchema-DOCLIB Version 2.0
+#
+# 41.31.8.024
+#
+$CMP 41.31.8.024
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.31.8.115
+#
+$CMP 41.31.8.115
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.31.8.230
+#
+$CMP 41.31.8.230
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.31.9.005
+#
+$CMP 41.31.9.005
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.31.9.006
+#
+$CMP 41.31.9.006
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.31.9.012
+#
+$CMP 41.31.9.012
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.31.9.024
+#
+$CMP 41.31.9.024
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.31.9.048
+#
+$CMP 41.31.9.048
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.31.9.060
+#
+$CMP 41.31.9.060
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.31.9.110
+#
+$CMP 41.31.9.110
+K relais, single coil, spdt
+D Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A
+F doc/relais/Finder/S41.pdf
+$ENDCMP
+#
+# 41.52.8.024
+#
+$CMP 41.52.8.024
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.8.115
+#
+$CMP 41.52.8.115
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.8.230
+#
+$CMP 41.52.8.230
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.9.005
+#
+$CMP 41.52.9.005
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.9.006
+#
+$CMP 41.52.9.006
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.9.012
+#
+$CMP 41.52.9.012
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.9.024
+#
+$CMP 41.52.9.024
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.9.048
+#
+$CMP 41.52.9.048
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.9.060
+#
+$CMP 41.52.9.060
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.9.110
+#
+$CMP 41.52.9.110
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.8.024
+#
+$CMP 41.61.8.024
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.8.115
+#
+$CMP 41.61.8.115
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.8.230
+#
+$CMP 41.61.8.230
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.9.005
+#
+$CMP 41.61.9.005
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.9.006
+#
+$CMP 41.61.9.006
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.9.012
+#
+$CMP 41.61.9.012
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.9.024
+#
+$CMP 41.61.9.024
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.9.048
+#
+$CMP 41.61.9.048
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.9.060
+#
+$CMP 41.61.9.060
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.9.110
+#
+$CMP 41.61.9.110
+K relais, single coil, spdt
+D Low profile PCB relay, 5mm contact pin pitch, 1 Pole, 16 A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.6.024
+#
+$CMP 41.52.6.024
+K relais, single coil, spdt
+D Bistable low profile PCB relay, 2 Pole, 8A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.6.005
+#
+$CMP 41.52.6.005
+K relais, single coil, spdt
+D Bistable low profile PCB relay, 2 Pole, 8A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.52.6.012
+#
+$CMP 41.52.6.012
+K relais, single coil, spdt
+D Bistable low profile PCB relay, 2 Pole, 8A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.6.024
+#
+$CMP 41.61.6.024
+K relais, single coil, spdt
+D Bistable low profile PCB relay, 1 Pole, 16A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.6.005
+#
+$CMP 41.61.6.005
+K relais, single coil, spdt
+D Bistable low profile PCB relay, 1 Pole, 16A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 41.61.6.012
+#
+$CMP 41.61.6.012
+K relais, single coil, spdt
+D Bistable low profile PCB relay, 1 Pole, 16A
+F doc/relais/finder/S41.pdf
+$ENDCMP
+#
+# 40.31.8.024
+#
+$CMP 40.31.8.024
+K relais, single coil, spdt
+F doc/relais/finder/S40.pdf
+$ENDCMP
+#
+# 40.31.
+#
+$CMP 40.31.
+K relais, single coil, spdt
+F doc/relais/finder/S40.pdf
+$ENDCMP
+#
+# End Doc Library
