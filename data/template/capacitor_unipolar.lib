@@ -3,11 +3,15 @@ EESchema-LIBRARY Version 2.3
 #
 # name
 #
-DEF name ref 0 0 N N 1 F N
+DEF ~name ref 0 0 N N 1 F N
 F0 "ref" 50 100 60 H V L CNN
-F1 "name" 50 -100 60 H V L CNN
+F1 "name" 50 200 60 H I L CNN
 F2 "footprint" -100 0 60 V I C CNN
-F3 "document" 0 0 60 H I C CNN
+F3 "document" -200 0 60 V I C CNN
+F5 "$value" 50 0 60 H V L CNN "Value"
+F6 "$tolerance" 50 -200 60 H I L CNN "Tolerance"
+F9 "$voltage" 50 -100 60 H V L CNN "Voltage"
+ALIAS $alias
 DRAW
 S -50 -30 50 -10 0 1 10 F
 S -50 10 50 30 0 1 10 N
