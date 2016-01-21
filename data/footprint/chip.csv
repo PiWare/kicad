@@ -1,16 +1,16 @@
-generator,name,description,part_width,part_height,pad_width,pad_height,pad_distance
-chip,chip_resistor_0402,"Chip resistor 1005 [0402], RPL No. 100A",1.1,0.6,0.9,0.7,1.3
-chip,chip_resistor_0603,"Chip resistor 1608 [0603], RPL No. 101A",1.7,0.95,1.1,1,1.7
-chip,chip_resistor_0805,"Chip resistor 2012 [0805], RPL No. 102A",2.15,1.4,1.3,1.5,1.9
-chip,chip_resistor_1206,"Chip resistor 3216 [1206], RPL No. 103A",3.35,1.75,1.6,1.8,2.8
-chip,chip_resistor_1210,"Chip resistor 3225 [1210], RPL No. 104A",3.35,2.64,1.6,2.7,2.8
-chip,chip_resistor_2010,"Chip resistor 5025 [2010], RPL No. 105A",5.15,2.65,1.8,2.7,4.4
-chip,chip_resistor_2512,"Chip resistor 6332 [2512], RPL No. 106A",6.45,3.35,1.8,3.2,5.6
-chip,chip_capacitor_0402,"Chip capacitor 1005 [0402], RPL No. 130A",1.1,0.6,0.9,0.7,1.3
-chip,chip_capacitor_0504,"Chip capacitor 1310 [0504], RPL No. 131A",1.32,1.27,1,1.3,1.4
-chip,chip_capacitor_0603,"Chip capacitor 1608 [0603], RPL No. 132A",1.75,0.95,1.1,1,1.7
-chip,chip_capacitor_0805,"Chip capacitor 2012 [0805], RPL No. 133A",2.2,1.45,1.3,1.5,1.9
-chip,chip_capacitor_1206,"Chip capacitor 3216 [1206], RPL No. 134A",3.4,1.8,1.6,1.8,2.8
-chip,chip_capacitor_1210,"Chip capacitor 3225 [1210], RPL No. 135A",3.4,2.7,1.6,2.7,2.8
-chip,chip_capacitor_1812,"Chip capacitor 4532 [1812], RPL No. 136A",4.8,3.4,1.9,3.4,3.9
-chip,chip_capacitor_1825,"Chip capacitor 4564 [1825], RPL No. 137A",4.8,6.8,1.9,6.8,3.9
+generator,name,description,tags,package_width,package_height,pad_width,pad_height,pad_distance
+chip,chip_resistor_0402,"Chip resistor 1005 [0402], RPL No. 100A","chip, 0402",1.1,0.6,0.9,0.7,1.3
+chip,chip_resistor_0603,"Chip resistor 1608 [0603], RPL No. 101A","chip, 0603",1.7,0.95,1.1,1,1.7
+chip,chip_resistor_0805,"Chip resistor 2012 [0805], RPL No. 102A","chip, 0805",2.15,1.4,1.3,1.5,1.9
+chip,chip_resistor_1206,"Chip resistor 3216 [1206], RPL No. 103A","chip, 1206",3.35,1.75,1.6,1.8,2.8
+chip,chip_resistor_1210,"Chip resistor 3225 [1210], RPL No. 104A","chip, 1210",3.35,2.64,1.6,2.7,2.8
+chip,chip_resistor_2010,"Chip resistor 5025 [2010], RPL No. 105A","chip, 2010",5.15,2.65,1.8,2.7,4.4
+chip,chip_resistor_2512,"Chip resistor 6332 [2512], RPL No. 106A","chip, 2512",6.45,3.35,1.8,3.2,5.6
+chip,chip_capacitor_0402,"Chip capacitor 1005 [0402], RPL No. 130A","chip, 0402",1.1,0.6,0.9,0.7,1.3
+chip,chip_capacitor_0504,"Chip capacitor 1310 [0504], RPL No. 131A","chip, 0504",1.32,1.27,1,1.3,1.4
+chip,chip_capacitor_0603,"Chip capacitor 1608 [0603], RPL No. 132A","chip, 0603",1.75,0.95,1.1,1,1.7
+chip,chip_capacitor_0805,"Chip capacitor 2012 [0805], RPL No. 133A","chip, 0805",2.2,1.45,1.3,1.5,1.9
+chip,chip_capacitor_1206,"Chip capacitor 3216 [1206], RPL No. 134A","chip, 1206",3.4,1.8,1.6,1.8,2.8
+chip,chip_capacitor_1210,"Chip capacitor 3225 [1210], RPL No. 135A","chip, 1210",3.4,2.7,1.6,2.7,2.8
+chip,chip_capacitor_1812,"Chip capacitor 4532 [1812], RPL No. 136A","chip, 1812",4.8,3.4,1.9,3.4,3.9
+chip,chip_capacitor_1825,"Chip capacitor 4564 [1825], RPL No. 137A","chip, 1825",4.8,6.8,1.9,6.8,3.9

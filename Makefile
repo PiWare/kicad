@@ -34,7 +34,8 @@ FOOTPRINTS = $(FOOTPRINT_ROOT)/dip \
 	$(FOOTPRINT_ROOT)/soic \
 	$(FOOTPRINT_ROOT)/plcc \
 	$(FOOTPRINT_ROOT)/pqfp \
-	$(FOOTPRINT_ROOT)/sqfp
+	$(FOOTPRINT_ROOT)/sqfp \
+	$(FOOTPRINT_ROOT)/chip
 
 # Project files/templates
 PROJECTS = library.pro \
