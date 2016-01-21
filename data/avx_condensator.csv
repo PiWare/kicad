@@ -22,7 +22,7 @@ WVDC,10,10,16,25,50,6.3,10,16,25,50,6.3,10,16,25,50,100,200,6.3,10,16,25,50,100,
 0.047uF,,,,,,,C,C,C,,,,G,G,G,,,,J,J,J,J,N,,,J,J,J,J,J,M,,J,J,J,J,J,J,Q,,K,K,K,K,Z,M,M,M,,X,X,X,X,M,P,P
 0.068uF,,,,,,,C,C,C,,,,G,G,G,,,,J,J,J,J,N,,,J,J,J,J,J,P,,J,J,J,J,J,M,Q,,K,K,K,K,Z,M,M,M,,X,X,X,X,M,P,P
 0.1uF,,,,,,,C,C,C,,,G,G,G,G,,,,J,J,J,J,N,,,J,J,J,J,M,P,,J,J,J,J,J,M,,,K,K,K,K,Z,M,M,M,,X,X,X,X,M,P,P
-0.015uF,,,,,,,,,,,G,G,G,G,,,,,J,J,J,N,N,,,J,J,J,J,Q,,,J,J,J,J,M,Z,,,K,K,K,P,Z,M,M,M,,X,X,X,X,M,P,X
+0.15uF,,,,,,,,,,,G,G,G,G,,,,,J,J,J,N,N,,,J,J,J,J,Q,,,J,J,J,J,M,Z,,,K,K,K,P,Z,M,M,M,,X,X,X,X,M,P,X
 0.22uF,,,,,,,,,,,G,G,J,J,,,,,J,J,N,N,N,,,J,J,J,J,Q,,,J,J,J,J,P,Z,,,K,K,K,P,,M,M,M,,X,X,X,X,M,P,X
 0.33uF,,,,,,,,,,,J,J,J,J,,,,,N,N,N,N,N,,,J,J,M,P,Q,,,J,J,J,J,Q,,,,K,K,M,X,,M,M,,,X,X,X,X,M,P,X
 0.47uF,,,,,,,,,,,J,J,J,J,,,,,N,N,N,N,N,,,M,M,M,P,Q,,,M,M,M,M,Q,,,,K,K,P,,,M,M,,,X,X,X,X,M,P,X

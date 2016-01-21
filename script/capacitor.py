@@ -36,39 +36,40 @@ from math import log,floor,pow
 
 avxVoltageCode = {
     "4" : "4",
-"6.3"  : "6" ,
-"10"  : "Z" ,
-"16"  : "Y" ,
-"25"  : "3" ,
-"35"  : "D" ,
-"50"  : "5" ,
-"100"  : "1" ,
-"200"  : "2" ,
-"500"  : "7"
+    "6.3"  : "6" ,
+    "10"  : "Z" ,
+    "16"  : "Y" ,
+    "25"  : "3" ,
+    "35"  : "D" ,
+    "50"  : "5" ,
+    "100"  : "1" ,
+    "200"  : "2" ,
+    "500"  : "7"
 }
+
 factorMap = {
     "pF": 1,
     "nF": 1000,
     "uF": 1000000
 }
 
-decadeMap = {
-    0 : "pF",
-    1 : "nF",
-    2 : "uF"
-}
-
 def makeValueCodeAndText(value):
+    char = ['p', 'n', 'u']
+
+    pos = 0
+    v = value
+    while v >= 1000 and pos < 2:
+        v /= 1000
+        pos += 1
+    valueText = str(v).rstrip("0").replace(".", char[pos])
+
     decimals = floor(log(value)/log(10))
-    valueCode = ""
     if decimals <= 0.0:
         valueCode = ("%s"%(value)).replace(".","R")
-        valueText = "%s pF"%(value)
     else:
         valueCode = "%i%i"%((int(value) / pow(10,decimals-1)),int( decimals-1))
-        base = floor(decimals/3)
-        valueText = "%s%s"%(int(value)/pow(10,base*3),decadeMap[base])
-    return (valueCode,valueText)
+
+    return (valueCode, valueText)
 
 class CapacitorTableGenerator:
     def __init__(self):
@@ -89,18 +90,18 @@ class CapacitorTableGenerator:
                 value = row[0]
                 v = float(value[:-2])*factorMap[value[-2:]]
                 valueCode, valueText = makeValueCodeAndText(v)
+
                 for thick,WVDC,pkg in zip(row[1:],voltage,packageList):
-                    alias = "%s%s%s%s"%(pkg,avxVoltageCode[WVDC],dielectricCode,valueCode)
+                    alias = "%s%s%s%s"%(pkg, avxVoltageCode[WVDC], dielectricCode, valueCode)
                     pkg = "{:0>4}".format(pkg)
                     if thick != "":
-                        partId = "capacitor_{:}_{:}_chip_{:}".format(valueText,WVDC,pkg)
+                        partId = "capacitor_{:}_{:}V_chip_{:}".format(valueText, WVDC, pkg)
+                    #   partId = "capacitor_{:}_{:}V_{:}_chip_{:}".format(valueText, WVDC, dielectricCode, pkg)
                         print partId
                         if not partId in self.parts:
-                            self.parts[partId] = ("capacitor,%s,C,chip_capacitor_%s,Capacitor %s 5%% %sV,\"capacitor,smd\",1,2,%s,5%%,%sV"%(partId.replace(" ","_"),pkg,valueText,WVDC,value,WVDC),[alias])
+                            self.parts[partId] = ("capacitor,%s,C,chip_capacitor_%s,Capacitor %s 5%% %sV,\"capacitor,smd\",1,2,%s,5%%,%sV"%(partId.replace(" ","_"), pkg, valueText, WVDC, valueText, WVDC),[alias])
                         else:
                             self.parts[partId][1].append(alias)
-
-
 
     def MakeMurataGRMSerieSet(self,inFile):
         """ Output a new Capacitor set in the outFile.
@@ -121,7 +122,7 @@ class CapacitorTableGenerator:
             "1808" : "42",
             "1812" : "43",
             "2220" : "55"
-                   }
+        }
 
         mmToInchPkgMap = {
             "0.4x0.2" : "01005",
@@ -139,8 +140,7 @@ class CapacitorTableGenerator:
             "4.5x2.0" : "1808",
             "4.5x3.2" : "1812",
             "5.7x5.0" : "2220"
-                   }
-
+        }
 
         voltageMap = {
             "2.5": "0E",
@@ -198,18 +198,19 @@ class CapacitorTableGenerator:
                     values = map(lambda x : float(x) / 10.0, range(int(capVal*10),int(capVal*10)+9,1))
                 else:
                     values = [capVal]
+
                 for v in values:
                     valueCode, valueText = makeValueCodeAndText(v)
-                    for temparature,pkg,thick, WVDC in zip(row[1:],packages,thickness,voltage):
+                    for temparature, pkg, thick, WVDC in zip(row[1:], packages, thickness, voltage):
                         if temparature != "":
                             pkg = "{:0>4}".format(mmToInchPkgMap[pkg])
                             dimension = inchPkgToCodeMap[pkg]
                             height = thicknessCode[thick]
-                            alias="GRM%s%s%s%s%s"%(dimension,height,temperatureCode[temparature],voltageMap[WVDC],valueCode)
-                            partId = "capacitor_{:}_{:}_chip_{:}".format(valueText,WVDC,pkg)
+                            alias = "GRM%s%s%s%s%s"%(dimension, height, temperatureCode[temparature], voltageMap[WVDC], valueCode)
+                            partId = "capacitor_{:}_{:}V_chip_{:}".format(valueText, WVDC, pkg)
                             print partId
                             if not partId in self.parts:
-                                self.parts[partId] = ("capacitor,%s,C,chip_capacitor_%s,Capacitor %s 5%% %sV,\"capacitor,smd\",1,2,%s,5%%,%sV"%(partId.replace(" ","_"),pkg,valueText,WVDC,valueText,WVDC),[alias])
+                                self.parts[partId] = ("capacitor,%s,C,chip_capacitor_%s,Capacitor %s 5%% %sV,\"capacitor,smd\",1,2,%s,5%%,%sV"%(partId.replace(" ","_"), pkg, valueText, WVDC, valueText, WVDC), [alias])
                             else:
                                 self.parts[partId][1].append(alias)
 
