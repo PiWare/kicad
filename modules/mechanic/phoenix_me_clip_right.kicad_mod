@@ -19,4 +19,9 @@
   (fp_line (start -5 0.2) (end 5.45 0.2) (layer F.SilkS) (width 0.1))
   (pad "" thru_hole circle (at 2.5 0) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at -2.5 0) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (model /home/benjamin/kicad/3d/phoenix/2906911_mm.wrl
+    (at (xyz 0 0 0.049213))
+    (scale (xyz 0.393701 0.393701 0.393701))
+    (rotate (xyz 180 0 0))
+  )
 )
