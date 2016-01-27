@@ -30,12 +30,13 @@ SYMBOL_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/relais.lib
 
 # Footprints
-FOOTPRINTS = $(FOOTPRINT_ROOT)/dip \
-	$(FOOTPRINT_ROOT)/soic \
+FOOTPRINTS = $(FOOTPRINT_ROOT)/chip \
+	$(FOOTPRINT_ROOT)/dip \
 	$(FOOTPRINT_ROOT)/plcc \
 	$(FOOTPRINT_ROOT)/pqfp \
+	$(FOOTPRINT_ROOT)/soic \
 	$(FOOTPRINT_ROOT)/sqfp \
-	$(FOOTPRINT_ROOT)/chip
+	$(FOOTPRINT_ROOT)/wired_resistors
 
 # Project files/templates
 PROJECTS = library.pro \
@@ -71,6 +72,6 @@ README.md: config
 	$(README_SCRIPT) --output $@
 
 .PHONY: clean
-	
+
 clean:
 	rm ${SYMBOL_LIBRARIES}

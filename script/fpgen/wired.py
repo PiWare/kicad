@@ -1,4 +1,6 @@
 import fp
+import math
+#from math import sqrt
 from fp import cfg
 
 class wired(fp.base):
