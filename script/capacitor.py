@@ -235,7 +235,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     output = open(args.output, "w")
     # write the header
-    output.write("symbol,name,reference,footprint,description,keywords,1,2,value,tolerance,voltage\n")
+    output.write("symbol,name,reference,footprint,description,keywords,1,2,value,tolerance,voltage,alias\n")
     generator = CapacitorTableGenerator()
     if args.murata != None:
         for src in args.murata:
