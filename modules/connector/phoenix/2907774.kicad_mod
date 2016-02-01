@@ -1,0 +1,13 @@
+(module phoenix_con_4 (layer F.Cu) (tedit 56A8F315)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value phoenix_con_4 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model /home/benjamin/kicad/3d/phoenix/2907774.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.393700787 0.393700787 0.393700787))
+    (rotate (xyz 0 0 0))
+  )
+)
