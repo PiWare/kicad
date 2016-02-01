@@ -165,12 +165,28 @@ class CapacitorTableGenerator:
         }
 
         thicknessCode = {
-            "0.22" : 2,
-            "0.33" : 3,
-            "0.44" : 4,
-            "0.55" : 5,
-            "0.5": 5,
-            "0.9": 8
+            "0.22" : '2',
+            "0.33" : '3',
+            "0.44" : '4',
+            "0.55" : '5',
+            "0.5": '5',
+            "0.6": '6',
+            "0.7": '7',
+            "0.8": '8',
+            "0.85": '8',
+            "0.9": '9',
+            "0.95": '95',
+            "1.0": 'A',
+            "1.25": 'B',
+            "1.35": 'B',
+            "1.45": 'B',
+            "1.6": 'C',
+            "1.8": 'C',
+            "2.0": 'D',
+            "2.5": 'E',
+            "1.15": 'M',
+            "1.5": 'Q',
+            "2.8": 'S',
         }
 
         temperatureCode = {
@@ -206,6 +222,8 @@ class CapacitorTableGenerator:
                             pkg = "{:0>4}".format(mmToInchPkgMap[pkg])
                             dimension = inchPkgToCodeMap[pkg]
                             height = thicknessCode[thick]
+                            print WVDC
+                            print temparature
                             alias = "GRM%s%s%s%s%s"%(dimension, height, temperatureCode[temparature], voltageMap[WVDC], valueCode)
                             partId = "capacitor_{:}_{:}V_chip_{:}".format(valueText, WVDC, pkg)
                             print partId
