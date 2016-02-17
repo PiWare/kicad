@@ -1,0 +1,10867 @@
+EESchema-DOCLIB Version 2.0
+#
+# capacitor_2u2_100V_chip_1812
+#
+$CMP capacitor_2u2_100V_chip_1812
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# 18121A225
+#
+$CMP 18121A225
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# capacitor_220p_200V_chip_0603
+#
+$CMP capacitor_220p_200V_chip_0603
+K capacitor,smd
+D Capacitor 220pF 200V
+$ENDCMP
+#
+# 06032A221
+#
+$CMP 06032A221
+K capacitor,smd
+D Capacitor 220pF 200V
+$ENDCMP
+#
+# capacitor_10n_10V_chip_1210
+#
+$CMP capacitor_10n_10V_chip_1210
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# 1210ZA103
+#
+$CMP 1210ZA103
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# capacitor_33n_25V_chip_1812
+#
+$CMP capacitor_33n_25V_chip_1812
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# 18123A333
+#
+$CMP 18123A333
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# capacitor_1n5_25V_chip_0402
+#
+$CMP capacitor_1n5_25V_chip_0402
+K capacitor,smd
+D Capacitor 1n5F 25V
+$ENDCMP
+#
+# 04023A152
+#
+$CMP 04023A152
+K capacitor,smd
+D Capacitor 1n5F 25V
+$ENDCMP
+#
+# capacitor_100u_25V_chip_1210
+#
+$CMP capacitor_100u_25V_chip_1210
+K capacitor,smd
+D Capacitor 100uF 25V
+$ENDCMP
+#
+# 12103A107
+#
+$CMP 12103A107
+K capacitor,smd
+D Capacitor 100uF 25V
+$ENDCMP
+#
+# capacitor_150n_50V_chip_1206
+#
+$CMP capacitor_150n_50V_chip_1206
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# 12065A154
+#
+$CMP 12065A154
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# capacitor_1n_10V_chip_0805
+#
+$CMP capacitor_1n_10V_chip_0805
+K capacitor,smd
+D Capacitor 1nF 10V
+$ENDCMP
+#
+# 0805ZA1001
+#
+$CMP 0805ZA1001
+K capacitor,smd
+D Capacitor 1nF 10V
+$ENDCMP
+#
+# capacitor_68n_25V_chip_0805
+#
+$CMP capacitor_68n_25V_chip_0805
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# 08053A683
+#
+$CMP 08053A683
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# capacitor_680n_50V_chip_1210
+#
+$CMP capacitor_680n_50V_chip_1210
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# 12105A684
+#
+$CMP 12105A684
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# capacitor_1n5_100V_chip_0805
+#
+$CMP capacitor_1n5_100V_chip_0805
+K capacitor,smd
+D Capacitor 1n5F 100V
+$ENDCMP
+#
+# 08051A152
+#
+$CMP 08051A152
+K capacitor,smd
+D Capacitor 1n5F 100V
+$ENDCMP
+#
+# capacitor_680n_50V_chip_1825
+#
+$CMP capacitor_680n_50V_chip_1825
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# 18255A684
+#
+$CMP 18255A684
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# capacitor_10n_500V_chip_1206
+#
+$CMP capacitor_10n_500V_chip_1206
+K capacitor,smd
+D Capacitor 10nF 500V
+$ENDCMP
+#
+# 12067A103
+#
+$CMP 12067A103
+K capacitor,smd
+D Capacitor 10nF 500V
+$ENDCMP
+#
+# capacitor_220n_50V_chip_2220
+#
+$CMP capacitor_220n_50V_chip_2220
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# 22205A224
+#
+$CMP 22205A224
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# capacitor_3n3_16V_chip_0402
+#
+$CMP capacitor_3n3_16V_chip_0402
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# 0402YA332
+#
+$CMP 0402YA332
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# capacitor_470n_10V_chip_1206
+#
+$CMP capacitor_470n_10V_chip_1206
+K capacitor,smd
+D Capacitor 470nF 10V
+$ENDCMP
+#
+# 1206ZA474
+#
+$CMP 1206ZA474
+K capacitor,smd
+D Capacitor 470nF 10V
+$ENDCMP
+#
+# capacitor_220n_50V_chip_2225
+#
+$CMP capacitor_220n_50V_chip_2225
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# 22255A224
+#
+$CMP 22255A224
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# capacitor_220n_200V_chip_1812
+#
+$CMP capacitor_220n_200V_chip_1812
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# 18122A224
+#
+$CMP 18122A224
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# capacitor_6n8_16V_chip_1210
+#
+$CMP capacitor_6n8_16V_chip_1210
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# 1210YA682
+#
+$CMP 1210YA682
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# capacitor_100n_10V_chip_0805
+#
+$CMP capacitor_100n_10V_chip_0805
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# 0805ZA104
+#
+$CMP 0805ZA104
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# capacitor_470n_16V_chip_0805
+#
+$CMP capacitor_470n_16V_chip_0805
+K capacitor,smd
+D Capacitor 470nF 16V
+$ENDCMP
+#
+# 0805YA474
+#
+$CMP 0805YA474
+K capacitor,smd
+D Capacitor 470nF 16V
+$ENDCMP
+#
+# capacitor_1n5_500V_chip_1206
+#
+$CMP capacitor_1n5_500V_chip_1206
+K capacitor,smd
+D Capacitor 1n5F 500V
+$ENDCMP
+#
+# 12067A152
+#
+$CMP 12067A152
+K capacitor,smd
+D Capacitor 1n5F 500V
+$ENDCMP
+#
+# capacitor_47n_200V_chip_2225
+#
+$CMP capacitor_47n_200V_chip_2225
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# 22252A473
+#
+$CMP 22252A473
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# capacitor_220n_100V_chip_2225
+#
+$CMP capacitor_220n_100V_chip_2225
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# 22251A224
+#
+$CMP 22251A224
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# capacitor_15n_25V_chip_0402
+#
+$CMP capacitor_15n_25V_chip_0402
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# 04023A153
+#
+$CMP 04023A153
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# capacitor_470p_200V_chip_0805
+#
+$CMP capacitor_470p_200V_chip_0805
+K capacitor,smd
+D Capacitor 470pF 200V
+$ENDCMP
+#
+# 08052A471
+#
+$CMP 08052A471
+K capacitor,smd
+D Capacitor 470pF 200V
+$ENDCMP
+#
+# capacitor_33n_10V_chip_0402
+#
+$CMP capacitor_33n_10V_chip_0402
+K capacitor,smd
+D Capacitor 33nF 10V
+$ENDCMP
+#
+# 0402ZA333
+#
+$CMP 0402ZA333
+K capacitor,smd
+D Capacitor 33nF 10V
+$ENDCMP
+#
+# capacitor_330n_16V_chip_0603
+#
+$CMP capacitor_330n_16V_chip_0603
+K capacitor,smd
+D Capacitor 330nF 16V
+$ENDCMP
+#
+# 0603YA334
+#
+$CMP 0603YA334
+K capacitor,smd
+D Capacitor 330nF 16V
+$ENDCMP
+#
+# capacitor_2u2_50V_chip_1210
+#
+$CMP capacitor_2u2_50V_chip_1210
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# 12105A225
+#
+$CMP 12105A225
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# capacitor_2u2_100V_chip_2220
+#
+$CMP capacitor_2u2_100V_chip_2220
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# 22201A225
+#
+$CMP 22201A225
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# capacitor_100n_100V_chip_1812
+#
+$CMP capacitor_100n_100V_chip_1812
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# 18121A104
+#
+$CMP 18121A104
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# capacitor_2n2_10V_chip_0402
+#
+$CMP capacitor_2n2_10V_chip_0402
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# 0402ZA222
+#
+$CMP 0402ZA222
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# capacitor_680n_16V_chip_1210
+#
+$CMP capacitor_680n_16V_chip_1210
+K capacitor,smd
+D Capacitor 680nF 16V
+$ENDCMP
+#
+# 1210YA684
+#
+$CMP 1210YA684
+K capacitor,smd
+D Capacitor 680nF 16V
+$ENDCMP
+#
+# capacitor_2u2_100V_chip_2225
+#
+$CMP capacitor_2u2_100V_chip_2225
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# 22251A225
+#
+$CMP 22251A225
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# capacitor_1u_50V_chip_0805
+#
+$CMP capacitor_1u_50V_chip_0805
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# 08055A1004
+#
+$CMP 08055A1004
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# capacitor_470p_100V_chip_0805
+#
+$CMP capacitor_470p_100V_chip_0805
+K capacitor,smd
+D Capacitor 470pF 100V
+$ENDCMP
+#
+# 08051A471
+#
+$CMP 08051A471
+K capacitor,smd
+D Capacitor 470pF 100V
+$ENDCMP
+#
+# capacitor_22u_10V_chip_1206
+#
+$CMP capacitor_22u_10V_chip_1206
+K capacitor,smd
+D Capacitor 22uF 10V
+$ENDCMP
+#
+# 1206ZA226
+#
+$CMP 1206ZA226
+K capacitor,smd
+D Capacitor 22uF 10V
+$ENDCMP
+#
+# capacitor_3n3_10V_chip_0402
+#
+$CMP capacitor_3n3_10V_chip_0402
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# 0402ZA332
+#
+$CMP 0402ZA332
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# capacitor_10n_200V_chip_1825
+#
+$CMP capacitor_10n_200V_chip_1825
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# 18252A103
+#
+$CMP 18252A103
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# capacitor_68n_200V_chip_1812
+#
+$CMP capacitor_68n_200V_chip_1812
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# 18122A683
+#
+$CMP 18122A683
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# capacitor_330p_50V_chip_0603
+#
+$CMP capacitor_330p_50V_chip_0603
+K capacitor,smd
+D Capacitor 330pF 50V
+$ENDCMP
+#
+# 06035A331
+#
+$CMP 06035A331
+K capacitor,smd
+D Capacitor 330pF 50V
+$ENDCMP
+#
+# capacitor_10n_25V_chip_0402
+#
+$CMP capacitor_10n_25V_chip_0402
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# 04023A103
+#
+$CMP 04023A103
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# capacitor_10u_10V_chip_1210
+#
+$CMP capacitor_10u_10V_chip_1210
+K capacitor,smd
+D Capacitor 10uF 10V
+$ENDCMP
+#
+# 1210ZA106
+#
+$CMP 1210ZA106
+K capacitor,smd
+D Capacitor 10uF 10V
+$ENDCMP
+#
+# capacitor_680p_16V_chip_0805
+#
+$CMP capacitor_680p_16V_chip_0805
+K capacitor,smd
+D Capacitor 680pF 16V
+$ENDCMP
+#
+# 0805YA681
+#
+$CMP 0805YA681
+K capacitor,smd
+D Capacitor 680pF 16V
+$ENDCMP
+#
+# capacitor_47n_50V_chip_1210
+#
+$CMP capacitor_47n_50V_chip_1210
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# 12105A473
+#
+$CMP 12105A473
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# capacitor_33n_25V_chip_1210
+#
+$CMP capacitor_33n_25V_chip_1210
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# 12103A333
+#
+$CMP 12103A333
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# capacitor_680n_25V_chip_1210
+#
+$CMP capacitor_680n_25V_chip_1210
+K capacitor,smd
+D Capacitor 680nF 25V
+$ENDCMP
+#
+# 12103A684
+#
+$CMP 12103A684
+K capacitor,smd
+D Capacitor 680nF 25V
+$ENDCMP
+#
+# capacitor_220n_16V_chip_0805
+#
+$CMP capacitor_220n_16V_chip_0805
+K capacitor,smd
+D Capacitor 220nF 16V
+$ENDCMP
+#
+# 0805YA224
+#
+$CMP 0805YA224
+K capacitor,smd
+D Capacitor 220nF 16V
+$ENDCMP
+#
+# capacitor_68n_16V_chip_0402
+#
+$CMP capacitor_68n_16V_chip_0402
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# 0402YA683
+#
+$CMP 0402YA683
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# capacitor_1u_10V_chip_1206
+#
+$CMP capacitor_1u_10V_chip_1206
+K capacitor,smd
+D Capacitor 1uF 10V
+$ENDCMP
+#
+# 1206ZA1004
+#
+$CMP 1206ZA1004
+K capacitor,smd
+D Capacitor 1uF 10V
+$ENDCMP
+#
+# capacitor_22n_50V_chip_1210
+#
+$CMP capacitor_22n_50V_chip_1210
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# 12105A223
+#
+$CMP 12105A223
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# capacitor_15n_50V_chip_2220
+#
+$CMP capacitor_15n_50V_chip_2220
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# 22205A153
+#
+$CMP 22205A153
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# capacitor_15n_50V_chip_2225
+#
+$CMP capacitor_15n_50V_chip_2225
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# 22255A153
+#
+$CMP 22255A153
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# capacitor_1n_16V_chip_0402
+#
+$CMP capacitor_1n_16V_chip_0402
+K capacitor,smd
+D Capacitor 1nF 16V
+$ENDCMP
+#
+# 0402YA1001
+#
+$CMP 0402YA1001
+K capacitor,smd
+D Capacitor 1nF 16V
+$ENDCMP
+#
+# capacitor_100p_50V_chip_0201
+#
+$CMP capacitor_100p_50V_chip_0201
+K capacitor,smd
+D Capacitor 100pF 50V
+$ENDCMP
+#
+# 02015A101
+#
+$CMP 02015A101
+K capacitor,smd
+D Capacitor 100pF 50V
+$ENDCMP
+#
+# capacitor_22n_16V_chip_1206
+#
+$CMP capacitor_22n_16V_chip_1206
+K capacitor,smd
+D Capacitor 22nF 16V
+$ENDCMP
+#
+# 1206YA223
+#
+$CMP 1206YA223
+K capacitor,smd
+D Capacitor 22nF 16V
+$ENDCMP
+#
+# capacitor_22n_200V_chip_1206
+#
+$CMP capacitor_22n_200V_chip_1206
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# 12062A223
+#
+$CMP 12062A223
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# capacitor_47n_10V_chip_1206
+#
+$CMP capacitor_47n_10V_chip_1206
+K capacitor,smd
+D Capacitor 47nF 10V
+$ENDCMP
+#
+# 1206ZA473
+#
+$CMP 1206ZA473
+K capacitor,smd
+D Capacitor 47nF 10V
+$ENDCMP
+#
+# capacitor_15n_10V_chip_0402
+#
+$CMP capacitor_15n_10V_chip_0402
+K capacitor,smd
+D Capacitor 15nF 10V
+$ENDCMP
+#
+# 0402ZA153
+#
+$CMP 0402ZA153
+K capacitor,smd
+D Capacitor 15nF 10V
+$ENDCMP
+#
+# capacitor_3n3_10V_chip_0201
+#
+$CMP capacitor_3n3_10V_chip_0201
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# 0201ZA332
+#
+$CMP 0201ZA332
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# capacitor_100n_50V_chip_0603
+#
+$CMP capacitor_100n_50V_chip_0603
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# 06035A104
+#
+$CMP 06035A104
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# capacitor_22u_16V_chip_1210
+#
+$CMP capacitor_22u_16V_chip_1210
+K capacitor,smd
+D Capacitor 22uF 16V
+$ENDCMP
+#
+# 1210YA226
+#
+$CMP 1210YA226
+K capacitor,smd
+D Capacitor 22uF 16V
+$ENDCMP
+#
+# capacitor_100u_16V_chip_1210
+#
+$CMP capacitor_100u_16V_chip_1210
+K capacitor,smd
+D Capacitor 100uF 16V
+$ENDCMP
+#
+# 1210YA107
+#
+$CMP 1210YA107
+K capacitor,smd
+D Capacitor 100uF 16V
+$ENDCMP
+#
+# capacitor_330n_200V_chip_2220
+#
+$CMP capacitor_330n_200V_chip_2220
+K capacitor,smd
+D Capacitor 330nF 200V
+$ENDCMP
+#
+# 22202A334
+#
+$CMP 22202A334
+K capacitor,smd
+D Capacitor 330nF 200V
+$ENDCMP
+#
+# capacitor_220n_6.3V_chip_0603
+#
+$CMP capacitor_220n_6.3V_chip_0603
+K capacitor,smd
+D Capacitor 220nF 6.3V
+$ENDCMP
+#
+# 06036A224
+#
+$CMP 06036A224
+K capacitor,smd
+D Capacitor 220nF 6.3V
+$ENDCMP
+#
+# capacitor_1n5_25V_chip_1210
+#
+$CMP capacitor_1n5_25V_chip_1210
+K capacitor,smd
+D Capacitor 1n5F 25V
+$ENDCMP
+#
+# 12103A152
+#
+$CMP 12103A152
+K capacitor,smd
+D Capacitor 1n5F 25V
+$ENDCMP
+#
+# capacitor_22n_500V_chip_1210
+#
+$CMP capacitor_22n_500V_chip_1210
+K capacitor,smd
+D Capacitor 22nF 500V
+$ENDCMP
+#
+# 12107A223
+#
+$CMP 12107A223
+K capacitor,smd
+D Capacitor 22nF 500V
+$ENDCMP
+#
+# capacitor_22n_50V_chip_1825
+#
+$CMP capacitor_22n_50V_chip_1825
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# 18255A223
+#
+$CMP 18255A223
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# capacitor_680n_100V_chip_1206
+#
+$CMP capacitor_680n_100V_chip_1206
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# 12061A684
+#
+$CMP 12061A684
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# capacitor_10u_50V_chip_1210
+#
+$CMP capacitor_10u_50V_chip_1210
+K capacitor,smd
+D Capacitor 10uF 50V
+$ENDCMP
+#
+# 12105A106
+#
+$CMP 12105A106
+K capacitor,smd
+D Capacitor 10uF 50V
+$ENDCMP
+#
+# capacitor_100n_50V_chip_1825
+#
+$CMP capacitor_100n_50V_chip_1825
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# 18255A104
+#
+$CMP 18255A104
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# capacitor_15n_50V_chip_1210
+#
+$CMP capacitor_15n_50V_chip_1210
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# 12105A153
+#
+$CMP 12105A153
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# capacitor_10n_16V_chip_0805
+#
+$CMP capacitor_10n_16V_chip_0805
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# 0805YA103
+#
+$CMP 0805YA103
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# capacitor_15n_10V_chip_0805
+#
+$CMP capacitor_15n_10V_chip_0805
+K capacitor,smd
+D Capacitor 15nF 10V
+$ENDCMP
+#
+# 0805ZA153
+#
+$CMP 0805ZA153
+K capacitor,smd
+D Capacitor 15nF 10V
+$ENDCMP
+#
+# capacitor_10u_25V_chip_1812
+#
+$CMP capacitor_10u_25V_chip_1812
+K capacitor,smd
+D Capacitor 10uF 25V
+$ENDCMP
+#
+# 18123A106
+#
+$CMP 18123A106
+K capacitor,smd
+D Capacitor 10uF 25V
+$ENDCMP
+#
+# capacitor_3n3_10V_chip_1210
+#
+$CMP capacitor_3n3_10V_chip_1210
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# 1210ZA332
+#
+$CMP 1210ZA332
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# capacitor_4n7_200V_chip_1210
+#
+$CMP capacitor_4n7_200V_chip_1210
+K capacitor,smd
+D Capacitor 4n7F 200V
+$ENDCMP
+#
+# 12102A472
+#
+$CMP 12102A472
+K capacitor,smd
+D Capacitor 4n7F 200V
+$ENDCMP
+#
+# capacitor_22u_50V_chip_1210
+#
+$CMP capacitor_22u_50V_chip_1210
+K capacitor,smd
+D Capacitor 22uF 50V
+$ENDCMP
+#
+# 12105A226
+#
+$CMP 12105A226
+K capacitor,smd
+D Capacitor 22uF 50V
+$ENDCMP
+#
+# capacitor_680n_10V_chip_0805
+#
+$CMP capacitor_680n_10V_chip_0805
+K capacitor,smd
+D Capacitor 680nF 10V
+$ENDCMP
+#
+# 0805ZA684
+#
+$CMP 0805ZA684
+K capacitor,smd
+D Capacitor 680nF 10V
+$ENDCMP
+#
+# capacitor_150n_100V_chip_1825
+#
+$CMP capacitor_150n_100V_chip_1825
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# 18251A154
+#
+$CMP 18251A154
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# capacitor_10n_200V_chip_0805
+#
+$CMP capacitor_10n_200V_chip_0805
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# 08052A103
+#
+$CMP 08052A103
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# capacitor_680n_10V_chip_0603
+#
+$CMP capacitor_680n_10V_chip_0603
+K capacitor,smd
+D Capacitor 680nF 10V
+$ENDCMP
+#
+# 0603ZA684
+#
+$CMP 0603ZA684
+K capacitor,smd
+D Capacitor 680nF 10V
+$ENDCMP
+#
+# capacitor_150n_100V_chip_0805
+#
+$CMP capacitor_150n_100V_chip_0805
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# 08051A154
+#
+$CMP 08051A154
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# capacitor_330p_100V_chip_0603
+#
+$CMP capacitor_330p_100V_chip_0603
+K capacitor,smd
+D Capacitor 330pF 100V
+$ENDCMP
+#
+# 06031A331
+#
+$CMP 06031A331
+K capacitor,smd
+D Capacitor 330pF 100V
+$ENDCMP
+#
+# capacitor_470n_50V_chip_1206
+#
+$CMP capacitor_470n_50V_chip_1206
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# 12065A474
+#
+$CMP 12065A474
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# capacitor_1n5_10V_chip_0201
+#
+$CMP capacitor_1n5_10V_chip_0201
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# 0201ZA152
+#
+$CMP 0201ZA152
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# capacitor_10n_50V_chip_1825
+#
+$CMP capacitor_10n_50V_chip_1825
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# 18255A103
+#
+$CMP 18255A103
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# capacitor_680n_25V_chip_1812
+#
+$CMP capacitor_680n_25V_chip_1812
+K capacitor,smd
+D Capacitor 680nF 25V
+$ENDCMP
+#
+# 18123A684
+#
+$CMP 18123A684
+K capacitor,smd
+D Capacitor 680nF 25V
+$ENDCMP
+#
+# capacitor_680p_10V_chip_0201
+#
+$CMP capacitor_680p_10V_chip_0201
+K capacitor,smd
+D Capacitor 680pF 10V
+$ENDCMP
+#
+# 0201ZA681
+#
+$CMP 0201ZA681
+K capacitor,smd
+D Capacitor 680pF 10V
+$ENDCMP
+#
+# capacitor_2n2_16V_chip_0805
+#
+$CMP capacitor_2n2_16V_chip_0805
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# 0805YA222
+#
+$CMP 0805YA222
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# capacitor_33n_50V_chip_1825
+#
+$CMP capacitor_33n_50V_chip_1825
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# 18255A333
+#
+$CMP 18255A333
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# capacitor_68n_100V_chip_2225
+#
+$CMP capacitor_68n_100V_chip_2225
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# 22251A683
+#
+$CMP 22251A683
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# capacitor_6n8_10V_chip_1206
+#
+$CMP capacitor_6n8_10V_chip_1206
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# 1206ZA682
+#
+$CMP 1206ZA682
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# capacitor_22n_500V_chip_2220
+#
+$CMP capacitor_22n_500V_chip_2220
+K capacitor,smd
+D Capacitor 22nF 500V
+$ENDCMP
+#
+# 22207A223
+#
+$CMP 22207A223
+K capacitor,smd
+D Capacitor 22nF 500V
+$ENDCMP
+#
+# capacitor_100n_200V_chip_1812
+#
+$CMP capacitor_100n_200V_chip_1812
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# 18122A104
+#
+$CMP 18122A104
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# capacitor_68n_100V_chip_2220
+#
+$CMP capacitor_68n_100V_chip_2220
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# 22201A683
+#
+$CMP 22201A683
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# capacitor_100n_50V_chip_2225
+#
+$CMP capacitor_100n_50V_chip_2225
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# 22255A104
+#
+$CMP 22255A104
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# capacitor_22n_25V_chip_0805
+#
+$CMP capacitor_22n_25V_chip_0805
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# 08053A223
+#
+$CMP 08053A223
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# capacitor_220p_100V_chip_0603
+#
+$CMP capacitor_220p_100V_chip_0603
+K capacitor,smd
+D Capacitor 220pF 100V
+$ENDCMP
+#
+# 06031A221
+#
+$CMP 06031A221
+K capacitor,smd
+D Capacitor 220pF 100V
+$ENDCMP
+#
+# capacitor_100n_200V_chip_1206
+#
+$CMP capacitor_100n_200V_chip_1206
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# 12062A104
+#
+$CMP 12062A104
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# capacitor_68n_500V_chip_2220
+#
+$CMP capacitor_68n_500V_chip_2220
+K capacitor,smd
+D Capacitor 68nF 500V
+$ENDCMP
+#
+# 22207A683
+#
+$CMP 22207A683
+K capacitor,smd
+D Capacitor 68nF 500V
+$ENDCMP
+#
+# capacitor_470n_50V_chip_2220
+#
+$CMP capacitor_470n_50V_chip_2220
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# 22205A474
+#
+$CMP 22205A474
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# capacitor_47u_10V_chip_1210
+#
+$CMP capacitor_47u_10V_chip_1210
+K capacitor,smd
+D Capacitor 47uF 10V
+$ENDCMP
+#
+# 1210ZA476
+#
+$CMP 1210ZA476
+K capacitor,smd
+D Capacitor 47uF 10V
+$ENDCMP
+#
+# capacitor_10n_50V_chip_1210
+#
+$CMP capacitor_10n_50V_chip_1210
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# 12105A103
+#
+$CMP 12105A103
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# capacitor_3n3_10V_chip_0805
+#
+$CMP capacitor_3n3_10V_chip_0805
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# 0805ZA332
+#
+$CMP 0805ZA332
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# capacitor_330p_10V_chip_0201
+#
+$CMP capacitor_330p_10V_chip_0201
+K capacitor,smd
+D Capacitor 330pF 10V
+$ENDCMP
+#
+# 0201ZA331
+#
+$CMP 0201ZA331
+K capacitor,smd
+D Capacitor 330pF 10V
+$ENDCMP
+#
+# capacitor_22n_100V_chip_1210
+#
+$CMP capacitor_22n_100V_chip_1210
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# 12101A223
+#
+$CMP 12101A223
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# capacitor_150n_16V_chip_1206
+#
+$CMP capacitor_150n_16V_chip_1206
+K capacitor,smd
+D Capacitor 150nF 16V
+$ENDCMP
+#
+# 1206YA154
+#
+$CMP 1206YA154
+K capacitor,smd
+D Capacitor 150nF 16V
+$ENDCMP
+#
+# capacitor_15n_200V_chip_1210
+#
+$CMP capacitor_15n_200V_chip_1210
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# 12102A153
+#
+$CMP 12102A153
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# capacitor_2n2_500V_chip_1206
+#
+$CMP capacitor_2n2_500V_chip_1206
+K capacitor,smd
+D Capacitor 2n2F 500V
+$ENDCMP
+#
+# 12067A222
+#
+$CMP 12067A222
+K capacitor,smd
+D Capacitor 2n2F 500V
+$ENDCMP
+#
+# capacitor_10n_25V_chip_1812
+#
+$CMP capacitor_10n_25V_chip_1812
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# 18123A103
+#
+$CMP 18123A103
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# capacitor_3n3_100V_chip_0805
+#
+$CMP capacitor_3n3_100V_chip_0805
+K capacitor,smd
+D Capacitor 3n3F 100V
+$ENDCMP
+#
+# 08051A332
+#
+$CMP 08051A332
+K capacitor,smd
+D Capacitor 3n3F 100V
+$ENDCMP
+#
+# capacitor_330n_25V_chip_1812
+#
+$CMP capacitor_330n_25V_chip_1812
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# 18123A334
+#
+$CMP 18123A334
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# capacitor_470n_50V_chip_2225
+#
+$CMP capacitor_470n_50V_chip_2225
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# 22255A474
+#
+$CMP 22255A474
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# capacitor_680p_25V_chip_0201
+#
+$CMP capacitor_680p_25V_chip_0201
+K capacitor,smd
+D Capacitor 680pF 25V
+$ENDCMP
+#
+# 02013A681
+#
+$CMP 02013A681
+K capacitor,smd
+D Capacitor 680pF 25V
+$ENDCMP
+#
+# capacitor_10u_50V_chip_2220
+#
+$CMP capacitor_10u_50V_chip_2220
+K capacitor,smd
+D Capacitor 10uF 50V
+$ENDCMP
+#
+# 22205A106
+#
+$CMP 22205A106
+K capacitor,smd
+D Capacitor 10uF 50V
+$ENDCMP
+#
+# capacitor_2u2_25V_chip_1812
+#
+$CMP capacitor_2u2_25V_chip_1812
+K capacitor,smd
+D Capacitor 2u2F 25V
+$ENDCMP
+#
+# 18123A225
+#
+$CMP 18123A225
+K capacitor,smd
+D Capacitor 2u2F 25V
+$ENDCMP
+#
+# capacitor_330p_25V_chip_0805
+#
+$CMP capacitor_330p_25V_chip_0805
+K capacitor,smd
+D Capacitor 330pF 25V
+$ENDCMP
+#
+# 08053A331
+#
+$CMP 08053A331
+K capacitor,smd
+D Capacitor 330pF 25V
+$ENDCMP
+#
+# capacitor_68n_25V_chip_1206
+#
+$CMP capacitor_68n_25V_chip_1206
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# 12063A683
+#
+$CMP 12063A683
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# capacitor_1n5_100V_chip_1206
+#
+$CMP capacitor_1n5_100V_chip_1206
+K capacitor,smd
+D Capacitor 1n5F 100V
+$ENDCMP
+#
+# 12061A152
+#
+$CMP 12061A152
+K capacitor,smd
+D Capacitor 1n5F 100V
+$ENDCMP
+#
+# capacitor_2u2_100V_chip_1210
+#
+$CMP capacitor_2u2_100V_chip_1210
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# 12101A225
+#
+$CMP 12101A225
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# capacitor_4u7_10V_chip_0805
+#
+$CMP capacitor_4u7_10V_chip_0805
+K capacitor,smd
+D Capacitor 4u7F 10V
+$ENDCMP
+#
+# 0805ZA475
+#
+$CMP 0805ZA475
+K capacitor,smd
+D Capacitor 4u7F 10V
+$ENDCMP
+#
+# capacitor_4n7_500V_chip_1210
+#
+$CMP capacitor_4n7_500V_chip_1210
+K capacitor,smd
+D Capacitor 4n7F 500V
+$ENDCMP
+#
+# 12107A472
+#
+$CMP 12107A472
+K capacitor,smd
+D Capacitor 4n7F 500V
+$ENDCMP
+#
+# capacitor_1u_100V_chip_1825
+#
+$CMP capacitor_1u_100V_chip_1825
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# 18251A1004
+#
+$CMP 18251A1004
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# capacitor_47n_16V_chip_0402
+#
+$CMP capacitor_47n_16V_chip_0402
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# 0402YA473
+#
+$CMP 0402YA473
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# capacitor_33n_25V_chip_0402
+#
+$CMP capacitor_33n_25V_chip_0402
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# 04023A333
+#
+$CMP 04023A333
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# capacitor_4n7_50V_chip_0805
+#
+$CMP capacitor_4n7_50V_chip_0805
+K capacitor,smd
+D Capacitor 4n7F 50V
+$ENDCMP
+#
+# 08055A472
+#
+$CMP 08055A472
+K capacitor,smd
+D Capacitor 4n7F 50V
+$ENDCMP
+#
+# capacitor_330n_6.3V_chip_0603
+#
+$CMP capacitor_330n_6.3V_chip_0603
+K capacitor,smd
+D Capacitor 330nF 6.3V
+$ENDCMP
+#
+# 06036A334
+#
+$CMP 06036A334
+K capacitor,smd
+D Capacitor 330nF 6.3V
+$ENDCMP
+#
+# capacitor_6n8_25V_chip_0402
+#
+$CMP capacitor_6n8_25V_chip_0402
+K capacitor,smd
+D Capacitor 6n8F 25V
+$ENDCMP
+#
+# 04023A682
+#
+$CMP 04023A682
+K capacitor,smd
+D Capacitor 6n8F 25V
+$ENDCMP
+#
+# capacitor_470p_50V_chip_0603
+#
+$CMP capacitor_470p_50V_chip_0603
+K capacitor,smd
+D Capacitor 470pF 50V
+$ENDCMP
+#
+# 06035A471
+#
+$CMP 06035A471
+K capacitor,smd
+D Capacitor 470pF 50V
+$ENDCMP
+#
+# capacitor_10n_16V_chip_0201
+#
+$CMP capacitor_10n_16V_chip_0201
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# 0201YA103
+#
+$CMP 0201YA103
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# capacitor_33n_16V_chip_0805
+#
+$CMP capacitor_33n_16V_chip_0805
+K capacitor,smd
+D Capacitor 33nF 16V
+$ENDCMP
+#
+# 0805YA333
+#
+$CMP 0805YA333
+K capacitor,smd
+D Capacitor 33nF 16V
+$ENDCMP
+#
+# capacitor_10n_100V_chip_0603
+#
+$CMP capacitor_10n_100V_chip_0603
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# 06031A103
+#
+$CMP 06031A103
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# capacitor_47n_100V_chip_1210
+#
+$CMP capacitor_47n_100V_chip_1210
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# 12101A473
+#
+$CMP 12101A473
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# capacitor_1u_100V_chip_2225
+#
+$CMP capacitor_1u_100V_chip_2225
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# 22251A1004
+#
+$CMP 22251A1004
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# capacitor_1u_100V_chip_2220
+#
+$CMP capacitor_1u_100V_chip_2220
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# 22201A1004
+#
+$CMP 22201A1004
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# capacitor_150n_200V_chip_1825
+#
+$CMP capacitor_150n_200V_chip_1825
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# 18252A154
+#
+$CMP 18252A154
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# capacitor_1n5_50V_chip_1210
+#
+$CMP capacitor_1n5_50V_chip_1210
+K capacitor,smd
+D Capacitor 1n5F 50V
+$ENDCMP
+#
+# 12105A152
+#
+$CMP 12105A152
+K capacitor,smd
+D Capacitor 1n5F 50V
+$ENDCMP
+#
+# capacitor_220n_100V_chip_2220
+#
+$CMP capacitor_220n_100V_chip_2220
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# 22201A224
+#
+$CMP 22201A224
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# capacitor_15n_100V_chip_1210
+#
+$CMP capacitor_15n_100V_chip_1210
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# 12101A153
+#
+$CMP 12101A153
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# capacitor_3n3_50V_chip_1210
+#
+$CMP capacitor_3n3_50V_chip_1210
+K capacitor,smd
+D Capacitor 3n3F 50V
+$ENDCMP
+#
+# 12105A332
+#
+$CMP 12105A332
+K capacitor,smd
+D Capacitor 3n3F 50V
+$ENDCMP
+#
+# capacitor_47n_200V_chip_1206
+#
+$CMP capacitor_47n_200V_chip_1206
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# 12062A473
+#
+$CMP 12062A473
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# capacitor_470p_16V_chip_0201
+#
+$CMP capacitor_470p_16V_chip_0201
+K capacitor,smd
+D Capacitor 470pF 16V
+$ENDCMP
+#
+# 0201YA471
+#
+$CMP 0201YA471
+K capacitor,smd
+D Capacitor 470pF 16V
+$ENDCMP
+#
+# capacitor_15n_100V_chip_1825
+#
+$CMP capacitor_15n_100V_chip_1825
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# 18251A153
+#
+$CMP 18251A153
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# capacitor_2n2_100V_chip_1206
+#
+$CMP capacitor_2n2_100V_chip_1206
+K capacitor,smd
+D Capacitor 2n2F 100V
+$ENDCMP
+#
+# 12061A222
+#
+$CMP 12061A222
+K capacitor,smd
+D Capacitor 2n2F 100V
+$ENDCMP
+#
+# capacitor_2u2_25V_chip_0805
+#
+$CMP capacitor_2u2_25V_chip_0805
+K capacitor,smd
+D Capacitor 2u2F 25V
+$ENDCMP
+#
+# 08053A225
+#
+$CMP 08053A225
+K capacitor,smd
+D Capacitor 2u2F 25V
+$ENDCMP
+#
+# capacitor_4u7_100V_chip_1812
+#
+$CMP capacitor_4u7_100V_chip_1812
+K capacitor,smd
+D Capacitor 4u7F 100V
+$ENDCMP
+#
+# 18121A475
+#
+$CMP 18121A475
+K capacitor,smd
+D Capacitor 4u7F 100V
+$ENDCMP
+#
+# capacitor_680p_200V_chip_0805
+#
+$CMP capacitor_680p_200V_chip_0805
+K capacitor,smd
+D Capacitor 680pF 200V
+$ENDCMP
+#
+# 08052A681
+#
+$CMP 08052A681
+K capacitor,smd
+D Capacitor 680pF 200V
+$ENDCMP
+#
+# capacitor_10n_50V_chip_1812
+#
+$CMP capacitor_10n_50V_chip_1812
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# 18125A103
+#
+$CMP 18125A103
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# capacitor_470n_25V_chip_1812
+#
+$CMP capacitor_470n_25V_chip_1812
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# 18123A474
+#
+$CMP 18123A474
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# capacitor_100n_200V_chip_2225
+#
+$CMP capacitor_100n_200V_chip_2225
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# 22252A104
+#
+$CMP 22252A104
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# capacitor_10n_100V_chip_1825
+#
+$CMP capacitor_10n_100V_chip_1825
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# 18251A103
+#
+$CMP 18251A103
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# capacitor_15n_100V_chip_1812
+#
+$CMP capacitor_15n_100V_chip_1812
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# 18121A153
+#
+$CMP 18121A153
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# capacitor_470p_10V_chip_0101
+#
+$CMP capacitor_470p_10V_chip_0101
+K capacitor,smd
+D Capacitor 470pF 10V
+$ENDCMP
+#
+# 0101ZA471
+#
+$CMP 0101ZA471
+K capacitor,smd
+D Capacitor 470pF 10V
+$ENDCMP
+#
+# capacitor_47n_500V_chip_2220
+#
+$CMP capacitor_47n_500V_chip_2220
+K capacitor,smd
+D Capacitor 47nF 500V
+$ENDCMP
+#
+# 22207A473
+#
+$CMP 22207A473
+K capacitor,smd
+D Capacitor 47nF 500V
+$ENDCMP
+#
+# capacitor_680n_25V_chip_0805
+#
+$CMP capacitor_680n_25V_chip_0805
+K capacitor,smd
+D Capacitor 680nF 25V
+$ENDCMP
+#
+# 08053A684
+#
+$CMP 08053A684
+K capacitor,smd
+D Capacitor 680nF 25V
+$ENDCMP
+#
+# capacitor_150n_50V_chip_1812
+#
+$CMP capacitor_150n_50V_chip_1812
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# 18125A154
+#
+$CMP 18125A154
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# capacitor_15n_50V_chip_1812
+#
+$CMP capacitor_15n_50V_chip_1812
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# 18125A153
+#
+$CMP 18125A153
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# capacitor_3n3_200V_chip_0805
+#
+$CMP capacitor_3n3_200V_chip_0805
+K capacitor,smd
+D Capacitor 3n3F 200V
+$ENDCMP
+#
+# 08052A332
+#
+$CMP 08052A332
+K capacitor,smd
+D Capacitor 3n3F 200V
+$ENDCMP
+#
+# capacitor_68n_16V_chip_1210
+#
+$CMP capacitor_68n_16V_chip_1210
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# 1210YA683
+#
+$CMP 1210YA683
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# capacitor_150p_50V_chip_0201
+#
+$CMP capacitor_150p_50V_chip_0201
+K capacitor,smd
+D Capacitor 150pF 50V
+$ENDCMP
+#
+# 02015A151
+#
+$CMP 02015A151
+K capacitor,smd
+D Capacitor 150pF 50V
+$ENDCMP
+#
+# capacitor_330n_10V_chip_1206
+#
+$CMP capacitor_330n_10V_chip_1206
+K capacitor,smd
+D Capacitor 330nF 10V
+$ENDCMP
+#
+# 1206ZA334
+#
+$CMP 1206ZA334
+K capacitor,smd
+D Capacitor 330nF 10V
+$ENDCMP
+#
+# capacitor_3n3_500V_chip_1210
+#
+$CMP capacitor_3n3_500V_chip_1210
+K capacitor,smd
+D Capacitor 3n3F 500V
+$ENDCMP
+#
+# 12107A332
+#
+$CMP 12107A332
+K capacitor,smd
+D Capacitor 3n3F 500V
+$ENDCMP
+#
+# capacitor_22n_16V_chip_0402
+#
+$CMP capacitor_22n_16V_chip_0402
+K capacitor,smd
+D Capacitor 22nF 16V
+$ENDCMP
+#
+# 0402YA223
+#
+$CMP 0402YA223
+K capacitor,smd
+D Capacitor 22nF 16V
+$ENDCMP
+#
+# capacitor_680n_100V_chip_1210
+#
+$CMP capacitor_680n_100V_chip_1210
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# 12101A684
+#
+$CMP 12101A684
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# capacitor_2n2_50V_chip_0805
+#
+$CMP capacitor_2n2_50V_chip_0805
+K capacitor,smd
+D Capacitor 2n2F 50V
+$ENDCMP
+#
+# 08055A222
+#
+$CMP 08055A222
+K capacitor,smd
+D Capacitor 2n2F 50V
+$ENDCMP
+#
+# capacitor_220n_50V_chip_1206
+#
+$CMP capacitor_220n_50V_chip_1206
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# 12065A224
+#
+$CMP 12065A224
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# capacitor_22n_500V_chip_1812
+#
+$CMP capacitor_22n_500V_chip_1812
+K capacitor,smd
+D Capacitor 22nF 500V
+$ENDCMP
+#
+# 18127A223
+#
+$CMP 18127A223
+K capacitor,smd
+D Capacitor 22nF 500V
+$ENDCMP
+#
+# capacitor_10u_6.3V_chip_0805
+#
+$CMP capacitor_10u_6.3V_chip_0805
+K capacitor,smd
+D Capacitor 10uF 6.3V
+$ENDCMP
+#
+# 08056A106
+#
+$CMP 08056A106
+K capacitor,smd
+D Capacitor 10uF 6.3V
+$ENDCMP
+#
+# capacitor_22n_50V_chip_0805
+#
+$CMP capacitor_22n_50V_chip_0805
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# 08055A223
+#
+$CMP 08055A223
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# capacitor_470n_16V_chip_1210
+#
+$CMP capacitor_470n_16V_chip_1210
+K capacitor,smd
+D Capacitor 470nF 16V
+$ENDCMP
+#
+# 1210YA474
+#
+$CMP 1210YA474
+K capacitor,smd
+D Capacitor 470nF 16V
+$ENDCMP
+#
+# capacitor_4u7_100V_chip_2225
+#
+$CMP capacitor_4u7_100V_chip_2225
+K capacitor,smd
+D Capacitor 4u7F 100V
+$ENDCMP
+#
+# 22251A475
+#
+$CMP 22251A475
+K capacitor,smd
+D Capacitor 4u7F 100V
+$ENDCMP
+#
+# capacitor_22n_100V_chip_2220
+#
+$CMP capacitor_22n_100V_chip_2220
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# 22201A223
+#
+$CMP 22201A223
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# capacitor_22n_100V_chip_2225
+#
+$CMP capacitor_22n_100V_chip_2225
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# 22251A223
+#
+$CMP 22251A223
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# capacitor_1u_25V_chip_1206
+#
+$CMP capacitor_1u_25V_chip_1206
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# 12063A1004
+#
+$CMP 12063A1004
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# capacitor_2n2_10V_chip_1206
+#
+$CMP capacitor_2n2_10V_chip_1206
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# 1206ZA222
+#
+$CMP 1206ZA222
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# capacitor_220n_10V_chip_0805
+#
+$CMP capacitor_220n_10V_chip_0805
+K capacitor,smd
+D Capacitor 220nF 10V
+$ENDCMP
+#
+# 0805ZA224
+#
+$CMP 0805ZA224
+K capacitor,smd
+D Capacitor 220nF 10V
+$ENDCMP
+#
+# capacitor_3n3_25V_chip_0402
+#
+$CMP capacitor_3n3_25V_chip_0402
+K capacitor,smd
+D Capacitor 3n3F 25V
+$ENDCMP
+#
+# 04023A332
+#
+$CMP 04023A332
+K capacitor,smd
+D Capacitor 3n3F 25V
+$ENDCMP
+#
+# capacitor_4u7_100V_chip_2220
+#
+$CMP capacitor_4u7_100V_chip_2220
+K capacitor,smd
+D Capacitor 4u7F 100V
+$ENDCMP
+#
+# 22201A475
+#
+$CMP 22201A475
+K capacitor,smd
+D Capacitor 4u7F 100V
+$ENDCMP
+#
+# capacitor_22n_100V_chip_1812
+#
+$CMP capacitor_22n_100V_chip_1812
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# 18121A223
+#
+$CMP 18121A223
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# capacitor_1u_200V_chip_1812
+#
+$CMP capacitor_1u_200V_chip_1812
+K capacitor,smd
+D Capacitor 1uF 200V
+$ENDCMP
+#
+# 18122A1004
+#
+$CMP 18122A1004
+K capacitor,smd
+D Capacitor 1uF 200V
+$ENDCMP
+#
+# capacitor_1n5_100V_chip_0603
+#
+$CMP capacitor_1n5_100V_chip_0603
+K capacitor,smd
+D Capacitor 1n5F 100V
+$ENDCMP
+#
+# 06031A152
+#
+$CMP 06031A152
+K capacitor,smd
+D Capacitor 1n5F 100V
+$ENDCMP
+#
+# capacitor_100n_16V_chip_0603
+#
+$CMP capacitor_100n_16V_chip_0603
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# 0603YA104
+#
+$CMP 0603YA104
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# capacitor_6n8_16V_chip_0201
+#
+$CMP capacitor_6n8_16V_chip_0201
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# 0201YA682
+#
+$CMP 0201YA682
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# capacitor_4u7_16V_chip_1210
+#
+$CMP capacitor_4u7_16V_chip_1210
+K capacitor,smd
+D Capacitor 4u7F 16V
+$ENDCMP
+#
+# 1210YA475
+#
+$CMP 1210YA475
+K capacitor,smd
+D Capacitor 4u7F 16V
+$ENDCMP
+#
+# capacitor_2n2_25V_chip_1206
+#
+$CMP capacitor_2n2_25V_chip_1206
+K capacitor,smd
+D Capacitor 2n2F 25V
+$ENDCMP
+#
+# 12063A222
+#
+$CMP 12063A222
+K capacitor,smd
+D Capacitor 2n2F 25V
+$ENDCMP
+#
+# capacitor_68n_100V_chip_1206
+#
+$CMP capacitor_68n_100V_chip_1206
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# 12061A683
+#
+$CMP 12061A683
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# capacitor_100n_100V_chip_1210
+#
+$CMP capacitor_100n_100V_chip_1210
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# 12101A104
+#
+$CMP 12101A104
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# capacitor_2u2_50V_chip_2225
+#
+$CMP capacitor_2u2_50V_chip_2225
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# 22255A225
+#
+$CMP 22255A225
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# capacitor_1n5_200V_chip_1206
+#
+$CMP capacitor_1n5_200V_chip_1206
+K capacitor,smd
+D Capacitor 1n5F 200V
+$ENDCMP
+#
+# 12062A152
+#
+$CMP 12062A152
+K capacitor,smd
+D Capacitor 1n5F 200V
+$ENDCMP
+#
+# capacitor_2u2_50V_chip_2220
+#
+$CMP capacitor_2u2_50V_chip_2220
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# 22205A225
+#
+$CMP 22205A225
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# capacitor_150n_500V_chip_2220
+#
+$CMP capacitor_150n_500V_chip_2220
+K capacitor,smd
+D Capacitor 150nF 500V
+$ENDCMP
+#
+# 22207A154
+#
+$CMP 22207A154
+K capacitor,smd
+D Capacitor 150nF 500V
+$ENDCMP
+#
+# capacitor_1n_10V_chip_0101
+#
+$CMP capacitor_1n_10V_chip_0101
+K capacitor,smd
+D Capacitor 1nF 10V
+$ENDCMP
+#
+# 0101ZA1001
+#
+$CMP 0101ZA1001
+K capacitor,smd
+D Capacitor 1nF 10V
+$ENDCMP
+#
+# capacitor_15n_500V_chip_1812
+#
+$CMP capacitor_15n_500V_chip_1812
+K capacitor,smd
+D Capacitor 15nF 500V
+$ENDCMP
+#
+# 18127A153
+#
+$CMP 18127A153
+K capacitor,smd
+D Capacitor 15nF 500V
+$ENDCMP
+#
+# capacitor_22n_10V_chip_1210
+#
+$CMP capacitor_22n_10V_chip_1210
+K capacitor,smd
+D Capacitor 22nF 10V
+$ENDCMP
+#
+# 1210ZA223
+#
+$CMP 1210ZA223
+K capacitor,smd
+D Capacitor 22nF 10V
+$ENDCMP
+#
+# capacitor_330n_100V_chip_1210
+#
+$CMP capacitor_330n_100V_chip_1210
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# 12101A334
+#
+$CMP 12101A334
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# capacitor_33n_50V_chip_2220
+#
+$CMP capacitor_33n_50V_chip_2220
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# 22205A333
+#
+$CMP 22205A333
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# capacitor_4n7_16V_chip_0201
+#
+$CMP capacitor_4n7_16V_chip_0201
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# 0201YA472
+#
+$CMP 0201YA472
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# capacitor_6n8_50V_chip_0805
+#
+$CMP capacitor_6n8_50V_chip_0805
+K capacitor,smd
+D Capacitor 6n8F 50V
+$ENDCMP
+#
+# 08055A682
+#
+$CMP 08055A682
+K capacitor,smd
+D Capacitor 6n8F 50V
+$ENDCMP
+#
+# capacitor_4n7_25V_chip_1206
+#
+$CMP capacitor_4n7_25V_chip_1206
+K capacitor,smd
+D Capacitor 4n7F 25V
+$ENDCMP
+#
+# 12063A472
+#
+$CMP 12063A472
+K capacitor,smd
+D Capacitor 4n7F 25V
+$ENDCMP
+#
+# capacitor_1n5_10V_chip_0805
+#
+$CMP capacitor_1n5_10V_chip_0805
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# 0805ZA152
+#
+$CMP 0805ZA152
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# capacitor_22n_25V_chip_0603
+#
+$CMP capacitor_22n_25V_chip_0603
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# 06033A223
+#
+$CMP 06033A223
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# capacitor_1n5_16V_chip_0805
+#
+$CMP capacitor_1n5_16V_chip_0805
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# 0805YA152
+#
+$CMP 0805YA152
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# capacitor_100n_25V_chip_1206
+#
+$CMP capacitor_100n_25V_chip_1206
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# 12063A104
+#
+$CMP 12063A104
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# capacitor_150n_10V_chip_0805
+#
+$CMP capacitor_150n_10V_chip_0805
+K capacitor,smd
+D Capacitor 150nF 10V
+$ENDCMP
+#
+# 0805ZA154
+#
+$CMP 0805ZA154
+K capacitor,smd
+D Capacitor 150nF 10V
+$ENDCMP
+#
+# capacitor_1n5_10V_chip_1206
+#
+$CMP capacitor_1n5_10V_chip_1206
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# 1206ZA152
+#
+$CMP 1206ZA152
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# capacitor_68n_200V_chip_1206
+#
+$CMP capacitor_68n_200V_chip_1206
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# 12062A683
+#
+$CMP 12062A683
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# capacitor_150p_10V_chip_0101
+#
+$CMP capacitor_150p_10V_chip_0101
+K capacitor,smd
+D Capacitor 150pF 10V
+$ENDCMP
+#
+# 0101ZA151
+#
+$CMP 0101ZA151
+K capacitor,smd
+D Capacitor 150pF 10V
+$ENDCMP
+#
+# capacitor_1n_25V_chip_0201
+#
+$CMP capacitor_1n_25V_chip_0201
+K capacitor,smd
+D Capacitor 1nF 25V
+$ENDCMP
+#
+# 02013A1001
+#
+$CMP 02013A1001
+K capacitor,smd
+D Capacitor 1nF 25V
+$ENDCMP
+#
+# capacitor_330n_25V_chip_1210
+#
+$CMP capacitor_330n_25V_chip_1210
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# 12103A334
+#
+$CMP 12103A334
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# capacitor_150n_10V_chip_0603
+#
+$CMP capacitor_150n_10V_chip_0603
+K capacitor,smd
+D Capacitor 150nF 10V
+$ENDCMP
+#
+# 0603ZA154
+#
+$CMP 0603ZA154
+K capacitor,smd
+D Capacitor 150nF 10V
+$ENDCMP
+#
+# capacitor_10n_25V_chip_1210
+#
+$CMP capacitor_10n_25V_chip_1210
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# 12103A103
+#
+$CMP 12103A103
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# capacitor_100n_200V_chip_1825
+#
+$CMP capacitor_100n_200V_chip_1825
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# 18252A104
+#
+$CMP 18252A104
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# capacitor_680p_25V_chip_0402
+#
+$CMP capacitor_680p_25V_chip_0402
+K capacitor,smd
+D Capacitor 680pF 25V
+$ENDCMP
+#
+# 04023A681
+#
+$CMP 04023A681
+K capacitor,smd
+D Capacitor 680pF 25V
+$ENDCMP
+#
+# capacitor_330n_200V_chip_2225
+#
+$CMP capacitor_330n_200V_chip_2225
+K capacitor,smd
+D Capacitor 330nF 200V
+$ENDCMP
+#
+# 22252A334
+#
+$CMP 22252A334
+K capacitor,smd
+D Capacitor 330nF 200V
+$ENDCMP
+#
+# capacitor_2n2_50V_chip_0603
+#
+$CMP capacitor_2n2_50V_chip_0603
+K capacitor,smd
+D Capacitor 2n2F 50V
+$ENDCMP
+#
+# 06035A222
+#
+$CMP 06035A222
+K capacitor,smd
+D Capacitor 2n2F 50V
+$ENDCMP
+#
+# capacitor_470n_100V_chip_1206
+#
+$CMP capacitor_470n_100V_chip_1206
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# 12061A474
+#
+$CMP 12061A474
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# capacitor_150n_50V_chip_2220
+#
+$CMP capacitor_150n_50V_chip_2220
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# 22205A154
+#
+$CMP 22205A154
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# capacitor_330n_50V_chip_1825
+#
+$CMP capacitor_330n_50V_chip_1825
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# 18255A334
+#
+$CMP 18255A334
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# capacitor_33n_50V_chip_1210
+#
+$CMP capacitor_33n_50V_chip_1210
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# 12105A333
+#
+$CMP 12105A333
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# capacitor_33n_10V_chip_0805
+#
+$CMP capacitor_33n_10V_chip_0805
+K capacitor,smd
+D Capacitor 33nF 10V
+$ENDCMP
+#
+# 0805ZA333
+#
+$CMP 0805ZA333
+K capacitor,smd
+D Capacitor 33nF 10V
+$ENDCMP
+#
+# capacitor_33n_200V_chip_1825
+#
+$CMP capacitor_33n_200V_chip_1825
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# 18252A333
+#
+$CMP 18252A333
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# capacitor_470n_50V_chip_0805
+#
+$CMP capacitor_470n_50V_chip_0805
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# 08055A474
+#
+$CMP 08055A474
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# capacitor_2u2_10V_chip_0805
+#
+$CMP capacitor_2u2_10V_chip_0805
+K capacitor,smd
+D Capacitor 2u2F 10V
+$ENDCMP
+#
+# 0805ZA225
+#
+$CMP 0805ZA225
+K capacitor,smd
+D Capacitor 2u2F 10V
+$ENDCMP
+#
+# capacitor_10u_16V_chip_1812
+#
+$CMP capacitor_10u_16V_chip_1812
+K capacitor,smd
+D Capacitor 10uF 16V
+$ENDCMP
+#
+# 1812YA106
+#
+$CMP 1812YA106
+K capacitor,smd
+D Capacitor 10uF 16V
+$ENDCMP
+#
+# capacitor_4u7_50V_chip_1210
+#
+$CMP capacitor_4u7_50V_chip_1210
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# 12105A475
+#
+$CMP 12105A475
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# capacitor_330p_25V_chip_0201
+#
+$CMP capacitor_330p_25V_chip_0201
+K capacitor,smd
+D Capacitor 330pF 25V
+$ENDCMP
+#
+# 02013A331
+#
+$CMP 02013A331
+K capacitor,smd
+D Capacitor 330pF 25V
+$ENDCMP
+#
+# capacitor_68n_25V_chip_1812
+#
+$CMP capacitor_68n_25V_chip_1812
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# 18123A683
+#
+$CMP 18123A683
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# capacitor_1u_10V_chip_1210
+#
+$CMP capacitor_1u_10V_chip_1210
+K capacitor,smd
+D Capacitor 1uF 10V
+$ENDCMP
+#
+# 1210ZA1004
+#
+$CMP 1210ZA1004
+K capacitor,smd
+D Capacitor 1uF 10V
+$ENDCMP
+#
+# capacitor_680p_16V_chip_0402
+#
+$CMP capacitor_680p_16V_chip_0402
+K capacitor,smd
+D Capacitor 680pF 16V
+$ENDCMP
+#
+# 0402YA681
+#
+$CMP 0402YA681
+K capacitor,smd
+D Capacitor 680pF 16V
+$ENDCMP
+#
+# capacitor_330n_50V_chip_2220
+#
+$CMP capacitor_330n_50V_chip_2220
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# 22205A334
+#
+$CMP 22205A334
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# capacitor_47u_25V_chip_1210
+#
+$CMP capacitor_47u_25V_chip_1210
+K capacitor,smd
+D Capacitor 47uF 25V
+$ENDCMP
+#
+# 12103A476
+#
+$CMP 12103A476
+K capacitor,smd
+D Capacitor 47uF 25V
+$ENDCMP
+#
+# capacitor_1n_10V_chip_0402
+#
+$CMP capacitor_1n_10V_chip_0402
+K capacitor,smd
+D Capacitor 1nF 10V
+$ENDCMP
+#
+# 0402ZA1001
+#
+$CMP 0402ZA1001
+K capacitor,smd
+D Capacitor 1nF 10V
+$ENDCMP
+#
+# capacitor_470p_16V_chip_0805
+#
+$CMP capacitor_470p_16V_chip_0805
+K capacitor,smd
+D Capacitor 470pF 16V
+$ENDCMP
+#
+# 0805YA471
+#
+$CMP 0805YA471
+K capacitor,smd
+D Capacitor 470pF 16V
+$ENDCMP
+#
+# capacitor_150n_50V_chip_2225
+#
+$CMP capacitor_150n_50V_chip_2225
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# 22255A154
+#
+$CMP 22255A154
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# capacitor_470p_100V_chip_0603
+#
+$CMP capacitor_470p_100V_chip_0603
+K capacitor,smd
+D Capacitor 470pF 100V
+$ENDCMP
+#
+# 06031A471
+#
+$CMP 06031A471
+K capacitor,smd
+D Capacitor 470pF 100V
+$ENDCMP
+#
+# capacitor_15n_25V_chip_0805
+#
+$CMP capacitor_15n_25V_chip_0805
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# 08053A153
+#
+$CMP 08053A153
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# capacitor_2n2_16V_chip_0201
+#
+$CMP capacitor_2n2_16V_chip_0201
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# 0201YA222
+#
+$CMP 0201YA222
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# capacitor_6n8_200V_chip_1210
+#
+$CMP capacitor_6n8_200V_chip_1210
+K capacitor,smd
+D Capacitor 6n8F 200V
+$ENDCMP
+#
+# 12102A682
+#
+$CMP 12102A682
+K capacitor,smd
+D Capacitor 6n8F 200V
+$ENDCMP
+#
+# capacitor_680n_6.3V_chip_0603
+#
+$CMP capacitor_680n_6.3V_chip_0603
+K capacitor,smd
+D Capacitor 680nF 6.3V
+$ENDCMP
+#
+# 06036A684
+#
+$CMP 06036A684
+K capacitor,smd
+D Capacitor 680nF 6.3V
+$ENDCMP
+#
+# capacitor_1n5_500V_chip_1210
+#
+$CMP capacitor_1n5_500V_chip_1210
+K capacitor,smd
+D Capacitor 1n5F 500V
+$ENDCMP
+#
+# 12107A152
+#
+$CMP 12107A152
+K capacitor,smd
+D Capacitor 1n5F 500V
+$ENDCMP
+#
+# capacitor_33n_100V_chip_2225
+#
+$CMP capacitor_33n_100V_chip_2225
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# 22251A333
+#
+$CMP 22251A333
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# capacitor_33n_100V_chip_2220
+#
+$CMP capacitor_33n_100V_chip_2220
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# 22201A333
+#
+$CMP 22201A333
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# capacitor_100n_25V_chip_0603
+#
+$CMP capacitor_100n_25V_chip_0603
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# 06033A104
+#
+$CMP 06033A104
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# capacitor_4n7_16V_chip_0805
+#
+$CMP capacitor_4n7_16V_chip_0805
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# 0805YA472
+#
+$CMP 0805YA472
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# capacitor_2u2_16V_chip_1210
+#
+$CMP capacitor_2u2_16V_chip_1210
+K capacitor,smd
+D Capacitor 2u2F 16V
+$ENDCMP
+#
+# 1210YA225
+#
+$CMP 1210YA225
+K capacitor,smd
+D Capacitor 2u2F 16V
+$ENDCMP
+#
+# capacitor_47n_25V_chip_0805
+#
+$CMP capacitor_47n_25V_chip_0805
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# 08053A473
+#
+$CMP 08053A473
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# capacitor_2u2_50V_chip_1206
+#
+$CMP capacitor_2u2_50V_chip_1206
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# 12065A225
+#
+$CMP 12065A225
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# capacitor_470n_25V_chip_1210
+#
+$CMP capacitor_470n_25V_chip_1210
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# 12103A474
+#
+$CMP 12103A474
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# capacitor_10n_100V_chip_2225
+#
+$CMP capacitor_10n_100V_chip_2225
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# 22251A103
+#
+$CMP 22251A103
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# capacitor_68n_50V_chip_1206
+#
+$CMP capacitor_68n_50V_chip_1206
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# 12065A683
+#
+$CMP 12065A683
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# capacitor_150n_100V_chip_2220
+#
+$CMP capacitor_150n_100V_chip_2220
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# 22201A154
+#
+$CMP 22201A154
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# capacitor_100n_50V_chip_1812
+#
+$CMP capacitor_100n_50V_chip_1812
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# 18125A104
+#
+$CMP 18125A104
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# capacitor_22n_10V_chip_0805
+#
+$CMP capacitor_22n_10V_chip_0805
+K capacitor,smd
+D Capacitor 22nF 10V
+$ENDCMP
+#
+# 0805ZA223
+#
+$CMP 0805ZA223
+K capacitor,smd
+D Capacitor 22nF 10V
+$ENDCMP
+#
+# capacitor_47n_50V_chip_1206
+#
+$CMP capacitor_47n_50V_chip_1206
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# 12065A473
+#
+$CMP 12065A473
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# capacitor_1n_16V_chip_0805
+#
+$CMP capacitor_1n_16V_chip_0805
+K capacitor,smd
+D Capacitor 1nF 16V
+$ENDCMP
+#
+# 0805YA1001
+#
+$CMP 0805YA1001
+K capacitor,smd
+D Capacitor 1nF 16V
+$ENDCMP
+#
+# capacitor_15n_200V_chip_2220
+#
+$CMP capacitor_15n_200V_chip_2220
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# 22202A153
+#
+$CMP 22202A153
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# capacitor_2u2_16V_chip_1206
+#
+$CMP capacitor_2u2_16V_chip_1206
+K capacitor,smd
+D Capacitor 2u2F 16V
+$ENDCMP
+#
+# 1206YA225
+#
+$CMP 1206YA225
+K capacitor,smd
+D Capacitor 2u2F 16V
+$ENDCMP
+#
+# capacitor_15n_200V_chip_2225
+#
+$CMP capacitor_15n_200V_chip_2225
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# 22252A153
+#
+$CMP 22252A153
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# capacitor_100p_16V_chip_0201
+#
+$CMP capacitor_100p_16V_chip_0201
+K capacitor,smd
+D Capacitor 100pF 16V
+$ENDCMP
+#
+# 0201YA101
+#
+$CMP 0201YA101
+K capacitor,smd
+D Capacitor 100pF 16V
+$ENDCMP
+#
+# capacitor_680n_16V_chip_0805
+#
+$CMP capacitor_680n_16V_chip_0805
+K capacitor,smd
+D Capacitor 680nF 16V
+$ENDCMP
+#
+# 0805YA684
+#
+$CMP 0805YA684
+K capacitor,smd
+D Capacitor 680nF 16V
+$ENDCMP
+#
+# capacitor_680n_100V_chip_2225
+#
+$CMP capacitor_680n_100V_chip_2225
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# 22251A684
+#
+$CMP 22251A684
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# capacitor_10n_100V_chip_1812
+#
+$CMP capacitor_10n_100V_chip_1812
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# 18121A103
+#
+$CMP 18121A103
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# capacitor_4u7_25V_chip_1206
+#
+$CMP capacitor_4u7_25V_chip_1206
+K capacitor,smd
+D Capacitor 4u7F 25V
+$ENDCMP
+#
+# 12063A475
+#
+$CMP 12063A475
+K capacitor,smd
+D Capacitor 4u7F 25V
+$ENDCMP
+#
+# capacitor_4n7_10V_chip_0805
+#
+$CMP capacitor_4n7_10V_chip_0805
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# 0805ZA472
+#
+$CMP 0805ZA472
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# capacitor_150n_200V_chip_1210
+#
+$CMP capacitor_150n_200V_chip_1210
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# 12102A154
+#
+$CMP 12102A154
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# capacitor_22n_50V_chip_0603
+#
+$CMP capacitor_22n_50V_chip_0603
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# 06035A223
+#
+$CMP 06035A223
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# capacitor_22n_16V_chip_1210
+#
+$CMP capacitor_22n_16V_chip_1210
+K capacitor,smd
+D Capacitor 22nF 16V
+$ENDCMP
+#
+# 1210YA223
+#
+$CMP 1210YA223
+K capacitor,smd
+D Capacitor 22nF 16V
+$ENDCMP
+#
+# capacitor_470n_10V_chip_0603
+#
+$CMP capacitor_470n_10V_chip_0603
+K capacitor,smd
+D Capacitor 470nF 10V
+$ENDCMP
+#
+# 0603ZA474
+#
+$CMP 0603ZA474
+K capacitor,smd
+D Capacitor 470nF 10V
+$ENDCMP
+#
+# capacitor_330n_25V_chip_0805
+#
+$CMP capacitor_330n_25V_chip_0805
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# 08053A334
+#
+$CMP 08053A334
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# capacitor_150n_50V_chip_1825
+#
+$CMP capacitor_150n_50V_chip_1825
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# 18255A154
+#
+$CMP 18255A154
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# capacitor_15n_10V_chip_1206
+#
+$CMP capacitor_15n_10V_chip_1206
+K capacitor,smd
+D Capacitor 15nF 10V
+$ENDCMP
+#
+# 1206ZA153
+#
+$CMP 1206ZA153
+K capacitor,smd
+D Capacitor 15nF 10V
+$ENDCMP
+#
+# capacitor_150n_100V_chip_1206
+#
+$CMP capacitor_150n_100V_chip_1206
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# 12061A154
+#
+$CMP 12061A154
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# capacitor_330p_16V_chip_0201
+#
+$CMP capacitor_330p_16V_chip_0201
+K capacitor,smd
+D Capacitor 330pF 16V
+$ENDCMP
+#
+# 0201YA331
+#
+$CMP 0201YA331
+K capacitor,smd
+D Capacitor 330pF 16V
+$ENDCMP
+#
+# capacitor_15n_500V_chip_1210
+#
+$CMP capacitor_15n_500V_chip_1210
+K capacitor,smd
+D Capacitor 15nF 500V
+$ENDCMP
+#
+# 12107A153
+#
+$CMP 12107A153
+K capacitor,smd
+D Capacitor 15nF 500V
+$ENDCMP
+#
+# capacitor_330n_50V_chip_0805
+#
+$CMP capacitor_330n_50V_chip_0805
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# 08055A334
+#
+$CMP 08055A334
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# capacitor_2n2_16V_chip_1210
+#
+$CMP capacitor_2n2_16V_chip_1210
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# 1210YA222
+#
+$CMP 1210YA222
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# capacitor_15n_16V_chip_1206
+#
+$CMP capacitor_15n_16V_chip_1206
+K capacitor,smd
+D Capacitor 15nF 16V
+$ENDCMP
+#
+# 1206YA153
+#
+$CMP 1206YA153
+K capacitor,smd
+D Capacitor 15nF 16V
+$ENDCMP
+#
+# capacitor_47n_10V_chip_0805
+#
+$CMP capacitor_47n_10V_chip_0805
+K capacitor,smd
+D Capacitor 47nF 10V
+$ENDCMP
+#
+# 0805ZA473
+#
+$CMP 0805ZA473
+K capacitor,smd
+D Capacitor 47nF 10V
+$ENDCMP
+#
+# capacitor_330p_16V_chip_0805
+#
+$CMP capacitor_330p_16V_chip_0805
+K capacitor,smd
+D Capacitor 330pF 16V
+$ENDCMP
+#
+# 0805YA331
+#
+$CMP 0805YA331
+K capacitor,smd
+D Capacitor 330pF 16V
+$ENDCMP
+#
+# capacitor_4n7_100V_chip_0603
+#
+$CMP capacitor_4n7_100V_chip_0603
+K capacitor,smd
+D Capacitor 4n7F 100V
+$ENDCMP
+#
+# 06031A472
+#
+$CMP 06031A472
+K capacitor,smd
+D Capacitor 4n7F 100V
+$ENDCMP
+#
+# capacitor_68n_25V_chip_0603
+#
+$CMP capacitor_68n_25V_chip_0603
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# 06033A683
+#
+$CMP 06033A683
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# capacitor_220n_10V_chip_1206
+#
+$CMP capacitor_220n_10V_chip_1206
+K capacitor,smd
+D Capacitor 220nF 10V
+$ENDCMP
+#
+# 1206ZA224
+#
+$CMP 1206ZA224
+K capacitor,smd
+D Capacitor 220nF 10V
+$ENDCMP
+#
+# capacitor_47n_100V_chip_2220
+#
+$CMP capacitor_47n_100V_chip_2220
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# 22201A473
+#
+$CMP 22201A473
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# capacitor_47n_100V_chip_2225
+#
+$CMP capacitor_47n_100V_chip_2225
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# 22251A473
+#
+$CMP 22251A473
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# capacitor_15n_100V_chip_0805
+#
+$CMP capacitor_15n_100V_chip_0805
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# 08051A153
+#
+$CMP 08051A153
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# capacitor_10u_16V_chip_1206
+#
+$CMP capacitor_10u_16V_chip_1206
+K capacitor,smd
+D Capacitor 10uF 16V
+$ENDCMP
+#
+# 1206YA106
+#
+$CMP 1206YA106
+K capacitor,smd
+D Capacitor 10uF 16V
+$ENDCMP
+#
+# capacitor_100n_10V_chip_1206
+#
+$CMP capacitor_100n_10V_chip_1206
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# 1206ZA104
+#
+$CMP 1206ZA104
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# capacitor_3n3_50V_chip_0805
+#
+$CMP capacitor_3n3_50V_chip_0805
+K capacitor,smd
+D Capacitor 3n3F 50V
+$ENDCMP
+#
+# 08055A332
+#
+$CMP 08055A332
+K capacitor,smd
+D Capacitor 3n3F 50V
+$ENDCMP
+#
+# capacitor_3n3_200V_chip_1210
+#
+$CMP capacitor_3n3_200V_chip_1210
+K capacitor,smd
+D Capacitor 3n3F 200V
+$ENDCMP
+#
+# 12102A332
+#
+$CMP 12102A332
+K capacitor,smd
+D Capacitor 3n3F 200V
+$ENDCMP
+#
+# capacitor_4n7_50V_chip_1210
+#
+$CMP capacitor_4n7_50V_chip_1210
+K capacitor,smd
+D Capacitor 4n7F 50V
+$ENDCMP
+#
+# 12105A472
+#
+$CMP 12105A472
+K capacitor,smd
+D Capacitor 4n7F 50V
+$ENDCMP
+#
+# capacitor_15n_50V_chip_0603
+#
+$CMP capacitor_15n_50V_chip_0603
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# 06035A153
+#
+$CMP 06035A153
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# capacitor_4n7_25V_chip_0402
+#
+$CMP capacitor_4n7_25V_chip_0402
+K capacitor,smd
+D Capacitor 4n7F 25V
+$ENDCMP
+#
+# 04023A472
+#
+$CMP 04023A472
+K capacitor,smd
+D Capacitor 4n7F 25V
+$ENDCMP
+#
+# capacitor_2n2_16V_chip_0402
+#
+$CMP capacitor_2n2_16V_chip_0402
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# 0402YA222
+#
+$CMP 0402YA222
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# capacitor_33n_50V_chip_1812
+#
+$CMP capacitor_33n_50V_chip_1812
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# 18125A333
+#
+$CMP 18125A333
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# capacitor_150n_200V_chip_2225
+#
+$CMP capacitor_150n_200V_chip_2225
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# 22252A154
+#
+$CMP 22252A154
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# capacitor_330p_25V_chip_0402
+#
+$CMP capacitor_330p_25V_chip_0402
+K capacitor,smd
+D Capacitor 330pF 25V
+$ENDCMP
+#
+# 04023A331
+#
+$CMP 04023A331
+K capacitor,smd
+D Capacitor 330pF 25V
+$ENDCMP
+#
+# capacitor_68n_200V_chip_2220
+#
+$CMP capacitor_68n_200V_chip_2220
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# 22202A683
+#
+$CMP 22202A683
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# capacitor_4u7_10V_chip_1206
+#
+$CMP capacitor_4u7_10V_chip_1206
+K capacitor,smd
+D Capacitor 4u7F 10V
+$ENDCMP
+#
+# 1206ZA475
+#
+$CMP 1206ZA475
+K capacitor,smd
+D Capacitor 4u7F 10V
+$ENDCMP
+#
+# capacitor_10u_16V_chip_1210
+#
+$CMP capacitor_10u_16V_chip_1210
+K capacitor,smd
+D Capacitor 10uF 16V
+$ENDCMP
+#
+# 1210YA106
+#
+$CMP 1210YA106
+K capacitor,smd
+D Capacitor 10uF 16V
+$ENDCMP
+#
+# capacitor_150n_200V_chip_2220
+#
+$CMP capacitor_150n_200V_chip_2220
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# 22202A154
+#
+$CMP 22202A154
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# capacitor_100n_50V_chip_1210
+#
+$CMP capacitor_100n_50V_chip_1210
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# 12105A104
+#
+$CMP 12105A104
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# capacitor_68n_100V_chip_1812
+#
+$CMP capacitor_68n_100V_chip_1812
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# 18121A683
+#
+$CMP 18121A683
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# capacitor_4n7_50V_chip_0603
+#
+$CMP capacitor_4n7_50V_chip_0603
+K capacitor,smd
+D Capacitor 4n7F 50V
+$ENDCMP
+#
+# 06035A472
+#
+$CMP 06035A472
+K capacitor,smd
+D Capacitor 4n7F 50V
+$ENDCMP
+#
+# capacitor_2u2_25V_chip_1206
+#
+$CMP capacitor_2u2_25V_chip_1206
+K capacitor,smd
+D Capacitor 2u2F 25V
+$ENDCMP
+#
+# 12063A225
+#
+$CMP 12063A225
+K capacitor,smd
+D Capacitor 2u2F 25V
+$ENDCMP
+#
+# capacitor_330n_100V_chip_1812
+#
+$CMP capacitor_330n_100V_chip_1812
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# 18121A334
+#
+$CMP 18121A334
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# capacitor_33n_100V_chip_1210
+#
+$CMP capacitor_33n_100V_chip_1210
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# 12101A333
+#
+$CMP 12101A333
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# capacitor_22u_25V_chip_2220
+#
+$CMP capacitor_22u_25V_chip_2220
+K capacitor,smd
+D Capacitor 22uF 25V
+$ENDCMP
+#
+# 22203A226
+#
+$CMP 22203A226
+K capacitor,smd
+D Capacitor 22uF 25V
+$ENDCMP
+#
+# capacitor_220n_25V_chip_1206
+#
+$CMP capacitor_220n_25V_chip_1206
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# 12063A224
+#
+$CMP 12063A224
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# capacitor_1n5_16V_chip_0201
+#
+$CMP capacitor_1n5_16V_chip_0201
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# 0201YA152
+#
+$CMP 0201YA152
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# capacitor_6n8_50V_chip_1206
+#
+$CMP capacitor_6n8_50V_chip_1206
+K capacitor,smd
+D Capacitor 6n8F 50V
+$ENDCMP
+#
+# 12065A682
+#
+$CMP 12065A682
+K capacitor,smd
+D Capacitor 6n8F 50V
+$ENDCMP
+#
+# capacitor_100n_200V_chip_1210
+#
+$CMP capacitor_100n_200V_chip_1210
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# 12102A104
+#
+$CMP 12102A104
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# capacitor_6n8_25V_chip_0805
+#
+$CMP capacitor_6n8_25V_chip_0805
+K capacitor,smd
+D Capacitor 6n8F 25V
+$ENDCMP
+#
+# 08053A682
+#
+$CMP 08053A682
+K capacitor,smd
+D Capacitor 6n8F 25V
+$ENDCMP
+#
+# capacitor_6n8_10V_chip_1210
+#
+$CMP capacitor_6n8_10V_chip_1210
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# 1210ZA682
+#
+$CMP 1210ZA682
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# capacitor_470n_50V_chip_1825
+#
+$CMP capacitor_470n_50V_chip_1825
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# 18255A474
+#
+$CMP 18255A474
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# capacitor_680p_500V_chip_1206
+#
+$CMP capacitor_680p_500V_chip_1206
+K capacitor,smd
+D Capacitor 680pF 500V
+$ENDCMP
+#
+# 12067A681
+#
+$CMP 12067A681
+K capacitor,smd
+D Capacitor 680pF 500V
+$ENDCMP
+#
+# capacitor_10n_50V_chip_1206
+#
+$CMP capacitor_10n_50V_chip_1206
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# 12065A103
+#
+$CMP 12065A103
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# capacitor_330n_100V_chip_2225
+#
+$CMP capacitor_330n_100V_chip_2225
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# 22251A334
+#
+$CMP 22251A334
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# capacitor_68n_10V_chip_1206
+#
+$CMP capacitor_68n_10V_chip_1206
+K capacitor,smd
+D Capacitor 68nF 10V
+$ENDCMP
+#
+# 1206ZA683
+#
+$CMP 1206ZA683
+K capacitor,smd
+D Capacitor 68nF 10V
+$ENDCMP
+#
+# capacitor_22n_10V_chip_0402
+#
+$CMP capacitor_22n_10V_chip_0402
+K capacitor,smd
+D Capacitor 22nF 10V
+$ENDCMP
+#
+# 0402ZA223
+#
+$CMP 0402ZA223
+K capacitor,smd
+D Capacitor 22nF 10V
+$ENDCMP
+#
+# capacitor_150n_16V_chip_1210
+#
+$CMP capacitor_150n_16V_chip_1210
+K capacitor,smd
+D Capacitor 150nF 16V
+$ENDCMP
+#
+# 1210YA154
+#
+$CMP 1210YA154
+K capacitor,smd
+D Capacitor 150nF 16V
+$ENDCMP
+#
+# capacitor_1n5_25V_chip_0805
+#
+$CMP capacitor_1n5_25V_chip_0805
+K capacitor,smd
+D Capacitor 1n5F 25V
+$ENDCMP
+#
+# 08053A152
+#
+$CMP 08053A152
+K capacitor,smd
+D Capacitor 1n5F 25V
+$ENDCMP
+#
+# capacitor_150p_100V_chip_0603
+#
+$CMP capacitor_150p_100V_chip_0603
+K capacitor,smd
+D Capacitor 150pF 100V
+$ENDCMP
+#
+# 06031A151
+#
+$CMP 06031A151
+K capacitor,smd
+D Capacitor 150pF 100V
+$ENDCMP
+#
+# capacitor_15n_200V_chip_1206
+#
+$CMP capacitor_15n_200V_chip_1206
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# 12062A153
+#
+$CMP 12062A153
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# capacitor_2n2_500V_chip_1210
+#
+$CMP capacitor_2n2_500V_chip_1210
+K capacitor,smd
+D Capacitor 2n2F 500V
+$ENDCMP
+#
+# 12107A222
+#
+$CMP 12107A222
+K capacitor,smd
+D Capacitor 2n2F 500V
+$ENDCMP
+#
+# capacitor_15n_500V_chip_2220
+#
+$CMP capacitor_15n_500V_chip_2220
+K capacitor,smd
+D Capacitor 15nF 500V
+$ENDCMP
+#
+# 22207A153
+#
+$CMP 22207A153
+K capacitor,smd
+D Capacitor 15nF 500V
+$ENDCMP
+#
+# capacitor_3n3_16V_chip_0805
+#
+$CMP capacitor_3n3_16V_chip_0805
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# 0805YA332
+#
+$CMP 0805YA332
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# capacitor_150n_25V_chip_0603
+#
+$CMP capacitor_150n_25V_chip_0603
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# 06033A154
+#
+$CMP 06033A154
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# capacitor_330n_500V_chip_2220
+#
+$CMP capacitor_330n_500V_chip_2220
+K capacitor,smd
+D Capacitor 330nF 500V
+$ENDCMP
+#
+# 22207A334
+#
+$CMP 22207A334
+K capacitor,smd
+D Capacitor 330nF 500V
+$ENDCMP
+#
+# capacitor_33n_200V_chip_1812
+#
+$CMP capacitor_33n_200V_chip_1812
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# 18122A333
+#
+$CMP 18122A333
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# capacitor_1n5_100V_chip_1210
+#
+$CMP capacitor_1n5_100V_chip_1210
+K capacitor,smd
+D Capacitor 1n5F 100V
+$ENDCMP
+#
+# 12101A152
+#
+$CMP 12101A152
+K capacitor,smd
+D Capacitor 1n5F 100V
+$ENDCMP
+#
+# capacitor_150n_25V_chip_1206
+#
+$CMP capacitor_150n_25V_chip_1206
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# 12063A154
+#
+$CMP 12063A154
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# capacitor_68n_500V_chip_1812
+#
+$CMP capacitor_68n_500V_chip_1812
+K capacitor,smd
+D Capacitor 68nF 500V
+$ENDCMP
+#
+# 18127A683
+#
+$CMP 18127A683
+K capacitor,smd
+D Capacitor 68nF 500V
+$ENDCMP
+#
+# capacitor_2u2_100V_chip_1206
+#
+$CMP capacitor_2u2_100V_chip_1206
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# 12061A225
+#
+$CMP 12061A225
+K capacitor,smd
+D Capacitor 2u2F 100V
+$ENDCMP
+#
+# capacitor_3n3_100V_chip_1206
+#
+$CMP capacitor_3n3_100V_chip_1206
+K capacitor,smd
+D Capacitor 3n3F 100V
+$ENDCMP
+#
+# 12061A332
+#
+$CMP 12061A332
+K capacitor,smd
+D Capacitor 3n3F 100V
+$ENDCMP
+#
+# capacitor_4n7_500V_chip_1206
+#
+$CMP capacitor_4n7_500V_chip_1206
+K capacitor,smd
+D Capacitor 4n7F 500V
+$ENDCMP
+#
+# 12067A472
+#
+$CMP 12067A472
+K capacitor,smd
+D Capacitor 4n7F 500V
+$ENDCMP
+#
+# capacitor_220p_16V_chip_0402
+#
+$CMP capacitor_220p_16V_chip_0402
+K capacitor,smd
+D Capacitor 220pF 16V
+$ENDCMP
+#
+# 0402YA221
+#
+$CMP 0402YA221
+K capacitor,smd
+D Capacitor 220pF 16V
+$ENDCMP
+#
+# capacitor_10n_25V_chip_0603
+#
+$CMP capacitor_10n_25V_chip_0603
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# 06033A103
+#
+$CMP 06033A103
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# capacitor_470p_200V_chip_0603
+#
+$CMP capacitor_470p_200V_chip_0603
+K capacitor,smd
+D Capacitor 470pF 200V
+$ENDCMP
+#
+# 06032A471
+#
+$CMP 06032A471
+K capacitor,smd
+D Capacitor 470pF 200V
+$ENDCMP
+#
+# capacitor_22u_50V_chip_2220
+#
+$CMP capacitor_22u_50V_chip_2220
+K capacitor,smd
+D Capacitor 22uF 50V
+$ENDCMP
+#
+# 22205A226
+#
+$CMP 22205A226
+K capacitor,smd
+D Capacitor 22uF 50V
+$ENDCMP
+#
+# capacitor_3n3_16V_chip_0201
+#
+$CMP capacitor_3n3_16V_chip_0201
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# 0201YA332
+#
+$CMP 0201YA332
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# capacitor_4u7_50V_chip_1812
+#
+$CMP capacitor_4u7_50V_chip_1812
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# 18125A475
+#
+$CMP 18125A475
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# capacitor_330n_16V_chip_0805
+#
+$CMP capacitor_330n_16V_chip_0805
+K capacitor,smd
+D Capacitor 330nF 16V
+$ENDCMP
+#
+# 0805YA334
+#
+$CMP 0805YA334
+K capacitor,smd
+D Capacitor 330nF 16V
+$ENDCMP
+#
+# capacitor_2n2_200V_chip_0805
+#
+$CMP capacitor_2n2_200V_chip_0805
+K capacitor,smd
+D Capacitor 2n2F 200V
+$ENDCMP
+#
+# 08052A222
+#
+$CMP 08052A222
+K capacitor,smd
+D Capacitor 2n2F 200V
+$ENDCMP
+#
+# capacitor_6n8_100V_chip_0603
+#
+$CMP capacitor_6n8_100V_chip_0603
+K capacitor,smd
+D Capacitor 6n8F 100V
+$ENDCMP
+#
+# 06031A682
+#
+$CMP 06031A682
+K capacitor,smd
+D Capacitor 6n8F 100V
+$ENDCMP
+#
+# capacitor_47u_25V_chip_2220
+#
+$CMP capacitor_47u_25V_chip_2220
+K capacitor,smd
+D Capacitor 47uF 25V
+$ENDCMP
+#
+# 22203A476
+#
+$CMP 22203A476
+K capacitor,smd
+D Capacitor 47uF 25V
+$ENDCMP
+#
+# capacitor_330n_50V_chip_1206
+#
+$CMP capacitor_330n_50V_chip_1206
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# 12065A334
+#
+$CMP 12065A334
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# capacitor_10n_16V_chip_1206
+#
+$CMP capacitor_10n_16V_chip_1206
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# 1206YA103
+#
+$CMP 1206YA103
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# capacitor_330p_200V_chip_0603
+#
+$CMP capacitor_330p_200V_chip_0603
+K capacitor,smd
+D Capacitor 330pF 200V
+$ENDCMP
+#
+# 06032A331
+#
+$CMP 06032A331
+K capacitor,smd
+D Capacitor 330pF 200V
+$ENDCMP
+#
+# capacitor_2u2_50V_chip_1812
+#
+$CMP capacitor_2u2_50V_chip_1812
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# 18125A225
+#
+$CMP 18125A225
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# capacitor_2n2_16V_chip_1206
+#
+$CMP capacitor_2n2_16V_chip_1206
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# 1206YA222
+#
+$CMP 1206YA222
+K capacitor,smd
+D Capacitor 2n2F 16V
+$ENDCMP
+#
+# capacitor_330n_50V_chip_2225
+#
+$CMP capacitor_330n_50V_chip_2225
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# 22255A334
+#
+$CMP 22255A334
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# capacitor_100n_500V_chip_2220
+#
+$CMP capacitor_100n_500V_chip_2220
+K capacitor,smd
+D Capacitor 100nF 500V
+$ENDCMP
+#
+# 22207A104
+#
+$CMP 22207A104
+K capacitor,smd
+D Capacitor 100nF 500V
+$ENDCMP
+#
+# capacitor_10n_10V_chip_0201
+#
+$CMP capacitor_10n_10V_chip_0201
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# 0201ZA103
+#
+$CMP 0201ZA103
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# capacitor_330n_100V_chip_2220
+#
+$CMP capacitor_330n_100V_chip_2220
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# 22201A334
+#
+$CMP 22201A334
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# capacitor_100n_10V_chip_1210
+#
+$CMP capacitor_100n_10V_chip_1210
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# 1210ZA104
+#
+$CMP 1210ZA104
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# capacitor_47n_200V_chip_1210
+#
+$CMP capacitor_47n_200V_chip_1210
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# 12102A473
+#
+$CMP 12102A473
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# capacitor_33n_100V_chip_1206
+#
+$CMP capacitor_33n_100V_chip_1206
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# 12061A333
+#
+$CMP 12061A333
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# capacitor_47n_200V_chip_1825
+#
+$CMP capacitor_47n_200V_chip_1825
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# 18252A473
+#
+$CMP 18252A473
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# capacitor_4u7_16V_chip_0805
+#
+$CMP capacitor_4u7_16V_chip_0805
+K capacitor,smd
+D Capacitor 4u7F 16V
+$ENDCMP
+#
+# 0805YA475
+#
+$CMP 0805YA475
+K capacitor,smd
+D Capacitor 4u7F 16V
+$ENDCMP
+#
+# capacitor_470p_500V_chip_1206
+#
+$CMP capacitor_470p_500V_chip_1206
+K capacitor,smd
+D Capacitor 470pF 500V
+$ENDCMP
+#
+# 12067A471
+#
+$CMP 12067A471
+K capacitor,smd
+D Capacitor 470pF 500V
+$ENDCMP
+#
+# capacitor_220p_50V_chip_0201
+#
+$CMP capacitor_220p_50V_chip_0201
+K capacitor,smd
+D Capacitor 220pF 50V
+$ENDCMP
+#
+# 02015A221
+#
+$CMP 02015A221
+K capacitor,smd
+D Capacitor 220pF 50V
+$ENDCMP
+#
+# capacitor_470p_50V_chip_0201
+#
+$CMP capacitor_470p_50V_chip_0201
+K capacitor,smd
+D Capacitor 470pF 50V
+$ENDCMP
+#
+# 02015A471
+#
+$CMP 02015A471
+K capacitor,smd
+D Capacitor 470pF 50V
+$ENDCMP
+#
+# capacitor_6n8_16V_chip_0805
+#
+$CMP capacitor_6n8_16V_chip_0805
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# 0805YA682
+#
+$CMP 0805YA682
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# capacitor_68n_500V_chip_1210
+#
+$CMP capacitor_68n_500V_chip_1210
+K capacitor,smd
+D Capacitor 68nF 500V
+$ENDCMP
+#
+# 12107A683
+#
+$CMP 12107A683
+K capacitor,smd
+D Capacitor 68nF 500V
+$ENDCMP
+#
+# capacitor_2n2_25V_chip_0402
+#
+$CMP capacitor_2n2_25V_chip_0402
+K capacitor,smd
+D Capacitor 2n2F 25V
+$ENDCMP
+#
+# 04023A222
+#
+$CMP 04023A222
+K capacitor,smd
+D Capacitor 2n2F 25V
+$ENDCMP
+#
+# capacitor_2n2_100V_chip_1210
+#
+$CMP capacitor_2n2_100V_chip_1210
+K capacitor,smd
+D Capacitor 2n2F 100V
+$ENDCMP
+#
+# 12101A222
+#
+$CMP 12101A222
+K capacitor,smd
+D Capacitor 2n2F 100V
+$ENDCMP
+#
+# capacitor_150n_6.3V_chip_0603
+#
+$CMP capacitor_150n_6.3V_chip_0603
+K capacitor,smd
+D Capacitor 150nF 6.3V
+$ENDCMP
+#
+# 06036A154
+#
+$CMP 06036A154
+K capacitor,smd
+D Capacitor 150nF 6.3V
+$ENDCMP
+#
+# capacitor_10u_10V_chip_0805
+#
+$CMP capacitor_10u_10V_chip_0805
+K capacitor,smd
+D Capacitor 10uF 10V
+$ENDCMP
+#
+# 0805ZA106
+#
+$CMP 0805ZA106
+K capacitor,smd
+D Capacitor 10uF 10V
+$ENDCMP
+#
+# capacitor_220n_500V_chip_2220
+#
+$CMP capacitor_220n_500V_chip_2220
+K capacitor,smd
+D Capacitor 220nF 500V
+$ENDCMP
+#
+# 22207A224
+#
+$CMP 22207A224
+K capacitor,smd
+D Capacitor 220nF 500V
+$ENDCMP
+#
+# capacitor_15n_50V_chip_1825
+#
+$CMP capacitor_15n_50V_chip_1825
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# 18255A153
+#
+$CMP 18255A153
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# capacitor_220n_100V_chip_1812
+#
+$CMP capacitor_220n_100V_chip_1812
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# 18121A224
+#
+$CMP 18121A224
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# capacitor_680n_100V_chip_1812
+#
+$CMP capacitor_680n_100V_chip_1812
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# 18121A684
+#
+$CMP 18121A684
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# capacitor_47n_25V_chip_0402
+#
+$CMP capacitor_47n_25V_chip_0402
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# 04023A473
+#
+$CMP 04023A473
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# capacitor_47n_200V_chip_2220
+#
+$CMP capacitor_47n_200V_chip_2220
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# 22202A473
+#
+$CMP 22202A473
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# capacitor_470p_50V_chip_0805
+#
+$CMP capacitor_470p_50V_chip_0805
+K capacitor,smd
+D Capacitor 470pF 50V
+$ENDCMP
+#
+# 08055A471
+#
+$CMP 08055A471
+K capacitor,smd
+D Capacitor 470pF 50V
+$ENDCMP
+#
+# capacitor_10n_100V_chip_1210
+#
+$CMP capacitor_10n_100V_chip_1210
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# 12101A103
+#
+$CMP 12101A103
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# capacitor_470n_25V_chip_0603
+#
+$CMP capacitor_470n_25V_chip_0603
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# 06033A474
+#
+$CMP 06033A474
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# capacitor_68n_16V_chip_0603
+#
+$CMP capacitor_68n_16V_chip_0603
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# 0603YA683
+#
+$CMP 0603YA683
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# capacitor_680p_100V_chip_0805
+#
+$CMP capacitor_680p_100V_chip_0805
+K capacitor,smd
+D Capacitor 680pF 100V
+$ENDCMP
+#
+# 08051A681
+#
+$CMP 08051A681
+K capacitor,smd
+D Capacitor 680pF 100V
+$ENDCMP
+#
+# capacitor_150p_50V_chip_0603
+#
+$CMP capacitor_150p_50V_chip_0603
+K capacitor,smd
+D Capacitor 150pF 50V
+$ENDCMP
+#
+# 06035A151
+#
+$CMP 06035A151
+K capacitor,smd
+D Capacitor 150pF 50V
+$ENDCMP
+#
+# capacitor_330n_10V_chip_1210
+#
+$CMP capacitor_330n_10V_chip_1210
+K capacitor,smd
+D Capacitor 330nF 10V
+$ENDCMP
+#
+# 1210ZA334
+#
+$CMP 1210ZA334
+K capacitor,smd
+D Capacitor 330nF 10V
+$ENDCMP
+#
+# capacitor_1u_16V_chip_1206
+#
+$CMP capacitor_1u_16V_chip_1206
+K capacitor,smd
+D Capacitor 1uF 16V
+$ENDCMP
+#
+# 1206YA1004
+#
+$CMP 1206YA1004
+K capacitor,smd
+D Capacitor 1uF 16V
+$ENDCMP
+#
+# capacitor_1n_25V_chip_0805
+#
+$CMP capacitor_1n_25V_chip_0805
+K capacitor,smd
+D Capacitor 1nF 25V
+$ENDCMP
+#
+# 08053A1001
+#
+$CMP 08053A1001
+K capacitor,smd
+D Capacitor 1nF 25V
+$ENDCMP
+#
+# capacitor_1u_16V_chip_0603
+#
+$CMP capacitor_1u_16V_chip_0603
+K capacitor,smd
+D Capacitor 1uF 16V
+$ENDCMP
+#
+# 0603YA1004
+#
+$CMP 0603YA1004
+K capacitor,smd
+D Capacitor 1uF 16V
+$ENDCMP
+#
+# capacitor_470n_16V_chip_1206
+#
+$CMP capacitor_470n_16V_chip_1206
+K capacitor,smd
+D Capacitor 470nF 16V
+$ENDCMP
+#
+# 1206YA474
+#
+$CMP 1206YA474
+K capacitor,smd
+D Capacitor 470nF 16V
+$ENDCMP
+#
+# capacitor_10u_25V_chip_2220
+#
+$CMP capacitor_10u_25V_chip_2220
+K capacitor,smd
+D Capacitor 10uF 25V
+$ENDCMP
+#
+# 22203A106
+#
+$CMP 22203A106
+K capacitor,smd
+D Capacitor 10uF 25V
+$ENDCMP
+#
+# capacitor_150n_200V_chip_1812
+#
+$CMP capacitor_150n_200V_chip_1812
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# 18122A154
+#
+$CMP 18122A154
+K capacitor,smd
+D Capacitor 150nF 200V
+$ENDCMP
+#
+# capacitor_33n_25V_chip_0805
+#
+$CMP capacitor_33n_25V_chip_0805
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# 08053A333
+#
+$CMP 08053A333
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# capacitor_68n_16V_chip_0805
+#
+$CMP capacitor_68n_16V_chip_0805
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# 0805YA683
+#
+$CMP 0805YA683
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# capacitor_680p_100V_chip_0603
+#
+$CMP capacitor_680p_100V_chip_0603
+K capacitor,smd
+D Capacitor 680pF 100V
+$ENDCMP
+#
+# 06031A681
+#
+$CMP 06031A681
+K capacitor,smd
+D Capacitor 680pF 100V
+$ENDCMP
+#
+# capacitor_1u_25V_chip_1210
+#
+$CMP capacitor_1u_25V_chip_1210
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# 12103A1004
+#
+$CMP 12103A1004
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# capacitor_2u2_50V_chip_0805
+#
+$CMP capacitor_2u2_50V_chip_0805
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# 08055A225
+#
+$CMP 08055A225
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# capacitor_33n_50V_chip_2225
+#
+$CMP capacitor_33n_50V_chip_2225
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# 22255A333
+#
+$CMP 22255A333
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# capacitor_2n2_10V_chip_1210
+#
+$CMP capacitor_2n2_10V_chip_1210
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# 1210ZA222
+#
+$CMP 1210ZA222
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# capacitor_220n_50V_chip_1210
+#
+$CMP capacitor_220n_50V_chip_1210
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# 12105A224
+#
+$CMP 12105A224
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# capacitor_1n5_16V_chip_0402
+#
+$CMP capacitor_1n5_16V_chip_0402
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# 0402YA152
+#
+$CMP 0402YA152
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# capacitor_68n_50V_chip_0603
+#
+$CMP capacitor_68n_50V_chip_0603
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# 06035A683
+#
+$CMP 06035A683
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# capacitor_2n2_200V_chip_1210
+#
+$CMP capacitor_2n2_200V_chip_1210
+K capacitor,smd
+D Capacitor 2n2F 200V
+$ENDCMP
+#
+# 12102A222
+#
+$CMP 12102A222
+K capacitor,smd
+D Capacitor 2n2F 200V
+$ENDCMP
+#
+# capacitor_1n5_50V_chip_0805
+#
+$CMP capacitor_1n5_50V_chip_0805
+K capacitor,smd
+D Capacitor 1n5F 50V
+$ENDCMP
+#
+# 08055A152
+#
+$CMP 08055A152
+K capacitor,smd
+D Capacitor 1n5F 50V
+$ENDCMP
+#
+# capacitor_47n_16V_chip_0805
+#
+$CMP capacitor_47n_16V_chip_0805
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# 0805YA473
+#
+$CMP 0805YA473
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# capacitor_6n8_500V_chip_1206
+#
+$CMP capacitor_6n8_500V_chip_1206
+K capacitor,smd
+D Capacitor 6n8F 500V
+$ENDCMP
+#
+# 12067A682
+#
+$CMP 12067A682
+K capacitor,smd
+D Capacitor 6n8F 500V
+$ENDCMP
+#
+# capacitor_100n_16V_chip_1210
+#
+$CMP capacitor_100n_16V_chip_1210
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# 1210YA104
+#
+$CMP 1210YA104
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# capacitor_15n_50V_chip_0805
+#
+$CMP capacitor_15n_50V_chip_0805
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# 08055A153
+#
+$CMP 08055A153
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# capacitor_4u7_25V_chip_0805
+#
+$CMP capacitor_4u7_25V_chip_0805
+K capacitor,smd
+D Capacitor 4u7F 25V
+$ENDCMP
+#
+# 08053A475
+#
+$CMP 08053A475
+K capacitor,smd
+D Capacitor 4u7F 25V
+$ENDCMP
+#
+# capacitor_4n7_100V_chip_0805
+#
+$CMP capacitor_4n7_100V_chip_0805
+K capacitor,smd
+D Capacitor 4n7F 100V
+$ENDCMP
+#
+# 08051A472
+#
+$CMP 08051A472
+K capacitor,smd
+D Capacitor 4n7F 100V
+$ENDCMP
+#
+# capacitor_100n_500V_chip_1812
+#
+$CMP capacitor_100n_500V_chip_1812
+K capacitor,smd
+D Capacitor 100nF 500V
+$ENDCMP
+#
+# 18127A104
+#
+$CMP 18127A104
+K capacitor,smd
+D Capacitor 100nF 500V
+$ENDCMP
+#
+# capacitor_4u7_50V_chip_1206
+#
+$CMP capacitor_4u7_50V_chip_1206
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# 12065A475
+#
+$CMP 12065A475
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# capacitor_2n2_25V_chip_1210
+#
+$CMP capacitor_2n2_25V_chip_1210
+K capacitor,smd
+D Capacitor 2n2F 25V
+$ENDCMP
+#
+# 12103A222
+#
+$CMP 12103A222
+K capacitor,smd
+D Capacitor 2n2F 25V
+$ENDCMP
+#
+# capacitor_1n5_50V_chip_0603
+#
+$CMP capacitor_1n5_50V_chip_0603
+K capacitor,smd
+D Capacitor 1n5F 50V
+$ENDCMP
+#
+# 06035A152
+#
+$CMP 06035A152
+K capacitor,smd
+D Capacitor 1n5F 50V
+$ENDCMP
+#
+# capacitor_1n5_10V_chip_0402
+#
+$CMP capacitor_1n5_10V_chip_0402
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# 0402ZA152
+#
+$CMP 0402ZA152
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# capacitor_100n_100V_chip_1206
+#
+$CMP capacitor_100n_100V_chip_1206
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# 12061A104
+#
+$CMP 12061A104
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# capacitor_22n_200V_chip_1825
+#
+$CMP capacitor_22n_200V_chip_1825
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# 18252A223
+#
+$CMP 18252A223
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# capacitor_330p_500V_chip_1206
+#
+$CMP capacitor_330p_500V_chip_1206
+K capacitor,smd
+D Capacitor 330pF 500V
+$ENDCMP
+#
+# 12067A331
+#
+$CMP 12067A331
+K capacitor,smd
+D Capacitor 330pF 500V
+$ENDCMP
+#
+# capacitor_150p_16V_chip_0402
+#
+$CMP capacitor_150p_16V_chip_0402
+K capacitor,smd
+D Capacitor 150pF 16V
+$ENDCMP
+#
+# 0402YA151
+#
+$CMP 0402YA151
+K capacitor,smd
+D Capacitor 150pF 16V
+$ENDCMP
+#
+# capacitor_47u_50V_chip_2220
+#
+$CMP capacitor_47u_50V_chip_2220
+K capacitor,smd
+D Capacitor 47uF 50V
+$ENDCMP
+#
+# 22205A476
+#
+$CMP 22205A476
+K capacitor,smd
+D Capacitor 47uF 50V
+$ENDCMP
+#
+# capacitor_47u_50V_chip_1210
+#
+$CMP capacitor_47u_50V_chip_1210
+K capacitor,smd
+D Capacitor 47uF 50V
+$ENDCMP
+#
+# 12105A476
+#
+$CMP 12105A476
+K capacitor,smd
+D Capacitor 47uF 50V
+$ENDCMP
+#
+# capacitor_33n_10V_chip_1206
+#
+$CMP capacitor_33n_10V_chip_1206
+K capacitor,smd
+D Capacitor 33nF 10V
+$ENDCMP
+#
+# 1206ZA333
+#
+$CMP 1206ZA333
+K capacitor,smd
+D Capacitor 33nF 10V
+$ENDCMP
+#
+# capacitor_68n_25V_chip_1210
+#
+$CMP capacitor_68n_25V_chip_1210
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# 12103A683
+#
+$CMP 12103A683
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# capacitor_15n_25V_chip_1206
+#
+$CMP capacitor_15n_25V_chip_1206
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# 12063A153
+#
+$CMP 12063A153
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# capacitor_1n5_10V_chip_1210
+#
+$CMP capacitor_1n5_10V_chip_1210
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# 1210ZA152
+#
+$CMP 1210ZA152
+K capacitor,smd
+D Capacitor 1n5F 10V
+$ENDCMP
+#
+# capacitor_220p_25V_chip_0201
+#
+$CMP capacitor_220p_25V_chip_0201
+K capacitor,smd
+D Capacitor 220pF 25V
+$ENDCMP
+#
+# 02013A221
+#
+$CMP 02013A221
+K capacitor,smd
+D Capacitor 220pF 25V
+$ENDCMP
+#
+# capacitor_1n_200V_chip_0603
+#
+$CMP capacitor_1n_200V_chip_0603
+K capacitor,smd
+D Capacitor 1nF 200V
+$ENDCMP
+#
+# 06032A1001
+#
+$CMP 06032A1001
+K capacitor,smd
+D Capacitor 1nF 200V
+$ENDCMP
+#
+# capacitor_68n_100V_chip_1825
+#
+$CMP capacitor_68n_100V_chip_1825
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# 18251A683
+#
+$CMP 18251A683
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# capacitor_6n8_10V_chip_0402
+#
+$CMP capacitor_6n8_10V_chip_0402
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# 0402ZA682
+#
+$CMP 0402ZA682
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# capacitor_33n_16V_chip_1206
+#
+$CMP capacitor_33n_16V_chip_1206
+K capacitor,smd
+D Capacitor 33nF 16V
+$ENDCMP
+#
+# 1206YA333
+#
+$CMP 1206YA333
+K capacitor,smd
+D Capacitor 33nF 16V
+$ENDCMP
+#
+# capacitor_680p_50V_chip_0805
+#
+$CMP capacitor_680p_50V_chip_0805
+K capacitor,smd
+D Capacitor 680pF 50V
+$ENDCMP
+#
+# 08055A681
+#
+$CMP 08055A681
+K capacitor,smd
+D Capacitor 680pF 50V
+$ENDCMP
+#
+# capacitor_470n_50V_chip_1812
+#
+$CMP capacitor_470n_50V_chip_1812
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# 18125A474
+#
+$CMP 18125A474
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# capacitor_1n5_16V_chip_1206
+#
+$CMP capacitor_1n5_16V_chip_1206
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# 1206YA152
+#
+$CMP 1206YA152
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# capacitor_3n3_25V_chip_1206
+#
+$CMP capacitor_3n3_25V_chip_1206
+K capacitor,smd
+D Capacitor 3n3F 25V
+$ENDCMP
+#
+# 12063A332
+#
+$CMP 12063A332
+K capacitor,smd
+D Capacitor 3n3F 25V
+$ENDCMP
+#
+# capacitor_22n_100V_chip_1825
+#
+$CMP capacitor_22n_100V_chip_1825
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# 18251A223
+#
+$CMP 18251A223
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# capacitor_3n3_16V_chip_1206
+#
+$CMP capacitor_3n3_16V_chip_1206
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# 1206YA332
+#
+$CMP 1206YA332
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# capacitor_150n_100V_chip_1210
+#
+$CMP capacitor_150n_100V_chip_1210
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# 12101A154
+#
+$CMP 12101A154
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# capacitor_680n_50V_chip_2220
+#
+$CMP capacitor_680n_50V_chip_2220
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# 22205A684
+#
+$CMP 22205A684
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# capacitor_10n_25V_chip_1206
+#
+$CMP capacitor_10n_25V_chip_1206
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# 12063A103
+#
+$CMP 12063A103
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# capacitor_33n_50V_chip_0603
+#
+$CMP capacitor_33n_50V_chip_0603
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# 06035A333
+#
+$CMP 06035A333
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# capacitor_150p_10V_chip_0201
+#
+$CMP capacitor_150p_10V_chip_0201
+K capacitor,smd
+D Capacitor 150pF 10V
+$ENDCMP
+#
+# 0201ZA151
+#
+$CMP 0201ZA151
+K capacitor,smd
+D Capacitor 150pF 10V
+$ENDCMP
+#
+# capacitor_22u_25V_chip_1210
+#
+$CMP capacitor_22u_25V_chip_1210
+K capacitor,smd
+D Capacitor 22uF 25V
+$ENDCMP
+#
+# 12103A226
+#
+$CMP 12103A226
+K capacitor,smd
+D Capacitor 22uF 25V
+$ENDCMP
+#
+# capacitor_15n_16V_chip_0402
+#
+$CMP capacitor_15n_16V_chip_0402
+K capacitor,smd
+D Capacitor 15nF 16V
+$ENDCMP
+#
+# 0402YA153
+#
+$CMP 0402YA153
+K capacitor,smd
+D Capacitor 15nF 16V
+$ENDCMP
+#
+# capacitor_1n_25V_chip_0402
+#
+$CMP capacitor_1n_25V_chip_0402
+K capacitor,smd
+D Capacitor 1nF 25V
+$ENDCMP
+#
+# 04023A1001
+#
+$CMP 04023A1001
+K capacitor,smd
+D Capacitor 1nF 25V
+$ENDCMP
+#
+# capacitor_220n_100V_chip_1210
+#
+$CMP capacitor_220n_100V_chip_1210
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# 12101A224
+#
+$CMP 12101A224
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# capacitor_150n_25V_chip_1812
+#
+$CMP capacitor_150n_25V_chip_1812
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# 18123A154
+#
+$CMP 18123A154
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# capacitor_470n_100V_chip_0805
+#
+$CMP capacitor_470n_100V_chip_0805
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# 08051A474
+#
+$CMP 08051A474
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# capacitor_220n_16V_chip_1206
+#
+$CMP capacitor_220n_16V_chip_1206
+K capacitor,smd
+D Capacitor 220nF 16V
+$ENDCMP
+#
+# 1206YA224
+#
+$CMP 1206YA224
+K capacitor,smd
+D Capacitor 220nF 16V
+$ENDCMP
+#
+# capacitor_4n7_200V_chip_0805
+#
+$CMP capacitor_4n7_200V_chip_0805
+K capacitor,smd
+D Capacitor 4n7F 200V
+$ENDCMP
+#
+# 08052A472
+#
+$CMP 08052A472
+K capacitor,smd
+D Capacitor 4n7F 200V
+$ENDCMP
+#
+# capacitor_10n_10V_chip_0805
+#
+$CMP capacitor_10n_10V_chip_0805
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# 0805ZA103
+#
+$CMP 0805ZA103
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# capacitor_470p_16V_chip_0402
+#
+$CMP capacitor_470p_16V_chip_0402
+K capacitor,smd
+D Capacitor 470pF 16V
+$ENDCMP
+#
+# 0402YA471
+#
+$CMP 0402YA471
+K capacitor,smd
+D Capacitor 470pF 16V
+$ENDCMP
+#
+# capacitor_680n_100V_chip_2220
+#
+$CMP capacitor_680n_100V_chip_2220
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# 22201A684
+#
+$CMP 22201A684
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# capacitor_22u_25V_chip_1812
+#
+$CMP capacitor_22u_25V_chip_1812
+K capacitor,smd
+D Capacitor 22uF 25V
+$ENDCMP
+#
+# 18123A226
+#
+$CMP 18123A226
+K capacitor,smd
+D Capacitor 22uF 25V
+$ENDCMP
+#
+# capacitor_1u_100V_chip_1210
+#
+$CMP capacitor_1u_100V_chip_1210
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# 12101A1004
+#
+$CMP 12101A1004
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# capacitor_6n8_200V_chip_1206
+#
+$CMP capacitor_6n8_200V_chip_1206
+K capacitor,smd
+D Capacitor 6n8F 200V
+$ENDCMP
+#
+# 12062A682
+#
+$CMP 12062A682
+K capacitor,smd
+D Capacitor 6n8F 200V
+$ENDCMP
+#
+# capacitor_680n_50V_chip_2225
+#
+$CMP capacitor_680n_50V_chip_2225
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# 22255A684
+#
+$CMP 22255A684
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# capacitor_15n_200V_chip_0805
+#
+$CMP capacitor_15n_200V_chip_0805
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# 08052A153
+#
+$CMP 08052A153
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# capacitor_22n_100V_chip_0805
+#
+$CMP capacitor_22n_100V_chip_0805
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# 08051A223
+#
+$CMP 08051A223
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# capacitor_33n_100V_chip_1812
+#
+$CMP capacitor_33n_100V_chip_1812
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# 18121A333
+#
+$CMP 18121A333
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# capacitor_4n7_10V_chip_0201
+#
+$CMP capacitor_4n7_10V_chip_0201
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# 0201ZA472
+#
+$CMP 0201ZA472
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# capacitor_470n_25V_chip_1206
+#
+$CMP capacitor_470n_25V_chip_1206
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# 12063A474
+#
+$CMP 12063A474
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# capacitor_68n_100V_chip_0805
+#
+$CMP capacitor_68n_100V_chip_0805
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# 08051A683
+#
+$CMP 08051A683
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# capacitor_47n_25V_chip_1812
+#
+$CMP capacitor_47n_25V_chip_1812
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# 18123A473
+#
+$CMP 18123A473
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# capacitor_1u_50V_chip_1206
+#
+$CMP capacitor_1u_50V_chip_1206
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# 12065A1004
+#
+$CMP 12065A1004
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# capacitor_1u_25V_chip_1812
+#
+$CMP capacitor_1u_25V_chip_1812
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# 18123A1004
+#
+$CMP 18123A1004
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# capacitor_47n_500V_chip_1210
+#
+$CMP capacitor_47n_500V_chip_1210
+K capacitor,smd
+D Capacitor 47nF 500V
+$ENDCMP
+#
+# 12107A473
+#
+$CMP 12107A473
+K capacitor,smd
+D Capacitor 47nF 500V
+$ENDCMP
+#
+# capacitor_68n_50V_chip_1210
+#
+$CMP capacitor_68n_50V_chip_1210
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# 12105A683
+#
+$CMP 12105A683
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# capacitor_68n_50V_chip_2220
+#
+$CMP capacitor_68n_50V_chip_2220
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# 22205A683
+#
+$CMP 22205A683
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# capacitor_22n_200V_chip_0805
+#
+$CMP capacitor_22n_200V_chip_0805
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# 08052A223
+#
+$CMP 08052A223
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# capacitor_470n_25V_chip_0805
+#
+$CMP capacitor_470n_25V_chip_0805
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# 08053A474
+#
+$CMP 08053A474
+K capacitor,smd
+D Capacitor 470nF 25V
+$ENDCMP
+#
+# capacitor_1u_50V_chip_2225
+#
+$CMP capacitor_1u_50V_chip_2225
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# 22255A1004
+#
+$CMP 22255A1004
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# capacitor_22n_200V_chip_2220
+#
+$CMP capacitor_22n_200V_chip_2220
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# 22202A223
+#
+$CMP 22202A223
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# capacitor_10n_200V_chip_2225
+#
+$CMP capacitor_10n_200V_chip_2225
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# 22252A103
+#
+$CMP 22252A103
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# capacitor_22n_200V_chip_2225
+#
+$CMP capacitor_22n_200V_chip_2225
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# 22252A223
+#
+$CMP 22252A223
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# capacitor_10n_200V_chip_2220
+#
+$CMP capacitor_10n_200V_chip_2220
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# 22202A103
+#
+$CMP 22202A103
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# capacitor_47n_25V_chip_1210
+#
+$CMP capacitor_47n_25V_chip_1210
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# 12103A473
+#
+$CMP 12103A473
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# capacitor_4u7_25V_chip_1210
+#
+$CMP capacitor_4u7_25V_chip_1210
+K capacitor,smd
+D Capacitor 4u7F 25V
+$ENDCMP
+#
+# 12103A475
+#
+$CMP 12103A475
+K capacitor,smd
+D Capacitor 4u7F 25V
+$ENDCMP
+#
+# capacitor_1u_200V_chip_2225
+#
+$CMP capacitor_1u_200V_chip_2225
+K capacitor,smd
+D Capacitor 1uF 200V
+$ENDCMP
+#
+# 22252A1004
+#
+$CMP 22252A1004
+K capacitor,smd
+D Capacitor 1uF 200V
+$ENDCMP
+#
+# capacitor_1n_16V_chip_0201
+#
+$CMP capacitor_1n_16V_chip_0201
+K capacitor,smd
+D Capacitor 1nF 16V
+$ENDCMP
+#
+# 0201YA1001
+#
+$CMP 0201YA1001
+K capacitor,smd
+D Capacitor 1nF 16V
+$ENDCMP
+#
+# capacitor_2u2_50V_chip_1825
+#
+$CMP capacitor_2u2_50V_chip_1825
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# 18255A225
+#
+$CMP 18255A225
+K capacitor,smd
+D Capacitor 2u2F 50V
+$ENDCMP
+#
+# capacitor_1u_10V_chip_0603
+#
+$CMP capacitor_1u_10V_chip_0603
+K capacitor,smd
+D Capacitor 1uF 10V
+$ENDCMP
+#
+# 0603ZA1004
+#
+$CMP 0603ZA1004
+K capacitor,smd
+D Capacitor 1uF 10V
+$ENDCMP
+#
+# capacitor_47n_100V_chip_0805
+#
+$CMP capacitor_47n_100V_chip_0805
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# 08051A473
+#
+$CMP 08051A473
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# capacitor_220p_50V_chip_0603
+#
+$CMP capacitor_220p_50V_chip_0603
+K capacitor,smd
+D Capacitor 220pF 50V
+$ENDCMP
+#
+# 06035A221
+#
+$CMP 06035A221
+K capacitor,smd
+D Capacitor 220pF 50V
+$ENDCMP
+#
+# capacitor_4n7_16V_chip_1210
+#
+$CMP capacitor_4n7_16V_chip_1210
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# 1210YA472
+#
+$CMP 1210YA472
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# capacitor_15n_10V_chip_1210
+#
+$CMP capacitor_15n_10V_chip_1210
+K capacitor,smd
+D Capacitor 15nF 10V
+$ENDCMP
+#
+# 1210ZA153
+#
+$CMP 1210ZA153
+K capacitor,smd
+D Capacitor 15nF 10V
+$ENDCMP
+#
+# capacitor_100u_200V_chip_1825
+#
+$CMP capacitor_100u_200V_chip_1825
+K capacitor,smd
+D Capacitor 100uF 200V
+$ENDCMP
+#
+# 18252A107
+#
+$CMP 18252A107
+K capacitor,smd
+D Capacitor 100uF 200V
+$ENDCMP
+#
+# capacitor_68n_50V_chip_2225
+#
+$CMP capacitor_68n_50V_chip_2225
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# 22255A683
+#
+$CMP 22255A683
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# capacitor_47n_500V_chip_1812
+#
+$CMP capacitor_47n_500V_chip_1812
+K capacitor,smd
+D Capacitor 47nF 500V
+$ENDCMP
+#
+# 18127A473
+#
+$CMP 18127A473
+K capacitor,smd
+D Capacitor 47nF 500V
+$ENDCMP
+#
+# capacitor_2n2_10V_chip_0805
+#
+$CMP capacitor_2n2_10V_chip_0805
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# 0805ZA222
+#
+$CMP 0805ZA222
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# capacitor_15n_16V_chip_1210
+#
+$CMP capacitor_15n_16V_chip_1210
+K capacitor,smd
+D Capacitor 15nF 16V
+$ENDCMP
+#
+# 1210YA153
+#
+$CMP 1210YA153
+K capacitor,smd
+D Capacitor 15nF 16V
+$ENDCMP
+#
+# capacitor_220n_50V_chip_1812
+#
+$CMP capacitor_220n_50V_chip_1812
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# 18125A224
+#
+$CMP 18125A224
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# capacitor_47n_50V_chip_0805
+#
+$CMP capacitor_47n_50V_chip_0805
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# 08055A473
+#
+$CMP 08055A473
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# capacitor_68n_25V_chip_0402
+#
+$CMP capacitor_68n_25V_chip_0402
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# 04023A683
+#
+$CMP 04023A683
+K capacitor,smd
+D Capacitor 68nF 25V
+$ENDCMP
+#
+# capacitor_100n_100V_chip_2220
+#
+$CMP capacitor_100n_100V_chip_2220
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# 22201A104
+#
+$CMP 22201A104
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# capacitor_100n_16V_chip_0402
+#
+$CMP capacitor_100n_16V_chip_0402
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# 0402YA104
+#
+$CMP 0402YA104
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# capacitor_6n8_100V_chip_1206
+#
+$CMP capacitor_6n8_100V_chip_1206
+K capacitor,smd
+D Capacitor 6n8F 100V
+$ENDCMP
+#
+# 12061A682
+#
+$CMP 12061A682
+K capacitor,smd
+D Capacitor 6n8F 100V
+$ENDCMP
+#
+# capacitor_100n_100V_chip_2225
+#
+$CMP capacitor_100n_100V_chip_2225
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# 22251A104
+#
+$CMP 22251A104
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# capacitor_220n_200V_chip_2220
+#
+$CMP capacitor_220n_200V_chip_2220
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# 22202A224
+#
+$CMP 22202A224
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# capacitor_100n_10V_chip_0603
+#
+$CMP capacitor_100n_10V_chip_0603
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# 0603ZA104
+#
+$CMP 0603ZA104
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# capacitor_47n_50V_chip_2225
+#
+$CMP capacitor_47n_50V_chip_2225
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# 22255A473
+#
+$CMP 22255A473
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# capacitor_220n_100V_chip_1825
+#
+$CMP capacitor_220n_100V_chip_1825
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# 18251A224
+#
+$CMP 18251A224
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# capacitor_220n_16V_chip_0603
+#
+$CMP capacitor_220n_16V_chip_0603
+K capacitor,smd
+D Capacitor 220nF 16V
+$ENDCMP
+#
+# 0603YA224
+#
+$CMP 0603YA224
+K capacitor,smd
+D Capacitor 220nF 16V
+$ENDCMP
+#
+# capacitor_3n3_200V_chip_1206
+#
+$CMP capacitor_3n3_200V_chip_1206
+K capacitor,smd
+D Capacitor 3n3F 200V
+$ENDCMP
+#
+# 12062A332
+#
+$CMP 12062A332
+K capacitor,smd
+D Capacitor 3n3F 200V
+$ENDCMP
+#
+# capacitor_4n7_50V_chip_1206
+#
+$CMP capacitor_4n7_50V_chip_1206
+K capacitor,smd
+D Capacitor 4n7F 50V
+$ENDCMP
+#
+# 12065A472
+#
+$CMP 12065A472
+K capacitor,smd
+D Capacitor 4n7F 50V
+$ENDCMP
+#
+# capacitor_220n_25V_chip_1812
+#
+$CMP capacitor_220n_25V_chip_1812
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# 18123A224
+#
+$CMP 18123A224
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# capacitor_22n_50V_chip_2225
+#
+$CMP capacitor_22n_50V_chip_2225
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# 22255A223
+#
+$CMP 22255A223
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# capacitor_22n_50V_chip_2220
+#
+$CMP capacitor_22n_50V_chip_2220
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# 22205A223
+#
+$CMP 22205A223
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# capacitor_150n_16V_chip_0603
+#
+$CMP capacitor_150n_16V_chip_0603
+K capacitor,smd
+D Capacitor 150nF 16V
+$ENDCMP
+#
+# 0603YA154
+#
+$CMP 0603YA154
+K capacitor,smd
+D Capacitor 150nF 16V
+$ENDCMP
+#
+# capacitor_4n7_100V_chip_1210
+#
+$CMP capacitor_4n7_100V_chip_1210
+K capacitor,smd
+D Capacitor 4n7F 100V
+$ENDCMP
+#
+# 12101A472
+#
+$CMP 12101A472
+K capacitor,smd
+D Capacitor 4n7F 100V
+$ENDCMP
+#
+# capacitor_6n8_25V_chip_1206
+#
+$CMP capacitor_6n8_25V_chip_1206
+K capacitor,smd
+D Capacitor 6n8F 25V
+$ENDCMP
+#
+# 12063A682
+#
+$CMP 12063A682
+K capacitor,smd
+D Capacitor 6n8F 25V
+$ENDCMP
+#
+# capacitor_47n_50V_chip_2220
+#
+$CMP capacitor_47n_50V_chip_2220
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# 22205A473
+#
+$CMP 22205A473
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# capacitor_2u2_10V_chip_1210
+#
+$CMP capacitor_2u2_10V_chip_1210
+K capacitor,smd
+D Capacitor 2u2F 10V
+$ENDCMP
+#
+# 1210ZA225
+#
+$CMP 1210ZA225
+K capacitor,smd
+D Capacitor 2u2F 10V
+$ENDCMP
+#
+# capacitor_100n_25V_chip_0805
+#
+$CMP capacitor_100n_25V_chip_0805
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# 08053A104
+#
+$CMP 08053A104
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# capacitor_100n_50V_chip_1206
+#
+$CMP capacitor_100n_50V_chip_1206
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# 12065A104
+#
+$CMP 12065A104
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# capacitor_15n_25V_chip_0603
+#
+$CMP capacitor_15n_25V_chip_0603
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# 06033A153
+#
+$CMP 06033A153
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# capacitor_47n_100V_chip_1206
+#
+$CMP capacitor_47n_100V_chip_1206
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# 12061A473
+#
+$CMP 12061A473
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# capacitor_100p_16V_chip_0402
+#
+$CMP capacitor_100p_16V_chip_0402
+K capacitor,smd
+D Capacitor 100pF 16V
+$ENDCMP
+#
+# 0402YA101
+#
+$CMP 0402YA101
+K capacitor,smd
+D Capacitor 100pF 16V
+$ENDCMP
+#
+# capacitor_10u_25V_chip_1206
+#
+$CMP capacitor_10u_25V_chip_1206
+K capacitor,smd
+D Capacitor 10uF 25V
+$ENDCMP
+#
+# 12063A106
+#
+$CMP 12063A106
+K capacitor,smd
+D Capacitor 10uF 25V
+$ENDCMP
+#
+# capacitor_220n_25V_chip_1210
+#
+$CMP capacitor_220n_25V_chip_1210
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# 12103A224
+#
+$CMP 12103A224
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# capacitor_6n8_50V_chip_1210
+#
+$CMP capacitor_6n8_50V_chip_1210
+K capacitor,smd
+D Capacitor 6n8F 50V
+$ENDCMP
+#
+# 12105A682
+#
+$CMP 12105A682
+K capacitor,smd
+D Capacitor 6n8F 50V
+$ENDCMP
+#
+# capacitor_4n7_10V_chip_1210
+#
+$CMP capacitor_4n7_10V_chip_1210
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# 1210ZA472
+#
+$CMP 1210ZA472
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# capacitor_68n_200V_chip_1825
+#
+$CMP capacitor_68n_200V_chip_1825
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# 18252A683
+#
+$CMP 18252A683
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# capacitor_100p_25V_chip_0201
+#
+$CMP capacitor_100p_25V_chip_0201
+K capacitor,smd
+D Capacitor 100pF 25V
+$ENDCMP
+#
+# 02013A101
+#
+$CMP 02013A101
+K capacitor,smd
+D Capacitor 100pF 25V
+$ENDCMP
+#
+# capacitor_330p_50V_chip_0805
+#
+$CMP capacitor_330p_50V_chip_0805
+K capacitor,smd
+D Capacitor 330pF 50V
+$ENDCMP
+#
+# 08055A331
+#
+$CMP 08055A331
+K capacitor,smd
+D Capacitor 330pF 50V
+$ENDCMP
+#
+# capacitor_2n2_10V_chip_0201
+#
+$CMP capacitor_2n2_10V_chip_0201
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# 0201ZA222
+#
+$CMP 0201ZA222
+K capacitor,smd
+D Capacitor 2n2F 10V
+$ENDCMP
+#
+# capacitor_22n_25V_chip_1206
+#
+$CMP capacitor_22n_25V_chip_1206
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# 12063A223
+#
+$CMP 12063A223
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# capacitor_470p_10V_chip_0805
+#
+$CMP capacitor_470p_10V_chip_0805
+K capacitor,smd
+D Capacitor 470pF 10V
+$ENDCMP
+#
+# 0805ZA471
+#
+$CMP 0805ZA471
+K capacitor,smd
+D Capacitor 470pF 10V
+$ENDCMP
+#
+# capacitor_470p_25V_chip_0805
+#
+$CMP capacitor_470p_25V_chip_0805
+K capacitor,smd
+D Capacitor 470pF 25V
+$ENDCMP
+#
+# 08053A471
+#
+$CMP 08053A471
+K capacitor,smd
+D Capacitor 470pF 25V
+$ENDCMP
+#
+# capacitor_4u7_25V_chip_1812
+#
+$CMP capacitor_4u7_25V_chip_1812
+K capacitor,smd
+D Capacitor 4u7F 25V
+$ENDCMP
+#
+# 18123A475
+#
+$CMP 18123A475
+K capacitor,smd
+D Capacitor 4u7F 25V
+$ENDCMP
+#
+# capacitor_47n_16V_chip_1210
+#
+$CMP capacitor_47n_16V_chip_1210
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# 1210YA473
+#
+$CMP 1210YA473
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# capacitor_330n_16V_chip_1206
+#
+$CMP capacitor_330n_16V_chip_1206
+K capacitor,smd
+D Capacitor 330nF 16V
+$ENDCMP
+#
+# 1206YA334
+#
+$CMP 1206YA334
+K capacitor,smd
+D Capacitor 330nF 16V
+$ENDCMP
+#
+# capacitor_33n_200V_chip_1210
+#
+$CMP capacitor_33n_200V_chip_1210
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# 12102A333
+#
+$CMP 12102A333
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# capacitor_68n_50V_chip_1812
+#
+$CMP capacitor_68n_50V_chip_1812
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# 18125A683
+#
+$CMP 18125A683
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# capacitor_33n_50V_chip_0805
+#
+$CMP capacitor_33n_50V_chip_0805
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# 08055A333
+#
+$CMP 08055A333
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# capacitor_4n7_10V_chip_0402
+#
+$CMP capacitor_4n7_10V_chip_0402
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# 0402ZA472
+#
+$CMP 0402ZA472
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# capacitor_10n_10V_chip_1206
+#
+$CMP capacitor_10n_10V_chip_1206
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# 1206ZA103
+#
+$CMP 1206ZA103
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# capacitor_68n_10V_chip_1210
+#
+$CMP capacitor_68n_10V_chip_1210
+K capacitor,smd
+D Capacitor 68nF 10V
+$ENDCMP
+#
+# 1210ZA683
+#
+$CMP 1210ZA683
+K capacitor,smd
+D Capacitor 68nF 10V
+$ENDCMP
+#
+# capacitor_470n_100V_chip_1825
+#
+$CMP capacitor_470n_100V_chip_1825
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# 18251A474
+#
+$CMP 18251A474
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# capacitor_470n_50V_chip_1210
+#
+$CMP capacitor_470n_50V_chip_1210
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# 12105A474
+#
+$CMP 12105A474
+K capacitor,smd
+D Capacitor 470nF 50V
+$ENDCMP
+#
+# capacitor_2u2_6.3V_chip_0603
+#
+$CMP capacitor_2u2_6.3V_chip_0603
+K capacitor,smd
+D Capacitor 2u2F 6.3V
+$ENDCMP
+#
+# 06036A225
+#
+$CMP 06036A225
+K capacitor,smd
+D Capacitor 2u2F 6.3V
+$ENDCMP
+#
+# capacitor_470n_16V_chip_0603
+#
+$CMP capacitor_470n_16V_chip_0603
+K capacitor,smd
+D Capacitor 470nF 16V
+$ENDCMP
+#
+# 0603YA474
+#
+$CMP 0603YA474
+K capacitor,smd
+D Capacitor 470nF 16V
+$ENDCMP
+#
+# capacitor_150n_25V_chip_1210
+#
+$CMP capacitor_150n_25V_chip_1210
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# 12103A154
+#
+$CMP 12103A154
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# capacitor_2n2_50V_chip_1206
+#
+$CMP capacitor_2n2_50V_chip_1206
+K capacitor,smd
+D Capacitor 2n2F 50V
+$ENDCMP
+#
+# 12065A222
+#
+$CMP 12065A222
+K capacitor,smd
+D Capacitor 2n2F 50V
+$ENDCMP
+#
+# capacitor_4u7_10V_chip_1210
+#
+$CMP capacitor_4u7_10V_chip_1210
+K capacitor,smd
+D Capacitor 4u7F 10V
+$ENDCMP
+#
+# 1210ZA475
+#
+$CMP 1210ZA475
+K capacitor,smd
+D Capacitor 4u7F 10V
+$ENDCMP
+#
+# capacitor_3n3_100V_chip_1210
+#
+$CMP capacitor_3n3_100V_chip_1210
+K capacitor,smd
+D Capacitor 3n3F 100V
+$ENDCMP
+#
+# 12101A332
+#
+$CMP 12101A332
+K capacitor,smd
+D Capacitor 3n3F 100V
+$ENDCMP
+#
+# capacitor_100p_100V_chip_0603
+#
+$CMP capacitor_100p_100V_chip_0603
+K capacitor,smd
+D Capacitor 100pF 100V
+$ENDCMP
+#
+# 06031A101
+#
+$CMP 06031A101
+K capacitor,smd
+D Capacitor 100pF 100V
+$ENDCMP
+#
+# capacitor_15n_200V_chip_1825
+#
+$CMP capacitor_15n_200V_chip_1825
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# 18252A153
+#
+$CMP 18252A153
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# capacitor_10n_50V_chip_2225
+#
+$CMP capacitor_10n_50V_chip_2225
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# 22255A103
+#
+$CMP 22255A103
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# capacitor_150n_100V_chip_2225
+#
+$CMP capacitor_150n_100V_chip_2225
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# 22251A154
+#
+$CMP 22251A154
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# capacitor_6n8_100V_chip_1210
+#
+$CMP capacitor_6n8_100V_chip_1210
+K capacitor,smd
+D Capacitor 6n8F 100V
+$ENDCMP
+#
+# 12101A682
+#
+$CMP 12101A682
+K capacitor,smd
+D Capacitor 6n8F 100V
+$ENDCMP
+#
+# capacitor_150p_25V_chip_0201
+#
+$CMP capacitor_150p_25V_chip_0201
+K capacitor,smd
+D Capacitor 150pF 25V
+$ENDCMP
+#
+# 02013A151
+#
+$CMP 02013A151
+K capacitor,smd
+D Capacitor 150pF 25V
+$ENDCMP
+#
+# capacitor_10n_50V_chip_2220
+#
+$CMP capacitor_10n_50V_chip_2220
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# 22205A103
+#
+$CMP 22205A103
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# capacitor_10n_500V_chip_1812
+#
+$CMP capacitor_10n_500V_chip_1812
+K capacitor,smd
+D Capacitor 10nF 500V
+$ENDCMP
+#
+# 18127A103
+#
+$CMP 18127A103
+K capacitor,smd
+D Capacitor 10nF 500V
+$ENDCMP
+#
+# capacitor_2u2_25V_chip_1210
+#
+$CMP capacitor_2u2_25V_chip_1210
+K capacitor,smd
+D Capacitor 2u2F 25V
+$ENDCMP
+#
+# 12103A225
+#
+$CMP 12103A225
+K capacitor,smd
+D Capacitor 2u2F 25V
+$ENDCMP
+#
+# capacitor_22u_6.3V_chip_1206
+#
+$CMP capacitor_22u_6.3V_chip_1206
+K capacitor,smd
+D Capacitor 22uF 6.3V
+$ENDCMP
+#
+# 12066A226
+#
+$CMP 12066A226
+K capacitor,smd
+D Capacitor 22uF 6.3V
+$ENDCMP
+#
+# capacitor_33n_25V_chip_1206
+#
+$CMP capacitor_33n_25V_chip_1206
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# 12063A333
+#
+$CMP 12063A333
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# capacitor_330p_16V_chip_0402
+#
+$CMP capacitor_330p_16V_chip_0402
+K capacitor,smd
+D Capacitor 330pF 16V
+$ENDCMP
+#
+# 0402YA331
+#
+$CMP 0402YA331
+K capacitor,smd
+D Capacitor 330pF 16V
+$ENDCMP
+#
+# capacitor_680n_50V_chip_1206
+#
+$CMP capacitor_680n_50V_chip_1206
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# 12065A684
+#
+$CMP 12065A684
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# capacitor_4u7_16V_chip_1206
+#
+$CMP capacitor_4u7_16V_chip_1206
+K capacitor,smd
+D Capacitor 4u7F 16V
+$ENDCMP
+#
+# 1206YA475
+#
+$CMP 1206YA475
+K capacitor,smd
+D Capacitor 4u7F 16V
+$ENDCMP
+#
+# capacitor_33n_100V_chip_1825
+#
+$CMP capacitor_33n_100V_chip_1825
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# 18251A333
+#
+$CMP 18251A333
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# capacitor_2n2_25V_chip_0805
+#
+$CMP capacitor_2n2_25V_chip_0805
+K capacitor,smd
+D Capacitor 2n2F 25V
+$ENDCMP
+#
+# 08053A222
+#
+$CMP 08053A222
+K capacitor,smd
+D Capacitor 2n2F 25V
+$ENDCMP
+#
+# capacitor_100n_100V_chip_0805
+#
+$CMP capacitor_100n_100V_chip_0805
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# 08051A104
+#
+$CMP 08051A104
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# capacitor_10n_200V_chip_1206
+#
+$CMP capacitor_10n_200V_chip_1206
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# 12062A103
+#
+$CMP 12062A103
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# capacitor_100n_16V_chip_1206
+#
+$CMP capacitor_100n_16V_chip_1206
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# 1206YA104
+#
+$CMP 1206YA104
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# capacitor_10n_500V_chip_1210
+#
+$CMP capacitor_10n_500V_chip_1210
+K capacitor,smd
+D Capacitor 10nF 500V
+$ENDCMP
+#
+# 12107A103
+#
+$CMP 12107A103
+K capacitor,smd
+D Capacitor 10nF 500V
+$ENDCMP
+#
+# capacitor_150n_50V_chip_1210
+#
+$CMP capacitor_150n_50V_chip_1210
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# 12105A154
+#
+$CMP 12105A154
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# capacitor_6n8_16V_chip_1206
+#
+$CMP capacitor_6n8_16V_chip_1206
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# 1206YA682
+#
+$CMP 1206YA682
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# capacitor_15n_100V_chip_2225
+#
+$CMP capacitor_15n_100V_chip_2225
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# 22251A153
+#
+$CMP 22251A153
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# capacitor_47n_100V_chip_1825
+#
+$CMP capacitor_47n_100V_chip_1825
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# 18251A473
+#
+$CMP 18251A473
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# capacitor_15n_100V_chip_2220
+#
+$CMP capacitor_15n_100V_chip_2220
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# 22201A153
+#
+$CMP 22201A153
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# capacitor_4n7_25V_chip_0805
+#
+$CMP capacitor_4n7_25V_chip_0805
+K capacitor,smd
+D Capacitor 4n7F 25V
+$ENDCMP
+#
+# 08053A472
+#
+$CMP 08053A472
+K capacitor,smd
+D Capacitor 4n7F 25V
+$ENDCMP
+#
+# capacitor_470p_10V_chip_0201
+#
+$CMP capacitor_470p_10V_chip_0201
+K capacitor,smd
+D Capacitor 470pF 10V
+$ENDCMP
+#
+# 0201ZA471
+#
+$CMP 0201ZA471
+K capacitor,smd
+D Capacitor 470pF 10V
+$ENDCMP
+#
+# capacitor_330n_50V_chip_1812
+#
+$CMP capacitor_330n_50V_chip_1812
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# 18125A334
+#
+$CMP 18125A334
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# capacitor_150p_200V_chip_0603
+#
+$CMP capacitor_150p_200V_chip_0603
+K capacitor,smd
+D Capacitor 150pF 200V
+$ENDCMP
+#
+# 06032A151
+#
+$CMP 06032A151
+K capacitor,smd
+D Capacitor 150pF 200V
+$ENDCMP
+#
+# capacitor_6n8_500V_chip_1210
+#
+$CMP capacitor_6n8_500V_chip_1210
+K capacitor,smd
+D Capacitor 6n8F 500V
+$ENDCMP
+#
+# 12107A682
+#
+$CMP 12107A682
+K capacitor,smd
+D Capacitor 6n8F 500V
+$ENDCMP
+#
+# capacitor_680n_100V_chip_1825
+#
+$CMP capacitor_680n_100V_chip_1825
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# 18251A684
+#
+$CMP 18251A684
+K capacitor,smd
+D Capacitor 680nF 100V
+$ENDCMP
+#
+# capacitor_33n_16V_chip_0402
+#
+$CMP capacitor_33n_16V_chip_0402
+K capacitor,smd
+D Capacitor 33nF 16V
+$ENDCMP
+#
+# 0402YA333
+#
+$CMP 0402YA333
+K capacitor,smd
+D Capacitor 33nF 16V
+$ENDCMP
+#
+# capacitor_1u_10V_chip_0805
+#
+$CMP capacitor_1u_10V_chip_0805
+K capacitor,smd
+D Capacitor 1uF 10V
+$ENDCMP
+#
+# 0805ZA1004
+#
+$CMP 0805ZA1004
+K capacitor,smd
+D Capacitor 1uF 10V
+$ENDCMP
+#
+# capacitor_680p_50V_chip_0603
+#
+$CMP capacitor_680p_50V_chip_0603
+K capacitor,smd
+D Capacitor 680pF 50V
+$ENDCMP
+#
+# 06035A681
+#
+$CMP 06035A681
+K capacitor,smd
+D Capacitor 680pF 50V
+$ENDCMP
+#
+# capacitor_10n_100V_chip_1206
+#
+$CMP capacitor_10n_100V_chip_1206
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# 12061A103
+#
+$CMP 12061A103
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# capacitor_330p_50V_chip_0201
+#
+$CMP capacitor_330p_50V_chip_0201
+K capacitor,smd
+D Capacitor 330pF 50V
+$ENDCMP
+#
+# 02015A331
+#
+$CMP 02015A331
+K capacitor,smd
+D Capacitor 330pF 50V
+$ENDCMP
+#
+# capacitor_47n_50V_chip_1825
+#
+$CMP capacitor_47n_50V_chip_1825
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# 18255A473
+#
+$CMP 18255A473
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# capacitor_470n_500V_chip_2220
+#
+$CMP capacitor_470n_500V_chip_2220
+K capacitor,smd
+D Capacitor 470nF 500V
+$ENDCMP
+#
+# 22207A474
+#
+$CMP 22207A474
+K capacitor,smd
+D Capacitor 470nF 500V
+$ENDCMP
+#
+# capacitor_47n_50V_chip_0603
+#
+$CMP capacitor_47n_50V_chip_0603
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# 06035A473
+#
+$CMP 06035A473
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# capacitor_1u_16V_chip_1210
+#
+$CMP capacitor_1u_16V_chip_1210
+K capacitor,smd
+D Capacitor 1uF 16V
+$ENDCMP
+#
+# 1210YA1004
+#
+$CMP 1210YA1004
+K capacitor,smd
+D Capacitor 1uF 16V
+$ENDCMP
+#
+# capacitor_10u_10V_chip_1206
+#
+$CMP capacitor_10u_10V_chip_1206
+K capacitor,smd
+D Capacitor 10uF 10V
+$ENDCMP
+#
+# 1206ZA106
+#
+$CMP 1206ZA106
+K capacitor,smd
+D Capacitor 10uF 10V
+$ENDCMP
+#
+# capacitor_47n_16V_chip_0603
+#
+$CMP capacitor_47n_16V_chip_0603
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# 0603YA473
+#
+$CMP 0603YA473
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# capacitor_47u_16V_chip_1210
+#
+$CMP capacitor_47u_16V_chip_1210
+K capacitor,smd
+D Capacitor 47uF 16V
+$ENDCMP
+#
+# 1210YA476
+#
+$CMP 1210YA476
+K capacitor,smd
+D Capacitor 47uF 16V
+$ENDCMP
+#
+# capacitor_220n_10V_chip_0603
+#
+$CMP capacitor_220n_10V_chip_0603
+K capacitor,smd
+D Capacitor 220nF 10V
+$ENDCMP
+#
+# 0603ZA224
+#
+$CMP 0603ZA224
+K capacitor,smd
+D Capacitor 220nF 10V
+$ENDCMP
+#
+# capacitor_680n_25V_chip_1206
+#
+$CMP capacitor_680n_25V_chip_1206
+K capacitor,smd
+D Capacitor 680nF 25V
+$ENDCMP
+#
+# 12063A684
+#
+$CMP 12063A684
+K capacitor,smd
+D Capacitor 680nF 25V
+$ENDCMP
+#
+# capacitor_4u7_100V_chip_1210
+#
+$CMP capacitor_4u7_100V_chip_1210
+K capacitor,smd
+D Capacitor 4u7F 100V
+$ENDCMP
+#
+# 12101A475
+#
+$CMP 12101A475
+K capacitor,smd
+D Capacitor 4u7F 100V
+$ENDCMP
+#
+# capacitor_680n_16V_chip_1206
+#
+$CMP capacitor_680n_16V_chip_1206
+K capacitor,smd
+D Capacitor 680nF 16V
+$ENDCMP
+#
+# 1206YA684
+#
+$CMP 1206YA684
+K capacitor,smd
+D Capacitor 680nF 16V
+$ENDCMP
+#
+# capacitor_47n_10V_chip_0402
+#
+$CMP capacitor_47n_10V_chip_0402
+K capacitor,smd
+D Capacitor 47nF 10V
+$ENDCMP
+#
+# 0402ZA473
+#
+$CMP 0402ZA473
+K capacitor,smd
+D Capacitor 47nF 10V
+$ENDCMP
+#
+# capacitor_1n5_200V_chip_0805
+#
+$CMP capacitor_1n5_200V_chip_0805
+K capacitor,smd
+D Capacitor 1n5F 200V
+$ENDCMP
+#
+# 08052A152
+#
+$CMP 08052A152
+K capacitor,smd
+D Capacitor 1n5F 200V
+$ENDCMP
+#
+# capacitor_1u_25V_chip_0603
+#
+$CMP capacitor_1u_25V_chip_0603
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# 06033A1004
+#
+$CMP 06033A1004
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# capacitor_22n_50V_chip_1206
+#
+$CMP capacitor_22n_50V_chip_1206
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# 12065A223
+#
+$CMP 12065A223
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# capacitor_220p_16V_chip_0201
+#
+$CMP capacitor_220p_16V_chip_0201
+K capacitor,smd
+D Capacitor 220pF 16V
+$ENDCMP
+#
+# 0201YA221
+#
+$CMP 0201YA221
+K capacitor,smd
+D Capacitor 220pF 16V
+$ENDCMP
+#
+# capacitor_2n2_200V_chip_1206
+#
+$CMP capacitor_2n2_200V_chip_1206
+K capacitor,smd
+D Capacitor 2n2F 200V
+$ENDCMP
+#
+# 12062A222
+#
+$CMP 12062A222
+K capacitor,smd
+D Capacitor 2n2F 200V
+$ENDCMP
+#
+# capacitor_680n_10V_chip_1206
+#
+$CMP capacitor_680n_10V_chip_1206
+K capacitor,smd
+D Capacitor 680nF 10V
+$ENDCMP
+#
+# 1206ZA684
+#
+$CMP 1206ZA684
+K capacitor,smd
+D Capacitor 680nF 10V
+$ENDCMP
+#
+# capacitor_100p_50V_chip_0603
+#
+$CMP capacitor_100p_50V_chip_0603
+K capacitor,smd
+D Capacitor 100pF 50V
+$ENDCMP
+#
+# 06035A101
+#
+$CMP 06035A101
+K capacitor,smd
+D Capacitor 100pF 50V
+$ENDCMP
+#
+# capacitor_330n_100V_chip_1825
+#
+$CMP capacitor_330n_100V_chip_1825
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# 18251A334
+#
+$CMP 18251A334
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# capacitor_150n_25V_chip_0805
+#
+$CMP capacitor_150n_25V_chip_0805
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# 08053A154
+#
+$CMP 08053A154
+K capacitor,smd
+D Capacitor 150nF 25V
+$ENDCMP
+#
+# capacitor_330n_100V_chip_0805
+#
+$CMP capacitor_330n_100V_chip_0805
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# 08051A334
+#
+$CMP 08051A334
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# capacitor_22n_200V_chip_1210
+#
+$CMP capacitor_22n_200V_chip_1210
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# 12102A223
+#
+$CMP 12102A223
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# capacitor_150p_16V_chip_0201
+#
+$CMP capacitor_150p_16V_chip_0201
+K capacitor,smd
+D Capacitor 150pF 16V
+$ENDCMP
+#
+# 0201YA151
+#
+$CMP 0201YA151
+K capacitor,smd
+D Capacitor 150pF 16V
+$ENDCMP
+#
+# capacitor_22n_25V_chip_1210
+#
+$CMP capacitor_22n_25V_chip_1210
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# 12103A223
+#
+$CMP 12103A223
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# capacitor_100n_50V_chip_2220
+#
+$CMP capacitor_100n_50V_chip_2220
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# 22205A104
+#
+$CMP 22205A104
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# capacitor_220n_100V_chip_0805
+#
+$CMP capacitor_220n_100V_chip_0805
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# 08051A224
+#
+$CMP 08051A224
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# capacitor_680p_10V_chip_0101
+#
+$CMP capacitor_680p_10V_chip_0101
+K capacitor,smd
+D Capacitor 680pF 10V
+$ENDCMP
+#
+# 0101ZA681
+#
+$CMP 0101ZA681
+K capacitor,smd
+D Capacitor 680pF 10V
+$ENDCMP
+#
+# capacitor_470n_200V_chip_2225
+#
+$CMP capacitor_470n_200V_chip_2225
+K capacitor,smd
+D Capacitor 470nF 200V
+$ENDCMP
+#
+# 22252A474
+#
+$CMP 22252A474
+K capacitor,smd
+D Capacitor 470nF 200V
+$ENDCMP
+#
+# capacitor_1n5_25V_chip_1206
+#
+$CMP capacitor_1n5_25V_chip_1206
+K capacitor,smd
+D Capacitor 1n5F 25V
+$ENDCMP
+#
+# 12063A152
+#
+$CMP 12063A152
+K capacitor,smd
+D Capacitor 1n5F 25V
+$ENDCMP
+#
+# capacitor_470n_200V_chip_2220
+#
+$CMP capacitor_470n_200V_chip_2220
+K capacitor,smd
+D Capacitor 470nF 200V
+$ENDCMP
+#
+# 22202A474
+#
+$CMP 22202A474
+K capacitor,smd
+D Capacitor 470nF 200V
+$ENDCMP
+#
+# capacitor_22n_200V_chip_1812
+#
+$CMP capacitor_22n_200V_chip_1812
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# 18122A223
+#
+$CMP 18122A223
+K capacitor,smd
+D Capacitor 22nF 200V
+$ENDCMP
+#
+# capacitor_1n_50V_chip_0603
+#
+$CMP capacitor_1n_50V_chip_0603
+K capacitor,smd
+D Capacitor 1nF 50V
+$ENDCMP
+#
+# 06035A1001
+#
+$CMP 06035A1001
+K capacitor,smd
+D Capacitor 1nF 50V
+$ENDCMP
+#
+# capacitor_1n_50V_chip_0805
+#
+$CMP capacitor_1n_50V_chip_0805
+K capacitor,smd
+D Capacitor 1nF 50V
+$ENDCMP
+#
+# 08055A1001
+#
+$CMP 08055A1001
+K capacitor,smd
+D Capacitor 1nF 50V
+$ENDCMP
+#
+# capacitor_150n_10V_chip_1206
+#
+$CMP capacitor_150n_10V_chip_1206
+K capacitor,smd
+D Capacitor 150nF 10V
+$ENDCMP
+#
+# 1206ZA154
+#
+$CMP 1206ZA154
+K capacitor,smd
+D Capacitor 150nF 10V
+$ENDCMP
+#
+# capacitor_47n_10V_chip_1210
+#
+$CMP capacitor_47n_10V_chip_1210
+K capacitor,smd
+D Capacitor 47nF 10V
+$ENDCMP
+#
+# 1210ZA473
+#
+$CMP 1210ZA473
+K capacitor,smd
+D Capacitor 47nF 10V
+$ENDCMP
+#
+# capacitor_100n_200V_chip_2220
+#
+$CMP capacitor_100n_200V_chip_2220
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# 22202A104
+#
+$CMP 22202A104
+K capacitor,smd
+D Capacitor 100nF 200V
+$ENDCMP
+#
+# capacitor_15n_50V_chip_1206
+#
+$CMP capacitor_15n_50V_chip_1206
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# 12065A153
+#
+$CMP 12065A153
+K capacitor,smd
+D Capacitor 15nF 50V
+$ENDCMP
+#
+# capacitor_1u_6.3V_chip_0603
+#
+$CMP capacitor_1u_6.3V_chip_0603
+K capacitor,smd
+D Capacitor 1uF 6.3V
+$ENDCMP
+#
+# 06036A1004
+#
+$CMP 06036A1004
+K capacitor,smd
+D Capacitor 1uF 6.3V
+$ENDCMP
+#
+# capacitor_1n_200V_chip_0805
+#
+$CMP capacitor_1n_200V_chip_0805
+K capacitor,smd
+D Capacitor 1nF 200V
+$ENDCMP
+#
+# 08052A1001
+#
+$CMP 08052A1001
+K capacitor,smd
+D Capacitor 1nF 200V
+$ENDCMP
+#
+# capacitor_22u_10V_chip_1210
+#
+$CMP capacitor_22u_10V_chip_1210
+K capacitor,smd
+D Capacitor 22uF 10V
+$ENDCMP
+#
+# 1210ZA226
+#
+$CMP 1210ZA226
+K capacitor,smd
+D Capacitor 22uF 10V
+$ENDCMP
+#
+# capacitor_4n7_200V_chip_1206
+#
+$CMP capacitor_4n7_200V_chip_1206
+K capacitor,smd
+D Capacitor 4n7F 200V
+$ENDCMP
+#
+# 12062A472
+#
+$CMP 12062A472
+K capacitor,smd
+D Capacitor 4n7F 200V
+$ENDCMP
+#
+# capacitor_6n8_10V_chip_0805
+#
+$CMP capacitor_6n8_10V_chip_0805
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# 0805ZA682
+#
+$CMP 0805ZA682
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# capacitor_10n_50V_chip_0805
+#
+$CMP capacitor_10n_50V_chip_0805
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# 08055A103
+#
+$CMP 08055A103
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# capacitor_150n_100V_chip_1812
+#
+$CMP capacitor_150n_100V_chip_1812
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# 18121A154
+#
+$CMP 18121A154
+K capacitor,smd
+D Capacitor 150nF 100V
+$ENDCMP
+#
+# capacitor_3n3_10V_chip_1206
+#
+$CMP capacitor_3n3_10V_chip_1206
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# 1206ZA332
+#
+$CMP 1206ZA332
+K capacitor,smd
+D Capacitor 3n3F 10V
+$ENDCMP
+#
+# capacitor_680n_200V_chip_2225
+#
+$CMP capacitor_680n_200V_chip_2225
+K capacitor,smd
+D Capacitor 680nF 200V
+$ENDCMP
+#
+# 22252A684
+#
+$CMP 22252A684
+K capacitor,smd
+D Capacitor 680nF 200V
+$ENDCMP
+#
+# capacitor_3n3_16V_chip_1210
+#
+$CMP capacitor_3n3_16V_chip_1210
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# 1210YA332
+#
+$CMP 1210YA332
+K capacitor,smd
+D Capacitor 3n3F 16V
+$ENDCMP
+#
+# capacitor_330n_10V_chip_0805
+#
+$CMP capacitor_330n_10V_chip_0805
+K capacitor,smd
+D Capacitor 330nF 10V
+$ENDCMP
+#
+# 0805ZA334
+#
+$CMP 0805ZA334
+K capacitor,smd
+D Capacitor 330nF 10V
+$ENDCMP
+#
+# capacitor_1u_100V_chip_1206
+#
+$CMP capacitor_1u_100V_chip_1206
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# 12061A1004
+#
+$CMP 12061A1004
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# capacitor_10n_25V_chip_0805
+#
+$CMP capacitor_10n_25V_chip_0805
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# 08053A103
+#
+$CMP 08053A103
+K capacitor,smd
+D Capacitor 10nF 25V
+$ENDCMP
+#
+# capacitor_1u_50V_chip_1825
+#
+$CMP capacitor_1u_50V_chip_1825
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# 18255A1004
+#
+$CMP 18255A1004
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# capacitor_330p_200V_chip_0805
+#
+$CMP capacitor_330p_200V_chip_0805
+K capacitor,smd
+D Capacitor 330pF 200V
+$ENDCMP
+#
+# 08052A331
+#
+$CMP 08052A331
+K capacitor,smd
+D Capacitor 330pF 200V
+$ENDCMP
+#
+# capacitor_150p_25V_chip_0402
+#
+$CMP capacitor_150p_25V_chip_0402
+K capacitor,smd
+D Capacitor 150pF 25V
+$ENDCMP
+#
+# 04023A151
+#
+$CMP 04023A151
+K capacitor,smd
+D Capacitor 150pF 25V
+$ENDCMP
+#
+# capacitor_10n_16V_chip_0402
+#
+$CMP capacitor_10n_16V_chip_0402
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# 0402YA103
+#
+$CMP 0402YA103
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# capacitor_2n2_100V_chip_0603
+#
+$CMP capacitor_2n2_100V_chip_0603
+K capacitor,smd
+D Capacitor 2n2F 100V
+$ENDCMP
+#
+# 06031A222
+#
+$CMP 06031A222
+K capacitor,smd
+D Capacitor 2n2F 100V
+$ENDCMP
+#
+# capacitor_33n_16V_chip_1210
+#
+$CMP capacitor_33n_16V_chip_1210
+K capacitor,smd
+D Capacitor 33nF 16V
+$ENDCMP
+#
+# 1210YA333
+#
+$CMP 1210YA333
+K capacitor,smd
+D Capacitor 33nF 16V
+$ENDCMP
+#
+# capacitor_470p_25V_chip_0201
+#
+$CMP capacitor_470p_25V_chip_0201
+K capacitor,smd
+D Capacitor 470pF 25V
+$ENDCMP
+#
+# 02013A471
+#
+$CMP 02013A471
+K capacitor,smd
+D Capacitor 470pF 25V
+$ENDCMP
+#
+# capacitor_330p_10V_chip_0101
+#
+$CMP capacitor_330p_10V_chip_0101
+K capacitor,smd
+D Capacitor 330pF 10V
+$ENDCMP
+#
+# 0101ZA331
+#
+$CMP 0101ZA331
+K capacitor,smd
+D Capacitor 330pF 10V
+$ENDCMP
+#
+# capacitor_4u7_50V_chip_2220
+#
+$CMP capacitor_4u7_50V_chip_2220
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# 22205A475
+#
+$CMP 22205A475
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# capacitor_22n_25V_chip_1812
+#
+$CMP capacitor_22n_25V_chip_1812
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# 18123A223
+#
+$CMP 18123A223
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# capacitor_22n_16V_chip_0805
+#
+$CMP capacitor_22n_16V_chip_0805
+K capacitor,smd
+D Capacitor 22nF 16V
+$ENDCMP
+#
+# 0805YA223
+#
+$CMP 0805YA223
+K capacitor,smd
+D Capacitor 22nF 16V
+$ENDCMP
+#
+# capacitor_1n5_16V_chip_1210
+#
+$CMP capacitor_1n5_16V_chip_1210
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# 1210YA152
+#
+$CMP 1210YA152
+K capacitor,smd
+D Capacitor 1n5F 16V
+$ENDCMP
+#
+# capacitor_4u7_50V_chip_2225
+#
+$CMP capacitor_4u7_50V_chip_2225
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# 22255A475
+#
+$CMP 22255A475
+K capacitor,smd
+D Capacitor 4u7F 50V
+$ENDCMP
+#
+# capacitor_3n3_25V_chip_1210
+#
+$CMP capacitor_3n3_25V_chip_1210
+K capacitor,smd
+D Capacitor 3n3F 25V
+$ENDCMP
+#
+# 12103A332
+#
+$CMP 12103A332
+K capacitor,smd
+D Capacitor 3n3F 25V
+$ENDCMP
+#
+# capacitor_680p_10V_chip_0805
+#
+$CMP capacitor_680p_10V_chip_0805
+K capacitor,smd
+D Capacitor 680pF 10V
+$ENDCMP
+#
+# 0805ZA681
+#
+$CMP 0805ZA681
+K capacitor,smd
+D Capacitor 680pF 10V
+$ENDCMP
+#
+# capacitor_33n_500V_chip_1812
+#
+$CMP capacitor_33n_500V_chip_1812
+K capacitor,smd
+D Capacitor 33nF 500V
+$ENDCMP
+#
+# 18127A333
+#
+$CMP 18127A333
+K capacitor,smd
+D Capacitor 33nF 500V
+$ENDCMP
+#
+# capacitor_68n_16V_chip_1206
+#
+$CMP capacitor_68n_16V_chip_1206
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# 1206YA683
+#
+$CMP 1206YA683
+K capacitor,smd
+D Capacitor 68nF 16V
+$ENDCMP
+#
+# capacitor_10u_50V_chip_1812
+#
+$CMP capacitor_10u_50V_chip_1812
+K capacitor,smd
+D Capacitor 10uF 50V
+$ENDCMP
+#
+# 18125A106
+#
+$CMP 18125A106
+K capacitor,smd
+D Capacitor 10uF 50V
+$ENDCMP
+#
+# capacitor_10n_50V_chip_0603
+#
+$CMP capacitor_10n_50V_chip_0603
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# 06035A103
+#
+$CMP 06035A103
+K capacitor,smd
+D Capacitor 10nF 50V
+$ENDCMP
+#
+# capacitor_1n_100V_chip_0805
+#
+$CMP capacitor_1n_100V_chip_0805
+K capacitor,smd
+D Capacitor 1nF 100V
+$ENDCMP
+#
+# 08051A1001
+#
+$CMP 08051A1001
+K capacitor,smd
+D Capacitor 1nF 100V
+$ENDCMP
+#
+# capacitor_470n_100V_chip_1812
+#
+$CMP capacitor_470n_100V_chip_1812
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# 18121A474
+#
+$CMP 18121A474
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# capacitor_330p_100V_chip_0805
+#
+$CMP capacitor_330p_100V_chip_0805
+K capacitor,smd
+D Capacitor 330pF 100V
+$ENDCMP
+#
+# 08051A331
+#
+$CMP 08051A331
+K capacitor,smd
+D Capacitor 330pF 100V
+$ENDCMP
+#
+# capacitor_22n_100V_chip_1206
+#
+$CMP capacitor_22n_100V_chip_1206
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# 12061A223
+#
+$CMP 12061A223
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# capacitor_220n_200V_chip_2225
+#
+$CMP capacitor_220n_200V_chip_2225
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# 22252A224
+#
+$CMP 22252A224
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# capacitor_1u_16V_chip_0805
+#
+$CMP capacitor_1u_16V_chip_0805
+K capacitor,smd
+D Capacitor 1uF 16V
+$ENDCMP
+#
+# 0805YA1004
+#
+$CMP 0805YA1004
+K capacitor,smd
+D Capacitor 1uF 16V
+$ENDCMP
+#
+# capacitor_100n_16V_chip_0805
+#
+$CMP capacitor_100n_16V_chip_0805
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# 0805YA104
+#
+$CMP 0805YA104
+K capacitor,smd
+D Capacitor 100nF 16V
+$ENDCMP
+#
+# capacitor_330n_50V_chip_1210
+#
+$CMP capacitor_330n_50V_chip_1210
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# 12105A334
+#
+$CMP 12105A334
+K capacitor,smd
+D Capacitor 330nF 50V
+$ENDCMP
+#
+# capacitor_470n_10V_chip_0805
+#
+$CMP capacitor_470n_10V_chip_0805
+K capacitor,smd
+D Capacitor 470nF 10V
+$ENDCMP
+#
+# 0805ZA474
+#
+$CMP 0805ZA474
+K capacitor,smd
+D Capacitor 470nF 10V
+$ENDCMP
+#
+# capacitor_33n_25V_chip_0603
+#
+$CMP capacitor_33n_25V_chip_0603
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# 06033A333
+#
+$CMP 06033A333
+K capacitor,smd
+D Capacitor 33nF 25V
+$ENDCMP
+#
+# capacitor_220n_16V_chip_1210
+#
+$CMP capacitor_220n_16V_chip_1210
+K capacitor,smd
+D Capacitor 220nF 16V
+$ENDCMP
+#
+# 1210YA224
+#
+$CMP 1210YA224
+K capacitor,smd
+D Capacitor 220nF 16V
+$ENDCMP
+#
+# capacitor_220n_50V_chip_0805
+#
+$CMP capacitor_220n_50V_chip_0805
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# 08055A224
+#
+$CMP 08055A224
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# capacitor_100n_10V_chip_0402
+#
+$CMP capacitor_100n_10V_chip_0402
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# 0402ZA104
+#
+$CMP 0402ZA104
+K capacitor,smd
+D Capacitor 100nF 10V
+$ENDCMP
+#
+# capacitor_220n_200V_chip_1825
+#
+$CMP capacitor_220n_200V_chip_1825
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# 18252A224
+#
+$CMP 18252A224
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# capacitor_15n_200V_chip_1812
+#
+$CMP capacitor_15n_200V_chip_1812
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# 18122A153
+#
+$CMP 18122A153
+K capacitor,smd
+D Capacitor 15nF 200V
+$ENDCMP
+#
+# capacitor_2u2_10V_chip_0603
+#
+$CMP capacitor_2u2_10V_chip_0603
+K capacitor,smd
+D Capacitor 2u2F 10V
+$ENDCMP
+#
+# 0603ZA225
+#
+$CMP 0603ZA225
+K capacitor,smd
+D Capacitor 2u2F 10V
+$ENDCMP
+#
+# capacitor_6n8_100V_chip_0805
+#
+$CMP capacitor_6n8_100V_chip_0805
+K capacitor,smd
+D Capacitor 6n8F 100V
+$ENDCMP
+#
+# 08051A682
+#
+$CMP 08051A682
+K capacitor,smd
+D Capacitor 6n8F 100V
+$ENDCMP
+#
+# capacitor_15n_25V_chip_1210
+#
+$CMP capacitor_15n_25V_chip_1210
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# 12103A153
+#
+$CMP 12103A153
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# capacitor_10n_10V_chip_0402
+#
+$CMP capacitor_10n_10V_chip_0402
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# 0402ZA103
+#
+$CMP 0402ZA103
+K capacitor,smd
+D Capacitor 10nF 10V
+$ENDCMP
+#
+# capacitor_2u2_16V_chip_0805
+#
+$CMP capacitor_2u2_16V_chip_0805
+K capacitor,smd
+D Capacitor 2u2F 16V
+$ENDCMP
+#
+# 0805YA225
+#
+$CMP 0805YA225
+K capacitor,smd
+D Capacitor 2u2F 16V
+$ENDCMP
+#
+# capacitor_680p_25V_chip_0805
+#
+$CMP capacitor_680p_25V_chip_0805
+K capacitor,smd
+D Capacitor 680pF 25V
+$ENDCMP
+#
+# 08053A681
+#
+$CMP 08053A681
+K capacitor,smd
+D Capacitor 680pF 25V
+$ENDCMP
+#
+# capacitor_220n_10V_chip_1210
+#
+$CMP capacitor_220n_10V_chip_1210
+K capacitor,smd
+D Capacitor 220nF 10V
+$ENDCMP
+#
+# 1210ZA224
+#
+$CMP 1210ZA224
+K capacitor,smd
+D Capacitor 220nF 10V
+$ENDCMP
+#
+# capacitor_1n_100V_chip_0603
+#
+$CMP capacitor_1n_100V_chip_0603
+K capacitor,smd
+D Capacitor 1nF 100V
+$ENDCMP
+#
+# 06031A1001
+#
+$CMP 06031A1001
+K capacitor,smd
+D Capacitor 1nF 100V
+$ENDCMP
+#
+# capacitor_47n_200V_chip_1812
+#
+$CMP capacitor_47n_200V_chip_1812
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# 18122A473
+#
+$CMP 18122A473
+K capacitor,smd
+D Capacitor 47nF 200V
+$ENDCMP
+#
+# capacitor_1u_6.3V_chip_0402
+#
+$CMP capacitor_1u_6.3V_chip_0402
+K capacitor,smd
+D Capacitor 1uF 6.3V
+$ENDCMP
+#
+# 04026A1004
+#
+$CMP 04026A1004
+K capacitor,smd
+D Capacitor 1uF 6.3V
+$ENDCMP
+#
+# capacitor_150n_16V_chip_0805
+#
+$CMP capacitor_150n_16V_chip_0805
+K capacitor,smd
+D Capacitor 150nF 16V
+$ENDCMP
+#
+# 0805YA154
+#
+$CMP 0805YA154
+K capacitor,smd
+D Capacitor 150nF 16V
+$ENDCMP
+#
+# capacitor_680n_50V_chip_1812
+#
+$CMP capacitor_680n_50V_chip_1812
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# 18125A684
+#
+$CMP 18125A684
+K capacitor,smd
+D Capacitor 680nF 50V
+$ENDCMP
+#
+# capacitor_1u_50V_chip_1210
+#
+$CMP capacitor_1u_50V_chip_1210
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# 12105A1004
+#
+$CMP 12105A1004
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# capacitor_100n_100V_chip_1825
+#
+$CMP capacitor_100n_100V_chip_1825
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# 18251A104
+#
+$CMP 18251A104
+K capacitor,smd
+D Capacitor 100nF 100V
+$ENDCMP
+#
+# capacitor_2n2_100V_chip_0805
+#
+$CMP capacitor_2n2_100V_chip_0805
+K capacitor,smd
+D Capacitor 2n2F 100V
+$ENDCMP
+#
+# 08051A222
+#
+$CMP 08051A222
+K capacitor,smd
+D Capacitor 2n2F 100V
+$ENDCMP
+#
+# capacitor_470n_100V_chip_2220
+#
+$CMP capacitor_470n_100V_chip_2220
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# 22201A474
+#
+$CMP 22201A474
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# capacitor_33n_10V_chip_1210
+#
+$CMP capacitor_33n_10V_chip_1210
+K capacitor,smd
+D Capacitor 33nF 10V
+$ENDCMP
+#
+# 1210ZA333
+#
+$CMP 1210ZA333
+K capacitor,smd
+D Capacitor 33nF 10V
+$ENDCMP
+#
+# capacitor_470n_100V_chip_2225
+#
+$CMP capacitor_470n_100V_chip_2225
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# 22251A474
+#
+$CMP 22251A474
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# capacitor_68n_200V_chip_2225
+#
+$CMP capacitor_68n_200V_chip_2225
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# 22252A683
+#
+$CMP 22252A683
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# capacitor_10n_100V_chip_2220
+#
+$CMP capacitor_10n_100V_chip_2220
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# 22201A103
+#
+$CMP 22201A103
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# capacitor_100n_50V_chip_0805
+#
+$CMP capacitor_100n_50V_chip_0805
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# 08055A104
+#
+$CMP 08055A104
+K capacitor,smd
+D Capacitor 100nF 50V
+$ENDCMP
+#
+# capacitor_10n_200V_chip_1812
+#
+$CMP capacitor_10n_200V_chip_1812
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# 18122A103
+#
+$CMP 18122A103
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# capacitor_3n3_50V_chip_1206
+#
+$CMP capacitor_3n3_50V_chip_1206
+K capacitor,smd
+D Capacitor 3n3F 50V
+$ENDCMP
+#
+# 12065A332
+#
+$CMP 12065A332
+K capacitor,smd
+D Capacitor 3n3F 50V
+$ENDCMP
+#
+# capacitor_680n_10V_chip_1210
+#
+$CMP capacitor_680n_10V_chip_1210
+K capacitor,smd
+D Capacitor 680nF 10V
+$ENDCMP
+#
+# 1210ZA684
+#
+$CMP 1210ZA684
+K capacitor,smd
+D Capacitor 680nF 10V
+$ENDCMP
+#
+# capacitor_1n5_50V_chip_1206
+#
+$CMP capacitor_1n5_50V_chip_1206
+K capacitor,smd
+D Capacitor 1n5F 50V
+$ENDCMP
+#
+# 12065A152
+#
+$CMP 12065A152
+K capacitor,smd
+D Capacitor 1n5F 50V
+$ENDCMP
+#
+# capacitor_15n_100V_chip_1206
+#
+$CMP capacitor_15n_100V_chip_1206
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# 12061A153
+#
+$CMP 12061A153
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# capacitor_220n_25V_chip_0805
+#
+$CMP capacitor_220n_25V_chip_0805
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# 08053A224
+#
+$CMP 08053A224
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# capacitor_47n_100V_chip_1812
+#
+$CMP capacitor_47n_100V_chip_1812
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# 18121A473
+#
+$CMP 18121A473
+K capacitor,smd
+D Capacitor 47nF 100V
+$ENDCMP
+#
+# capacitor_47n_25V_chip_1206
+#
+$CMP capacitor_47n_25V_chip_1206
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# 12063A473
+#
+$CMP 12063A473
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# capacitor_100n_25V_chip_1812
+#
+$CMP capacitor_100n_25V_chip_1812
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# 18123A104
+#
+$CMP 18123A104
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# capacitor_33n_200V_chip_2220
+#
+$CMP capacitor_33n_200V_chip_2220
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# 22202A333
+#
+$CMP 22202A333
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# capacitor_33n_200V_chip_2225
+#
+$CMP capacitor_33n_200V_chip_2225
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# 22252A333
+#
+$CMP 22252A333
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# capacitor_22n_25V_chip_0402
+#
+$CMP capacitor_22n_25V_chip_0402
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# 04023A223
+#
+$CMP 04023A223
+K capacitor,smd
+D Capacitor 22nF 25V
+$ENDCMP
+#
+# capacitor_100p_10V_chip_0201
+#
+$CMP capacitor_100p_10V_chip_0201
+K capacitor,smd
+D Capacitor 100pF 10V
+$ENDCMP
+#
+# 0201ZA101
+#
+$CMP 0201ZA101
+K capacitor,smd
+D Capacitor 100pF 10V
+$ENDCMP
+#
+# capacitor_68n_10V_chip_0402
+#
+$CMP capacitor_68n_10V_chip_0402
+K capacitor,smd
+D Capacitor 68nF 10V
+$ENDCMP
+#
+# 0402ZA683
+#
+$CMP 0402ZA683
+K capacitor,smd
+D Capacitor 68nF 10V
+$ENDCMP
+#
+# capacitor_6n8_200V_chip_0805
+#
+$CMP capacitor_6n8_200V_chip_0805
+K capacitor,smd
+D Capacitor 6n8F 200V
+$ENDCMP
+#
+# 08052A682
+#
+$CMP 08052A682
+K capacitor,smd
+D Capacitor 6n8F 200V
+$ENDCMP
+#
+# capacitor_680n_16V_chip_0603
+#
+$CMP capacitor_680n_16V_chip_0603
+K capacitor,smd
+D Capacitor 680nF 16V
+$ENDCMP
+#
+# 0603YA684
+#
+$CMP 0603YA684
+K capacitor,smd
+D Capacitor 680nF 16V
+$ENDCMP
+#
+# capacitor_4n7_16V_chip_1206
+#
+$CMP capacitor_4n7_16V_chip_1206
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# 1206YA472
+#
+$CMP 1206YA472
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# capacitor_330n_25V_chip_0603
+#
+$CMP capacitor_330n_25V_chip_0603
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# 06033A334
+#
+$CMP 06033A334
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# capacitor_3n3_500V_chip_1206
+#
+$CMP capacitor_3n3_500V_chip_1206
+K capacitor,smd
+D Capacitor 3n3F 500V
+$ENDCMP
+#
+# 12067A332
+#
+$CMP 12067A332
+K capacitor,smd
+D Capacitor 3n3F 500V
+$ENDCMP
+#
+# capacitor_47n_50V_chip_1812
+#
+$CMP capacitor_47n_50V_chip_1812
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# 18125A473
+#
+$CMP 18125A473
+K capacitor,smd
+D Capacitor 47nF 50V
+$ENDCMP
+#
+# capacitor_680p_16V_chip_0201
+#
+$CMP capacitor_680p_16V_chip_0201
+K capacitor,smd
+D Capacitor 680pF 16V
+$ENDCMP
+#
+# 0201YA681
+#
+$CMP 0201YA681
+K capacitor,smd
+D Capacitor 680pF 16V
+$ENDCMP
+#
+# capacitor_1n_10V_chip_0201
+#
+$CMP capacitor_1n_10V_chip_0201
+K capacitor,smd
+D Capacitor 1nF 10V
+$ENDCMP
+#
+# 0201ZA1001
+#
+$CMP 0201ZA1001
+K capacitor,smd
+D Capacitor 1nF 10V
+$ENDCMP
+#
+# capacitor_33n_500V_chip_1210
+#
+$CMP capacitor_33n_500V_chip_1210
+K capacitor,smd
+D Capacitor 33nF 500V
+$ENDCMP
+#
+# 12107A333
+#
+$CMP 12107A333
+K capacitor,smd
+D Capacitor 33nF 500V
+$ENDCMP
+#
+# capacitor_680p_200V_chip_0603
+#
+$CMP capacitor_680p_200V_chip_0603
+K capacitor,smd
+D Capacitor 680pF 200V
+$ENDCMP
+#
+# 06032A681
+#
+$CMP 06032A681
+K capacitor,smd
+D Capacitor 680pF 200V
+$ENDCMP
+#
+# capacitor_220p_10V_chip_0201
+#
+$CMP capacitor_220p_10V_chip_0201
+K capacitor,smd
+D Capacitor 220pF 10V
+$ENDCMP
+#
+# 0201ZA221
+#
+$CMP 0201ZA221
+K capacitor,smd
+D Capacitor 220pF 10V
+$ENDCMP
+#
+# capacitor_220n_50V_chip_1825
+#
+$CMP capacitor_220n_50V_chip_1825
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# 18255A224
+#
+$CMP 18255A224
+K capacitor,smd
+D Capacitor 220nF 50V
+$ENDCMP
+#
+# capacitor_1u_25V_chip_0805
+#
+$CMP capacitor_1u_25V_chip_0805
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# 08053A1004
+#
+$CMP 08053A1004
+K capacitor,smd
+D Capacitor 1uF 25V
+$ENDCMP
+#
+# capacitor_15n_25V_chip_1812
+#
+$CMP capacitor_15n_25V_chip_1812
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# 18123A153
+#
+$CMP 18123A153
+K capacitor,smd
+D Capacitor 15nF 25V
+$ENDCMP
+#
+# capacitor_470n_6.3V_chip_0603
+#
+$CMP capacitor_470n_6.3V_chip_0603
+K capacitor,smd
+D Capacitor 470nF 6.3V
+$ENDCMP
+#
+# 06036A474
+#
+$CMP 06036A474
+K capacitor,smd
+D Capacitor 470nF 6.3V
+$ENDCMP
+#
+# capacitor_150n_10V_chip_1210
+#
+$CMP capacitor_150n_10V_chip_1210
+K capacitor,smd
+D Capacitor 150nF 10V
+$ENDCMP
+#
+# 1210ZA154
+#
+$CMP 1210ZA154
+K capacitor,smd
+D Capacitor 150nF 10V
+$ENDCMP
+#
+# capacitor_100p_10V_chip_0101
+#
+$CMP capacitor_100p_10V_chip_0101
+K capacitor,smd
+D Capacitor 100pF 10V
+$ENDCMP
+#
+# 0101ZA101
+#
+$CMP 0101ZA101
+K capacitor,smd
+D Capacitor 100pF 10V
+$ENDCMP
+#
+# capacitor_22n_50V_chip_1812
+#
+$CMP capacitor_22n_50V_chip_1812
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# 18125A223
+#
+$CMP 18125A223
+K capacitor,smd
+D Capacitor 22nF 50V
+$ENDCMP
+#
+# capacitor_330n_200V_chip_1812
+#
+$CMP capacitor_330n_200V_chip_1812
+K capacitor,smd
+D Capacitor 330nF 200V
+$ENDCMP
+#
+# 18122A334
+#
+$CMP 18122A334
+K capacitor,smd
+D Capacitor 330nF 200V
+$ENDCMP
+#
+# capacitor_220p_10V_chip_0101
+#
+$CMP capacitor_220p_10V_chip_0101
+K capacitor,smd
+D Capacitor 220pF 10V
+$ENDCMP
+#
+# 0101ZA221
+#
+$CMP 0101ZA221
+K capacitor,smd
+D Capacitor 220pF 10V
+$ENDCMP
+#
+# capacitor_47u_500V_chip_1210
+#
+$CMP capacitor_47u_500V_chip_1210
+K capacitor,smd
+D Capacitor 47uF 500V
+$ENDCMP
+#
+# 12107A476
+#
+$CMP 12107A476
+K capacitor,smd
+D Capacitor 47uF 500V
+$ENDCMP
+#
+# capacitor_33n_100V_chip_0805
+#
+$CMP capacitor_33n_100V_chip_0805
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# 08051A333
+#
+$CMP 08051A333
+K capacitor,smd
+D Capacitor 33nF 100V
+$ENDCMP
+#
+# capacitor_22u_16V_chip_1812
+#
+$CMP capacitor_22u_16V_chip_1812
+K capacitor,smd
+D Capacitor 22uF 16V
+$ENDCMP
+#
+# 1812YA226
+#
+$CMP 1812YA226
+K capacitor,smd
+D Capacitor 22uF 16V
+$ENDCMP
+#
+# capacitor_100p_25V_chip_0402
+#
+$CMP capacitor_100p_25V_chip_0402
+K capacitor,smd
+D Capacitor 100pF 25V
+$ENDCMP
+#
+# 04023A101
+#
+$CMP 04023A101
+K capacitor,smd
+D Capacitor 100pF 25V
+$ENDCMP
+#
+# capacitor_68n_100V_chip_1210
+#
+$CMP capacitor_68n_100V_chip_1210
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# 12101A683
+#
+$CMP 12101A683
+K capacitor,smd
+D Capacitor 68nF 100V
+$ENDCMP
+#
+# capacitor_6n8_25V_chip_1210
+#
+$CMP capacitor_6n8_25V_chip_1210
+K capacitor,smd
+D Capacitor 6n8F 25V
+$ENDCMP
+#
+# 12103A682
+#
+$CMP 12103A682
+K capacitor,smd
+D Capacitor 6n8F 25V
+$ENDCMP
+#
+# capacitor_6n8_16V_chip_0402
+#
+$CMP capacitor_6n8_16V_chip_0402
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# 0402YA682
+#
+$CMP 0402YA682
+K capacitor,smd
+D Capacitor 6n8F 16V
+$ENDCMP
+#
+# capacitor_4n7_100V_chip_1206
+#
+$CMP capacitor_4n7_100V_chip_1206
+K capacitor,smd
+D Capacitor 4n7F 100V
+$ENDCMP
+#
+# 12061A472
+#
+$CMP 12061A472
+K capacitor,smd
+D Capacitor 4n7F 100V
+$ENDCMP
+#
+# capacitor_220n_100V_chip_1206
+#
+$CMP capacitor_220n_100V_chip_1206
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# 12061A224
+#
+$CMP 12061A224
+K capacitor,smd
+D Capacitor 220nF 100V
+$ENDCMP
+#
+# capacitor_10n_16V_chip_1210
+#
+$CMP capacitor_10n_16V_chip_1210
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# 1210YA103
+#
+$CMP 1210YA103
+K capacitor,smd
+D Capacitor 10nF 16V
+$ENDCMP
+#
+# capacitor_10n_200V_chip_1210
+#
+$CMP capacitor_10n_200V_chip_1210
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# 12102A103
+#
+$CMP 12102A103
+K capacitor,smd
+D Capacitor 10nF 200V
+$ENDCMP
+#
+# capacitor_220p_25V_chip_0402
+#
+$CMP capacitor_220p_25V_chip_0402
+K capacitor,smd
+D Capacitor 220pF 25V
+$ENDCMP
+#
+# 04023A221
+#
+$CMP 04023A221
+K capacitor,smd
+D Capacitor 220pF 25V
+$ENDCMP
+#
+# capacitor_470n_10V_chip_1210
+#
+$CMP capacitor_470n_10V_chip_1210
+K capacitor,smd
+D Capacitor 470nF 10V
+$ENDCMP
+#
+# 1210ZA474
+#
+$CMP 1210ZA474
+K capacitor,smd
+D Capacitor 470nF 10V
+$ENDCMP
+#
+# capacitor_10n_500V_chip_2220
+#
+$CMP capacitor_10n_500V_chip_2220
+K capacitor,smd
+D Capacitor 10nF 500V
+$ENDCMP
+#
+# 22207A103
+#
+$CMP 22207A103
+K capacitor,smd
+D Capacitor 10nF 500V
+$ENDCMP
+#
+# capacitor_10u_25V_chip_1210
+#
+$CMP capacitor_10u_25V_chip_1210
+K capacitor,smd
+D Capacitor 10uF 25V
+$ENDCMP
+#
+# 12103A106
+#
+$CMP 12103A106
+K capacitor,smd
+D Capacitor 10uF 25V
+$ENDCMP
+#
+# capacitor_470p_25V_chip_0402
+#
+$CMP capacitor_470p_25V_chip_0402
+K capacitor,smd
+D Capacitor 470pF 25V
+$ENDCMP
+#
+# 04023A471
+#
+$CMP 04023A471
+K capacitor,smd
+D Capacitor 470pF 25V
+$ENDCMP
+#
+# capacitor_4n7_16V_chip_0402
+#
+$CMP capacitor_4n7_16V_chip_0402
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# 0402YA472
+#
+$CMP 0402YA472
+K capacitor,smd
+D Capacitor 4n7F 16V
+$ENDCMP
+#
+# capacitor_4n7_10V_chip_1206
+#
+$CMP capacitor_4n7_10V_chip_1206
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# 1206ZA472
+#
+$CMP 1206ZA472
+K capacitor,smd
+D Capacitor 4n7F 10V
+$ENDCMP
+#
+# capacitor_1n5_200V_chip_1210
+#
+$CMP capacitor_1n5_200V_chip_1210
+K capacitor,smd
+D Capacitor 1n5F 200V
+$ENDCMP
+#
+# 12102A152
+#
+$CMP 12102A152
+K capacitor,smd
+D Capacitor 1n5F 200V
+$ENDCMP
+#
+# capacitor_220n_25V_chip_0603
+#
+$CMP capacitor_220n_25V_chip_0603
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# 06033A224
+#
+$CMP 06033A224
+K capacitor,smd
+D Capacitor 220nF 25V
+$ENDCMP
+#
+# capacitor_6n8_10V_chip_0201
+#
+$CMP capacitor_6n8_10V_chip_0201
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# 0201ZA682
+#
+$CMP 0201ZA682
+K capacitor,smd
+D Capacitor 6n8F 10V
+$ENDCMP
+#
+# capacitor_150n_500V_chip_1812
+#
+$CMP capacitor_150n_500V_chip_1812
+K capacitor,smd
+D Capacitor 150nF 500V
+$ENDCMP
+#
+# 18127A154
+#
+$CMP 18127A154
+K capacitor,smd
+D Capacitor 150nF 500V
+$ENDCMP
+#
+# capacitor_22n_10V_chip_1206
+#
+$CMP capacitor_22n_10V_chip_1206
+K capacitor,smd
+D Capacitor 22nF 10V
+$ENDCMP
+#
+# 1206ZA223
+#
+$CMP 1206ZA223
+K capacitor,smd
+D Capacitor 22nF 10V
+$ENDCMP
+#
+# capacitor_100n_25V_chip_0402
+#
+$CMP capacitor_100n_25V_chip_0402
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# 04023A104
+#
+$CMP 04023A104
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# capacitor_1u_50V_chip_2220
+#
+$CMP capacitor_1u_50V_chip_2220
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# 22205A1004
+#
+$CMP 22205A1004
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# capacitor_15n_100V_chip_0603
+#
+$CMP capacitor_15n_100V_chip_0603
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# 06031A153
+#
+$CMP 06031A153
+K capacitor,smd
+D Capacitor 15nF 100V
+$ENDCMP
+#
+# capacitor_330n_100V_chip_1206
+#
+$CMP capacitor_330n_100V_chip_1206
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# 12061A334
+#
+$CMP 12061A334
+K capacitor,smd
+D Capacitor 330nF 100V
+$ENDCMP
+#
+# capacitor_4n7_25V_chip_1210
+#
+$CMP capacitor_4n7_25V_chip_1210
+K capacitor,smd
+D Capacitor 4n7F 25V
+$ENDCMP
+#
+# 12103A472
+#
+$CMP 12103A472
+K capacitor,smd
+D Capacitor 4n7F 25V
+$ENDCMP
+#
+# capacitor_47n_25V_chip_0603
+#
+$CMP capacitor_47n_25V_chip_0603
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# 06033A473
+#
+$CMP 06033A473
+K capacitor,smd
+D Capacitor 47nF 25V
+$ENDCMP
+#
+# capacitor_3n3_50V_chip_0603
+#
+$CMP capacitor_3n3_50V_chip_0603
+K capacitor,smd
+D Capacitor 3n3F 50V
+$ENDCMP
+#
+# 06035A332
+#
+$CMP 06035A332
+K capacitor,smd
+D Capacitor 3n3F 50V
+$ENDCMP
+#
+# capacitor_220n_200V_chip_1210
+#
+$CMP capacitor_220n_200V_chip_1210
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# 12102A224
+#
+$CMP 12102A224
+K capacitor,smd
+D Capacitor 220nF 200V
+$ENDCMP
+#
+# capacitor_330n_16V_chip_1210
+#
+$CMP capacitor_330n_16V_chip_1210
+K capacitor,smd
+D Capacitor 330nF 16V
+$ENDCMP
+#
+# 1210YA334
+#
+$CMP 1210YA334
+K capacitor,smd
+D Capacitor 330nF 16V
+$ENDCMP
+#
+# capacitor_3n3_25V_chip_0805
+#
+$CMP capacitor_3n3_25V_chip_0805
+K capacitor,smd
+D Capacitor 3n3F 25V
+$ENDCMP
+#
+# 08053A332
+#
+$CMP 08053A332
+K capacitor,smd
+D Capacitor 3n3F 25V
+$ENDCMP
+#
+# capacitor_15n_16V_chip_0805
+#
+$CMP capacitor_15n_16V_chip_0805
+K capacitor,smd
+D Capacitor 15nF 16V
+$ENDCMP
+#
+# 0805YA153
+#
+$CMP 0805YA153
+K capacitor,smd
+D Capacitor 15nF 16V
+$ENDCMP
+#
+# capacitor_47n_16V_chip_1206
+#
+$CMP capacitor_47n_16V_chip_1206
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# 1206YA473
+#
+$CMP 1206YA473
+K capacitor,smd
+D Capacitor 47nF 16V
+$ENDCMP
+#
+# capacitor_33n_200V_chip_1206
+#
+$CMP capacitor_33n_200V_chip_1206
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# 12062A333
+#
+$CMP 12062A333
+K capacitor,smd
+D Capacitor 33nF 200V
+$ENDCMP
+#
+# capacitor_68n_50V_chip_1825
+#
+$CMP capacitor_68n_50V_chip_1825
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# 18255A683
+#
+$CMP 18255A683
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# capacitor_100u_10V_chip_1210
+#
+$CMP capacitor_100u_10V_chip_1210
+K capacitor,smd
+D Capacitor 100uF 10V
+$ENDCMP
+#
+# 1210ZA107
+#
+$CMP 1210ZA107
+K capacitor,smd
+D Capacitor 100uF 10V
+$ENDCMP
+#
+# capacitor_33n_500V_chip_2220
+#
+$CMP capacitor_33n_500V_chip_2220
+K capacitor,smd
+D Capacitor 33nF 500V
+$ENDCMP
+#
+# 22207A333
+#
+$CMP 22207A333
+K capacitor,smd
+D Capacitor 33nF 500V
+$ENDCMP
+#
+# capacitor_1n_500V_chip_1206
+#
+$CMP capacitor_1n_500V_chip_1206
+K capacitor,smd
+D Capacitor 1nF 500V
+$ENDCMP
+#
+# 12067A1001
+#
+$CMP 12067A1001
+K capacitor,smd
+D Capacitor 1nF 500V
+$ENDCMP
+#
+# capacitor_10n_100V_chip_0805
+#
+$CMP capacitor_10n_100V_chip_0805
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# 08051A103
+#
+$CMP 08051A103
+K capacitor,smd
+D Capacitor 10nF 100V
+$ENDCMP
+#
+# capacitor_68n_200V_chip_1210
+#
+$CMP capacitor_68n_200V_chip_1210
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# 12102A683
+#
+$CMP 12102A683
+K capacitor,smd
+D Capacitor 68nF 200V
+$ENDCMP
+#
+# capacitor_1u_50V_chip_1812
+#
+$CMP capacitor_1u_50V_chip_1812
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# 18125A1004
+#
+$CMP 18125A1004
+K capacitor,smd
+D Capacitor 1uF 50V
+$ENDCMP
+#
+# capacitor_330n_10V_chip_0603
+#
+$CMP capacitor_330n_10V_chip_0603
+K capacitor,smd
+D Capacitor 330nF 10V
+$ENDCMP
+#
+# 0603ZA334
+#
+$CMP 0603ZA334
+K capacitor,smd
+D Capacitor 330nF 10V
+$ENDCMP
+#
+# capacitor_68n_50V_chip_0805
+#
+$CMP capacitor_68n_50V_chip_0805
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# 08055A683
+#
+$CMP 08055A683
+K capacitor,smd
+D Capacitor 68nF 50V
+$ENDCMP
+#
+# capacitor_100p_200V_chip_0603
+#
+$CMP capacitor_100p_200V_chip_0603
+K capacitor,smd
+D Capacitor 100pF 200V
+$ENDCMP
+#
+# 06032A101
+#
+$CMP 06032A101
+K capacitor,smd
+D Capacitor 100pF 200V
+$ENDCMP
+#
+# capacitor_2n2_50V_chip_1210
+#
+$CMP capacitor_2n2_50V_chip_1210
+K capacitor,smd
+D Capacitor 2n2F 50V
+$ENDCMP
+#
+# 12105A222
+#
+$CMP 12105A222
+K capacitor,smd
+D Capacitor 2n2F 50V
+$ENDCMP
+#
+# capacitor_68n_10V_chip_0805
+#
+$CMP capacitor_68n_10V_chip_0805
+K capacitor,smd
+D Capacitor 68nF 10V
+$ENDCMP
+#
+# 0805ZA683
+#
+$CMP 0805ZA683
+K capacitor,smd
+D Capacitor 68nF 10V
+$ENDCMP
+#
+# capacitor_330n_25V_chip_1206
+#
+$CMP capacitor_330n_25V_chip_1206
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# 12063A334
+#
+$CMP 12063A334
+K capacitor,smd
+D Capacitor 330nF 25V
+$ENDCMP
+#
+# capacitor_330p_10V_chip_0805
+#
+$CMP capacitor_330p_10V_chip_0805
+K capacitor,smd
+D Capacitor 330pF 10V
+$ENDCMP
+#
+# 0805ZA331
+#
+$CMP 0805ZA331
+K capacitor,smd
+D Capacitor 330pF 10V
+$ENDCMP
+#
+# capacitor_2u2_10V_chip_1206
+#
+$CMP capacitor_2u2_10V_chip_1206
+K capacitor,smd
+D Capacitor 2u2F 10V
+$ENDCMP
+#
+# 1206ZA225
+#
+$CMP 1206ZA225
+K capacitor,smd
+D Capacitor 2u2F 10V
+$ENDCMP
+#
+# capacitor_470n_100V_chip_1210
+#
+$CMP capacitor_470n_100V_chip_1210
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# 12101A474
+#
+$CMP 12101A474
+K capacitor,smd
+D Capacitor 470nF 100V
+$ENDCMP
+#
+# capacitor_100n_25V_chip_1210
+#
+$CMP capacitor_100n_25V_chip_1210
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# 12103A104
+#
+$CMP 12103A104
+K capacitor,smd
+D Capacitor 100nF 25V
+$ENDCMP
+#
+# capacitor_1u_100V_chip_1812
+#
+$CMP capacitor_1u_100V_chip_1812
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# 18121A1004
+#
+$CMP 18121A1004
+K capacitor,smd
+D Capacitor 1uF 100V
+$ENDCMP
+#
+# capacitor_6n8_50V_chip_0603
+#
+$CMP capacitor_6n8_50V_chip_0603
+K capacitor,smd
+D Capacitor 6n8F 50V
+$ENDCMP
+#
+# 06035A682
+#
+$CMP 06035A682
+K capacitor,smd
+D Capacitor 6n8F 50V
+$ENDCMP
+#
+# capacitor_22n_100V_chip_0603
+#
+$CMP capacitor_22n_100V_chip_0603
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# 06031A223
+#
+$CMP 06031A223
+K capacitor,smd
+D Capacitor 22nF 100V
+$ENDCMP
+#
+# capacitor_33n_50V_chip_1206
+#
+$CMP capacitor_33n_50V_chip_1206
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# 12065A333
+#
+$CMP 12065A333
+K capacitor,smd
+D Capacitor 33nF 50V
+$ENDCMP
+#
+# capacitor_150n_50V_chip_0805
+#
+$CMP capacitor_150n_50V_chip_0805
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# 08055A154
+#
+$CMP 08055A154
+K capacitor,smd
+D Capacitor 150nF 50V
+$ENDCMP
+#
+# capacitor_3n3_100V_chip_0603
+#
+$CMP capacitor_3n3_100V_chip_0603
+K capacitor,smd
+D Capacitor 3n3F 100V
+$ENDCMP
+#
+# 06031A332
+#
+$CMP 06031A332
+K capacitor,smd
+D Capacitor 3n3F 100V
+$ENDCMP
+#
+# End Doc Library

@@ -92,14 +92,14 @@ class CapacitorTableGenerator:
                 valueCode, valueText = makeValueCodeAndText(v)
 
                 for thick,WVDC,pkg in zip(row[1:],voltage,packageList):
-                    alias = "%s%s%s%s"%(pkg, avxVoltageCode[WVDC], dielectricCode, valueCode)
                     pkg = "{:0>4}".format(pkg)
+                    alias = "%s%s%s%s"%(pkg, avxVoltageCode[WVDC], dielectricCode, valueCode)
                     if thick != "":
                         partId = "capacitor_{:}_{:}V_chip_{:}".format(valueText, WVDC, pkg)
                     #   partId = "capacitor_{:}_{:}V_{:}_chip_{:}".format(valueText, WVDC, dielectricCode, pkg)
                         print partId
                         if not partId in self.parts:
-                            self.parts[partId] = ("capacitor,%s,C,chip_capacitor_%s,Capacitor %s 5%% %sV,\"capacitor,smd\",1,2,%s,5%%,%sV"%(partId.replace(" ","_"), pkg, valueText, WVDC, valueText, WVDC),[alias])
+                            self.parts[partId] = ("capacitor,%s,C,chip_capacitor_%s,Capacitor %sF %sV,\"capacitor,smd\",1,2,%s,5%%,%sV"%(partId.replace(" ","_"), pkg, valueText, WVDC, valueText, WVDC),[alias])
                         else:
                             self.parts[partId][1].append(alias)
 
@@ -228,7 +228,7 @@ class CapacitorTableGenerator:
                             partId = "capacitor_{:}_{:}V_chip_{:}".format(valueText, WVDC, pkg)
                             print partId
                             if not partId in self.parts:
-                                self.parts[partId] = ("capacitor,%s,C,chip_capacitor_%s,Capacitor %s 5%% %sV,\"capacitor,smd\",1,2,%s,5%%,%sV"%(partId.replace(" ","_"), pkg, valueText, WVDC, valueText, WVDC), [alias])
+                                self.parts[partId] = ("capacitor,%s,C,chip_capacitor_%s,Capacitor %sF %sV,\"capacitor,smd\",1,2,%s,5%%,%sV"%(partId.replace(" ","_"), pkg, valueText, WVDC, valueText, WVDC), [alias])
                             else:
                                 self.parts[partId][1].append(alias)
 
