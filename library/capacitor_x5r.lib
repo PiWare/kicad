@@ -1,0 +1,5044 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# capacitor_22n_25V_chip_0603
+#
+DEF capacitor_22n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "22n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D223
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_150p_16V_chip_0101
+#
+DEF capacitor_150p_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_150p_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "150p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD151
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_16V_chip_0603
+#
+DEF capacitor_2u2_16V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_16V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603YD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100u_6.3V_chip_1210
+#
+DEF capacitor_100u_6.3V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100u_6.3V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "100u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12106D107
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_15n_25V_chip_0402
+#
+DEF capacitor_15n_25V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_15n_25V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "15n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04023D153
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100u_4V_chip_1210
+#
+DEF capacitor_100u_4V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100u_4V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "100u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12104D107
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_16V_chip_1210
+#
+DEF capacitor_22u_16V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_16V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210YD226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_6.3V_chip_0603
+#
+DEF capacitor_10u_6.3V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_6.3V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06036D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_10V_chip_0603
+#
+DEF capacitor_10u_10V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_10V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603ZD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_33n_16V_chip_0402
+#
+DEF capacitor_33n_16V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_33n_16V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "33n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402YD333
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100u_25V_chip_1210
+#
+DEF capacitor_100u_25V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100u_25V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "100u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12103D107
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_50V_chip_1210
+#
+DEF capacitor_1u_50V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_50V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12105D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100u_6.3V_chip_1206
+#
+DEF capacitor_100u_6.3V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100u_6.3V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "100u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12066D107
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_35V_chip_0805
+#
+DEF capacitor_1u_35V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_35V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805DD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_16V_chip_0603
+#
+DEF capacitor_4u7_16V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_16V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603YD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_10V_chip_0603
+#
+DEF capacitor_4u7_10V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_10V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603ZD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_6.3V_chip_0603
+#
+DEF capacitor_4u7_6.3V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_6.3V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06036D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_35V_chip_1210
+#
+DEF capacitor_4u7_35V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_35V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210DD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_15n_35V_chip_0603
+#
+DEF capacitor_15n_35V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_15n_35V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "15n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603DD153
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_50V_chip_1206
+#
+DEF capacitor_4u7_50V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_50V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12065D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_16V_chip_0201
+#
+DEF capacitor_1u_16V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_16V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201YD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1n_25V_chip_0201
+#
+DEF capacitor_1n_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1n_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "1n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D1001
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47n_50V_chip_0603
+#
+DEF capacitor_47n_50V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47n_50V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "47n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06035D473
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_100V_chip_1206
+#
+DEF capacitor_2u2_100V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_100V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "100V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12061D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_10V_chip_1206
+#
+DEF capacitor_10u_10V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_10V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206ZD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_4V_chip_1206
+#
+DEF capacitor_10u_4V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_4V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12064D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_6.3V_chip_0101
+#
+DEF capacitor_220n_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_16V_chip_0402
+#
+DEF capacitor_220n_16V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_16V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402YD224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_16V_chip_1210
+#
+DEF capacitor_47u_16V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_16V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210YD476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10n_16V_chip_0101
+#
+DEF capacitor_10n_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10n_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "10n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD103
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_6.3V_chip_0805
+#
+DEF capacitor_4u7_6.3V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_6.3V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08056D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_35V_chip_0805
+#
+DEF capacitor_2u2_35V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_35V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805DD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100u_16V_chip_1210
+#
+DEF capacitor_100u_16V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100u_16V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "100u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210YD107
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_25V_chip_0603
+#
+DEF capacitor_1u_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_50V_chip_0805
+#
+DEF capacitor_470n_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4n7_25V_chip_0201
+#
+DEF capacitor_4n7_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4n7_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "4n7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D472
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_6.3V_chip_0201
+#
+DEF capacitor_1u_6.3V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_6.3V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02016D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_330p_25V_chip_0201
+#
+DEF capacitor_330p_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_330p_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "330p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D331
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_25V_chip_1210
+#
+DEF capacitor_2u2_25V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_25V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12103D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_4V_chip_0805
+#
+DEF capacitor_22u_4V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_4V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08054D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_6n8_6.3V_chip_0101
+#
+DEF capacitor_6n8_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_6n8_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "6n8" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D682
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_150n_25V_chip_0805
+#
+DEF capacitor_150n_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_150n_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "150n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D154
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_50V_chip_1210
+#
+DEF capacitor_2u2_50V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_50V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12105D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_6.3V_chip_0805
+#
+DEF capacitor_47u_6.3V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_6.3V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08056D476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2n2_25V_chip_0201
+#
+DEF capacitor_2n2_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2n2_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "2n2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D222
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100u_4V_chip_1206
+#
+DEF capacitor_100u_4V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100u_4V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "100u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12064D107
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220p_50V_chip_0402
+#
+DEF capacitor_220p_50V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220p_50V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "220p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04025D221
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3u3_6.3V_chip_1206
+#
+DEF capacitor_3u3_6.3V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3u3_6.3V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "3u3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12066D335
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220p_25V_chip_0201
+#
+DEF capacitor_220p_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220p_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "220p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D221
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_6n8_25V_chip_0201
+#
+DEF capacitor_6n8_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_6n8_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "6n8" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D682
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_25V_chip_0805
+#
+DEF capacitor_100n_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_25V_chip_1210
+#
+DEF capacitor_47u_25V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_25V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12103D476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_16V_chip_0402
+#
+DEF capacitor_470n_16V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_16V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402YD474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_25V_chip_1812
+#
+DEF capacitor_10u_25V_chip_1812 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_25V_chip_1812" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1812" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 18123D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_50V_chip_1210
+#
+DEF capacitor_4u7_50V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_50V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12105D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_4V_chip_0603
+#
+DEF capacitor_4u7_4V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_4V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06034D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_10V_chip_0402
+#
+DEF capacitor_220n_10V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_10V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402ZD224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47n_35V_chip_0603
+#
+DEF capacitor_47n_35V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47n_35V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "47n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603DD473
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10n_25V_chip_0402
+#
+DEF capacitor_10n_25V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10n_25V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "10n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04023D103
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_10V_chip_1210
+#
+DEF capacitor_10u_10V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_10V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210ZD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_35V_chip_0805
+#
+DEF capacitor_220n_35V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_35V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805DD224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_25V_chip_0805
+#
+DEF capacitor_4u7_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_4V_chip_0805
+#
+DEF capacitor_4u7_4V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_4V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08054D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_15n_6.3V_chip_0101
+#
+DEF capacitor_15n_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_15n_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "15n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D153
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_50V_chip_0805
+#
+DEF capacitor_2u2_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2n2_16V_chip_0201
+#
+DEF capacitor_2n2_16V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2n2_16V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "2n2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201YD222
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_50V_chip_0402
+#
+DEF capacitor_100n_50V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_50V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04025D104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_6.3V_chip_0603
+#
+DEF capacitor_1u_6.3V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_6.3V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06036D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_10V_chip_0402
+#
+DEF capacitor_100n_10V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_10V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402ZD104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_4V_chip_0402
+#
+DEF capacitor_2u2_4V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_4V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04024D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_33n_50V_chip_0603
+#
+DEF capacitor_33n_50V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_33n_50V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "33n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06035D333
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_10V_chip_1210
+#
+DEF capacitor_22u_10V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_10V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210ZD226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_4V_chip_0603
+#
+DEF capacitor_10u_4V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_4V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06034D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_25V_chip_0603
+#
+DEF capacitor_100n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_25V_chip_1206
+#
+DEF capacitor_2u2_25V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_25V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12063D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_330p_16V_chip_0101
+#
+DEF capacitor_330p_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_330p_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "330p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD331
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_50V_chip_1206
+#
+DEF capacitor_2u2_50V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_50V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12065D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_35V_chip_0603
+#
+DEF capacitor_100n_35V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_35V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603DD104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_4V_chip_0603
+#
+DEF capacitor_1u_4V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_4V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06034D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_25V_chip_1210
+#
+DEF capacitor_22u_25V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_25V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12103D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_50V_chip_0603
+#
+DEF capacitor_100n_50V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_50V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06035D104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_50V_chip_1210
+#
+DEF capacitor_470n_50V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_50V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12105D474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100u_4V_chip_0805
+#
+DEF capacitor_100u_4V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100u_4V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "100u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08054D107
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1n_50V_chip_0402
+#
+DEF capacitor_1n_50V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1n_50V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "1n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04025D1001
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_16V_chip_0805
+#
+DEF capacitor_22u_16V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_16V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805YD226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_25V_chip_1206
+#
+DEF capacitor_470n_25V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_25V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12063D474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47n_6.3V_chip_0201
+#
+DEF capacitor_47n_6.3V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47n_6.3V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "47n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02016D473
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_150p_25V_chip_0201
+#
+DEF capacitor_150p_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_150p_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "150p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D151
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10n_35V_chip_0603
+#
+DEF capacitor_10n_35V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10n_35V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "10n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603DD103
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470p_25V_chip_0201
+#
+DEF capacitor_470p_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470p_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "470p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D471
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1n5_16V_chip_0101
+#
+DEF capacitor_1n5_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1n5_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "1n5" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD152
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_4V_chip_0805
+#
+DEF capacitor_10u_4V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_4V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08054D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_4V_chip_1210
+#
+DEF capacitor_47u_4V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_4V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12104D476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_68n_6.3V_chip_0101
+#
+DEF capacitor_68n_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_68n_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "68n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D683
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3n3_25V_chip_0201
+#
+DEF capacitor_3n3_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3n3_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "3n3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D332
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_4V_chip_0201
+#
+DEF capacitor_470n_4V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_4V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02014D474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3n3_50V_chip_0402
+#
+DEF capacitor_3n3_50V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3n3_50V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "3n3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04025D332
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_6.3V_chip_0402
+#
+DEF capacitor_470n_6.3V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_6.3V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04026D474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_16V_chip_1206
+#
+DEF capacitor_2u2_16V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_16V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206YD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_6.3V_chip_0805
+#
+DEF capacitor_22u_6.3V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_6.3V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08056D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_50V_chip_1210
+#
+DEF capacitor_10u_50V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_50V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12105D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3n3_16V_chip_0101
+#
+DEF capacitor_3n3_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3n3_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "3n3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD332
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_330n_16V_chip_0603
+#
+DEF capacitor_330n_16V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_330n_16V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "330n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603YD334
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_50V_chip_0805
+#
+DEF capacitor_1u_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10n_50V_chip_0603
+#
+DEF capacitor_10n_50V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10n_50V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "10n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06035D103
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_25V_chip_1206
+#
+DEF capacitor_4u7_25V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_25V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12063D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_35V_chip_1210
+#
+DEF capacitor_470n_35V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_35V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210DD474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_100V_chip_1206
+#
+DEF capacitor_4u7_100V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_100V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "100V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12061D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4n7_10V_chip_0201
+#
+DEF capacitor_4n7_10V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4n7_10V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "4n7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201ZD472
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22n_50V_chip_0603
+#
+DEF capacitor_22n_50V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22n_50V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "22n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06035D223
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_6n8_16V_chip_0101
+#
+DEF capacitor_6n8_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_6n8_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "6n8" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD682
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_330n_25V_chip_0805
+#
+DEF capacitor_330n_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_330n_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "330n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D334
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_50V_chip_1206
+#
+DEF capacitor_1u_50V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_50V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12065D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_16V_chip_0805
+#
+DEF capacitor_1u_16V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_16V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805YD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1n5_50V_chip_0402
+#
+DEF capacitor_1n5_50V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1n5_50V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "1n5" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04025D152
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_35V_chip_1210
+#
+DEF capacitor_2u2_35V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_35V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210DD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_6.3V_chip_0402
+#
+DEF capacitor_220n_6.3V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_6.3V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04026D224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_35V_chip_1210
+#
+DEF capacitor_10u_35V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_35V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210DD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_25V_chip_1206
+#
+DEF capacitor_22u_25V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_25V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12063D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_25V_chip_0805
+#
+DEF capacitor_1u_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_33n_25V_chip_0603
+#
+DEF capacitor_33n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_33n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "33n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D333
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_6.3V_chip_1206
+#
+DEF capacitor_47u_6.3V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_6.3V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12066D476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_150n_35V_chip_0805
+#
+DEF capacitor_150n_35V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_150n_35V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "150n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805DD154
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22n_35V_chip_0603
+#
+DEF capacitor_22n_35V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22n_35V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "22n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603DD223
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_10V_chip_1206
+#
+DEF capacitor_2u2_10V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_10V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206ZD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_16V_chip_1206
+#
+DEF capacitor_22u_16V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_16V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206YD226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_50V_chip_1206
+#
+DEF capacitor_10u_50V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_50V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12065D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_35V_chip_0805
+#
+DEF capacitor_100n_35V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_35V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805DD104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_10V_chip_0603
+#
+DEF capacitor_2u2_10V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_10V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603ZD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_16V_chip_1206
+#
+DEF capacitor_10u_16V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_16V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206YD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_4V_chip_1206
+#
+DEF capacitor_22u_4V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_4V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12064D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_4V_chip_0201
+#
+DEF capacitor_1u_4V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_4V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02014D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_33n_6.3V_chip_0101
+#
+DEF capacitor_33n_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_33n_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "33n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D333
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_16V_chip_0805
+#
+DEF capacitor_2u2_16V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_16V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805YD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_6.3V_chip_0201
+#
+DEF capacitor_220n_6.3V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_6.3V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02016D224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_25V_chip_1210
+#
+DEF capacitor_4u7_25V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_25V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12103D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3u3_6.3V_chip_0805
+#
+DEF capacitor_3u3_6.3V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3u3_6.3V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "3u3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08056D335
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1n_16V_chip_0201
+#
+DEF capacitor_1n_16V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1n_16V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "1n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201YD1001
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3u3_10V_chip_0805
+#
+DEF capacitor_3u3_10V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3u3_10V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "3u3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805ZD335
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_10V_chip_0603
+#
+DEF capacitor_1u_10V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_10V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603ZD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_15n_50V_chip_0603
+#
+DEF capacitor_15n_50V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_15n_50V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "15n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06035D153
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_10V_chip_1210
+#
+DEF capacitor_47u_10V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_10V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210ZD476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_6.3V_chip_0201
+#
+DEF capacitor_100n_6.3V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_6.3V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02016D104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1n5_16V_chip_0201
+#
+DEF capacitor_1n5_16V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1n5_16V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "1n5" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201YD152
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_6.3V_chip_1206
+#
+DEF capacitor_10u_6.3V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_6.3V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12066D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_25V_chip_0805
+#
+DEF capacitor_10u_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4n7_16V_chip_0101
+#
+DEF capacitor_4n7_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4n7_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "4n7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD472
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_10V_chip_1206
+#
+DEF capacitor_22u_10V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_10V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206ZD226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_10V_chip_0805
+#
+DEF capacitor_22u_10V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_10V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805ZD226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_330p_50V_chip_0402
+#
+DEF capacitor_330p_50V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_330p_50V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "330p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04025D331
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_4V_chip_0603
+#
+DEF capacitor_22u_4V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_4V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06034D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_25V_chip_0402
+#
+DEF capacitor_1u_25V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_25V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04023D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_25V_chip_0805
+#
+DEF capacitor_22u_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_6.3V_chip_1210
+#
+DEF capacitor_22u_6.3V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_6.3V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12106D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_10V_chip_1206
+#
+DEF capacitor_4u7_10V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_10V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206ZD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_16V_chip_1210
+#
+DEF capacitor_10u_16V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_16V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210YD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_50V_chip_0805
+#
+DEF capacitor_100n_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_35V_chip_1206
+#
+DEF capacitor_10u_35V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_35V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206DD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_35V_chip_1206
+#
+DEF capacitor_470n_35V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_35V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206DD474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4n7_50V_chip_0603
+#
+DEF capacitor_4n7_50V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4n7_50V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "4n7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06035D472
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22n_6.3V_chip_0101
+#
+DEF capacitor_22n_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22n_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "22n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D223
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47n_50V_chip_0805
+#
+DEF capacitor_47n_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47n_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "47n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D473
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_4V_chip_1206
+#
+DEF capacitor_4u7_4V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_4V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12064D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_680p_25V_chip_0201
+#
+DEF capacitor_680p_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_680p_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "680p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D681
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_10V_chip_0201
+#
+DEF capacitor_2u2_10V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_10V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201ZD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_25V_chip_0805
+#
+DEF capacitor_470n_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_16V_chip_0402
+#
+DEF capacitor_100n_16V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_16V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402YD104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1n5_25V_chip_0201
+#
+DEF capacitor_1n5_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1n5_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "1n5" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D152
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_6.3V_chip_0402
+#
+DEF capacitor_1u_6.3V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_6.3V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04026D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4n7_25V_chip_0402
+#
+DEF capacitor_4n7_25V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4n7_25V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "4n7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04023D472
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_4V_chip_1210
+#
+DEF capacitor_22u_4V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_4V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12104D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_68n_50V_chip_0805
+#
+DEF capacitor_68n_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_68n_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "68n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D683
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22n_25V_chip_0402
+#
+DEF capacitor_22n_25V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22n_25V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "22n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04023D223
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_10V_chip_0805
+#
+DEF capacitor_4u7_10V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_10V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805ZD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_16V_chip_0402
+#
+DEF capacitor_1u_16V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_16V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402YD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_16V_chip_0603
+#
+DEF capacitor_220n_16V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_16V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603YD224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_10V_chip_0201
+#
+DEF capacitor_1u_10V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_10V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201ZD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220p_16V_chip_0101
+#
+DEF capacitor_220p_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220p_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "220p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD221
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100p_16V_chip_0101
+#
+DEF capacitor_100p_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100p_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "100p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD101
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_35V_chip_1206
+#
+DEF capacitor_2u2_35V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_35V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206DD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_680n_16V_chip_0603
+#
+DEF capacitor_680n_16V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_680n_16V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "680n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603YD684
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3n3_16V_chip_0201
+#
+DEF capacitor_3n3_16V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3n3_16V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "3n3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201YD332
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_16V_chip_1210
+#
+DEF capacitor_4u7_16V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_16V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210YD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_6n8_25V_chip_0402
+#
+DEF capacitor_6n8_25V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_6n8_25V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "6n8" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04023D682
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10n_16V_chip_0201
+#
+DEF capacitor_10n_16V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10n_16V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "10n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201YD103
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47n_25V_chip_0402
+#
+DEF capacitor_47n_25V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47n_25V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "47n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04023D473
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_16V_chip_0603
+#
+DEF capacitor_470n_16V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_16V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603YD474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_16V_chip_0805
+#
+DEF capacitor_10u_16V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_16V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805YD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_10V_chip_0201
+#
+DEF capacitor_220n_10V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_10V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201ZD224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_68n_50V_chip_0603
+#
+DEF capacitor_68n_50V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_68n_50V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "68n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06035D683
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_16V_chip_0603
+#
+DEF capacitor_10u_16V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_16V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603YD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_15n_25V_chip_0603
+#
+DEF capacitor_15n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_15n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "15n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D153
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_10V_chip_0805
+#
+DEF capacitor_2u2_10V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_10V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805ZD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1n_16V_chip_0101
+#
+DEF capacitor_1n_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1n_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "1n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD1001
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_6.3V_chip_1210
+#
+DEF capacitor_10u_6.3V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_6.3V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12106D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_150n_25V_chip_0603
+#
+DEF capacitor_150n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_150n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "150n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D154
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_35V_chip_1210
+#
+DEF capacitor_1u_35V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_35V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210DD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47n_16V_chip_0402
+#
+DEF capacitor_47n_16V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47n_16V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "47n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402YD473
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_680p_50V_chip_0402
+#
+DEF capacitor_680p_50V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_680p_50V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "680p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04025D681
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_25V_chip_1206
+#
+DEF capacitor_10u_25V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_25V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12063D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_68n_16V_chip_0402
+#
+DEF capacitor_68n_16V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_68n_16V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "68n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402YD683
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_4V_chip_1206
+#
+DEF capacitor_47u_4V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_4V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12064D476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22n_6.3V_chip_0201
+#
+DEF capacitor_22n_6.3V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22n_6.3V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "22n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02016D223
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3n3_10V_chip_0201
+#
+DEF capacitor_3n3_10V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3n3_10V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "3n3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201ZD332
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_10V_chip_0201
+#
+DEF capacitor_100n_10V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_10V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201ZD104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_25V_chip_0805
+#
+DEF capacitor_2u2_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100p_25V_chip_0201
+#
+DEF capacitor_100p_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100p_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "100p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D101
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10n_25V_chip_0603
+#
+DEF capacitor_10n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "10n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D103
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2n2_50V_chip_0402
+#
+DEF capacitor_2n2_50V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2n2_50V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "2n2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04025D222
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2n2_10V_chip_0201
+#
+DEF capacitor_2n2_10V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2n2_10V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "2n2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201ZD222
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10n_6.3V_chip_0101
+#
+DEF capacitor_10n_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10n_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "10n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D103
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_35V_chip_1206
+#
+DEF capacitor_4u7_35V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_35V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206DD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_4V_chip_0402
+#
+DEF capacitor_470n_4V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_4V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04024D474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_10V_chip_0402
+#
+DEF capacitor_2u2_10V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_10V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402ZD225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_680n_25V_chip_0805
+#
+DEF capacitor_680n_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_680n_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "680n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D684
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3u3_10V_chip_0603
+#
+DEF capacitor_3u3_10V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3u3_10V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "3u3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603ZD335
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3n3_6.3V_chip_0101
+#
+DEF capacitor_3n3_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3n3_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "3n3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D332
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3u3_10V_chip_1206
+#
+DEF capacitor_3u3_10V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3u3_10V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "3u3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206ZD335
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_6.3V_chip_0402
+#
+DEF capacitor_2u2_6.3V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_6.3V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04026D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47n_6.3V_chip_0101
+#
+DEF capacitor_47n_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47n_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "47n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D473
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_6.3V_chip_1206
+#
+DEF capacitor_4u7_6.3V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_6.3V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12066D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3u3_6.3V_chip_0603
+#
+DEF capacitor_3u3_6.3V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3u3_6.3V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "3u3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06036D335
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_10V_chip_0603
+#
+DEF capacitor_22u_10V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_10V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603ZD226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_33n_50V_chip_0805
+#
+DEF capacitor_33n_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_33n_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "33n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D333
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_4V_chip_0201
+#
+DEF capacitor_220n_4V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_4V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02014D224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_4V_chip_0805
+#
+DEF capacitor_47u_4V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_4V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08054D476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10n_10V_chip_0201
+#
+DEF capacitor_10n_10V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10n_10V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "10n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201ZD103
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_4V_chip_0402
+#
+DEF capacitor_1u_4V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_4V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04024D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_33n_35V_chip_0603
+#
+DEF capacitor_33n_35V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_33n_35V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "33n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603DD333
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_10V_chip_1206
+#
+DEF capacitor_47u_10V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_10V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206ZD476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22n_16V_chip_0402
+#
+DEF capacitor_22n_16V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22n_16V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "22n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402YD223
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_6.3V_chip_0603
+#
+DEF capacitor_2u2_6.3V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_6.3V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06036D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_16V_chip_0805
+#
+DEF capacitor_4u7_16V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_16V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805YD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_50V_chip_0805
+#
+DEF capacitor_220n_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_6.3V_chip_0805
+#
+DEF capacitor_10u_6.3V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_6.3V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08056D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_35V_chip_1206
+#
+DEF capacitor_1u_35V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_35V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206DD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_6.3V_chip_0603
+#
+DEF capacitor_22u_6.3V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_6.3V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06036D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_10V_chip_1210
+#
+DEF capacitor_4u7_10V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_10V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210ZD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22n_50V_chip_0805
+#
+DEF capacitor_22n_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22n_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "22n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D223
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_4V_chip_0603
+#
+DEF capacitor_2u2_4V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_4V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06034D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_50V_chip_0805
+#
+DEF capacitor_4u7_50V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_50V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08055D475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_6n8_10V_chip_0201
+#
+DEF capacitor_6n8_10V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_6n8_10V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "6n8" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201ZD682
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10n_25V_chip_0201
+#
+DEF capacitor_10n_25V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10n_25V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "10n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02013D103
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_25V_chip_0402
+#
+DEF capacitor_100n_25V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_25V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04023D104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_25V_chip_0603
+#
+DEF capacitor_2u2_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_25V_chip_1206
+#
+DEF capacitor_1u_25V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_25V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12063D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_6.3V_chip_0201
+#
+DEF capacitor_470n_6.3V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_6.3V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02016D474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47n_25V_chip_0603
+#
+DEF capacitor_47n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "47n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D473
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_100V_chip_1206
+#
+DEF capacitor_1u_100V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_100V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "100V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12061D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2n2_6.3V_chip_0101
+#
+DEF capacitor_2n2_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2n2_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "2n2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D222
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100u_10V_chip_1210
+#
+DEF capacitor_100u_10V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100u_10V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "100u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1210ZD107
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470p_16V_chip_0101
+#
+DEF capacitor_470p_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470p_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "470p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD471
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_10V_chip_0805
+#
+DEF capacitor_10u_10V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_10V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805ZD106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2n2_16V_chip_0101
+#
+DEF capacitor_2n2_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2n2_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "2n2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD222
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_10V_chip_0402
+#
+DEF capacitor_1u_10V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_10V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402ZD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_68n_25V_chip_0603
+#
+DEF capacitor_68n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_68n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "68n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D683
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_10V_chip_0402
+#
+DEF capacitor_470n_10V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_10V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "10V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0402ZD474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_6.3V_chip_0201
+#
+DEF capacitor_2u2_6.3V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_6.3V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02016D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_25V_chip_0603
+#
+DEF capacitor_470n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_6n8_16V_chip_0201
+#
+DEF capacitor_6n8_16V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_6n8_16V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "6n8" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201YD682
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_16V_chip_1206
+#
+DEF capacitor_4u7_16V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_16V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 1206YD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_330n_25V_chip_0603
+#
+DEF capacitor_330n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_330n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "330n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D334
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4n7_6.3V_chip_0101
+#
+DEF capacitor_4n7_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4n7_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "4n7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D472
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_10u_25V_chip_1210
+#
+DEF capacitor_10u_25V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_10u_25V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "10u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12103D106
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_16V_chip_0603
+#
+DEF capacitor_1u_16V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_16V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0603YD1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4u7_35V_chip_0805
+#
+DEF capacitor_4u7_35V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4u7_35V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "4u7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805DD475
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_2u2_4V_chip_0201
+#
+DEF capacitor_2u2_4V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_2u2_4V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "2u2" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 02014D225
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_100n_6.3V_chip_0101
+#
+DEF capacitor_100n_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_100n_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "100n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D104
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470n_35V_chip_0805
+#
+DEF capacitor_470n_35V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470n_35V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "470n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "35V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0805DD474
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_3u3_4V_chip_0603
+#
+DEF capacitor_3u3_4V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_3u3_4V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "3u3" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "4V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06034D335
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_680p_16V_chip_0101
+#
+DEF capacitor_680p_16V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_680p_16V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "680p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0101YD681
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_25V_chip_0603
+#
+DEF capacitor_220n_25V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_25V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06033D224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_22u_6.3V_chip_1206
+#
+DEF capacitor_22u_6.3V_chip_1206 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_22u_6.3V_chip_1206" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1206" -100 0 60 V I C CNN "Footprint"
+F5 "22u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12066D226
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_47u_6.3V_chip_1210
+#
+DEF capacitor_47u_6.3V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_47u_6.3V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "47u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12106D476
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_6n8_50V_chip_0603
+#
+DEF capacitor_6n8_50V_chip_0603 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_6n8_50V_chip_0603" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0603" -100 0 60 V I C CNN "Footprint"
+F5 "6n8" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 06035D682
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1u_25V_chip_1210
+#
+DEF capacitor_1u_25V_chip_1210 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1u_25V_chip_1210" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_1210" -100 0 60 V I C CNN "Footprint"
+F5 "1u" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 12103D1004
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_470p_50V_chip_0402
+#
+DEF capacitor_470p_50V_chip_0402 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_470p_50V_chip_0402" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0402" -100 0 60 V I C CNN "Footprint"
+F5 "470p" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "50V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 04025D471
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_1n5_6.3V_chip_0101
+#
+DEF capacitor_1n5_6.3V_chip_0101 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_1n5_6.3V_chip_0101" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0101" -100 0 60 V I C CNN "Footprint"
+F5 "1n5" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "6.3V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 01016D152
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_220n_25V_chip_0805
+#
+DEF capacitor_220n_25V_chip_0805 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_220n_25V_chip_0805" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0805" -100 0 60 V I C CNN "Footprint"
+F5 "220n" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "25V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 08053D224
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_4n7_16V_chip_0201
+#
+DEF capacitor_4n7_16V_chip_0201 C 0 0 N N 1 L N
+F0 "C" 50 100 60 H V L CNN "Reference"
+F1 "capacitor_4n7_16V_chip_0201" 50 200 60 H I L CNN "Name"
+F2 "chip_capacitor_0201" -100 0 60 V I C CNN "Footprint"
+F5 "4n7" 50 0 60 H V L CNN "ValueX"
+F6 "5%" 50 -200 60 H I L CNN "Tolerance"
+F9 "16V" 50 -100 60 H V L CNN "Voltage"
+ALIAS 0201YD472
+DRAW
+S -50 -30 50 -10 0 1 10 F
+S -50 10 50 30 0 1 10 F
+X ~ 1 0 150 120 D 50 50 0 1 P
+X ~ 2 0 -150 120 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# End Library
