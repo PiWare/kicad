@@ -24,7 +24,9 @@ SYMBOL_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
 	$(LIBRARY_ROOT)/mcu.lib \
 	$(LIBRARY_ROOT)/resistor.lib \
 	$(LIBRARY_ROOT)/inductor.lib \
-	$(LIBRARY_ROOT)/capacitor.lib \
+	$(LIBRARY_ROOT)/capacitor_c0g.lib \
+	$(LIBRARY_ROOT)/capacitor_x7r.lib \
+	$(LIBRARY_ROOT)/capacitor_x5r.lib \
 	$(LIBRARY_ROOT)/rf.lib \
 	$(LIBRARY_ROOT)/regulator.lib \
 	$(LIBRARY_ROOT)/relais.lib
