@@ -7,7 +7,7 @@ DEF 74AHC1G00GW IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G00GW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_5" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G00.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G00.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G00GW
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -26,7 +26,7 @@ DEF 74AHC1G00GV IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G00GV" 100 -200 60 H V L CNN "Name"
 F2 "sc_74a" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G00.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G00.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G00GV
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -45,7 +45,7 @@ DEF 74AHC1G02GW IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G02GW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_5" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G02.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G02.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G02GW
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -64,7 +64,7 @@ DEF 74AHC1G02GV IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G02GV" 100 -200 60 H V L CNN "Name"
 F2 "sc_74a" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G02.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G02.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G02GV
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -83,7 +83,7 @@ DEF 74AHC1G04GW IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G04GW" 50 -150 60 H V L CNN "Name"
 F2 "tssop_5" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G04GW
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -100,7 +100,7 @@ DEF 74AHC1G04GV IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G04GV" 50 -150 60 H V L CNN "Name"
 F2 "sc_74a" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G04GV
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -117,7 +117,7 @@ DEF 74AHC1G04GM IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G04GM" 50 -150 60 H V L CNN "Name"
 F2 "xson_6" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G04GM
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -134,7 +134,7 @@ DEF 74AHC1G06GW IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G06GW" 50 -150 60 H V L CNN "Name"
 F2 "tssop_5" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G06.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G06.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G06GW
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -151,7 +151,7 @@ DEF 74AHC1G06GV IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G06GV" 50 -150 60 H V L CNN "Name"
 F2 "sc_74a" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G06.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G06.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G06GV
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -168,7 +168,7 @@ DEF 74AHC1G07GW IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G07GW" 50 -150 60 H V L CNN "Name"
 F2 "tssop_5" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G07.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G07.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G07GW
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -185,7 +185,7 @@ DEF 74AHC1G07GV IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G07GV" 50 -150 60 H V L CNN "Name"
 F2 "sc_74a" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G07.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G07.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G07GV
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -202,7 +202,7 @@ DEF 74AHC1G08GW IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G08GW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_5" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G08.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G08.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G08GW
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -221,7 +221,7 @@ DEF 74AHC1G08GV IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G08GV" 100 -200 60 H V L CNN "Name"
 F2 "sc_74a" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G08.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G08.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G08GV
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -240,7 +240,7 @@ DEF 74AHC1G14GW IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G14GW" 50 -150 60 H V L CNN "Name"
 F2 "tssop_5" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G14GW
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -259,7 +259,7 @@ DEF 74AHC1G14GV IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G14GV" 50 -150 60 H V L CNN "Name"
 F2 "sc_74a" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G14GV
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -278,7 +278,7 @@ DEF 74AHC1G17GW IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G17GW" 50 -150 60 H V L CNN "Name"
 F2 "tssop_5" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G17.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G17.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G17GW
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -297,7 +297,7 @@ DEF 74AHC1G17GV IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G17GV" 50 -150 60 H V L CNN "Name"
 F2 "sc_74a" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G17.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G17.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G17GV
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -316,7 +316,7 @@ DEF 74AHC1G17GM IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G17GM" 50 -150 60 H V L CNN "Name"
 F2 "xson_6" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G17.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G17.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G17GM
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -335,7 +335,7 @@ DEF 74AHC1G17GF IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G17GF" 50 -150 60 H V L CNN "Name"
 F2 "xson_6" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G17.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G17.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G17GF
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -354,7 +354,7 @@ DEF 74AHC1G32GW IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G32GW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_5" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G32.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G32.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G32GW
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -373,7 +373,7 @@ DEF 74AHC1G32GV IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G32GV" 100 -200 60 H V L CNN "Name"
 F2 "sc_74a" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G32.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G32.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G32GV
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -392,7 +392,7 @@ DEF 74AHC1G66GW IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G66GW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_5" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G66.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G66.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G66GW
 DRAW
 P 2 0 1 0 -125 -50 -100 -50 N
@@ -417,7 +417,7 @@ DEF 74AHC1G66GV IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G66GV" 100 -200 60 H V L CNN "Name"
 F2 "sc_74a" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G66.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G66.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G66GV
 DRAW
 P 2 0 1 0 -125 -50 -100 -50 N
@@ -442,7 +442,7 @@ DEF 74AHC1G79GW IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G79GW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_5" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G79.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G79.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G79GW
 DRAW
 T 0 0 0 60 0 0 1 D Normal 0 C C
@@ -461,7 +461,7 @@ DEF 74AHC1G79GV IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G79GV" 100 -200 60 H V L CNN "Name"
 F2 "sc_74a" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G79.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G79.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G79GV
 DRAW
 T 0 0 0 60 0 0 1 D Normal 0 C C
@@ -480,7 +480,7 @@ DEF 74AHC1G86GW IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G86GW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_5" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G86.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G86.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G86GW
 DRAW
 T 0 0 0 60 0 0 1 =1 Normal 0 C C
@@ -499,7 +499,7 @@ DEF 74AHC1G86GV IC 0 0 Y Y 1 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC1G86GV" 100 -200 60 H V L CNN "Name"
 F2 "sc_74a" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G86.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G86.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT1G86GV
 DRAW
 T 0 0 0 60 0 0 1 =1 Normal 0 C C
@@ -518,7 +518,7 @@ DEF 74AHC1G125GW IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G125GW" 50 -150 60 H V L CNN "Name"
 F2 "tssop_5" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G125.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G125.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G125GW
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -536,7 +536,7 @@ DEF 74AHC1G125GV IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G125GV" 50 -150 60 H V L CNN "Name"
 F2 "sc_74a" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G125.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G125.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G125GV
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -554,7 +554,7 @@ DEF 74AHC1G125GM IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G125GM" 50 -150 60 H V L CNN "Name"
 F2 "xson_6" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G125.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G125.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G125GM
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -572,7 +572,7 @@ DEF 74AHC1G125GF IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G125GF" 50 -150 60 H V L CNN "Name"
 F2 "xson_6" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G125.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G125.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G125GF
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -590,7 +590,7 @@ DEF 74AHC1G126GW IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G126GW" 50 -150 60 H V L CNN "Name"
 F2 "tssop_5" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G126.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G126.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G126GW
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -608,7 +608,7 @@ DEF 74AHC1G126GV IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G126GV" 50 -150 60 H V L CNN "Name"
 F2 "sc_74a" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G126.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G126.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G126GV
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -626,7 +626,7 @@ DEF 74AHC1G126GM IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G126GM" 50 -150 60 H V L CNN "Name"
 F2 "xson_6" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G126.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G126.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G126GM
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -644,7 +644,7 @@ DEF 74AHC1G126GF IC 0 0 Y Y 1 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC1G126GF" 50 -150 60 H V L CNN "Name"
 F2 "xson_6" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT1G126.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT1G126.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT1G126GF
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -662,7 +662,7 @@ DEF 74AHC2G00DP IC 0 0 Y Y 2 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC2G00DP" 100 -200 60 H V L CNN "Name"
 F2 "tssop_8" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G00.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G00.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT2G00DP
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -684,7 +684,7 @@ DEF 74AHC2G00DC IC 0 0 Y Y 2 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC2G00DC" 100 -200 60 H V L CNN "Name"
 F2 "vssop_8" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G00.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G00.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT2G00DC
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -706,7 +706,7 @@ DEF 74AHC2G00GD IC 0 0 Y Y 2 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC2G00GD" 100 -200 60 H V L CNN "Name"
 F2 "xson_8" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G00.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G00.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT2G00GD
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -728,7 +728,7 @@ DEF 74AHC2G08DP IC 0 0 Y Y 2 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC2G08DP" 100 -200 60 H V L CNN "Name"
 F2 "tssop_8" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G08.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G08.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT2G08DP
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -750,7 +750,7 @@ DEF 74AHC2G08DC IC 0 0 Y Y 2 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC2G08DC" 100 -200 60 H V L CNN "Name"
 F2 "vssop_8" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G08.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G08.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT2G08DC
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -772,7 +772,7 @@ DEF 74AHC2G08GD IC 0 0 Y Y 2 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC2G08GD" 100 -200 60 H V L CNN "Name"
 F2 "xson_8" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G08.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G08.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT2G08GD
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -794,7 +794,7 @@ DEF 74AHC2G32DP IC 0 0 Y Y 2 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC2G32DP" 100 -200 60 H V L CNN "Name"
 F2 "tssop_8" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G32.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G32.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT2G32DP
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -816,7 +816,7 @@ DEF 74AHC2G32DC IC 0 0 Y Y 2 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC2G32DC" 100 -200 60 H V L CNN "Name"
 F2 "vssop_8" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G32.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G32.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT2G32DC
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -838,7 +838,7 @@ DEF 74AHC2G32GD IC 0 0 Y Y 2 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC2G32GD" 100 -200 60 H V L CNN "Name"
 F2 "xson_8" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G32.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G32.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT2G32GD
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -860,7 +860,7 @@ DEF 74AHC2G125DP IC 0 0 Y Y 2 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC2G125DP" 50 -150 60 H V L CNN "Name"
 F2 "tssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G125.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G125.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT2G125DP
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -881,7 +881,7 @@ DEF 74AHC2G125DC IC 0 0 Y Y 2 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC2G125DC" 50 -150 60 H V L CNN "Name"
 F2 "vssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G125.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G125.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT2G125DC
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -902,7 +902,7 @@ DEF 74AHC2G125GD IC 0 0 Y Y 2 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC2G125GD" 50 -150 60 H V L CNN "Name"
 F2 "xson_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G125.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G125.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT2G125GD
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -923,7 +923,7 @@ DEF 74AHC2G126DP IC 0 0 Y Y 2 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC2G126DP" 50 -150 60 H V L CNN "Name"
 F2 "tssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G126.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G126.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT2G126DP
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -944,7 +944,7 @@ DEF 74AHC2G126DC IC 0 0 Y Y 2 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC2G126DC" 50 -150 60 H V L CNN "Name"
 F2 "vssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G126.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G126.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT2G126DC
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -965,7 +965,7 @@ DEF 74AHC2G126GD IC 0 0 Y Y 2 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC2G126GD" 50 -150 60 H V L CNN "Name"
 F2 "xson_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G126.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G126.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT2G126GD
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -986,7 +986,7 @@ DEF 74AHC2G241DP IC 0 0 Y Y 2 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC2G241DP" 50 -150 60 H V L CNN "Name"
 F2 "tssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G241.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G241.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT2G241DP
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1007,7 +1007,7 @@ DEF 74AHC2G241DC IC 0 0 Y Y 2 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC2G241DC" 50 -150 60 H V L CNN "Name"
 F2 "vssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G241.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G241.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT2G241DC
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1028,7 +1028,7 @@ DEF 74AHC2G241GD IC 0 0 Y Y 2 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC2G241GD" 50 -150 60 H V L CNN "Name"
 F2 "xson_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT2G241.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT2G241.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT2G241GD
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1049,7 +1049,7 @@ DEF 74AHC3G04DP IC 0 0 Y Y 3 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC3G04DP" 50 -150 60 H V L CNN "Name"
 F2 "tssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT3G04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT3G04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT3G04DP
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1070,7 +1070,7 @@ DEF 74AHC3G04DC IC 0 0 Y Y 3 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC3G04DC" 50 -150 60 H V L CNN "Name"
 F2 "vssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT3G04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT3G04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT3G04DC
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1091,7 +1091,7 @@ DEF 74AHC3G04GD IC 0 0 Y Y 3 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC3G04GD" 50 -150 60 H V L CNN "Name"
 F2 "xson_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT3G04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT3G04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT3G04GD
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1112,7 +1112,7 @@ DEF 74AHC3G14DP IC 0 0 Y Y 3 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC3G14DP" 50 -150 60 H V L CNN "Name"
 F2 "tssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT3G14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT3G14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT3G14DP
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -1135,7 +1135,7 @@ DEF 74AHC3G14DC IC 0 0 Y Y 3 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC3G14DC" 50 -150 60 H V L CNN "Name"
 F2 "vssop_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT3G14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT3G14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT3G14DC
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -1158,7 +1158,7 @@ DEF 74AHC3G14GT IC 0 0 Y Y 3 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC3G14GT" 50 -150 60 H V L CNN "Name"
 F2 "xson_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT3G14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT3G14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT3G14GT
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -1181,7 +1181,7 @@ DEF 74AHC3G14GD IC 0 0 Y Y 3 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC3G14GD" 50 -150 60 H V L CNN "Name"
 F2 "xson_8" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT3G14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT3G14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT3G14GD
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -1204,7 +1204,7 @@ DEF 74AHC00N IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC00N" 100 -200 60 H V L CNN "Name"
 F2 "dip_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT00.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT00.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT00N
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1232,7 +1232,7 @@ DEF 74AHC00D IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC00D" 100 -200 60 H V L CNN "Name"
 F2 "so_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT00.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT00.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT00D
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1260,7 +1260,7 @@ DEF 74AHC00PW IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC00PW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT00.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT00.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT00PW
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1288,7 +1288,7 @@ DEF 74AHC00BQ IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC00BQ" 100 -200 60 H V L CNN "Name"
 F2 "dhvqfn_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT00.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT00.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT00BQ
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1316,7 +1316,7 @@ DEF 74AHC02N IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC02N" 100 -200 60 H V L CNN "Name"
 F2 "dip_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT02.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT02.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT02N
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -1344,7 +1344,7 @@ DEF 74AHC02D IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC02D" 100 -200 60 H V L CNN "Name"
 F2 "so_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT02.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT02.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT02D
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -1372,7 +1372,7 @@ DEF 74AHC02PW IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC02PW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT02.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT02.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT02PW
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -1400,7 +1400,7 @@ DEF 74AHC02BQ IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC02BQ" 100 -200 60 H V L CNN "Name"
 F2 "dhvqfn_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT02.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT02.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT02BQ
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -1428,7 +1428,7 @@ DEF 74AHC04N IC 0 0 Y Y 6 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC04N" 50 -150 60 H V L CNN "Name"
 F2 "dip_14" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT04N
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1455,7 +1455,7 @@ DEF 74AHC04D IC 0 0 Y Y 6 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC04D" 50 -150 60 H V L CNN "Name"
 F2 "so_14" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT04D
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1482,7 +1482,7 @@ DEF 74AHC04PW IC 0 0 Y Y 6 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC04PW" 50 -150 60 H V L CNN "Name"
 F2 "tssop_14" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT04PW
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1509,7 +1509,7 @@ DEF 74AHC04BQ IC 0 0 Y Y 6 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC04BQ" 50 -150 60 H V L CNN "Name"
 F2 "dhvqfn_14" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT04.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT04.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT04BQ
 DRAW
 P 4 0 1 20 -150 150 150 0 -150 -150 -150 150 f
@@ -1536,7 +1536,7 @@ DEF 74AHC08N IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC08N" 100 -200 60 H V L CNN "Name"
 F2 "dip_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT08.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT08.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT08N
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1564,7 +1564,7 @@ DEF 74AHC08D IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC08D" 100 -200 60 H V L CNN "Name"
 F2 "so_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT08.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT08.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT08D
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1592,7 +1592,7 @@ DEF 74AHC08PW IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC08PW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT08.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT08.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT08PW
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1620,7 +1620,7 @@ DEF 74AHC08BQ IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC08BQ" 100 -200 60 H V L CNN "Name"
 F2 "dhvqfn_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT08.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT08.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT08BQ
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1648,7 +1648,7 @@ DEF 74AHC14N IC 0 0 Y Y 6 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC14N" 50 -150 60 H V L CNN "Name"
 F2 "dip_14" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT14N
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -1677,7 +1677,7 @@ DEF 74AHC14D IC 0 0 Y Y 6 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC14D" 50 -150 60 H V L CNN "Name"
 F2 "so_14" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT14D
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -1706,7 +1706,7 @@ DEF 74AHC14PW IC 0 0 Y Y 6 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC14PW" 50 -150 60 H V L CNN "Name"
 F2 "tssop_14" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT14PW
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -1735,7 +1735,7 @@ DEF 74AHC14BQ IC 0 0 Y Y 6 L N
 F0 "IC" 50 150 60 H V L CNN "Reference"
 F1 "74AHC14BQ" 50 -150 60 H V L CNN "Name"
 F2 "dhvqfn_14" 50 -250 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT14.pdf" 50 -350 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT14.pdf" 50 -350 60 H I L CNN "Document"
 ALIAS 74AHCT14BQ
 DRAW
 P 3 0 1 10 -20 30 -40 -30 -100 -30 N
@@ -1764,7 +1764,7 @@ DEF 74AHC30N IC 0 0 Y Y 1 L N
 F0 "IC" 100 500 60 H V L CNN "Reference"
 F1 "74AHC30N" 100 -500 60 H V L CNN "Name"
 F2 "dip_14" 100 -600 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT30.pdf" 100 -700 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT30.pdf" 100 -700 60 H I L CNN "Document"
 ALIAS 74AHCT30N
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1789,7 +1789,7 @@ DEF 74AHC30D IC 0 0 Y Y 1 L N
 F0 "IC" 100 500 60 H V L CNN "Reference"
 F1 "74AHC30D" 100 -500 60 H V L CNN "Name"
 F2 "so_14" 100 -600 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT30.pdf" 100 -700 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT30.pdf" 100 -700 60 H I L CNN "Document"
 ALIAS 74AHCT30D
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1814,7 +1814,7 @@ DEF 74AHC30PW IC 0 0 Y Y 1 L N
 F0 "IC" 100 500 60 H V L CNN "Reference"
 F1 "74AHC30PW" 100 -500 60 H V L CNN "Name"
 F2 "tssop_14" 100 -600 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT30.pdf" 100 -700 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT30.pdf" 100 -700 60 H I L CNN "Document"
 ALIAS 74AHCT30PW
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1839,7 +1839,7 @@ DEF 74AHC30BQ IC 0 0 Y Y 1 L N
 F0 "IC" 100 500 60 H V L CNN "Reference"
 F1 "74AHC30BQ" 100 -500 60 H V L CNN "Name"
 F2 "dhvqfn_14" 100 -600 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT30.pdf" 100 -700 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT30.pdf" 100 -700 60 H I L CNN "Document"
 ALIAS 74AHCT30BQ
 DRAW
 T 0 0 0 60 0 0 1 & Normal 0 C C
@@ -1864,7 +1864,7 @@ DEF 74AHC32N IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC32N" 100 -200 60 H V L CNN "Name"
 F2 "dip_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT32.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT32.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT32N
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -1892,7 +1892,7 @@ DEF 74AHC32D IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC32D" 100 -200 60 H V L CNN "Name"
 F2 "so_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT32.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT32.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT32D
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -1920,7 +1920,7 @@ DEF 74AHC32PW IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC32PW" 100 -200 60 H V L CNN "Name"
 F2 "tssop_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT32.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT32.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT32PW
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C
@@ -1948,7 +1948,7 @@ DEF 74AHC32BQ IC 0 0 Y Y 4 L N
 F0 "IC" 100 200 60 H V L CNN "Reference"
 F1 "74AHC32BQ" 100 -200 60 H V L CNN "Name"
 F2 "dhvqfn_14" 100 -300 60 H I L CNN "Footprint"
-F3 "doc/logic/74AHC_AHCT32.pdf" 100 -400 60 H I L CNN "Document"
+F3 "kicad/doc/logic/74AHC_AHCT32.pdf" 100 -400 60 H I L CNN "Document"
 ALIAS 74AHCT32BQ
 DRAW
 T 0 0 0 60 0 0 1 ≥1 Normal 0 C C

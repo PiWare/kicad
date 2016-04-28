@@ -1,0 +1,12 @@
+number,name,type,shape,direction
+4,X0,input,line,left
+5,X1,input,line,left
+9,X8,input,line,left
+10,X9,input,line,left
+13,Y0,input,line,left
+14,Y2,input,line,left
+1,Y3,input,line,left
+4,Y6,input,line,left
+5,Y7,input,line,left
+9,Y14,input,line,left
+10,Y15,input,line,left

@@ -7,7 +7,7 @@ DEF MAX232CPE+ IC 0 50 Y Y 1 L N
 F0 "IC" -700 660 60 H V L CNN "Reference"
 F1 "MAX232CPE+" -700 -660 60 H V L CNN "Name"
 F2 "dip_16" 0 60 60 H I C CNN "Footprint"
-F3 "doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
 ALIAS MAX232EPE+ MAX232EJE MAX232MJE MAX232ACPE+ MAX232AEPE+ MAX232AEJE MAX232AMJE MAX220CPE+ MAX220EPE+ MAX220EJE MAX220MJE
 DRAW
 S -700 -600 700 600 0 1 20 f
@@ -38,7 +38,7 @@ DEF MAX232CSE+ IC 0 50 Y Y 1 L N
 F0 "IC" -700 660 60 H V L CNN "Reference"
 F1 "MAX232CSE+" -700 -660 60 H V L CNN "Name"
 F2 "so_16" 0 60 60 H I C CNN "Footprint"
-F3 "doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
 ALIAS MAX232ESE+ MAX232ACSE+ MAX232AESE+ MAX220CSE+ MAX220ESE+
 DRAW
 S -700 -600 700 600 0 1 20 f
@@ -69,7 +69,7 @@ DEF MAX232CWE+ IC 0 50 Y Y 1 L N
 F0 "IC" -700 660 60 H V L CNN "Reference"
 F1 "MAX232CWE+" -700 -660 60 H V L CNN "Name"
 F2 "so_wide_16" 0 60 60 H I C CNN "Footprint"
-F3 "doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
 ALIAS MAX232EWE+ MAX232ACWE+ MAXA232EWE+ MAX220CWE+ MAX220EWE+
 DRAW
 S -700 -600 700 600 0 1 20 f
@@ -100,7 +100,7 @@ DEF MAX232MLP+ IC 0 50 Y Y 1 L N
 F0 "IC" -700 660 60 H V L CNN "Reference"
 F1 "MAX232MLP+" -700 -660 60 H V L CNN "Name"
 F2 "lcc_20" 0 60 60 H I C CNN "Footprint"
-F3 "doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
 ALIAS MAX232AMLP+
 DRAW
 S -700 -600 700 600 0 1 20 f
@@ -131,7 +131,7 @@ DEF MAX222CPN+ IC 0 50 Y Y 1 L N
 F0 "IC" -700 660 60 H V L CNN "Reference"
 F1 "MAX222CPN+" -700 -660 60 H V L CNN "Name"
 F2 "dip_18" 0 60 60 H I C CNN "Footprint"
-F3 "doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
 ALIAS MAX222EPN+ MAX222EJN MAX222MJN
 DRAW
 S -700 -600 700 600 0 1 20 f
@@ -163,7 +163,7 @@ DEF MAX222CWN+ IC 0 50 Y Y 1 L N
 F0 "IC" -700 660 60 H V L CNN "Reference"
 F1 "MAX222CWN+" -700 -660 60 H V L CNN "Name"
 F2 "so_18" 0 60 60 H I C CNN "Footprint"
-F3 "doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
 ALIAS MAX222EWN+
 DRAW
 S -700 -600 700 600 0 1 20 f
@@ -195,7 +195,7 @@ DEF MAX242CPN+ IC 0 50 Y Y 1 L N
 F0 "IC" -700 660 60 H V L CNN "Reference"
 F1 "MAX242CPN+" -700 -660 60 H V L CNN "Name"
 F2 "dip_18" 0 60 60 H I C CNN "Footprint"
-F3 "doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
 ALIAS MAX242EPN+ MAX242EJN MAX242MJN
 DRAW
 S -700 -600 700 600 0 1 20 f
@@ -228,7 +228,7 @@ DEF MAX242CWN+ IC 0 50 Y Y 1 L N
 F0 "IC" -700 660 60 H V L CNN "Reference"
 F1 "MAX242CWN+" -700 -660 60 H V L CNN "Name"
 F2 "so_wide_18" 0 60 60 H I C CNN "Footprint"
-F3 "doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
 ALIAS MAX242EWN+
 DRAW
 S -700 -600 700 600 0 1 20 f
@@ -261,7 +261,7 @@ DEF MAX242CAP+ IC 0 50 Y Y 1 L N
 F0 "IC" -700 660 60 H V L CNN "Reference"
 F1 "MAX242CAP+" -700 -660 60 H V L CNN "Name"
 F2 "ssop_20" 0 60 60 H I C CNN "Footprint"
-F3 "doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/driver/maxim/MAX220_249.pdf" 0 -60 60 H I C CNN "Document"
 DRAW
 S -700 -600 700 600 0 1 20 f
 P 2 0 1 10 -700 300 700 300 f

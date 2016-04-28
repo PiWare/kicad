@@ -1,0 +1,10 @@
+number,name,type,shape,direction
+7,XIN,input,line,left
+8,XOUT,output,line,left
+,~,space,line,left
+7,XIN32,input,line,left
+8,XOUT32,output,line,left
+,~,space,line,left
+18,~RST,input,line,left
+19,SWCLK,output,clock,left
+20,SWDIO,bidirectional,line,left

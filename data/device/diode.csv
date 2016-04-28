@@ -10,3 +10,25 @@ diode_schottky,BAS40-07,1,4,1,D,,doc/diode/BAS40.pdf,sot_143b,Schottky barrier (
 diode_schottky,BAS40-07,2,3,2,,,,,,
 diode,1N4148,0,2,1,D,1N914 1N916 1N916A 1N916B 1N4448,doc/diode/1N4148.pdf,do_35,Small signal diode,diode
 diode,FDLL4148,0,2,1,D,FDLL914 FDLL914A FDLL914B FDLL4448,doc/diode/1N4148.pdf,sod_80,Small signal diode,diode
+diode,1N4001,0,2,1,D,1N4002 1N4003 1N4004 1N4005 1N4006 1N4007,doc/diode/diodes/1N4001_4007.pdf,do_41,1A Rectifier,diode
+diode_schottky,MBR0540T1G,0,2,1,D,MBR0540T3G,doc/diode/on_semiconductor/MBR0540T.pdf,sod_123,"Schottky barrier rectifier, 0.5A, 40V","diode, schottky"
+diode_suppressor,SM6T6V8A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 6.8V","diode, transil"
+diode_suppressor,SM6T7V5A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 7.5V","diode, transil"
+diode_suppressor,SM6T10A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 10V","diode, transil"
+diode_suppressor,SM6T12A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 12V","diode, transil"
+diode_suppressor,SM6T15A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 15V","diode, transil"
+diode_suppressor,SM6T18A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 18V","diode, transil"
+diode_suppressor,SM6T22A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 22V","diode, transil"
+diode_suppressor,SM6T24A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 24V","diode, transil"
+diode_suppressor,SM6T27A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 27V","diode, transil"
+diode_suppressor,SM6T30A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 30V","diode, transil"
+diode_suppressor,SM6T33A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 33V","diode, transil"
+diode_suppressor,SM6T36A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 36V","diode, transil"
+diode_suppressor,SM6T39A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 39V","diode, transil"
+diode_suppressor,SM6T56A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 56V","diode, transil"
+diode_suppressor,SM6T68A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 68V","diode, transil"
+diode_suppressor,SM6T75A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 75V","diode, transil"
+diode_suppressor,SM6T100A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 100V","diode, transil"
+diode_suppressor,SM6T150A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 150V","diode, transil"
+diode_suppressor,SM6T200A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 200V","diode, transil"
+diode_suppressor,SM6T220A,0,1,2,D,,doc/diode/st/SM6T.pdf,so_214,"Transil diode, Vbr = 220V","diode, transil"

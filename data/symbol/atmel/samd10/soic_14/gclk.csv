@@ -1,0 +1,9 @@
+number,name,type,shape,direction
+2,GCLK_IO0,input,line,left
+7,GCLK_IO0,input,line,left
+8,GCLK_IO0,input,line,left
+9,GCLK_IO0,input,line,left
+10,GCLK_IO0,input,line,left
+3,GCLK_IO1,input,line,left
+4,GCLK_IO4,input,line,left
+5,GCLK_IO5,input,line,left

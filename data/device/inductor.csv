@@ -1,120 +1,120 @@
 symbol,name,1,2,reference,alias,document,footprint,description,keywords,manufacturer,value
-inductor,7445101,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 1 uH, WE-PD3, Type S",inductor,Würth,1 uH,
-inductor,74451015,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 1.5 uH, WE-PD3, Type S",inductor,Würth,1.5 uH,
-inductor,74451022,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 2.2 uH, WE-PD3, Type S",inductor,Würth,2.2 uH,
-inductor,74451033,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 3.3 uH, WE-PD3, Type S",inductor,Würth,3.3 uH,
-inductor,74451039,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 3.9 uH, WE-PD3, Type S",inductor,Würth,3.9 uH,
-inductor,74451047,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 4.7 uH, WE-PD3, Type S",inductor,Würth,4.7 uH,
-inductor,74451068,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 6.8 uH, WE-PD3, Type S",inductor,Würth,6.8 uH,
-inductor,7445110,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 10 uH, WE-PD3, Type S",inductor,Würth,10 uH,
-inductor,74451115,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 15 uH, WE-PD3, Type S",inductor,Würth,15 uH,
-inductor,74451122,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 22 uH, WE-PD3, Type S",inductor,Würth,22 uH,
-inductor,74451133,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 33 uH, WE-PD3, Type S",inductor,Würth,33 uH,
-inductor,74451147,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 47 uH, WE-PD3, Type S",inductor,Würth,47 uH,
-inductor,74451168,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 68 uH, WE-PD3, Type S",inductor,Würth,68 uH,
-inductor,7445120,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 100 uH, WE-PD3, Type S",inductor,Würth,100 uH,
-inductor,74451215,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 150 uH, WE-PD3, Type S",inductor,Würth,150 uH,
-inductor,74451222,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 220 uH, WE-PD3, Type S",inductor,Würth,220 uH,
-inductor,74451233,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 330 uH, WE-PD3, Type S",inductor,Würth,330 uH,
-inductor,74451247,1,2,L,,doc/inductor/Würth/WE-PD3-TypeS.pdf,we_pd3_s,"Inductor 470 uH, WE-PD3, Type S",inductor,Würth,470 uH,
-inductor,7445301,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 1.5 uH, WE-PD3, Type M",inductor,Würth,1.5 uH,
-inductor,7445302,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 2.2 uH, WE-PD3, Type M",inductor,Würth,2.2 uH,
-inductor,74453031,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 3.3 uH, WE-PD3, Type M",inductor,Würth,3.3 uH,
-inductor,7445303,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 3.9 uH, WE-PD3, Type M",inductor,Würth,3.9 uH,
-inductor,7445304,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 4.7 uH, WE-PD3, Type M",inductor,Würth,4.7 uH,
-inductor,7445306,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 6.8 uH, WE-PD3, Type M",inductor,Würth,6.8 uH,
-inductor,74453010,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 10 uH, WE-PD3, Type M",inductor,Würth,10 uH,
-inductor,74453112,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 12 uH, WE-PD3, Type M",inductor,Würth,12 uH,
-inductor,74453115,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 15 uH, WE-PD3, Type M",inductor,Würth,15 uH,
-inductor,74453122,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 22 uH, WE-PD3, Type M",inductor,Würth,22 uH,
-inductor,74453133,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 33 uH, WE-PD3, Type M",inductor,Würth,33 uH,
-inductor,74453147,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 47 uH, WE-PD3, Type M",inductor,Würth,47 uH,
-inductor,74453156,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 56 uH, WE-PD3, Type M",inductor,Würth,56 uH,
-inductor,74453168,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 68 uH, WE-PD3, Type M",inductor,Würth,68 uH,
-inductor,74453182,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 82 uH, WE-PD3, Type M",inductor,Würth,82 uH,
-inductor,7445320,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeM.pdf,we_pd3_m,"Inductor 100 uH, WE-PD3, Type M",inductor,Würth,100 uH,
-inductor,7445402,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 2.2 uH, WE-PD3, Type L",inductor,Würth,2.2 uH,
-inductor,7445403,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 3 uH, WE-PD3, Type L",inductor,Würth,3 uH,
-inductor,7445404,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 4.7 uH, WE-PD3, Type L",inductor,Würth,4.7 uH,
-inductor,74454068,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 7 uH, WE-PD3, Type L",inductor,Würth,7 uH,
-inductor,74454010,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 10 uH, WE-PD3, Type L",inductor,Würth,10 uH,
-inductor,74454115,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 15 uH, WE-PD3, Type L",inductor,Würth,15 uH,
-inductor,74454122,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 22 uH, WE-PD3, Type L",inductor,Würth,22 uH,
-inductor,74454133,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 33 uH, WE-PD3, Type L",inductor,Würth,33 uH,
-inductor,74454147,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 47 uH, WE-PD3, Type L",inductor,Würth,47 uH,
-inductor,74454168,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 68 uH, WE-PD3, Type L",inductor,Würth,68 uH,
-inductor,7445420,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 100 uH, WE-PD3, Type L",inductor,Würth,100 uH,
-inductor,74454215,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 150 uH, WE-PD3, Type L",inductor,Würth,150 uH,
-inductor,74454220,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 220 uH, WE-PD3, Type L",inductor,Würth,220 uH,
-inductor,74454233,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 330 uH, WE-PD3, Type L",inductor,Würth,330 uH,
-inductor,74454239,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 390 uH, WE-PD3, Type L",inductor,Würth,390 uH,
-inductor,74454247,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 470 uH, WE-PD3, Type L",inductor,Würth,470 uH,
-inductor,74454268,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 680 uH, WE-PD3, Type L",inductor,Würth,680 uH,
-inductor,7445430,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeL.pdf,we_pd3_l,"Inductor 1000 uH, WE-PD3, Type L",inductor,Würth,1000 uH,
-inductor,74459010,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 10 uH, WE-PD3, Type X",inductor,Würth,10 uH,
-inductor,74459115,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 15 uH, WE-PD3, Type X",inductor,Würth,15 uH,
-inductor,74459122,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 22 uH, WE-PD3, Type X",inductor,Würth,22 uH,
-inductor,74459133,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 33 uH, WE-PD3, Type X",inductor,Würth,33 uH,
-inductor,74459147,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 47 uH, WE-PD3, Type X",inductor,Würth,47 uH,
-inductor,74459168,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 68 uH, WE-PD3, Type X",inductor,Würth,68 uH,
-inductor,7445920,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 100 uH, WE-PD3, Type X",inductor,Würth,100 uH,
-inductor,74459215,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 150 uH, WE-PD3, Type X",inductor,Würth,150 uH,
-inductor,74459222,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 220 uH, WE-PD3, Type X",inductor,Würth,220 uH,
-inductor,74459233,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 330 uH, WE-PD3, Type X",inductor,Würth,330 uH,
-inductor,74459247,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 470 uH, WE-PD3, Type X",inductor,Würth,470 uH,
-inductor,74459268,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 680 uH, WE-PD3, Type X",inductor,Würth,680 uH,
-inductor,7445930,1,2,L,,/doc/inductor/Würth/WE-PD3-TypeX.pdf,we_pd3_x,"Inductor 1000 uH, WE-PD3, Type X",inductor,Würth,1000 uH,
-inductor,0402HP-1N0XJL_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,72,16.0,inductor,CoilCraft,1.0 nH,
-inductor,0402HP-2N0XJL_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,85,15.2,inductor,CoilCraft,2.0 nH,
-inductor,0402HP-2N2XJL_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,86,15.1,inductor,CoilCraft,2.2 nH,
-inductor,0402HP-2N4X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,83,14.0,inductor,CoilCraft,2.4 nH,
-inductor,0402HP-2N7X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,85,13.0,inductor,CoilCraft,2.7 nH,
-inductor,0402HP-3N3X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,95,12.8,inductor,CoilCraft,3.3 nH,
-inductor,0402HP-3N6X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,94,11.7,inductor,CoilCraft,3.6 nH,
-inductor,0402HP-3N9X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,98,9.50,inductor,CoilCraft,3.9 nH,
-inductor,0402HP-4N3X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,90,7.15,inductor,CoilCraft,4.3 nH,
-inductor,0402HP-4N7X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,83,6.85,inductor,CoilCraft,4.7 nH,
-inductor,0402HP-5N1X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,76,6.80,inductor,CoilCraft,5.1 nH,
-inductor,0402HP-5N6X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,105,6.50,inductor,CoilCraft,5.6 nH,
-inductor,0402HP-6N2X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,100,5.80,inductor,CoilCraft,6.2 nH,
-inductor,0402HP-6N8X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,94,5.80,inductor,CoilCraft,6.8 nH,
-inductor,0402HP-7N5X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,82,5.40,inductor,CoilCraft,7.5 nH,
-inductor,0402HP-8N2X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,95,5.40,inductor,CoilCraft,8.2 nH,
-inductor,0402HP-8N7X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,95,5.00,inductor,CoilCraft,8.7 nH,
-inductor,0402HP-9N0X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,92,5.00,inductor,CoilCraft,9.0 nH,
-inductor,0402HP-9N5X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,90,4.70,inductor,CoilCraft,9.5 nH,
-inductor,0402HP-10NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,90,4.70,inductor,CoilCraft,10 nH,
-inductor,0402HP-11NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,98,4.70,inductor,CoilCraft,11 nH,
-inductor,0402HP-12NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,100,4.40,inductor,CoilCraft,12 nH,
-inductor,0402HP-13NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,82,4.20,inductor,CoilCraft,13 nH,
-inductor,0402HP-15NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,85,3.90,inductor,CoilCraft,15 nH,
-inductor,0402HP-16NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,77,3.70,inductor,CoilCraft,16 nH,
-inductor,0402HP-17NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,64,3.70,inductor,CoilCraft,17 nH,
-inductor,0402HP-18NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,74,3.55,inductor,CoilCraft,18 nH,
-inductor,0402HP-19NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,88,3.50,inductor,CoilCraft,19 nH,
-inductor,0402HP-20NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,76,3.50,inductor,CoilCraft,20 nH,
-inductor,0402HP-21NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,62,1.70,inductor,CoilCraft,21 nH,
-inductor,0402HP-22NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,74,3.30,inductor,CoilCraft,22 nH,
-inductor,0402HP-23NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,77,3.30,inductor,CoilCraft,23 nH,
-inductor,0402HP-24NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,71,3.15,inductor,CoilCraft,24 nH,
-inductor,0402HP-25NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,73,3.15,inductor,CoilCraft,25 nH,
-inductor,0402HP-26NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,74,3.15,inductor,CoilCraft,26 nH,
-inductor,0402HP-27NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,86,3.20,inductor,CoilCraft,27 nH,
-inductor,0402HP-30NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,87,2.90,inductor,CoilCraft,30 nH,
-inductor,0402HP-33NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,80,2.80,inductor,CoilCraft,33 nH,
-inductor,0402HP-36NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,76,2.80,inductor,CoilCraft,36 nH,
-inductor,0402HP-37NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,72,2.70,inductor,CoilCraft,37 nH,
-inductor,0402HP-39NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,84,2.60,inductor,CoilCraft,39 nH,
-inductor,0402HP-40NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,75,2.60,inductor,CoilCraft,40 nH,
-inductor,0402HP-43NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,68,2.50,inductor,CoilCraft,43 nH,
-inductor,0402HP-47NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,62,2.40,inductor,CoilCraft,47 nH,
-inductor,0402HP-51NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,59,2.30,inductor,CoilCraft,51 nH,
-inductor,0402HPH-56NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,64,2.07,inductor,CoilCraft,56 nH,
-inductor,0402HPH-68NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,64,1.84,inductor,CoilCraft,68 nH,
-inductor,0402HPH-82NX_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,�,1.75,inductor,CoilCraft,82 nH,
-inductor,0402HPH-R10X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,�,1.58,inductor,CoilCraft,100 nH,
-inductor,0402HPH-R12X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,�,1.25,inductor,CoilCraft,120 nH,
-inductor,0402HPH-R15X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,�,1.14,inductor,CoilCraft,150 nH,
-inductor,0402HPH-R16X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,�,1.65,inductor,CoilCraft,160 nH,
-inductor,0402HPH-R18X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,�,1.08,inductor,CoilCraft,180 nH,
-inductor,0402HPH-R22X_L_,1,2,L,,/doc/inductor/CoilCraft/0402hp.pdf,�,0.96,inductor,CoilCraft,220 nH,
+inductor,7445101,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 1 uH, WE-PD3, Type S",inductor,Würth,1 uH
+inductor,74451015,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 1.5 uH, WE-PD3, Type S",inductor,Würth,1.5 uH
+inductor,74451022,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 2.2 uH, WE-PD3, Type S",inductor,Würth,2.2 uH
+inductor,74451033,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 3.3 uH, WE-PD3, Type S",inductor,Würth,3.3 uH
+inductor,74451039,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 3.9 uH, WE-PD3, Type S",inductor,Würth,3.9 uH
+inductor,74451047,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 4.7 uH, WE-PD3, Type S",inductor,Würth,4.7 uH
+inductor,74451068,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 6.8 uH, WE-PD3, Type S",inductor,Würth,6.8 uH
+inductor,7445110,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 10 uH, WE-PD3, Type S",inductor,Würth,10 uH
+inductor,74451115,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 15 uH, WE-PD3, Type S",inductor,Würth,15 uH
+inductor,74451122,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 22 uH, WE-PD3, Type S",inductor,Würth,22 uH
+inductor,74451133,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 33 uH, WE-PD3, Type S",inductor,Würth,33 uH
+inductor,74451147,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 47 uH, WE-PD3, Type S",inductor,Würth,47 uH
+inductor,74451168,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 68 uH, WE-PD3, Type S",inductor,Würth,68 uH
+inductor,7445120,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 100 uH, WE-PD3, Type S",inductor,Würth,100 uH
+inductor,74451215,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 150 uH, WE-PD3, Type S",inductor,Würth,150 uH
+inductor,74451222,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 220 uH, WE-PD3, Type S",inductor,Würth,220 uH
+inductor,74451233,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 330 uH, WE-PD3, Type S",inductor,Würth,330 uH
+inductor,74451247,1,2,L,,doc/inductor/wuerth/7445101.pdf,we_pd3_s,"Inductor 470 uH, WE-PD3, Type S",inductor,Würth,470 uH
+inductor,7445301,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 1.5 uH, WE-PD3, Type M",inductor,Würth,1.5 uH
+inductor,7445302,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 2.2 uH, WE-PD3, Type M",inductor,Würth,2.2 uH
+inductor,74453031,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 3.3 uH, WE-PD3, Type M",inductor,Würth,3.3 uH
+inductor,7445303,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 3.9 uH, WE-PD3, Type M",inductor,Würth,3.9 uH
+inductor,7445304,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 4.7 uH, WE-PD3, Type M",inductor,Würth,4.7 uH
+inductor,7445306,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 6.8 uH, WE-PD3, Type M",inductor,Würth,6.8 uH
+inductor,74453010,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 10 uH, WE-PD3, Type M",inductor,Würth,10 uH
+inductor,74453112,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 12 uH, WE-PD3, Type M",inductor,Würth,12 uH
+inductor,74453115,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 15 uH, WE-PD3, Type M",inductor,Würth,15 uH
+inductor,74453122,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 22 uH, WE-PD3, Type M",inductor,Würth,22 uH
+inductor,74453133,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 33 uH, WE-PD3, Type M",inductor,Würth,33 uH
+inductor,74453147,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 47 uH, WE-PD3, Type M",inductor,Würth,47 uH
+inductor,74453156,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 56 uH, WE-PD3, Type M",inductor,Würth,56 uH
+inductor,74453168,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 68 uH, WE-PD3, Type M",inductor,Würth,68 uH
+inductor,74453182,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 82 uH, WE-PD3, Type M",inductor,Würth,82 uH
+inductor,7445320,1,2,L,,doc/inductor/wuerth/7445301.pdf,we_pd3_m,"Inductor 100 uH, WE-PD3, Type M",inductor,Würth,100 uH
+inductor,7445402,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 2.2 uH, WE-PD3, Type L",inductor,Würth,2.2 uH
+inductor,7445403,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 3 uH, WE-PD3, Type L",inductor,Würth,3 uH
+inductor,7445404,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 4.7 uH, WE-PD3, Type L",inductor,Würth,4.7 uH
+inductor,74454068,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 7 uH, WE-PD3, Type L",inductor,Würth,7 uH
+inductor,74454010,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 10 uH, WE-PD3, Type L",inductor,Würth,10 uH
+inductor,74454115,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 15 uH, WE-PD3, Type L",inductor,Würth,15 uH
+inductor,74454122,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 22 uH, WE-PD3, Type L",inductor,Würth,22 uH
+inductor,74454133,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 33 uH, WE-PD3, Type L",inductor,Würth,33 uH
+inductor,74454147,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 47 uH, WE-PD3, Type L",inductor,Würth,47 uH
+inductor,74454168,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 68 uH, WE-PD3, Type L",inductor,Würth,68 uH
+inductor,7445420,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 100 uH, WE-PD3, Type L",inductor,Würth,100 uH
+inductor,74454215,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 150 uH, WE-PD3, Type L",inductor,Würth,150 uH
+inductor,74454220,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 220 uH, WE-PD3, Type L",inductor,Würth,220 uH
+inductor,74454233,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 330 uH, WE-PD3, Type L",inductor,Würth,330 uH
+inductor,74454239,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 390 uH, WE-PD3, Type L",inductor,Würth,390 uH
+inductor,74454247,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 470 uH, WE-PD3, Type L",inductor,Würth,470 uH
+inductor,74454268,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 680 uH, WE-PD3, Type L",inductor,Würth,680 uH
+inductor,7445430,1,2,L,,doc/inductor/wuerth/7445402.pdf,we_pd3_l,"Inductor 1000 uH, WE-PD3, Type L",inductor,Würth,1000 uH
+inductor,74459010,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 10 uH, WE-PD3, Type X",inductor,Würth,10 uH
+inductor,74459115,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 15 uH, WE-PD3, Type X",inductor,Würth,15 uH
+inductor,74459122,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 22 uH, WE-PD3, Type X",inductor,Würth,22 uH
+inductor,74459133,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 33 uH, WE-PD3, Type X",inductor,Würth,33 uH
+inductor,74459147,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 47 uH, WE-PD3, Type X",inductor,Würth,47 uH
+inductor,74459168,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 68 uH, WE-PD3, Type X",inductor,Würth,68 uH
+inductor,7445920,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 100 uH, WE-PD3, Type X",inductor,Würth,100 uH
+inductor,74459215,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 150 uH, WE-PD3, Type X",inductor,Würth,150 uH
+inductor,74459222,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 220 uH, WE-PD3, Type X",inductor,Würth,220 uH
+inductor,74459233,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 330 uH, WE-PD3, Type X",inductor,Würth,330 uH
+inductor,74459247,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 470 uH, WE-PD3, Type X",inductor,Würth,470 uH
+inductor,74459268,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 680 uH, WE-PD3, Type X",inductor,Würth,680 uH
+inductor,7445930,1,2,L,,doc/inductor/wuerth/74459010.pdf,we_pd3_x,"Inductor 1000 uH, WE-PD3, Type X",inductor,Coilcraft,1000 uH
+inductor,0402HP-1N0XJL_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0402,"Inductor 1.0 nH, Qtyp = 72, SRFtyp = 16.0 GHz, 0402",inductor,Coilcraft,1.0 nH
+inductor,0402HP-2N0XJL_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0403,"Inductor 2.0 nH, Qtyp = 85, SRFtyp = 15.2 GHz, 0402",inductor,Coilcraft,2.0 nH
+inductor,0402HP-2N2XJL_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0404,"Inductor 2.2 nH, Qtyp = 86, SRFtyp = 15.1 GHz, 0402",inductor,Coilcraft,2.2 nH
+inductor,0402HP-2N4X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0405,"Inductor 2.4 nH, Qtyp = 83, SRFtyp = 14.0 GHz, 0402",inductor,Coilcraft,2.4 nH
+inductor,0402HP-2N7X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0406,"Inductor 2.7 nH, Qtyp = 85, SRFtyp = 13.0 GHz, 0402",inductor,Coilcraft,2.7 nH
+inductor,0402HP-3N3X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0407,"Inductor 3.3 nH, Qtyp = 95, SRFtyp = 12.8 GHz, 0402",inductor,Coilcraft,3.3 nH
+inductor,0402HP-3N6X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0408,"Inductor 3.6 nH, Qtyp = 94, SRFtyp = 11.7 GHz, 0402",inductor,Coilcraft,3.6 nH
+inductor,0402HP-3N9X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0409,"Inductor 3.9 nH, Qtyp = 98, SRFtyp = 9.50 GHz, 0402",inductor,Coilcraft,3.9 nH
+inductor,0402HP-4N3X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0410,"Inductor 4.3 nH, Qtyp = 90, SRFtyp = 7.15 GHz, 0402",inductor,Coilcraft,4.3 nH
+inductor,0402HP-4N7X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0411,"Inductor 4.7 nH, Qtyp = 83, SRFtyp = 6.85 GHz, 0402",inductor,Coilcraft,4.7 nH
+inductor,0402HP-5N1X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0412,"Inductor 5.1 nH, Qtyp = 76, SRFtyp = 6.80 GHz, 0402",inductor,Coilcraft,5.1 nH
+inductor,0402HP-5N6X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0413,"Inductor 5.6 nH, Qtyp = 105, SRFtyp = 6.50 GHz, 0402",inductor,Coilcraft,5.6 nH
+inductor,0402HP-6N2X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0414,"Inductor 6.2 nH, Qtyp = 100, SRFtyp = 5.80 GHz, 0402",inductor,Coilcraft,6.2 nH
+inductor,0402HP-6N8X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0415,"Inductor 6.8 nH, Qtyp = 94, SRFtyp = 5.80 GHz, 0402",inductor,Coilcraft,6.8 nH
+inductor,0402HP-7N5X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0416,"Inductor 7.5 nH, Qtyp = 82, SRFtyp = 5.40 GHz, 0402",inductor,Coilcraft,7.5 nH
+inductor,0402HP-8N2X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0417,"Inductor 8.2 nH, Qtyp = 95, SRFtyp = 5.40 GHz, 0402",inductor,Coilcraft,8.2 nH
+inductor,0402HP-8N7X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0418,"Inductor 8.7 nH, Qtyp = 95, SRFtyp = 5.00 GHz, 0402",inductor,Coilcraft,8.7 nH
+inductor,0402HP-9N0X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0419,"Inductor 9.0 nH, Qtyp = 92, SRFtyp = 5.00 GHz, 0402",inductor,Coilcraft,9.0 nH
+inductor,0402HP-9N5X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0420,"Inductor 9.5 nH, Qtyp = 90, SRFtyp = 4.70 GHz, 0402",inductor,Coilcraft,9.5 nH
+inductor,0402HP-10NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0421,"Inductor 10 nH, Qtyp = 90, SRFtyp = 4.70 GHz, 0402",inductor,Coilcraft,10 nH
+inductor,0402HP-11NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0422,"Inductor 11 nH, Qtyp = 98, SRFtyp = 4.70 GHz, 0402",inductor,Coilcraft,11 nH
+inductor,0402HP-12NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0423,"Inductor 12 nH, Qtyp = 100, SRFtyp = 4.40 GHz, 0402",inductor,Coilcraft,12 nH
+inductor,0402HP-13NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0424,"Inductor 13 nH, Qtyp = 82, SRFtyp = 4.20 GHz, 0402",inductor,Coilcraft,13 nH
+inductor,0402HP-15NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0425,"Inductor 15 nH, Qtyp = 85, SRFtyp = 3.90 GHz, 0402",inductor,Coilcraft,15 nH
+inductor,0402HP-16NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0426,"Inductor 16 nH, Qtyp = 77, SRFtyp = 3.70 GHz, 0402",inductor,Coilcraft,16 nH
+inductor,0402HP-17NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0427,"Inductor 17 nH, Qtyp = 64, SRFtyp = 3.70 GHz, 0402",inductor,Coilcraft,17 nH
+inductor,0402HP-18NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0428,"Inductor 18 nH, Qtyp = 74, SRFtyp = 3.55 GHz, 0402",inductor,Coilcraft,18 nH
+inductor,0402HP-19NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0429,"Inductor 19 nH, Qtyp = 88, SRFtyp = 3.50 GHz, 0402",inductor,Coilcraft,19 nH
+inductor,0402HP-20NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0430,"Inductor 20 nH, Qtyp = 76, SRFtyp = 3.50 GHz, 0402",inductor,Coilcraft,20 nH
+inductor,0402HP-21NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0431,"Inductor 21 nH, Qtyp = 62, SRFtyp = 1.70 GHz, 0402",inductor,Coilcraft,21 nH
+inductor,0402HP-22NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0432,"Inductor 22 nH, Qtyp = 74, SRFtyp = 3.30 GHz, 0402",inductor,Coilcraft,22 nH
+inductor,0402HP-23NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0433,"Inductor 23 nH, Qtyp = 77, SRFtyp = 3.30 GHz, 0402",inductor,Coilcraft,23 nH
+inductor,0402HP-24NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0434,"Inductor 24 nH, Qtyp = 71, SRFtyp = 3.15 GHz, 0402",inductor,Coilcraft,24 nH
+inductor,0402HP-25NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0435,"Inductor 25 nH, Qtyp = 73, SRFtyp = 3.15 GHz, 0402",inductor,Coilcraft,25 nH
+inductor,0402HP-26NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0436,"Inductor 26 nH, Qtyp = 74, SRFtyp = 3.15 GHz, 0402",inductor,Coilcraft,26 nH
+inductor,0402HP-27NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0437,"Inductor 27 nH, Qtyp = 86, SRFtyp = 3.20 GHz, 0402",inductor,Coilcraft,27 nH
+inductor,0402HP-30NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0438,"Inductor 30 nH, Qtyp = 87, SRFtyp = 2.90 GHz, 0402",inductor,Coilcraft,30 nH
+inductor,0402HP-33NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0439,"Inductor 33 nH, Qtyp = 80, SRFtyp = 2.80 GHz, 0402",inductor,Coilcraft,33 nH
+inductor,0402HP-36NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0440,"Inductor 36 nH, Qtyp = 76, SRFtyp = 2.80 GHz, 0402",inductor,Coilcraft,36 nH
+inductor,0402HP-37NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0441,"Inductor 37 nH, Qtyp = 72, SRFtyp = 2.70 GHz, 0402",inductor,Coilcraft,37 nH
+inductor,0402HP-39NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0442,"Inductor 39 nH, Qtyp = 84, SRFtyp = 2.60 GHz, 0402",inductor,Coilcraft,39 nH
+inductor,0402HP-40NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0443,"Inductor 40 nH, Qtyp = 75, SRFtyp = 2.60 GHz, 0402",inductor,Coilcraft,40 nH
+inductor,0402HP-43NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0444,"Inductor 43 nH, Qtyp = 68, SRFtyp = 2.50 GHz, 0402",inductor,Coilcraft,43 nH
+inductor,0402HP-47NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0445,"Inductor 47 nH, Qtyp = 62, SRFtyp = 2.40 GHz, 0402",inductor,Coilcraft,47 nH
+inductor,0402HP-51NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0446,"Inductor 51 nH, Qtyp = 59, SRFtyp = 2.30 GHz, 0402",inductor,Coilcraft,51 nH
+inductor,0402HPH-56NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0447,"Inductor 56 nH, Qtyp = 64, SRFtyp = 2.07 GHz, 0402",inductor,Coilcraft,56 nH
+inductor,0402HPH-68NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0448,"Inductor 68 nH, Qtyp = 64, SRFtyp = 1.84 GHz, 0402",inductor,Coilcraft,68 nH
+inductor,0402HPH-82NX_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0449,"Inductor 82 nH, SRFtyp = 1.75 GHz, 0402",inductor,Coilcraft,82 nH
+inductor,0402HPH-R10X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0450,"Inductor 100 nH, SRFtyp = 1.58 GHz, 0402",inductor,Coilcraft,100 nH
+inductor,0402HPH-R12X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0451,"Inductor 120 nH, SRFtyp = 1.25 GHz, 0402",inductor,Coilcraft,120 nH
+inductor,0402HPH-R15X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0452,"Inductor 150 nH, SRFtyp = 1.14 GHz, 0402",inductor,Coilcraft,150 nH
+inductor,0402HPH-R16X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0453,"Inductor 160 nH, SRFtyp = 1.65 GHz, 0402",inductor,Coilcraft,160 nH
+inductor,0402HPH-R18X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0454,"Inductor 180 nH, SRFtyp = 1.08 GHz, 0402",inductor,Coilcraft,180 nH
+inductor,0402HPH-R22X_L_,1,2,L,,doc/inductor/coilcraft/0402HP.pdf,chip_inductor_0455,"Inductor 220 nH, SRFtyp = 0.96 GHz, 0402",inductor,Coilcraft,220 nH

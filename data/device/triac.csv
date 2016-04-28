@@ -1,0 +1,2 @@
+symbol,manufacturer,name,alias,unit,reference,description,keywords,document,footprint,g,a1,a2
+triac,Power Innovations,TIC225,TIC225D TIC225M TIC225S TIC225N,0,T,Triac,triac,doc/triac/power_innovations/TIC225.pdf,to_220,3,1,2

@@ -1,0 +1,10 @@
+number,name,type,shape,direction
+13,AIN0,input,line,left
+14,AIN0,input,line,left
+1,AIN1,input,line,left
+14,AIN2,input,line,left
+1,AIN3,input,line,left
+4,AIN6,input,line,left
+5,AIN7,input,line,left
+13,VOUT,output,line,left
+14,VREFB,powerInput,line,left

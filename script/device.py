@@ -18,6 +18,9 @@ if __name__ == "__main__":
         parser.add_argument('--table_path', type = str, help = 'Path to table based symbols', required = True)
         args = parser.parse_args()
 
+        # KiCAD uses user home as source for documents
+        document_prefix = os.path.relpath(os.getcwd(), os.path.expanduser("~"))
+
         symbol_output = open(args.symbol, "w")
         symbol_output.write("EESchema-LIBRARY Version 2.3\n#encoding utf-8\n")
         desc_output = open(args.desc, "w")
@@ -72,6 +75,12 @@ if __name__ == "__main__":
 
                         if 'document' not in data:
                             data['document'] = ''
+                        elif len(data['document']) > 0:
+                            if os.path.isfile(data['document']):
+                                data['document'] = os.path.join(document_prefix, data['document'])
+                            else:
+                                print "Warning: '"+data['document']+"' not found"
+                                data['document'] = ''
 
                         if 'section' not in data:
                             data['section'] = ''

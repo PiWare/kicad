@@ -1,0 +1,43 @@
+EESchema-DOCLIB Version 2.0
+#
+# TIC225
+#
+$CMP TIC225
+K triac
+D Triac
+F kicad/doc/triac/power_innovations/TIC225.pdf
+$ENDCMP
+#
+# TIC225D
+#
+$CMP TIC225D
+K triac
+D Triac
+F kicad/doc/triac/power_innovations/TIC225.pdf
+$ENDCMP
+#
+# TIC225M
+#
+$CMP TIC225M
+K triac
+D Triac
+F kicad/doc/triac/power_innovations/TIC225.pdf
+$ENDCMP
+#
+# TIC225S
+#
+$CMP TIC225S
+K triac
+D Triac
+F kicad/doc/triac/power_innovations/TIC225.pdf
+$ENDCMP
+#
+# TIC225N
+#
+$CMP TIC225N
+K triac
+D Triac
+F kicad/doc/triac/power_innovations/TIC225.pdf
+$ENDCMP
+#
+# End Doc Library

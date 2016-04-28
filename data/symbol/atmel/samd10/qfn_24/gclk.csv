@@ -1,0 +1,16 @@
+number,name,type,shape,direction
+7,GCLK_IO0,input,line,left
+17,GCLK_IO0,input,line,left
+19,GCLK_IO0,input,line,left
+20,GCLK_IO0,input,line,left
+21,GCLK_IO0,input,line,left
+22,GCLK_IO0,input,line,left
+8,GCLK_IO1,input,line,left
+15,GCLK_IO1,input,line,left
+13,GCLK_IO2,input,line,left
+16,GCLK_IO2,input,line,left
+14,GCLK_IO3,input,line,left
+9,GCLK_IO4,input,line,left
+11,GCLK_IO4,input,line,left
+10,GCLK_IO5,input,line,left
+12,GCLK_IO5,input,line,left

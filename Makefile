@@ -14,22 +14,23 @@ PROJECT_SCRIPT = script/project.py
 RESISTOR_SCRIPT := script/devgen/resistor.py
 
 # Template/table based symbols
-SYMBOL_LIBRARIES := $(LIBRARY_ROOT)/supply.lib \
-	$(LIBRARY_ROOT)/led.lib \
-	$(LIBRARY_ROOT)/transistor.lib \
-	$(LIBRARY_ROOT)/logic.lib \
-	$(LIBRARY_ROOT)/diode.lib \
-	$(LIBRARY_ROOT)/driver.lib \
-	$(LIBRARY_ROOT)/connector.lib \
-	$(LIBRARY_ROOT)/mcu.lib \
-	$(LIBRARY_ROOT)/resistor.lib \
-	$(LIBRARY_ROOT)/inductor.lib \
-	$(LIBRARY_ROOT)/capacitor_c0g.lib \
+SYMBOL_LIBRARIES := $(LIBRARY_ROOT)/capacitor_c0g.lib \
 	$(LIBRARY_ROOT)/capacitor_x7r.lib \
 	$(LIBRARY_ROOT)/capacitor_x5r.lib \
-	$(LIBRARY_ROOT)/rf.lib \
+	$(LIBRARY_ROOT)/connector.lib \
+	$(LIBRARY_ROOT)/diode.lib \
+	$(LIBRARY_ROOT)/driver.lib \
+	$(LIBRARY_ROOT)/inductor.lib \
+	$(LIBRARY_ROOT)/led.lib \
+	$(LIBRARY_ROOT)/logic.lib \
+	$(LIBRARY_ROOT)/mcu.lib \
+	$(LIBRARY_ROOT)/optocoupler.lib \
 	$(LIBRARY_ROOT)/regulator.lib \
-	$(LIBRARY_ROOT)/relais.lib
+	$(LIBRARY_ROOT)/relais.lib \
+	$(LIBRARY_ROOT)/resistor.lib \
+	$(LIBRARY_ROOT)/supply.lib \
+	$(LIBRARY_ROOT)/transistor.lib \
+	$(LIBRARY_ROOT)/triac.lib
 
 # Footprints
 FOOTPRINTS = $(FOOTPRINT_ROOT)/dip \

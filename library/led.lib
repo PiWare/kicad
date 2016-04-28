@@ -7,15 +7,16 @@ DEF L-59EGW LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59EGW" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 high~efficiency~red Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P
@@ -31,15 +32,16 @@ DEF L-59EGW-CA LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59EGW-CA" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 high~efficiency~red Normal 0 L C
 X C 1 200 0 150 L 50 50 1 1 P
 X A 2 -200 0 150 R 50 50 1 1 P
@@ -55,15 +57,16 @@ DEF L-59EYW LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59EYW" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 high~efficiency~red Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P
@@ -79,15 +82,16 @@ DEF L-59GYW LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59GYW" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 green Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P
@@ -103,15 +107,16 @@ DEF L-59SRSGW-CC LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59SRSGW-CC" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 super~bright~red Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P
@@ -127,15 +132,16 @@ DEF L-59SURKSGW LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59SURKSGW" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 hyper~red Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P
@@ -151,15 +157,16 @@ DEF L-59EGC LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59EGC" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 high~efficiency~red Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P
@@ -175,16 +182,17 @@ DEF L-59EYC LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59EYC" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 ALIAS L-59YEC
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 high~efficiency~red Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P
@@ -200,15 +208,16 @@ DEF L-59GYC LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59GYC" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 green Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P
@@ -224,15 +233,16 @@ DEF L-59SRSGC-CC LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59SRSGC-CC" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 super~bright~red Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P
@@ -248,15 +258,16 @@ DEF L-59SURKSGC LED 0 0 Y Y 2 F N
 F0 "LED" -50 125 60 H V R CNN "Reference"
 F1 "L-59SURKSGC" 0 -125 60 H V C CNN "Name"
 F2 "led_duo_5mm" 0 -325 60 H I C CNN "Footprint"
-F3 "doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
+F3 "kicad/doc/led/L-59.pdf" 0 -425 60 H I C CNN "Document"
 F4 "Kingbright" 0 -225 60 H V C CNN "Manufacturer"
 DRAW
+P 2 0 1 10 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
 P 2 0 1 0 -25 75 25 125 N
 P 2 0 1 0 5 60 55 110 N
 P 3 0 1 0 0 115 25 125 15 100 N
 P 3 0 1 0 30 100 55 110 45 85 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 T 0 100 125 60 0 1 1 hyper~red Normal 0 L C
 X A 1 -200 0 150 R 50 50 1 1 P
 X C 2 200 0 150 L 50 50 1 1 P

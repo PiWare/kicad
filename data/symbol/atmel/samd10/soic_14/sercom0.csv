@@ -1,0 +1,9 @@
+number,name,type,shape,direction
+4,PAD0,bidirectional,line,left
+14,PAD0,bidirectional,line,left
+1,PAD1,bidirectional,line,left
+5,PAD1,bidirectional,line,left
+2,PAD2,bidirectional,line,left
+14,PAD2,bidirectional,line,left
+1,PAD3,bidirectional,line,left
+3,PAD3,bidirectional,line,left

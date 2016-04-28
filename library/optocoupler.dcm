@@ -1,0 +1,67 @@
+EESchema-DOCLIB Version 2.0
+#
+# MOC3020
+#
+$CMP MOC3020
+K optocoupler, triac
+D Optocoupler with triac driver
+F kicad/doc/optocoupler/ti/MOC3020_3023.pdf
+$ENDCMP
+#
+# MOC3021
+#
+$CMP MOC3021
+K optocoupler, triac
+D Optocoupler with triac driver
+F kicad/doc/optocoupler/ti/MOC3020_3023.pdf
+$ENDCMP
+#
+# MOC3022
+#
+$CMP MOC3022
+K optocoupler, triac
+D Optocoupler with triac driver
+F kicad/doc/optocoupler/ti/MOC3020_3023.pdf
+$ENDCMP
+#
+# MOC3023
+#
+$CMP MOC3023
+K optocoupler, triac
+D Optocoupler with triac driver
+F kicad/doc/optocoupler/ti/MOC3020_3023.pdf
+$ENDCMP
+#
+# 4N25
+#
+$CMP 4N25
+K optocoupler, transistor, base
+D Optocoupler, Phototransistor Output, with Base Connection
+F kicad/doc/optocoupler/vishay/4N25_28.pdf
+$ENDCMP
+#
+# 4N26
+#
+$CMP 4N26
+K optocoupler, transistor, base
+D Optocoupler, Phototransistor Output, with Base Connection
+F kicad/doc/optocoupler/vishay/4N25_28.pdf
+$ENDCMP
+#
+# 4N27
+#
+$CMP 4N27
+K optocoupler, transistor, base
+D Optocoupler, Phototransistor Output, with Base Connection
+F kicad/doc/optocoupler/vishay/4N25_28.pdf
+$ENDCMP
+#
+# 4N28
+#
+$CMP 4N28
+K optocoupler, transistor, base
+D Optocoupler, Phototransistor Output, with Base Connection
+F kicad/doc/optocoupler/vishay/4N25_28.pdf
+$ENDCMP
+#
+# End Doc Library

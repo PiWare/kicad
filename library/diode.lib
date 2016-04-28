@@ -7,10 +7,11 @@ DEF BAS40 D 0 0 N N 1 L N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "BAS40" 0 -100 60 H V C CNN "Name"
 F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
-F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+F3 "kicad/doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
 DRAW
-P 3 0 1 10 50 50 50 -50 25 -50 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 2 0 1 10 -50 0 50 0 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
+P 6 0 1 10 25 -40 25 -50 50 -50 50 50 75 50 75 40 N
 X ~ 1 -200 0 150 R 50 50 0 1 P
 X ~ 3 200 0 150 L 50 50 0 1 P
 ENDDRAW
@@ -22,10 +23,11 @@ DEF BAS40-04 D 0 0 Y N 2 F N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "BAS40-04" 0 -100 60 H V C CNN "Name"
 F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
-F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+F3 "kicad/doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
 DRAW
-P 3 0 1 10 50 50 50 -50 25 -50 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 2 0 1 10 -50 0 50 0 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
+P 6 0 1 10 25 -40 25 -50 50 -50 50 50 75 50 75 40 N
 X ~ 1 -200 0 150 R 50 50 1 1 P
 X ~ 3 200 0 150 L 50 50 1 1 P
 X ~ 2 200 0 150 L 50 50 2 1 P
@@ -39,10 +41,11 @@ DEF BAS40-05 D 0 0 Y N 2 F N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "BAS40-05" 0 -100 60 H V C CNN "Name"
 F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
-F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+F3 "kicad/doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
 DRAW
-P 3 0 1 10 50 50 50 -50 25 -50 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 2 0 1 10 -50 0 50 0 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
+P 6 0 1 10 25 -40 25 -50 50 -50 50 50 75 50 75 40 N
 X ~ 1 -200 0 150 R 50 50 1 1 P
 X ~ 3 200 0 150 L 50 50 1 1 P
 X ~ 2 -200 0 150 R 50 50 2 1 P
@@ -56,10 +59,11 @@ DEF BAS40-06 D 0 0 Y N 2 F N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "BAS40-06" 0 -100 60 H V C CNN "Name"
 F2 "sot_23" 0 -200 60 H I C CNN "Footprint"
-F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+F3 "kicad/doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
 DRAW
-P 3 0 1 10 50 50 50 -50 25 -50 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 2 0 1 10 -50 0 50 0 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
+P 6 0 1 10 25 -40 25 -50 50 -50 50 50 75 50 75 40 N
 X ~ 1 200 0 150 L 50 50 1 1 P
 X ~ 3 -200 0 150 R 50 50 1 1 P
 X ~ 2 200 0 150 L 50 50 2 1 P
@@ -73,10 +77,11 @@ DEF BAS40-07 D 0 0 Y N 2 F N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "BAS40-07" 0 -100 60 H V C CNN "Name"
 F2 "sot_143b" 0 -200 60 H I C CNN "Footprint"
-F3 "doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
+F3 "kicad/doc/diode/BAS40.pdf" 0 -300 60 H I C CNN "Document"
 DRAW
-P 3 0 1 10 50 50 50 -50 25 -50 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 2 0 1 10 -50 0 50 0 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
+P 6 0 1 10 25 -40 25 -50 50 -50 50 50 75 50 75 40 N
 X ~ 1 200 0 150 L 50 50 1 1 P
 X ~ 4 -200 0 150 R 50 50 1 1 P
 X ~ 2 200 0 150 L 50 50 2 1 P
@@ -90,11 +95,12 @@ DEF 1N4148 D 0 0 N N 1 L N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "1N4148" 0 -100 60 H V C CNN "Name"
 F2 "do_35" 0 -200 60 H I C CNN "Footprint"
-F3 "doc/diode/1N4148.pdf" 0 -300 60 H I C CNN "Document"
+F3 "kicad/doc/diode/1N4148.pdf" 0 -300 60 H I C CNN "Document"
 ALIAS 1N914 1N916 1N916A 1N916B 1N4448
 DRAW
+P 2 0 1 10 -50 0 50 0 N
 P 2 0 1 10 50 50 50 -50 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 X ~ 1 200 0 150 L 50 50 0 1 P
 X ~ 2 -200 0 150 R 50 50 0 1 P
 ENDDRAW
@@ -106,13 +112,388 @@ DEF FDLL4148 D 0 0 N N 1 L N
 F0 "D" 0 100 60 H V C CNN "Reference"
 F1 "FDLL4148" 0 -100 60 H V C CNN "Name"
 F2 "sod_80" 0 -200 60 H I C CNN "Footprint"
-F3 "doc/diode/1N4148.pdf" 0 -300 60 H I C CNN "Document"
+F3 "kicad/doc/diode/1N4148.pdf" 0 -300 60 H I C CNN "Document"
 ALIAS FDLL914 FDLL914A FDLL914B FDLL4448
 DRAW
+P 2 0 1 10 -50 0 50 0 N
 P 2 0 1 10 50 50 50 -50 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
 X ~ 1 200 0 150 L 50 50 0 1 P
 X ~ 2 -200 0 150 R 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 1N4001
+#
+DEF 1N4001 D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "1N4001" 0 -100 60 H V C CNN "Name"
+F2 "do_41" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/diodes/1N4001_4007.pdf" 0 -300 60 H I C CNN "Document"
+ALIAS 1N4002 1N4003 1N4004 1N4005 1N4006 1N4007
+DRAW
+P 2 0 1 10 -50 0 50 0 N
+P 2 0 1 10 50 50 50 -50 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
+X ~ 1 200 0 150 L 50 50 0 1 P
+X ~ 2 -200 0 150 R 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# MBR0540T1G
+#
+DEF MBR0540T1G D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "MBR0540T1G" 0 -100 60 H V C CNN "Name"
+F2 "sod_123" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/on_semiconductor/MBR0540T.pdf" 0 -300 60 H I C CNN "Document"
+ALIAS MBR0540T3G
+DRAW
+P 2 0 1 10 -50 0 50 0 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 N
+P 6 0 1 10 25 -40 25 -50 50 -50 50 50 75 50 75 40 N
+X ~ 1 200 0 150 L 50 50 0 1 P
+X ~ 2 -200 0 150 R 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T6V8A
+#
+DEF SM6T6V8A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T6V8A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T7V5A
+#
+DEF SM6T7V5A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T7V5A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T10A
+#
+DEF SM6T10A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T10A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T12A
+#
+DEF SM6T12A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T12A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T15A
+#
+DEF SM6T15A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T15A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T18A
+#
+DEF SM6T18A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T18A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T22A
+#
+DEF SM6T22A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T22A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T24A
+#
+DEF SM6T24A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T24A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T27A
+#
+DEF SM6T27A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T27A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T30A
+#
+DEF SM6T30A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T30A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T33A
+#
+DEF SM6T33A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T33A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T36A
+#
+DEF SM6T36A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T36A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T39A
+#
+DEF SM6T39A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T39A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T56A
+#
+DEF SM6T56A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T56A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T68A
+#
+DEF SM6T68A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T68A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T75A
+#
+DEF SM6T75A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T75A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T100A
+#
+DEF SM6T100A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T100A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T150A
+#
+DEF SM6T150A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T150A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T200A
+#
+DEF SM6T200A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T200A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SM6T220A
+#
+DEF SM6T220A D 0 0 N N 1 L N
+F0 "D" 0 100 60 H V C CNN "Reference"
+F1 "SM6T220A" 0 -100 60 H V C CNN "Name"
+F2 "so_214" 0 -200 60 H I C CNN "Footprint"
+F3 "kicad/doc/diode/st/SM6T.pdf" 0 -300 60 H I C CNN "Document"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 4 0 1 10 25 50 0 50 0 -50 -25 -50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 100 50 100 -50 0 0 N
+X ~ 1 -200 0 100 R 50 50 0 1 P
+X ~ 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #

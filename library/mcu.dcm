@@ -3,33 +3,297 @@ EESchema-DOCLIB Version 2.0
 # TM4C123GH6PMI7
 #
 $CMP TM4C123GH6PMI7
-K mcu, cortex-m4
+K mcu, cortex-m4, lqfp64
 D Tiva C Series TM4C123GH6PM Microcontroller Industrial Temperature
-F doc/mcu/texas/TM4C123GH6PM.pdf
+F kicad/doc/mcu/texas/TM4C123GH6PM.pdf
 $ENDCMP
 #
 # TM4C123GH6PMI7R
 #
 $CMP TM4C123GH6PMI7R
-K mcu, cortex-m4
+K mcu, cortex-m4, lqfp64
 D Tiva C Series TM4C123GH6PM Microcontroller Industrial Temperature
-F doc/mcu/texas/TM4C123GH6PM.pdf
+F kicad/doc/mcu/texas/TM4C123GH6PM.pdf
 $ENDCMP
 #
 # TM4C123GH6PMT7
 #
 $CMP TM4C123GH6PMT7
-K mcu, cortex-m4
+K mcu, cortex-m4, lqfp64
 D Tiva C Series TM4C123GH6PM Microcontroller Extended Temperature
-F doc/mcu/texas/TM4C123GH6PM.pdf
+F kicad/doc/mcu/texas/TM4C123GH6PM.pdf
 $ENDCMP
 #
 # TM4C123GH6PMT7R
 #
 $CMP TM4C123GH6PMT7R
-K mcu, cortex-m4
+K mcu, cortex-m4, lqfp64
 D Tiva C Series TM4C123GH6PM Microcontroller Extended Temperature
-F doc/mcu/texas/TM4C123GH6PM.pdf
+F kicad/doc/mcu/texas/TM4C123GH6PM.pdf
+$ENDCMP
+#
+# ATSAMD10D13A-MU
+#
+$CMP ATSAMD10D13A-MU
+K mcu, cortex-m0+, qfn24
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 8k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10D13A-MUT
+#
+$CMP ATSAMD10D13A-MUT
+K mcu, cortex-m0+, qfn24
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 8k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10D14A-MU
+#
+$CMP ATSAMD10D14A-MU
+K mcu, cortex-m0+, qfn24
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 16k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10D14A-MUT
+#
+$CMP ATSAMD10D14A-MUT
+K mcu, cortex-m0+, qfn24
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 16k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10C13A-SSU
+#
+$CMP ATSAMD10C13A-SSU
+K mcu, cortex-m0+, soic14
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 8k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10C13A-SSUT
+#
+$CMP ATSAMD10C13A-SSUT
+K mcu, cortex-m0+, soic14
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 8k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10C14A-SSU
+#
+$CMP ATSAMD10C14A-SSU
+K mcu, cortex-m0+, soic14
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 16k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10C14A-SSUT
+#
+$CMP ATSAMD10C14A-SSUT
+K mcu, cortex-m0+, soic14
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 16k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10D13A-SSU
+#
+$CMP ATSAMD10D13A-SSU
+K mcu, cortex-m0+, soic20
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 8k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10D13A-SSUT
+#
+$CMP ATSAMD10D13A-SSUT
+K mcu, cortex-m0+, soic20
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 8k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10D14A-SSU
+#
+$CMP ATSAMD10D14A-SSU
+K mcu, cortex-m0+, soic20
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 16k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# ATSAMD10D14A-SSUT
+#
+$CMP ATSAMD10D14A-SSUT
+K mcu, cortex-m0+, soic20
+D Atmel SAM D10 SMART ARM-Based Microcontroller, 16k Flash, 4k RAM
+F kicad/doc/mcu/atmel/SAMD10.pdf
+$ENDCMP
+#
+# EZR32LG230FE55G
+#
+$CMP EZR32LG230FE55G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF55G
+#
+$CMP EZR32LG230FF55G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG55G
+#
+$CMP EZR32LG230FG55G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE60G
+#
+$CMP EZR32LG230FE60G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF60G
+#
+$CMP EZR32LG230FF60G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG60G
+#
+$CMP EZR32LG230FG60G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE61G
+#
+$CMP EZR32LG230FE61G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF61G
+#
+$CMP EZR32LG230FF61G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG61G
+#
+$CMP EZR32LG230FG61G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE63G
+#
+$CMP EZR32LG230FE63G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF63G
+#
+$CMP EZR32LG230FF63G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG63G
+#
+$CMP EZR32LG230FG63G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE67G
+#
+$CMP EZR32LG230FE67G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF67G
+#
+$CMP EZR32LG230FF67G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG67G
+#
+$CMP EZR32LG230FG67G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE68G
+#
+$CMP EZR32LG230FE68G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF68G
+#
+$CMP EZR32LG230FF68G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG68G
+#
+$CMP EZR32LG230FG68G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FE69G
+#
+$CMP EZR32LG230FE69G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FF69G
+#
+$CMP EZR32LG230FF69G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
+$ENDCMP
+#
+# EZR32LG230FG69G
+#
+$CMP EZR32LG230FG69G
+K mcu, rf, cortex-m3, qfn64
+D EZR32LG230 Wireless MCU family with ARM Cortex-M3 CPU and sub-GHz Radio
+F kicad/doc/mcu/silicon_labs/EZR32LG.pdf
 $ENDCMP
 #
 # End Doc Library

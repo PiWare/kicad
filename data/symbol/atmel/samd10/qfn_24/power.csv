@@ -1,0 +1,3 @@
+number,name,type,shape,direction
+24,VDD,powerInput,line,up
+23,GND,powerInput,line,down

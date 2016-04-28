@@ -1,0 +1,8 @@
+number,name,type,shape,direction
+6,WO0,bidirectional,line,left
+8,WO0,bidirectional,line,left
+9,WO0,bidirectional,line,left
+20,WO0,bidirectional,line,left
+1,WO1,bidirectional,line,left
+7,WO1,bidirectional,line,left
+10,WO1,bidirectional,line,left

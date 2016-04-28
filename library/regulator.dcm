@@ -5,7 +5,7 @@ EESchema-DOCLIB Version 2.0
 $CMP LM2840
 K regulator, step-down
 D 100/300/600 mA 42V Input Step-Down DC/DC Regulator in Thin SOT
-F doc/regulator/ti/LM284x.pdf
+F kicad/doc/regulator/ti/LM284x.pdf
 $ENDCMP
 #
 # LM2841
@@ -13,7 +13,7 @@ $ENDCMP
 $CMP LM2841
 K regulator, step-down
 D 100/300/600 mA 42V Input Step-Down DC/DC Regulator in Thin SOT
-F doc/regulator/ti/LM284x.pdf
+F kicad/doc/regulator/ti/LM284x.pdf
 $ENDCMP
 #
 # LM2842
@@ -21,7 +21,7 @@ $ENDCMP
 $CMP LM2842
 K regulator, step-down
 D 100/300/600 mA 42V Input Step-Down DC/DC Regulator in Thin SOT
-F doc/regulator/ti/LM284x.pdf
+F kicad/doc/regulator/ti/LM284x.pdf
 $ENDCMP
 #
 # LM2840-Q1
@@ -29,7 +29,7 @@ $ENDCMP
 $CMP LM2840-Q1
 K regulator, step-down
 D 100/300/600 mA 42V Input Step-Down DC/DC Regulator in Thin SOT
-F doc/regulator/ti/LM284x.pdf
+F kicad/doc/regulator/ti/LM284x.pdf
 $ENDCMP
 #
 # LM2841-Q1
@@ -37,7 +37,7 @@ $ENDCMP
 $CMP LM2841-Q1
 K regulator, step-down
 D 100/300/600 mA 42V Input Step-Down DC/DC Regulator in Thin SOT
-F doc/regulator/ti/LM284x.pdf
+F kicad/doc/regulator/ti/LM284x.pdf
 $ENDCMP
 #
 # LM2842-Q1
@@ -45,7 +45,7 @@ $ENDCMP
 $CMP LM2842-Q1
 K regulator, step-down
 D 100/300/600 mA 42V Input Step-Down DC/DC Regulator in Thin SOT
-F doc/regulator/ti/LM284x.pdf
+F kicad/doc/regulator/ti/LM284x.pdf
 $ENDCMP
 #
 # End Doc Library

@@ -7,7 +7,7 @@ DEF LM2840 IC 0 50 Y Y 1 L N
 F0 "IC" -500 260 60 H V L CNN "Reference"
 F1 "LM2840" -500 -260 60 H V L CNN "Name"
 F2 "sot23_6" 0 60 60 H I C CNN "Footprint"
-F3 "doc/regulator/ti/LM284x.pdf" 0 -60 60 H I C CNN "Document"
+F3 "kicad/doc/regulator/ti/LM284x.pdf" 0 -60 60 H I C CNN "Document"
 ALIAS LM2841 LM2842 LM2840-Q1 LM2841-Q1 LM2842-Q1
 DRAW
 S -500 -200 500 200 0 1 20 f

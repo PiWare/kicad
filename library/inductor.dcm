@@ -5,7 +5,7 @@ EESchema-DOCLIB Version 2.0
 $CMP 7445101
 K inductor
 D Inductor 1 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451015
@@ -13,7 +13,7 @@ $ENDCMP
 $CMP 74451015
 K inductor
 D Inductor 1.5 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451022
@@ -21,7 +21,7 @@ $ENDCMP
 $CMP 74451022
 K inductor
 D Inductor 2.2 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451033
@@ -29,7 +29,7 @@ $ENDCMP
 $CMP 74451033
 K inductor
 D Inductor 3.3 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451039
@@ -37,7 +37,7 @@ $ENDCMP
 $CMP 74451039
 K inductor
 D Inductor 3.9 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451047
@@ -45,7 +45,7 @@ $ENDCMP
 $CMP 74451047
 K inductor
 D Inductor 4.7 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451068
@@ -53,7 +53,7 @@ $ENDCMP
 $CMP 74451068
 K inductor
 D Inductor 6.8 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 7445110
@@ -61,7 +61,7 @@ $ENDCMP
 $CMP 7445110
 K inductor
 D Inductor 10 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451115
@@ -69,7 +69,7 @@ $ENDCMP
 $CMP 74451115
 K inductor
 D Inductor 15 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451122
@@ -77,7 +77,7 @@ $ENDCMP
 $CMP 74451122
 K inductor
 D Inductor 22 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451133
@@ -85,7 +85,7 @@ $ENDCMP
 $CMP 74451133
 K inductor
 D Inductor 33 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451147
@@ -93,7 +93,7 @@ $ENDCMP
 $CMP 74451147
 K inductor
 D Inductor 47 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451168
@@ -101,7 +101,7 @@ $ENDCMP
 $CMP 74451168
 K inductor
 D Inductor 68 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 7445120
@@ -109,7 +109,7 @@ $ENDCMP
 $CMP 7445120
 K inductor
 D Inductor 100 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451215
@@ -117,7 +117,7 @@ $ENDCMP
 $CMP 74451215
 K inductor
 D Inductor 150 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451222
@@ -125,7 +125,7 @@ $ENDCMP
 $CMP 74451222
 K inductor
 D Inductor 220 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451233
@@ -133,7 +133,7 @@ $ENDCMP
 $CMP 74451233
 K inductor
 D Inductor 330 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 74451247
@@ -141,7 +141,7 @@ $ENDCMP
 $CMP 74451247
 K inductor
 D Inductor 470 uH, WE-PD3, Type S
-F doc/inductor/Würth/WE-PD3-TypeS.pdf
+F kicad/doc/inductor/wuerth/7445101.pdf
 $ENDCMP
 #
 # 7445301
@@ -149,7 +149,7 @@ $ENDCMP
 $CMP 7445301
 K inductor
 D Inductor 1.5 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 7445302
@@ -157,7 +157,7 @@ $ENDCMP
 $CMP 7445302
 K inductor
 D Inductor 2.2 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453031
@@ -165,7 +165,7 @@ $ENDCMP
 $CMP 74453031
 K inductor
 D Inductor 3.3 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 7445303
@@ -173,7 +173,7 @@ $ENDCMP
 $CMP 7445303
 K inductor
 D Inductor 3.9 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 7445304
@@ -181,7 +181,7 @@ $ENDCMP
 $CMP 7445304
 K inductor
 D Inductor 4.7 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 7445306
@@ -189,7 +189,7 @@ $ENDCMP
 $CMP 7445306
 K inductor
 D Inductor 6.8 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453010
@@ -197,7 +197,7 @@ $ENDCMP
 $CMP 74453010
 K inductor
 D Inductor 10 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453112
@@ -205,7 +205,7 @@ $ENDCMP
 $CMP 74453112
 K inductor
 D Inductor 12 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453115
@@ -213,7 +213,7 @@ $ENDCMP
 $CMP 74453115
 K inductor
 D Inductor 15 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453122
@@ -221,7 +221,7 @@ $ENDCMP
 $CMP 74453122
 K inductor
 D Inductor 22 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453133
@@ -229,7 +229,7 @@ $ENDCMP
 $CMP 74453133
 K inductor
 D Inductor 33 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453147
@@ -237,7 +237,7 @@ $ENDCMP
 $CMP 74453147
 K inductor
 D Inductor 47 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453156
@@ -245,7 +245,7 @@ $ENDCMP
 $CMP 74453156
 K inductor
 D Inductor 56 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453168
@@ -253,7 +253,7 @@ $ENDCMP
 $CMP 74453168
 K inductor
 D Inductor 68 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 74453182
@@ -261,7 +261,7 @@ $ENDCMP
 $CMP 74453182
 K inductor
 D Inductor 82 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 7445320
@@ -269,7 +269,7 @@ $ENDCMP
 $CMP 7445320
 K inductor
 D Inductor 100 uH, WE-PD3, Type M
-F /doc/inductor/Würth/WE-PD3-TypeM.pdf
+F kicad/doc/inductor/wuerth/7445301.pdf
 $ENDCMP
 #
 # 7445402
@@ -277,7 +277,7 @@ $ENDCMP
 $CMP 7445402
 K inductor
 D Inductor 2.2 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 7445403
@@ -285,7 +285,7 @@ $ENDCMP
 $CMP 7445403
 K inductor
 D Inductor 3 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 7445404
@@ -293,7 +293,7 @@ $ENDCMP
 $CMP 7445404
 K inductor
 D Inductor 4.7 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454068
@@ -301,7 +301,7 @@ $ENDCMP
 $CMP 74454068
 K inductor
 D Inductor 7 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454010
@@ -309,7 +309,7 @@ $ENDCMP
 $CMP 74454010
 K inductor
 D Inductor 10 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454115
@@ -317,7 +317,7 @@ $ENDCMP
 $CMP 74454115
 K inductor
 D Inductor 15 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454122
@@ -325,7 +325,7 @@ $ENDCMP
 $CMP 74454122
 K inductor
 D Inductor 22 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454133
@@ -333,7 +333,7 @@ $ENDCMP
 $CMP 74454133
 K inductor
 D Inductor 33 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454147
@@ -341,7 +341,7 @@ $ENDCMP
 $CMP 74454147
 K inductor
 D Inductor 47 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454168
@@ -349,7 +349,7 @@ $ENDCMP
 $CMP 74454168
 K inductor
 D Inductor 68 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 7445420
@@ -357,7 +357,7 @@ $ENDCMP
 $CMP 7445420
 K inductor
 D Inductor 100 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454215
@@ -365,7 +365,7 @@ $ENDCMP
 $CMP 74454215
 K inductor
 D Inductor 150 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454220
@@ -373,7 +373,7 @@ $ENDCMP
 $CMP 74454220
 K inductor
 D Inductor 220 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454233
@@ -381,7 +381,7 @@ $ENDCMP
 $CMP 74454233
 K inductor
 D Inductor 330 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454239
@@ -389,7 +389,7 @@ $ENDCMP
 $CMP 74454239
 K inductor
 D Inductor 390 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454247
@@ -397,7 +397,7 @@ $ENDCMP
 $CMP 74454247
 K inductor
 D Inductor 470 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74454268
@@ -405,7 +405,7 @@ $ENDCMP
 $CMP 74454268
 K inductor
 D Inductor 680 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 7445430
@@ -413,7 +413,7 @@ $ENDCMP
 $CMP 7445430
 K inductor
 D Inductor 1000 uH, WE-PD3, Type L
-F /doc/inductor/Würth/WE-PD3-TypeL.pdf
+F kicad/doc/inductor/wuerth/7445402.pdf
 $ENDCMP
 #
 # 74459010
@@ -421,7 +421,7 @@ $ENDCMP
 $CMP 74459010
 K inductor
 D Inductor 10 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459115
@@ -429,7 +429,7 @@ $ENDCMP
 $CMP 74459115
 K inductor
 D Inductor 15 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459122
@@ -437,7 +437,7 @@ $ENDCMP
 $CMP 74459122
 K inductor
 D Inductor 22 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459133
@@ -445,7 +445,7 @@ $ENDCMP
 $CMP 74459133
 K inductor
 D Inductor 33 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459147
@@ -453,7 +453,7 @@ $ENDCMP
 $CMP 74459147
 K inductor
 D Inductor 47 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459168
@@ -461,7 +461,7 @@ $ENDCMP
 $CMP 74459168
 K inductor
 D Inductor 68 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 7445920
@@ -469,7 +469,7 @@ $ENDCMP
 $CMP 7445920
 K inductor
 D Inductor 100 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459215
@@ -477,7 +477,7 @@ $ENDCMP
 $CMP 74459215
 K inductor
 D Inductor 150 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459222
@@ -485,7 +485,7 @@ $ENDCMP
 $CMP 74459222
 K inductor
 D Inductor 220 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459233
@@ -493,7 +493,7 @@ $ENDCMP
 $CMP 74459233
 K inductor
 D Inductor 330 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459247
@@ -501,7 +501,7 @@ $ENDCMP
 $CMP 74459247
 K inductor
 D Inductor 470 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 74459268
@@ -509,7 +509,7 @@ $ENDCMP
 $CMP 74459268
 K inductor
 D Inductor 680 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 7445930
@@ -517,439 +517,439 @@ $ENDCMP
 $CMP 7445930
 K inductor
 D Inductor 1000 uH, WE-PD3, Type X
-F /doc/inductor/Würth/WE-PD3-TypeX.pdf
+F kicad/doc/inductor/wuerth/74459010.pdf
 $ENDCMP
 #
 # 0402HP-1N0XJL_
 #
 $CMP 0402HP-1N0XJL_
 K inductor
-D 16.0
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 1.0 nH, Qtyp = 72, SRFtyp = 16.0 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-2N0XJL_
 #
 $CMP 0402HP-2N0XJL_
 K inductor
-D 15.2
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 2.0 nH, Qtyp = 85, SRFtyp = 15.2 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-2N2XJL_
 #
 $CMP 0402HP-2N2XJL_
 K inductor
-D 15.1
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 2.2 nH, Qtyp = 86, SRFtyp = 15.1 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-2N4X_L_
 #
 $CMP 0402HP-2N4X_L_
 K inductor
-D 14.0
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 2.4 nH, Qtyp = 83, SRFtyp = 14.0 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-2N7X_L_
 #
 $CMP 0402HP-2N7X_L_
 K inductor
-D 13.0
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 2.7 nH, Qtyp = 85, SRFtyp = 13.0 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-3N3X_L_
 #
 $CMP 0402HP-3N3X_L_
 K inductor
-D 12.8
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 3.3 nH, Qtyp = 95, SRFtyp = 12.8 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-3N6X_L_
 #
 $CMP 0402HP-3N6X_L_
 K inductor
-D 11.7
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 3.6 nH, Qtyp = 94, SRFtyp = 11.7 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-3N9X_L_
 #
 $CMP 0402HP-3N9X_L_
 K inductor
-D 9.50
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 3.9 nH, Qtyp = 98, SRFtyp = 9.50 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-4N3X_L_
 #
 $CMP 0402HP-4N3X_L_
 K inductor
-D 7.15
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 4.3 nH, Qtyp = 90, SRFtyp = 7.15 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-4N7X_L_
 #
 $CMP 0402HP-4N7X_L_
 K inductor
-D 6.85
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 4.7 nH, Qtyp = 83, SRFtyp = 6.85 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-5N1X_L_
 #
 $CMP 0402HP-5N1X_L_
 K inductor
-D 6.80
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 5.1 nH, Qtyp = 76, SRFtyp = 6.80 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-5N6X_L_
 #
 $CMP 0402HP-5N6X_L_
 K inductor
-D 6.50
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 5.6 nH, Qtyp = 105, SRFtyp = 6.50 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-6N2X_L_
 #
 $CMP 0402HP-6N2X_L_
 K inductor
-D 5.80
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 6.2 nH, Qtyp = 100, SRFtyp = 5.80 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-6N8X_L_
 #
 $CMP 0402HP-6N8X_L_
 K inductor
-D 5.80
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 6.8 nH, Qtyp = 94, SRFtyp = 5.80 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-7N5X_L_
 #
 $CMP 0402HP-7N5X_L_
 K inductor
-D 5.40
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 7.5 nH, Qtyp = 82, SRFtyp = 5.40 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-8N2X_L_
 #
 $CMP 0402HP-8N2X_L_
 K inductor
-D 5.40
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 8.2 nH, Qtyp = 95, SRFtyp = 5.40 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-8N7X_L_
 #
 $CMP 0402HP-8N7X_L_
 K inductor
-D 5.00
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 8.7 nH, Qtyp = 95, SRFtyp = 5.00 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-9N0X_L_
 #
 $CMP 0402HP-9N0X_L_
 K inductor
-D 5.00
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 9.0 nH, Qtyp = 92, SRFtyp = 5.00 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-9N5X_L_
 #
 $CMP 0402HP-9N5X_L_
 K inductor
-D 4.70
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 9.5 nH, Qtyp = 90, SRFtyp = 4.70 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-10NX_L_
 #
 $CMP 0402HP-10NX_L_
 K inductor
-D 4.70
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 10 nH, Qtyp = 90, SRFtyp = 4.70 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-11NX_L_
 #
 $CMP 0402HP-11NX_L_
 K inductor
-D 4.70
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 11 nH, Qtyp = 98, SRFtyp = 4.70 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-12NX_L_
 #
 $CMP 0402HP-12NX_L_
 K inductor
-D 4.40
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 12 nH, Qtyp = 100, SRFtyp = 4.40 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-13NX_L_
 #
 $CMP 0402HP-13NX_L_
 K inductor
-D 4.20
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 13 nH, Qtyp = 82, SRFtyp = 4.20 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-15NX_L_
 #
 $CMP 0402HP-15NX_L_
 K inductor
-D 3.90
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 15 nH, Qtyp = 85, SRFtyp = 3.90 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-16NX_L_
 #
 $CMP 0402HP-16NX_L_
 K inductor
-D 3.70
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 16 nH, Qtyp = 77, SRFtyp = 3.70 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-17NX_L_
 #
 $CMP 0402HP-17NX_L_
 K inductor
-D 3.70
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 17 nH, Qtyp = 64, SRFtyp = 3.70 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-18NX_L_
 #
 $CMP 0402HP-18NX_L_
 K inductor
-D 3.55
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 18 nH, Qtyp = 74, SRFtyp = 3.55 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-19NX_L_
 #
 $CMP 0402HP-19NX_L_
 K inductor
-D 3.50
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 19 nH, Qtyp = 88, SRFtyp = 3.50 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-20NX_L_
 #
 $CMP 0402HP-20NX_L_
 K inductor
-D 3.50
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 20 nH, Qtyp = 76, SRFtyp = 3.50 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-21NX_L_
 #
 $CMP 0402HP-21NX_L_
 K inductor
-D 1.70
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 21 nH, Qtyp = 62, SRFtyp = 1.70 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-22NX_L_
 #
 $CMP 0402HP-22NX_L_
 K inductor
-D 3.30
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 22 nH, Qtyp = 74, SRFtyp = 3.30 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-23NX_L_
 #
 $CMP 0402HP-23NX_L_
 K inductor
-D 3.30
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 23 nH, Qtyp = 77, SRFtyp = 3.30 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-24NX_L_
 #
 $CMP 0402HP-24NX_L_
 K inductor
-D 3.15
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 24 nH, Qtyp = 71, SRFtyp = 3.15 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-25NX_L_
 #
 $CMP 0402HP-25NX_L_
 K inductor
-D 3.15
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 25 nH, Qtyp = 73, SRFtyp = 3.15 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-26NX_L_
 #
 $CMP 0402HP-26NX_L_
 K inductor
-D 3.15
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 26 nH, Qtyp = 74, SRFtyp = 3.15 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-27NX_L_
 #
 $CMP 0402HP-27NX_L_
 K inductor
-D 3.20
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 27 nH, Qtyp = 86, SRFtyp = 3.20 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-30NX_L_
 #
 $CMP 0402HP-30NX_L_
 K inductor
-D 2.90
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 30 nH, Qtyp = 87, SRFtyp = 2.90 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-33NX_L_
 #
 $CMP 0402HP-33NX_L_
 K inductor
-D 2.80
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 33 nH, Qtyp = 80, SRFtyp = 2.80 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-36NX_L_
 #
 $CMP 0402HP-36NX_L_
 K inductor
-D 2.80
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 36 nH, Qtyp = 76, SRFtyp = 2.80 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-37NX_L_
 #
 $CMP 0402HP-37NX_L_
 K inductor
-D 2.70
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 37 nH, Qtyp = 72, SRFtyp = 2.70 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-39NX_L_
 #
 $CMP 0402HP-39NX_L_
 K inductor
-D 2.60
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 39 nH, Qtyp = 84, SRFtyp = 2.60 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-40NX_L_
 #
 $CMP 0402HP-40NX_L_
 K inductor
-D 2.60
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 40 nH, Qtyp = 75, SRFtyp = 2.60 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-43NX_L_
 #
 $CMP 0402HP-43NX_L_
 K inductor
-D 2.50
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 43 nH, Qtyp = 68, SRFtyp = 2.50 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-47NX_L_
 #
 $CMP 0402HP-47NX_L_
 K inductor
-D 2.40
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 47 nH, Qtyp = 62, SRFtyp = 2.40 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HP-51NX_L_
 #
 $CMP 0402HP-51NX_L_
 K inductor
-D 2.30
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 51 nH, Qtyp = 59, SRFtyp = 2.30 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HPH-56NX_L_
 #
 $CMP 0402HPH-56NX_L_
 K inductor
-D 2.07
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 56 nH, Qtyp = 64, SRFtyp = 2.07 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HPH-68NX_L_
 #
 $CMP 0402HPH-68NX_L_
 K inductor
-D 1.84
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 68 nH, Qtyp = 64, SRFtyp = 1.84 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HPH-82NX_L_
 #
 $CMP 0402HPH-82NX_L_
 K inductor
-D 1.75
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 82 nH, SRFtyp = 1.75 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HPH-R10X_L_
 #
 $CMP 0402HPH-R10X_L_
 K inductor
-D 1.58
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 100 nH, SRFtyp = 1.58 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HPH-R12X_L_
 #
 $CMP 0402HPH-R12X_L_
 K inductor
-D 1.25
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 120 nH, SRFtyp = 1.25 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HPH-R15X_L_
 #
 $CMP 0402HPH-R15X_L_
 K inductor
-D 1.14
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 150 nH, SRFtyp = 1.14 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HPH-R16X_L_
 #
 $CMP 0402HPH-R16X_L_
 K inductor
-D 1.65
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 160 nH, SRFtyp = 1.65 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HPH-R18X_L_
 #
 $CMP 0402HPH-R18X_L_
 K inductor
-D 1.08
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 180 nH, SRFtyp = 1.08 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # 0402HPH-R22X_L_
 #
 $CMP 0402HPH-R22X_L_
 K inductor
-D 0.96
-F /doc/inductor/CoilCraft/0402hp.pdf
+D Inductor 220 nH, SRFtyp = 0.96 GHz, 0402
+F kicad/doc/inductor/coilcraft/0402HP.pdf
 $ENDCMP
 #
 # End Doc Library

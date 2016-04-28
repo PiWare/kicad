@@ -1,4 +1,5 @@
 generator,name,description,tags,package_width,package_height,pad_width,pad_height,pad_grid,pad_distance,pad_count,pad_drill
+dip,dip_6,DIP 6,,9.4,7.11,1.20,2.20,2.54,7.60,6,0.8
 dip,dip_8,"DIP 8, RPL No. 860",,10.92,7.11,1.20,2.20,2.54,7.60,8,0.8
 dip,dip_14,"DIP 14, RPL No. 861",,20.19,7.11,1.20,2.20,2.54,7.60,14,0.8
 dip,dip_16,"DIP 16, RPL No. 862",,21.33,7.11,1.20,2.20,2.54,7.60,16,0.8

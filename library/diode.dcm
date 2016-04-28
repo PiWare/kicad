@@ -5,7 +5,7 @@ EESchema-DOCLIB Version 2.0
 $CMP BAS40
 K diode, schottky
 D Schottky barrier (double) diodes
-F doc/diode/BAS40.pdf
+F kicad/doc/diode/BAS40.pdf
 $ENDCMP
 #
 # BAS40-04
@@ -13,7 +13,7 @@ $ENDCMP
 $CMP BAS40-04
 K diode, schottky
 D Schottky barrier (double) diodes
-F doc/diode/BAS40.pdf
+F kicad/doc/diode/BAS40.pdf
 $ENDCMP
 #
 # BAS40-05
@@ -21,7 +21,7 @@ $ENDCMP
 $CMP BAS40-05
 K diode, schottky
 D Schottky barrier (double) diodes
-F doc/diode/BAS40.pdf
+F kicad/doc/diode/BAS40.pdf
 $ENDCMP
 #
 # BAS40-06
@@ -29,7 +29,7 @@ $ENDCMP
 $CMP BAS40-06
 K diode, schottky
 D Schottky barrier (double) diodes
-F doc/diode/BAS40.pdf
+F kicad/doc/diode/BAS40.pdf
 $ENDCMP
 #
 # BAS40-07
@@ -37,7 +37,7 @@ $ENDCMP
 $CMP BAS40-07
 K diode, schottky
 D Schottky barrier (double) diodes
-F doc/diode/BAS40.pdf
+F kicad/doc/diode/BAS40.pdf
 $ENDCMP
 #
 # 1N4148
@@ -45,7 +45,7 @@ $ENDCMP
 $CMP 1N4148
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # 1N914
@@ -53,7 +53,7 @@ $ENDCMP
 $CMP 1N914
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # 1N916
@@ -61,7 +61,7 @@ $ENDCMP
 $CMP 1N916
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # 1N916A
@@ -69,7 +69,7 @@ $ENDCMP
 $CMP 1N916A
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # 1N916B
@@ -77,7 +77,7 @@ $ENDCMP
 $CMP 1N916B
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # 1N4448
@@ -85,7 +85,7 @@ $ENDCMP
 $CMP 1N4448
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # FDLL4148
@@ -93,7 +93,7 @@ $ENDCMP
 $CMP FDLL4148
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # FDLL914
@@ -101,7 +101,7 @@ $ENDCMP
 $CMP FDLL914
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # FDLL914A
@@ -109,7 +109,7 @@ $ENDCMP
 $CMP FDLL914A
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # FDLL914B
@@ -117,7 +117,7 @@ $ENDCMP
 $CMP FDLL914B
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
 $ENDCMP
 #
 # FDLL4448
@@ -125,7 +125,239 @@ $ENDCMP
 $CMP FDLL4448
 K diode
 D Small signal diode
-F doc/diode/1N4148.pdf
+F kicad/doc/diode/1N4148.pdf
+$ENDCMP
+#
+# 1N4001
+#
+$CMP 1N4001
+K diode
+D 1A Rectifier
+F kicad/doc/diode/diodes/1N4001_4007.pdf
+$ENDCMP
+#
+# 1N4002
+#
+$CMP 1N4002
+K diode
+D 1A Rectifier
+F kicad/doc/diode/diodes/1N4001_4007.pdf
+$ENDCMP
+#
+# 1N4003
+#
+$CMP 1N4003
+K diode
+D 1A Rectifier
+F kicad/doc/diode/diodes/1N4001_4007.pdf
+$ENDCMP
+#
+# 1N4004
+#
+$CMP 1N4004
+K diode
+D 1A Rectifier
+F kicad/doc/diode/diodes/1N4001_4007.pdf
+$ENDCMP
+#
+# 1N4005
+#
+$CMP 1N4005
+K diode
+D 1A Rectifier
+F kicad/doc/diode/diodes/1N4001_4007.pdf
+$ENDCMP
+#
+# 1N4006
+#
+$CMP 1N4006
+K diode
+D 1A Rectifier
+F kicad/doc/diode/diodes/1N4001_4007.pdf
+$ENDCMP
+#
+# 1N4007
+#
+$CMP 1N4007
+K diode
+D 1A Rectifier
+F kicad/doc/diode/diodes/1N4001_4007.pdf
+$ENDCMP
+#
+# MBR0540T1G
+#
+$CMP MBR0540T1G
+K diode, schottky
+D Schottky barrier rectifier, 0.5A, 40V
+F kicad/doc/diode/on_semiconductor/MBR0540T.pdf
+$ENDCMP
+#
+# MBR0540T3G
+#
+$CMP MBR0540T3G
+K diode, schottky
+D Schottky barrier rectifier, 0.5A, 40V
+F kicad/doc/diode/on_semiconductor/MBR0540T.pdf
+$ENDCMP
+#
+# SM6T6V8A
+#
+$CMP SM6T6V8A
+K diode, transil
+D Transil diode, Vbr = 6.8V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T7V5A
+#
+$CMP SM6T7V5A
+K diode, transil
+D Transil diode, Vbr = 7.5V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T10A
+#
+$CMP SM6T10A
+K diode, transil
+D Transil diode, Vbr = 10V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T12A
+#
+$CMP SM6T12A
+K diode, transil
+D Transil diode, Vbr = 12V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T15A
+#
+$CMP SM6T15A
+K diode, transil
+D Transil diode, Vbr = 15V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T18A
+#
+$CMP SM6T18A
+K diode, transil
+D Transil diode, Vbr = 18V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T22A
+#
+$CMP SM6T22A
+K diode, transil
+D Transil diode, Vbr = 22V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T24A
+#
+$CMP SM6T24A
+K diode, transil
+D Transil diode, Vbr = 24V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T27A
+#
+$CMP SM6T27A
+K diode, transil
+D Transil diode, Vbr = 27V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T30A
+#
+$CMP SM6T30A
+K diode, transil
+D Transil diode, Vbr = 30V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T33A
+#
+$CMP SM6T33A
+K diode, transil
+D Transil diode, Vbr = 33V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T36A
+#
+$CMP SM6T36A
+K diode, transil
+D Transil diode, Vbr = 36V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T39A
+#
+$CMP SM6T39A
+K diode, transil
+D Transil diode, Vbr = 39V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T56A
+#
+$CMP SM6T56A
+K diode, transil
+D Transil diode, Vbr = 56V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T68A
+#
+$CMP SM6T68A
+K diode, transil
+D Transil diode, Vbr = 68V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T75A
+#
+$CMP SM6T75A
+K diode, transil
+D Transil diode, Vbr = 75V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T100A
+#
+$CMP SM6T100A
+K diode, transil
+D Transil diode, Vbr = 100V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T150A
+#
+$CMP SM6T150A
+K diode, transil
+D Transil diode, Vbr = 150V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T200A
+#
+$CMP SM6T200A
+K diode, transil
+D Transil diode, Vbr = 200V
+F kicad/doc/diode/st/SM6T.pdf
+$ENDCMP
+#
+# SM6T220A
+#
+$CMP SM6T220A
+K diode, transil
+D Transil diode, Vbr = 220V
+F kicad/doc/diode/st/SM6T.pdf
 $ENDCMP
 #
 # End Doc Library

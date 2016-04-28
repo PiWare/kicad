@@ -1,0 +1,16 @@
+number,name,type,shape,direction
+18,AIN0,input,line,left
+20,AIN0,input,line,left
+1,AIN1,input,line,left
+19,AIN1,input,line,left
+2,AIN2,input,line,left
+20,AIN2,input,line,left
+1,AIN3,input,line,left
+3,AIN3,input,line,left
+2,AIN4,input,line,left
+3,AIN5,input,line,left
+6,AIN6,input,line,left
+7,AIN7,input,line,left
+18,VOUT,output,line,left
+19,VREFA,powerInput,line,left
+20,VREFB,powerInput,line,left

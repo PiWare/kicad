@@ -7,7 +7,7 @@ DEF 7445101 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445101" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "1 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -24,7 +24,7 @@ DEF 74451015 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451015" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "1.5 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -41,7 +41,7 @@ DEF 74451022 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451022" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "2.2 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -58,7 +58,7 @@ DEF 74451033 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451033" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "3.3 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -75,7 +75,7 @@ DEF 74451039 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451039" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "3.9 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -92,7 +92,7 @@ DEF 74451047 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451047" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "4.7 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -109,7 +109,7 @@ DEF 74451068 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451068" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "6.8 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -126,7 +126,7 @@ DEF 7445110 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445110" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "10 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -143,7 +143,7 @@ DEF 74451115 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451115" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "15 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -160,7 +160,7 @@ DEF 74451122 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451122" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "22 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -177,7 +177,7 @@ DEF 74451133 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451133" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "33 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -194,7 +194,7 @@ DEF 74451147 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451147" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "47 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -211,7 +211,7 @@ DEF 74451168 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451168" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "68 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -228,7 +228,7 @@ DEF 7445120 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445120" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "100 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -245,7 +245,7 @@ DEF 74451215 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451215" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "150 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -262,7 +262,7 @@ DEF 74451222 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451222" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "220 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -279,7 +279,7 @@ DEF 74451233 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451233" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "330 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -296,7 +296,7 @@ DEF 74451247 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74451247" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_s" 0 300 60 H I C CNN "Footprint"
-F3 "doc/inductor/Würth/WE-PD3-TypeS.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445101.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "470 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -313,7 +313,7 @@ DEF 7445301 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445301" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "1.5 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -330,7 +330,7 @@ DEF 7445302 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445302" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "2.2 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -347,7 +347,7 @@ DEF 74453031 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453031" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "3.3 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -364,7 +364,7 @@ DEF 7445303 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445303" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "3.9 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -381,7 +381,7 @@ DEF 7445304 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445304" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "4.7 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -398,7 +398,7 @@ DEF 7445306 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445306" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "6.8 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -415,7 +415,7 @@ DEF 74453010 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453010" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "10 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -432,7 +432,7 @@ DEF 74453112 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453112" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "12 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -449,7 +449,7 @@ DEF 74453115 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453115" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "15 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -466,7 +466,7 @@ DEF 74453122 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453122" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "22 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -483,7 +483,7 @@ DEF 74453133 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453133" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "33 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -500,7 +500,7 @@ DEF 74453147 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453147" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "47 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -517,7 +517,7 @@ DEF 74453156 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453156" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "56 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -534,7 +534,7 @@ DEF 74453168 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453168" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "68 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -551,7 +551,7 @@ DEF 74453182 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74453182" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "82 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -568,7 +568,7 @@ DEF 7445320 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445320" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_m" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeM.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445301.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "100 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -585,7 +585,7 @@ DEF 7445402 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445402" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "2.2 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -602,7 +602,7 @@ DEF 7445403 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445403" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "3 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -619,7 +619,7 @@ DEF 7445404 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445404" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "4.7 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -636,7 +636,7 @@ DEF 74454068 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454068" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "7 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -653,7 +653,7 @@ DEF 74454010 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454010" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "10 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -670,7 +670,7 @@ DEF 74454115 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454115" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "15 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -687,7 +687,7 @@ DEF 74454122 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454122" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "22 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -704,7 +704,7 @@ DEF 74454133 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454133" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "33 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -721,7 +721,7 @@ DEF 74454147 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454147" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "47 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -738,7 +738,7 @@ DEF 74454168 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454168" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "68 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -755,7 +755,7 @@ DEF 7445420 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445420" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "100 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -772,7 +772,7 @@ DEF 74454215 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454215" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "150 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -789,7 +789,7 @@ DEF 74454220 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454220" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "220 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -806,7 +806,7 @@ DEF 74454233 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454233" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "330 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -823,7 +823,7 @@ DEF 74454239 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454239" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "390 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -840,7 +840,7 @@ DEF 74454247 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454247" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "470 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -857,7 +857,7 @@ DEF 74454268 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74454268" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "680 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -874,7 +874,7 @@ DEF 7445430 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445430" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_l" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeL.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/7445402.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "1000 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -891,7 +891,7 @@ DEF 74459010 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459010" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "10 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -908,7 +908,7 @@ DEF 74459115 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459115" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "15 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -925,7 +925,7 @@ DEF 74459122 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459122" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "22 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -942,7 +942,7 @@ DEF 74459133 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459133" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "33 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -959,7 +959,7 @@ DEF 74459147 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459147" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "47 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -976,7 +976,7 @@ DEF 74459168 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459168" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "68 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -993,7 +993,7 @@ DEF 7445920 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445920" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "100 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -1010,7 +1010,7 @@ DEF 74459215 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459215" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "150 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -1027,7 +1027,7 @@ DEF 74459222 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459222" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "220 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -1044,7 +1044,7 @@ DEF 74459233 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459233" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "330 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -1061,7 +1061,7 @@ DEF 74459247 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459247" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "470 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -1078,7 +1078,7 @@ DEF 74459268 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "74459268" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
 F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
 F5 "680 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
@@ -1095,8 +1095,8 @@ DEF 7445930 L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "7445930" 0 200 60 H I C CNN "Name"
 F2 "we_pd3_x" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/Würth/WE-PD3-TypeX.pdf" 0 -100 60 H I C CNN "Document"
-F4 "Würth" 0 200 60 H V C CNN "Manufacturer"
+F3 "kicad/doc/inductor/wuerth/74459010.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "1000 uH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1111,9 +1111,9 @@ ENDDEF
 DEF 0402HP-1N0XJL_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-1N0XJL_" 0 200 60 H I C CNN "Name"
-F2 "72" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0402" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "1.0 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1128,9 +1128,9 @@ ENDDEF
 DEF 0402HP-2N0XJL_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-2N0XJL_" 0 200 60 H I C CNN "Name"
-F2 "85" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0403" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "2.0 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1145,9 +1145,9 @@ ENDDEF
 DEF 0402HP-2N2XJL_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-2N2XJL_" 0 200 60 H I C CNN "Name"
-F2 "86" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0404" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "2.2 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1162,9 +1162,9 @@ ENDDEF
 DEF 0402HP-2N4X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-2N4X_L_" 0 200 60 H I C CNN "Name"
-F2 "83" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0405" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "2.4 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1179,9 +1179,9 @@ ENDDEF
 DEF 0402HP-2N7X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-2N7X_L_" 0 200 60 H I C CNN "Name"
-F2 "85" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0406" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "2.7 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1196,9 +1196,9 @@ ENDDEF
 DEF 0402HP-3N3X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-3N3X_L_" 0 200 60 H I C CNN "Name"
-F2 "95" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0407" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "3.3 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1213,9 +1213,9 @@ ENDDEF
 DEF 0402HP-3N6X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-3N6X_L_" 0 200 60 H I C CNN "Name"
-F2 "94" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0408" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "3.6 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1230,9 +1230,9 @@ ENDDEF
 DEF 0402HP-3N9X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-3N9X_L_" 0 200 60 H I C CNN "Name"
-F2 "98" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0409" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "3.9 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1247,9 +1247,9 @@ ENDDEF
 DEF 0402HP-4N3X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-4N3X_L_" 0 200 60 H I C CNN "Name"
-F2 "90" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0410" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "4.3 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1264,9 +1264,9 @@ ENDDEF
 DEF 0402HP-4N7X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-4N7X_L_" 0 200 60 H I C CNN "Name"
-F2 "83" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0411" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "4.7 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1281,9 +1281,9 @@ ENDDEF
 DEF 0402HP-5N1X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-5N1X_L_" 0 200 60 H I C CNN "Name"
-F2 "76" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0412" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "5.1 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1298,9 +1298,9 @@ ENDDEF
 DEF 0402HP-5N6X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-5N6X_L_" 0 200 60 H I C CNN "Name"
-F2 "105" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0413" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "5.6 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1315,9 +1315,9 @@ ENDDEF
 DEF 0402HP-6N2X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-6N2X_L_" 0 200 60 H I C CNN "Name"
-F2 "100" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0414" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "6.2 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1332,9 +1332,9 @@ ENDDEF
 DEF 0402HP-6N8X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-6N8X_L_" 0 200 60 H I C CNN "Name"
-F2 "94" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0415" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "6.8 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1349,9 +1349,9 @@ ENDDEF
 DEF 0402HP-7N5X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-7N5X_L_" 0 200 60 H I C CNN "Name"
-F2 "82" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0416" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "7.5 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1366,9 +1366,9 @@ ENDDEF
 DEF 0402HP-8N2X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-8N2X_L_" 0 200 60 H I C CNN "Name"
-F2 "95" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0417" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "8.2 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1383,9 +1383,9 @@ ENDDEF
 DEF 0402HP-8N7X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-8N7X_L_" 0 200 60 H I C CNN "Name"
-F2 "95" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0418" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "8.7 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1400,9 +1400,9 @@ ENDDEF
 DEF 0402HP-9N0X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-9N0X_L_" 0 200 60 H I C CNN "Name"
-F2 "92" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0419" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "9.0 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1417,9 +1417,9 @@ ENDDEF
 DEF 0402HP-9N5X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-9N5X_L_" 0 200 60 H I C CNN "Name"
-F2 "90" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0420" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "9.5 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1434,9 +1434,9 @@ ENDDEF
 DEF 0402HP-10NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-10NX_L_" 0 200 60 H I C CNN "Name"
-F2 "90" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0421" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "10 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1451,9 +1451,9 @@ ENDDEF
 DEF 0402HP-11NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-11NX_L_" 0 200 60 H I C CNN "Name"
-F2 "98" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0422" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "11 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1468,9 +1468,9 @@ ENDDEF
 DEF 0402HP-12NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-12NX_L_" 0 200 60 H I C CNN "Name"
-F2 "100" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0423" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "12 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1485,9 +1485,9 @@ ENDDEF
 DEF 0402HP-13NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-13NX_L_" 0 200 60 H I C CNN "Name"
-F2 "82" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0424" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "13 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1502,9 +1502,9 @@ ENDDEF
 DEF 0402HP-15NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-15NX_L_" 0 200 60 H I C CNN "Name"
-F2 "85" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0425" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "15 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1519,9 +1519,9 @@ ENDDEF
 DEF 0402HP-16NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-16NX_L_" 0 200 60 H I C CNN "Name"
-F2 "77" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0426" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "16 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1536,9 +1536,9 @@ ENDDEF
 DEF 0402HP-17NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-17NX_L_" 0 200 60 H I C CNN "Name"
-F2 "64" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0427" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "17 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1553,9 +1553,9 @@ ENDDEF
 DEF 0402HP-18NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-18NX_L_" 0 200 60 H I C CNN "Name"
-F2 "74" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0428" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "18 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1570,9 +1570,9 @@ ENDDEF
 DEF 0402HP-19NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-19NX_L_" 0 200 60 H I C CNN "Name"
-F2 "88" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0429" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "19 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1587,9 +1587,9 @@ ENDDEF
 DEF 0402HP-20NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-20NX_L_" 0 200 60 H I C CNN "Name"
-F2 "76" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0430" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "20 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1604,9 +1604,9 @@ ENDDEF
 DEF 0402HP-21NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-21NX_L_" 0 200 60 H I C CNN "Name"
-F2 "62" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0431" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "21 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1621,9 +1621,9 @@ ENDDEF
 DEF 0402HP-22NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-22NX_L_" 0 200 60 H I C CNN "Name"
-F2 "74" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0432" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "22 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1638,9 +1638,9 @@ ENDDEF
 DEF 0402HP-23NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-23NX_L_" 0 200 60 H I C CNN "Name"
-F2 "77" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0433" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "23 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1655,9 +1655,9 @@ ENDDEF
 DEF 0402HP-24NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-24NX_L_" 0 200 60 H I C CNN "Name"
-F2 "71" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0434" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "24 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1672,9 +1672,9 @@ ENDDEF
 DEF 0402HP-25NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-25NX_L_" 0 200 60 H I C CNN "Name"
-F2 "73" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0435" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "25 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1689,9 +1689,9 @@ ENDDEF
 DEF 0402HP-26NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-26NX_L_" 0 200 60 H I C CNN "Name"
-F2 "74" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0436" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "26 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1706,9 +1706,9 @@ ENDDEF
 DEF 0402HP-27NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-27NX_L_" 0 200 60 H I C CNN "Name"
-F2 "86" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0437" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "27 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1723,9 +1723,9 @@ ENDDEF
 DEF 0402HP-30NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-30NX_L_" 0 200 60 H I C CNN "Name"
-F2 "87" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0438" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "30 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1740,9 +1740,9 @@ ENDDEF
 DEF 0402HP-33NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-33NX_L_" 0 200 60 H I C CNN "Name"
-F2 "80" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0439" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "33 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1757,9 +1757,9 @@ ENDDEF
 DEF 0402HP-36NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-36NX_L_" 0 200 60 H I C CNN "Name"
-F2 "76" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0440" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "36 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1774,9 +1774,9 @@ ENDDEF
 DEF 0402HP-37NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-37NX_L_" 0 200 60 H I C CNN "Name"
-F2 "72" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0441" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "37 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1791,9 +1791,9 @@ ENDDEF
 DEF 0402HP-39NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-39NX_L_" 0 200 60 H I C CNN "Name"
-F2 "84" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0442" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "39 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1808,9 +1808,9 @@ ENDDEF
 DEF 0402HP-40NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-40NX_L_" 0 200 60 H I C CNN "Name"
-F2 "75" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0443" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "40 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1825,9 +1825,9 @@ ENDDEF
 DEF 0402HP-43NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-43NX_L_" 0 200 60 H I C CNN "Name"
-F2 "68" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0444" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "43 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1842,9 +1842,9 @@ ENDDEF
 DEF 0402HP-47NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-47NX_L_" 0 200 60 H I C CNN "Name"
-F2 "62" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0445" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "47 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1859,9 +1859,9 @@ ENDDEF
 DEF 0402HP-51NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HP-51NX_L_" 0 200 60 H I C CNN "Name"
-F2 "59" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0446" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "51 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1876,9 +1876,9 @@ ENDDEF
 DEF 0402HPH-56NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HPH-56NX_L_" 0 200 60 H I C CNN "Name"
-F2 "64" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0447" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "56 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1893,9 +1893,9 @@ ENDDEF
 DEF 0402HPH-68NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HPH-68NX_L_" 0 200 60 H I C CNN "Name"
-F2 "64" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0448" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "68 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1910,9 +1910,9 @@ ENDDEF
 DEF 0402HPH-82NX_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HPH-82NX_L_" 0 200 60 H I C CNN "Name"
-F2 "�" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0449" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "82 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1927,9 +1927,9 @@ ENDDEF
 DEF 0402HPH-R10X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HPH-R10X_L_" 0 200 60 H I C CNN "Name"
-F2 "�" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0450" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "100 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1944,9 +1944,9 @@ ENDDEF
 DEF 0402HPH-R12X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HPH-R12X_L_" 0 200 60 H I C CNN "Name"
-F2 "�" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0451" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "120 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1961,9 +1961,9 @@ ENDDEF
 DEF 0402HPH-R15X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HPH-R15X_L_" 0 200 60 H I C CNN "Name"
-F2 "�" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0452" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "150 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1978,9 +1978,9 @@ ENDDEF
 DEF 0402HPH-R16X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HPH-R16X_L_" 0 200 60 H I C CNN "Name"
-F2 "�" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0453" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "160 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -1995,9 +1995,9 @@ ENDDEF
 DEF 0402HPH-R18X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HPH-R18X_L_" 0 200 60 H I C CNN "Name"
-F2 "�" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0454" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "180 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F
@@ -2012,9 +2012,9 @@ ENDDEF
 DEF 0402HPH-R22X_L_ L 0 0 N N 1 L N
 F0 "L" 0 0 60 H V C CNN "Reference"
 F1 "0402HPH-R22X_L_" 0 200 60 H I C CNN "Name"
-F2 "�" 0 300 60 H I C CNN "Footprint"
-F3 "/doc/inductor/CoilCraft/0402hp.pdf" 0 -100 60 H I C CNN "Document"
-F4 "CoilCraft" 0 200 60 H V C CNN "Manufacturer"
+F2 "chip_inductor_0455" 0 300 60 H I C CNN "Footprint"
+F3 "kicad/doc/inductor/coilcraft/0402HP.pdf" 0 -100 60 H I C CNN "Document"
+F4 "Coilcraft" 0 200 60 H V C CNN "Manufacturer"
 F5 "220 nH" 0 100 60 H V C CNN "ValueX"
 DRAW
 S -150 50 150 -50 0 1 20 F

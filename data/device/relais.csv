@@ -1,5 +1,5 @@
 symbol,name,unit,reference,manufacturer,footprint,document,alias,A1,A2,A3,WP,NC,NO,keywords,description
-relais_coil,41.31.8.024,1,R,Finder,special/relais/finder_41.31,doc/relais/Finder/S41.pdf,41.31.8.115 41.31.8.230 41.31.9.005 41.31.9.006 41.31.9.012 41.31.9.024 41.31.9.048 41.31.9.060 41.31.9.110,A1,A2,,,,,"relais, single coil, spdt","Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A"
+relais_coil,41.31.8.024,1,R,Finder,special/relais/finder_41.31,doc/relais/finder/S41.pdf,41.31.8.115 41.31.8.230 41.31.9.005 41.31.9.006 41.31.9.012 41.31.9.024 41.31.9.048 41.31.9.060 41.31.9.110,A1,A2,,,,,"relais, single coil, spdt","Low profile PCB relay, 3.5mm contact pin pitch, 1 Pole, 12 A"
 relais_spdt,41.31.8.024,2,R,Finder,,,,,,,11,12,14,,
 relais_coil,41.52.8.024,1,R,Finder,special/relais/finder_41.52,doc/relais/finder/S41.pdf,41.52.8.115 41.52.8.230 41.52.9.005 41.52.9.006 41.52.9.012 41.52.9.024 41.52.9.048 41.52.9.060 41.52.9.110,A1,A2,,,,,"relais, single coil, spdt","Low profile PCB relay, 5mm contact pin pitch, 2 Pole, 8 A"
 relais_spdt,41.52.8.024,2,R,Finder,,,,,,,11,12,14,,
