@@ -18,6 +18,7 @@
 # Generate footprint files from csv table
 
 import fp
+import os
 from fp import cfg
 from fpgen import *
 import csv
@@ -26,8 +27,12 @@ import argparse
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description = 'Footprint generator from csv table.')
     parser.add_argument('--csv', metavar = 'csv', type = str, help = 'CSV formatted input table', required = True)
+    parser.add_argument('--package_root', metavar = 'package_root', type = str, help = 'Root path for 3D models, searchpath will be root_path/csv_basename/symbol_name.wrl', required = True)
     parser.add_argument('--output_path', metavar = 'output_path', type = str, help = 'Output path for generated KiCAD footprint files', required = True)
     args = parser.parse_args()
+
+    # Extract family name from csv file name
+    package_family = os.path.splitext(os.path.basename(args.csv))[0]
 
 #   print fp.registry
 #   for fop in fp.registry.values():
@@ -55,6 +60,13 @@ if __name__ == "__main__":
 
                 generator = data['generator']
                 del data['generator']
+
+                # Search for 3D model
+                model_file = os.path.join(args.package_root, package_family, data['name'] + ".wrl" )
+                if os.path.isfile(model_file):
+                    data['model'] = os.path.join(package_family, data['name'] + ".wrl" )
+                else:
+                    data['model'] = ''
 
                 if generator in fp.registry.keys():
                     gen = fp.registry[generator](**data)

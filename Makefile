@@ -1,5 +1,6 @@
 LIBRARY_ROOT = library
 FOOTPRINT_ROOT = modules
+PACKAGE_ROOT = packages
 CSV_ROOT := data/device
 TEMPLATE_ROOT := data/template
 TABLE_ROOT := data/symbol
@@ -60,7 +61,7 @@ $(LIBRARY_ROOT)/%.lib: $(CSV_ROOT)/%.csv $(DEVICE_SCRIPT) $(COMMON_SCRIPT_DEPS)
 # Footprint generation
 $(FOOTPRINTS): $(FOOTPRINT_ROOT)/%: data/footprint/%.csv
 	mkdir -p $@
-	$(FOOTPRINT_SCRIPT) --csv $< --output_path $@
+	$(FOOTPRINT_SCRIPT) --csv $< --package_root $(PACKAGE_ROOT) --output_path $@
 
 summary.txt: $(FOOTPRINTS) $(SYMBOL_LIBRARIES)
 	$(SUMMARY_SCRIPT) --libs $(SYMBOL_LIBRARIES) --footprints $(FOOTPRINTS) --output $@

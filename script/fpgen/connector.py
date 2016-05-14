@@ -4,8 +4,8 @@ from fp import cfg
 class connector_grid_male(fp.base):
 	"""Generator wired connector lines (pins)"""
 
-	def __init__(self, name, description, tags, package_width, package_height, pad_diameter, pad_grid, pad_drill, pin_count_x, pin_count_y):
-		super(connector_grid_male, self).__init__(name, description, tags, False, False)
+	def __init__(self, name, model, description, tags, package_width, package_height, pad_diameter, pad_grid, pad_drill, pin_count_x, pin_count_y):
+		super(connector_grid_male, self).__init__(name, model, description, tags, False, False)
 
 		bevel = pad_grid * 0.2
 		fp.base.add(self, fp.text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, -(package_height + cfg.FOOTPRINT_REFERENCE_FONT_SIZE) / 2 - 2 * cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))

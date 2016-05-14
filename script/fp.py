@@ -45,21 +45,22 @@ class type():
 
 class text():
     """Generate text at x/y"""
-    format = """  (fp_text %s %s (at %.3f %.3f) (layer %s)
+    format = """  (fp_text %s %s (at %.3f %.3f %.3f) (layer %s)
     (effects (font (size %.3f %.3f) (thickness %.3f)))
   )\n"""
 
-    def __init__(self, layer, name, value, x, y, size, thickness):
+    def __init__(self, layer, name, value, x, y, angle, size, thickness):
         self.layer = layer
         self.name = name
         self.value = value
         self.x = x
         self.y = y
+        self.angle = angle
         self.size = size
         self.thickness = thickness
 
     def render(self):
-        return text.format%(self.name, self.value, self.x, self.y, self.layer, self.size, self.size, self.thickness)
+        return text.format%(self.name, self.value, self.x, self.y, self.angle, self.layer, self.size, self.size, self.thickness)
 
 class line():
     """Generate line from x1/y1 to x2/y2"""
@@ -226,16 +227,17 @@ class pad():
 class base(object):
     __metaclass__ = metaclass_register
 
-    def __init__(self, name, description = "", tags = "", smd = False, add_text = True):
+    def __init__(self, name, model, description = "", tags = "", smd = False, add_text = True):
         self.name = name
+        self.model = model
         self.description = description
         self.tags = tags
         self.smd = smd
         self.elements = []
 
         if add_text:
-            self.elements.append(text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, 0, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
-            self.elements.append(text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, cfg.FOOTPRINT_VALUE_FONT_SIZE + 2 * cfg.FOOTPRINT_VALUE_FONT_THICKNESS, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
+            self.elements.append(text(cfg.FOOTPRINT_REFERENCE_LAYER, "reference", "REF**", 0, 0, 0, cfg.FOOTPRINT_REFERENCE_FONT_SIZE, cfg.FOOTPRINT_REFERENCE_FONT_THICKNESS))
+            self.elements.append(text(cfg.FOOTPRINT_VALUE_LAYER, "value", "VAL**", 0, cfg.FOOTPRINT_VALUE_FONT_SIZE + 2 * cfg.FOOTPRINT_VALUE_FONT_THICKNESS, 0, cfg.FOOTPRINT_VALUE_FONT_SIZE, cfg.FOOTPRINT_VALUE_FONT_THICKNESS))
 
     def add(self, element):
         self.elements.append(element)
@@ -256,5 +258,9 @@ class base(object):
 
         for element in self.elements:
             result += element.render()
+
+        if len(self.model):
+            result += '  (model '+self.model+'\n    (at (xyz 0 0 0))\n    (scale (xyz 1 1 1))\n    (rotate (xyz 0 0 0))\n  )\n'
+
         result += ')\n'
         return result

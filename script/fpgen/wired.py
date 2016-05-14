@@ -4,8 +4,8 @@ from fp import cfg
 class wired(fp.base):
 	"""Generator for wired resistors, capacitors, ..."""
 
-	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count, drill):
-		super(wired, self).__init__(name, description, tags)
+	def __init__(self, name, model, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance, count, drill):
+		super(wired, self).__init__(name, model, description, tags)
 
 class wired_resistor(fp.base):
 	"""Wired resistor with beveled edges"""

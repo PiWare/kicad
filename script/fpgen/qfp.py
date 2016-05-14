@@ -4,8 +4,8 @@ from fp import cfg
 class qfp(fp.base):
 	"""Generator for LQFP/TQFP/PQFP and other xQFP footprints"""
 
-	def __init__(self, name, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance_x, pad_distance_y, pad_count_x, pad_count_y):
-		super(qfp, self).__init__(name, description, tags)
+	def __init__(self, name, model, description, tags, package_width, package_height, pad_width, pad_height, pad_grid, pad_distance_x, pad_distance_y, pad_count_x, pad_count_y):
+		super(qfp, self).__init__(name, model, description, tags)
 
 		if pad_count_x % 2 or pad_count_y % 2:
 			raise NameError("Pad count is odd!")
